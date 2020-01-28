@@ -2,41 +2,12 @@
 
 Intro 
 
-- [APIs](components/accordion#apis)
-- [APIs 2](components/accordion#apis-2)
+- [API](components/accordion#api)
 
 ---
 
-## APIs
+## API
 
-A
-
-A
-
-
-A
-
-
-A
-
-
-A
-
-
-A
-
-
-A
-
-
-A
-
-
-A
-
-
-A
-
----
-
-## APIs 2
+| Name | Type | Default | Description |
+| :-- | :-- | :-- | :-- |
+| `label` | `String` | `Label` | Defines the accordion's text label. |

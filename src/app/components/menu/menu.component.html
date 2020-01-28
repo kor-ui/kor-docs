@@ -5,7 +5,7 @@
       <!-- pages -->
       <wa-tab-item *ngFor="let p of c.pages"
         [label]="p.label" 
-        [active]="router.url == '/' + c.url + '/' + p.url"
+        [active]="router.url.split('#')[0] == '/' + c.url + '/' + p.url"
         (click)="$event.stopImmediatePropagation(); router.navigateByUrl('/' + c.url + '/' + p.url);">
       </wa-tab-item>
     </wa-tabs>
