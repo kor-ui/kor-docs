@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('WaAngular app is running!');
+    expect(page.getTitleText()).toEqual('waDocs app is running!');
   });
 
   afterEach(async () => {
