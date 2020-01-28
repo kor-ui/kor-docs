@@ -7,7 +7,7 @@ import { DataService } from './services/data.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'waDocs';
+  title = 'wa-docs';
 
   constructor(
     public data: DataService
