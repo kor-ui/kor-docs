@@ -1,6 +1,7 @@
-<wa-page [theme]="data.appTheme">
+<wa-page [theme]="data.appTheme" flat>
   <wa-app-bar slot="top" label="wa Baukasten">
     <wa-icon slot="functions" button icon="brightness_medium" (click)="switchTheme()"></wa-icon>
   </wa-app-bar>
   <app-menu slot="left"></app-menu>
+  <app-content></app-content>
 </wa-page>

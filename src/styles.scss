@@ -1,1 +1,94 @@
-/* You can add global styles to this file, and also import other style files */
+markdown {
+  wa-page[theme="dark"] img[src*="_light"] {
+    display: none !important;
+  }
+  wa-page[theme="light"] img[src*="_dark"] {
+    display: none !important;
+  }
+  img {
+    width: 100%;
+  }
+  pre {
+    background: rgba(var(--ui-1), var(--opacity-7)) !important;
+    max-height: 320px !important;
+    padding: 16px !important;
+    margin: 0 0 24px 0 !important;
+  }
+  pre code {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    text-shadow: none !important;
+    padding: 0;
+    background: transparent;
+    color: var(--text-secondary) !important;
+  }
+  code {
+    background: rgba(var(--neutral-1), var(--opacity-7));
+    padding: 2px 4px;
+    border-radius: 2px;
+  }
+  > wa-text[size="header-2"].h1, 
+  > ul wa-text[size="header-2"].h1 {
+    margin: 32px 0 16px 0;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  > wa-text[size="header-2"].h2, 
+  > ul wa-text[size="header-2"].h2 {
+    margin: 32px 0 16px 0;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  > wa-text[size="header-2"].h3, 
+  > ul wa-text[size="header-2"].h3 {
+    font-size: 16px;
+    margin: 32px 0 12px 0;
+  }
+  > wa-text[size="header-2"].h4, 
+  > ul wa-text[size="header-2"].h4 {
+    font-size: 14px !important;
+    margin: 24px 0px 8px 0px !important;
+  }
+  > wa-text[size="header-2"].h5, 
+  > ul wa-text[size="header-2"].h5 {
+    font-size: 16px;
+    line-height: 56px;
+  }
+  > wa-text[size="body-1"], 
+  > ul wa-text[size="body-1"] {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 24px 0;
+  }
+  .link {
+    display: inline-block;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0 !important;
+    width: auto;
+  }
+  li {
+    font: var(--body-1);
+    color: var(--text-primary);
+    font-size: 16px;
+    line-height: 32px;
+  }
+  li > wa-text {
+    margin: 0 !important;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  table th, table td {
+    line-height: 32px !important;
+    padding: 8px;
+    border-bottom: 1px solid rgba(var(--ui-1), var(--opacity-7));
+    color: var(--text-primary);
+  }
+  table th {
+    font: var(--title-1);
+    border-color: rgba(var(--ui-1), var(--opacity-4));
+  }
+}

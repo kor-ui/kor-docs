@@ -1,6 +1,6 @@
 <wa-pane>
   <!-- chapters -->
-  <wa-accordion *ngFor="let c of tree; index as i" [label]="c.label">
+  <wa-accordion *ngFor="let c of tree; index as i" [label]="c.label" [expanded]="router.url.includes('/' + c.url + '/')">
     <wa-tabs orientation="vertical" style="margin: 0 -16px;">
       <!-- pages -->
       <wa-tab-item *ngFor="let p of c.pages"
