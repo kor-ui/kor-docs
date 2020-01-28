@@ -1,4 +1,4 @@
-# Accordion
+# Button
 
 [Color](components/button#color) • [Icon](components/button#icon) • [API](components/button#api)
 

@@ -75,8 +75,13 @@ markdown {
   }
   code {
     background: rgba(var(--neutral-1), .05);
+    color: rgb(255,255,255,.90);
+    border-radius: 4px;
     padding: 2px 4px;
-    border-radius: 2px;
+  }
+  strong code {
+    background: rgb(var(--accent-1));
+    color: var(--text-1);
   }
   // images
   wa-page[theme="dark"] img[src*="_light"],
