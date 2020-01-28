@@ -1,1 +1,1 @@
-<markdown [src]="'./assets/md' + router.url + '.md'" ngPreserveWhitespaces></markdown>
+<markdown [src]="'./assets/md' + router.url.split('#')[0] + '.md'" ngPreserveWhitespaces></markdown>
