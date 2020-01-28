@@ -5,6 +5,12 @@
 
 ---
 
+## Mobile
+
+<iframe src="./assets/demos/app-bar/mobile.html" height="200px"></iframe>
+
+---
+
 ## API
 
 ### Properties
