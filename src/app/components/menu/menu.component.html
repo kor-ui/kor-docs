@@ -1,13 +1,13 @@
 <wa-pane>
   <!-- chapters -->
-  <wa-accordion *ngFor="let c of tree; index as i" 
-    [label]="c.label" 
-    [expanded]="i == 0">
-    <!-- pages -->
-    <wa-menu-item *ngFor="let p of c.pages"
-      [label]="p.label" 
-      [active]="router.url == '/' + c.url + '/' + p.url"
-      (click)="$event.stopImmediatePropagation(); router.navigateByUrl('/' + c.url + '/' + p.url);">
-    </wa-menu-item>
+  <wa-accordion *ngFor="let c of tree; index as i" [label]="c.label">
+    <wa-tabs orientation="vertical" style="margin: 0 -16px;">
+      <!-- pages -->
+      <wa-tab-item *ngFor="let p of c.pages"
+        [label]="p.label" 
+        [active]="router.url == '/' + c.url + '/' + p.url"
+        (click)="$event.stopImmediatePropagation(); router.navigateByUrl('/' + c.url + '/' + p.url);">
+      </wa-tab-item>
+    </wa-tabs>
   </wa-accordion>
 </wa-pane>
