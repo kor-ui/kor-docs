@@ -46,15 +46,15 @@ markdown {
     width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
-    th {
-      font-weight: bold;
-      border-color: rgba(var(--neutral-1), .40)
-    }
     th, td {
       line-height: 32px !important;
       padding: 8px;
       border-bottom: 1px solid rgba(var(--neutral-1), .15);
       color: var(--text-1);
+    }
+    th {
+      font-weight: bold;
+      border-color: rgba(var(--neutral-1), .40)
     }
   }
   // code blocks
@@ -75,13 +75,13 @@ markdown {
   }
   code {
     background: rgba(var(--neutral-1), .05);
-    color: rgb(255,255,255,.90);
+    color: var(--text-1);
     border-radius: 4px;
     padding: 2px 4px;
   }
   strong code {
     background: rgb(var(--accent-1));
-    color: var(--text-1);
+    color: rgb(255,255,255,.90);
   }
   // images
   wa-page[theme="dark"] img[src*="_light"],
