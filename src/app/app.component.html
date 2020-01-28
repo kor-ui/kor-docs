@@ -1,4 +1,4 @@
-<wa-page [theme]="data.appTheme" flat>
+<wa-page [theme]="data.appTheme" flat (theme-changed)="setDemoTheme();">
   <wa-app-bar slot="top" label="wa 和">
     <wa-icon slot="functions" button icon="brightness_medium" (click)="switchTheme()"></wa-icon>
   </wa-app-bar>

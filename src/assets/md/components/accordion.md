@@ -5,7 +5,7 @@ Intro
 - [Footer Slot](components/accordion#footer-slot)
 - [API](components/accordion#api)
 
-<iframe src="./assets/demos/accordion/main.html" height="400px"></iframe>
+<iframe src="./assets/demos/accordion/main.html" height="440px"></iframe>
 
 ```html
   <!-- idle -->
@@ -28,15 +28,7 @@ Intro
 
 ## Footer Slot
 
-<div class="demo">
-  <wa-accordion label="Name" expanded>
-    <wa-input label="First" value="John"></wa-input>
-    <wa-input label="Middle"></wa-input>
-    <wa-input label="Last" value="Doe"></wa-input>
-    <!-- footer slot -->
-    <wa-button slot="footer" label="Reset"></wa-button>
-  </wa-accordion>
-</div>
+<iframe src="./assets/demos/accordion/footer-slot.html" height="440px"></iframe>
 
 ```html
   <wa-accordion label="Name" expanded>
