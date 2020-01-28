@@ -86,32 +86,9 @@ markdown {
   img {
     width: 100%;
   }
-  // demos
-  .demo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    padding: 16px;
-    width: 100%;
-    box-sizing: border-box;
+  // iframes
+  iframe {
+    border: none;
     min-height: 320px;
-    background-color: rgb(var(--base-2));
-    border: 1px solid rgba(var(--neutral-1), .15);
-    &.row {
-      flex-direction: row;
-      > * + * {
-        margin-left: 12px;
-      }
-    }
-    &:not(.row) {
-      flex-direction: column;
-      > * + * {
-        margin-top: 12px;
-      }
-      > * {
-        width: 320px;
-      }
-    }
   }
 }

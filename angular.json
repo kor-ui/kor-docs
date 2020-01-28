@@ -25,7 +25,12 @@
             "aot": false,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "./node_modules/wa-baukasten/",
+                "output": "./assets/wa-baukasten/"
+              }
             ],
             "styles": [
               "src/styles.scss",

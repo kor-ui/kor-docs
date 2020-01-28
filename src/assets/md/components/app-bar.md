@@ -5,7 +5,22 @@ Intro
 - [Footer Slot](components/accordion#footer-slot)
 - [API](components/accordion#api)
 
-<iframe src="./assets/demos/accordion/main.html" height="400px"></iframe>
+<div class="demo">
+  <!-- idle -->
+  <wa-accordion label="Idle">
+    <wa-checkbox label="Label" active></wa-checkbox>
+    <wa-checkbox label="Label"></wa-checkbox>
+    <wa-checkbox label="Label"></wa-checkbox>
+  </wa-accordion>
+  <!-- expanded -->
+  <wa-accordion label="Expanded" expanded>
+    <wa-checkbox label="Label" active></wa-checkbox>
+    <wa-checkbox label="Label"></wa-checkbox>
+    <wa-checkbox label="Label"></wa-checkbox>
+  </wa-accordion>
+  <!-- disabled -->
+  <wa-accordion label="Disabled" disabled></wa-accordion>
+</div>
 
 ```html
   <!-- idle -->
