@@ -1,11 +1,16 @@
 # App Bar
 
+[Footer Slot](components/app-bar#mobile) • [API](components/app-bar#api)
+
+Intro
 
 <iframe src="./assets/demos/app-bar/main.html" height="200px"></iframe>
 
 ---
 
 ## Mobile
+
+Description
 
 <iframe src="./assets/demos/app-bar/mobile.html" height="200px"></iframe>
 

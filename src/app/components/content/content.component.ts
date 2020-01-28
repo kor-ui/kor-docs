@@ -14,14 +14,14 @@ export class ContentComponent implements OnInit {
     public router: Router
   ) { }
 
+  ngOnInit() {
+  }
+
   handleLoad() {
     // wait for iframes to load and call set theme
     document.querySelectorAll('iframe').forEach(el => {
-      el.onload = () => { this.data.setDemoTheme();}
+      el.onload = () => this.data.setDemoTheme(el) 
     })
-  }
-
-  ngOnInit() {
   }
 
 }

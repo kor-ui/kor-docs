@@ -1,9 +1,8 @@
 # Accordion
 
-Intro 
+[Footer Slot](components/accordion#footer-slot) • [API](components/accordion#api)
 
-- [Footer Slot](components/accordion#footer-slot)
-- [API](components/accordion#api)
+Intro 
 
 <iframe src="./assets/demos/accordion/main.html" height="440px"></iframe>
 
@@ -27,6 +26,8 @@ Intro
 ---
 
 ## Footer Slot
+
+Description
 
 <iframe src="./assets/demos/accordion/footer-slot.html" height="440px"></iframe>
 

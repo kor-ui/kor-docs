@@ -10,9 +10,13 @@ export class DataService {
   constructor() { }
 
   // set all demos themes to match app theme
-  public setDemoTheme() {
-    document.querySelectorAll('iframe').forEach(el => {
+  public setDemoTheme(el?: any) {
+    if (el) {
       el.contentWindow.document.body.setAttribute("theme", this.appTheme);
-    })
+    } else {
+      document.querySelectorAll('iframe').forEach(el => {
+        el.contentWindow.document.body.setAttribute("theme", this.appTheme);
+      })
+    }
   }
 }
