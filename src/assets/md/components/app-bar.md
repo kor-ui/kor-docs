@@ -1,6 +1,6 @@
 # App Bar
 
-[Footer Slot](components/app-bar#mobile) • [API](components/app-bar#api)
+[Mobile](components/app-bar#mobile) • [API](components/app-bar#api)
 
 Intro
 
