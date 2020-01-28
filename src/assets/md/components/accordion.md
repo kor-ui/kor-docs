@@ -1,77 +1,10 @@
 # Accordion
 
-Hi there.
+Intro 
 
-This is a second line.
+- [link](#test)
+- [link](components/accordion#APIs-2)
 
 ---
 
-## Chapter
-
-<wa-button></wa-button>
-
-3.
-4.
-
-3.
-4.
-
-3.
-4.
-
-3.
-4.
-
-3.
-4.
-
-3.
-4.
-
-3.
-4.
-
-3.
-4.
-
-3.
-4.
-
-3.
-4.
-
-3.
-4.
-
-3.
-4.
-
-3.
-4.
-
-3.
-4.
-
-3.
-4.
-
-3.
-4.
-
-3.
-4.
-
-3.
-4.
-
-3.
-4.
-
-3.
-4.
-
-3.
-4.
-
-3.
-4.
+## APIs 2
