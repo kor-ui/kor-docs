@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Introduction",
+    "url": "introduction",
+    "pages": [
+      {
+        "label": "Design Principles",
+        "url": "design-principles"
+      }
+    ]
+  },
+  {
+    "label": "Components",
+    "url": "components",
+    "pages": [
+      {
+        "label": "Accordion",
+        "url": "accordion"
+      }
+    ]
+  }
+]

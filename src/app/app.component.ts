@@ -1,14 +1,19 @@
-import { Component, AfterViewInit } from '@angular/core';
-import { wa } from 'wa-baukasten/wa.js' 
+import { Component } from '@angular/core';
+import { DataService } from './services/data.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements AfterViewInit {
+export class AppComponent {
   title = 'waDocs';
-  ngAfterViewInit() {
-    console.log(wa)
+
+  constructor(
+    public data: DataService
+  ) {}
+
+  public switchTheme(): void {
+    this.data.appTheme = this.data.appTheme == "dark" ? "light" : "dark";
   }
 }

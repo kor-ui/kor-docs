@@ -32,6 +32,7 @@
               "node_modules/wa-baukasten/wa-styles.css"
             ],
             "scripts": [
+              "node_modules/wa-baukasten/wa.js"
             ]
           },
           "configurations": {
