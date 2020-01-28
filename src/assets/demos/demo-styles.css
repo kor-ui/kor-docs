@@ -7,6 +7,7 @@
   padding: 16px;
   width: 100%;
   height: 100%;
+  overflow: hidden;
   box-sizing: border-box;
   background-color: rgb(var(--base-2));
   border: 1px solid rgba(var(--neutral-1), .15);
@@ -25,6 +26,14 @@
 .demo:not(.row)> * + * {
   margin-top: 12px;
 }
-.demo:not(.row)> * {
+.demo:not(.row):not(.stretch)> * {
   width: 320px;
+}
+/* page */
+.demo.page {
+  zoom: 0.666;
+}
+/* stretch */
+.demo.stretch {
+  padding: 0;
 }

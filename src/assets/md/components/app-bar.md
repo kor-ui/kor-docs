@@ -1,5 +1,8 @@
 # App Bar
 
+
+<iframe src="./assets/demos/app-bar/main.html" height="200px"></iframe>
+
 ---
 
 ## API
@@ -9,15 +12,12 @@
 | Name | Type | Default | Description |
 | :-- | :-- | :-- | :-- |
 | **`label`** | `String` | `Label` | Defines the accordion's text label. |
-| **`icon`** | `String` | `Label` | If set, defines the icon shown before the label. |
-| **`expanded`** | `Boolean` | `undefined` | If set to `true`, expands the accordion to display its' content. |
-| **`disabled`** | `Boolean` | `undefined` | If set to `true`, disabled mouse clicks and the style gets updated. |
 
 ### Slots
 
 | Name | Description |
 | :-- | :-- |
-| **_unnamed_** | Displayed inside the accordion when it is expanded. |
-| **`header`** | If used, the header slot replaces the default text label and expand arrow with custom content. |
-| **`functions`** | Displayed close to the 'expand' arrow. |
-| **`footer`** | Displayed below the content when it is expanded |
+| **_unnamed_** | The central content area. Used for hosting components such as  [Tabs](/components/tabs). |
+| **`functions`** | Displayed on the right side (if `mobile` is unset). Used for hosting components such as [Icon](/components/icon) and [Avatar](/components/avatar). |
+| **`left`** | Displayed on the left side (if `mobile` is set to `true`). Used for hosting components such as [Icon](/components/icon). |
+| **`left`** | Displayed on the right side (if `mobile` is set to `true`). Used for hosting components such as [Icon](/components/icon). |
