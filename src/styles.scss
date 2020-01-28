@@ -1,72 +1,37 @@
 markdown {
-  wa-page[theme="dark"] img[src*="_light"] {
-    display: none !important;
+  // text
+  > wa-text, 
+  > ul wa-text {
+    &.h1 {
+      margin: 32px 0 16px 0;
+      font-size: 32px;
+      line-height: 40px;
+    }
+    &.h2 {
+      margin: 32px 0 16px 0;
+      font-size: 20px;
+      line-height: 32px;
+    }
+    &.h3 {
+      font-size: 16px;
+      margin: 32px 0 12px 0;
+    }
+    &.h4 {
+      font-size: 14px !important;
+      margin: 24px 0px 8px 0px !important;
+    }
+    &[size="body-1"] {
+      font-size: 16px;
+      line-height: 24px;
+      margin: 24px 0;
+    }
   }
-  wa-page[theme="light"] img[src*="_dark"] {
-    display: none !important;
+  // links
+  a {
+    font-weight: bold;
+    color: rgb(var(--accent-1));
   }
-  img {
-    width: 100%;
-  }
-  pre {
-    background: rgba(var(--neutral-1), .05) !important;
-    max-height: 320px !important;
-    padding: 16px !important;
-    margin: 0 0 24px 0 !important;
-  }
-  pre code {
-    font-size: 14px !important;
-    line-height: 20px !important;
-    text-shadow: none !important;
-    padding: 0;
-    background: transparent;
-    color: var(--text-2) !important;
-  }
-  code {
-    background: rgba(var(--neutral-1), .05);
-    padding: 2px 4px;
-    border-radius: 2px;
-  }
-  > wa-text[size="header-2"].h1, 
-  > ul wa-text[size="header-2"].h1 {
-    margin: 32px 0 16px 0;
-    font-size: 32px;
-    line-height: 40px;
-  }
-  > wa-text[size="header-2"].h2, 
-  > ul wa-text[size="header-2"].h2 {
-    margin: 32px 0 16px 0;
-    font-size: 20px;
-    line-height: 32px;
-  }
-  > wa-text[size="header-2"].h3, 
-  > ul wa-text[size="header-2"].h3 {
-    font-size: 16px;
-    margin: 32px 0 12px 0;
-  }
-  > wa-text[size="header-2"].h4, 
-  > ul wa-text[size="header-2"].h4 {
-    font-size: 14px !important;
-    margin: 24px 0px 8px 0px !important;
-  }
-  > wa-text[size="header-2"].h5, 
-  > ul wa-text[size="header-2"].h5 {
-    font-size: 16px;
-    line-height: 56px;
-  }
-  > wa-text[size="body-1"], 
-  > ul wa-text[size="body-1"] {
-    font-size: 16px;
-    line-height: 24px;
-    margin: 24px 0;
-  }
-  .link {
-    display: inline-block;
-    font-size: inherit;
-    line-height: inherit;
-    margin: 0 !important;
-    width: auto;
-  }
+  // lists
   li {
     font: var(--body-1);
     color: var(--text-1);
@@ -76,19 +41,77 @@ markdown {
   li > wa-text {
     margin: 0 !important;
   }
+  // table
   table {
     width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
+    th {
+      font-weight: bold;
+      border-color: rgba(var(--neutral-1), .40)
+    }
+    th, td {
+      line-height: 32px !important;
+      padding: 8px;
+      border-bottom: 1px solid rgba(var(--neutral-1), .15);
+      color: var(--text-1);
+    }
   }
-  table th, table td {
-    line-height: 32px !important;
-    padding: 8px;
-    border-bottom: 1px solid rgba(var(--neutral-1), .15);
-    color: var(--text-1);
+  // code blocks
+  pre {
+    background: rgba(var(--neutral-1), .05) !important;
+    max-height: 320px !important;
+    box-sizing: border-box;
+    padding: 16px !important;
+    margin: 0 0 24px 0 !important;
+    code {
+      font-size: 14px !important;
+      line-height: 20px !important;
+      text-shadow: none !important;
+      padding: 0;
+      background: transparent;
+      color: var(--text-2) !important;
+    }
   }
-  table th {
-    font-weight: bold;
-    border-color: rgba(var(--neutral-1), .40)
+  code {
+    background: rgba(var(--neutral-1), .05);
+    padding: 2px 4px;
+    border-radius: 2px;
+  }
+  // images
+  wa-page[theme="dark"] img[src*="_light"],
+  wa-page[theme="light"] img[src*="_dark"] {
+    display: none !important;
+  }
+  img {
+    width: 100%;
+  }
+  // demos
+  .demo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 320px;
+    background-color: rgb(var(--base-2));
+    border: 1px solid rgba(var(--neutral-1), .15);
+    &.row {
+      flex-direction: row;
+      > * + * {
+        margin-left: 12px;
+      }
+    }
+    &:not(.row) {
+      flex-direction: column;
+      > * + * {
+        margin-top: 12px;
+      }
+      > * {
+        width: 320px;
+      }
+    }
   }
 }

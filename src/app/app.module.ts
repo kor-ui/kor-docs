@@ -14,7 +14,7 @@ export function markedOptionsFactory(): MarkedOptions {
   const renderer = new MarkedRenderer();
   // headings
   renderer.heading = (text: string, level: number) => {
-    return `´<wa-text size="header-2" id=${text.replace(/\s+/g, '-').toLowerCase()} class="h${level}">${text}</wa-text>`;
+    return `<wa-text size="header-2" id=${text.replace(/\s+/g, '-').toLowerCase()} class="h${level}">${text}</wa-text>`;
   };
   // paragraphs
   renderer.paragraph = (text: string) => {
@@ -22,11 +22,11 @@ export function markedOptionsFactory(): MarkedOptions {
   };
   // links
   renderer.link = (href: string, title: string, text: string) => {
-    return `<a href="${href}">${text}</a>`;
+    return `<a href="${href}" class="link">${text}</a>`;
   }
   // dividers
   renderer.hr = ()  => {
-    return `<wa-divider spacing="m"></wa-divider>`
+    return `<wa-divider spacing="l"></wa-divider>`
   }
  
   return {
