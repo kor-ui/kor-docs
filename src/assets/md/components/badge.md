@@ -1,6 +1,6 @@
 # Badge
 
-[Label](components/badge#label) • [Status](components/badge#status) • [API](components/avatar#api)
+[Label](components/badge#label) • [Status](components/badge#status) • [API](components/badge#api)
 
 Intro 
 

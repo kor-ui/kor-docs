@@ -1,10 +1,26 @@
 # App Bar
 
-[Mobile](components/app-bar#mobile) • [API](components/app-bar#api)
+[Mobile](components/app-bar#mobile) • [Label](components/app-bar#label) • [Logo](components/app-bar#logo) • [API](components/app-bar#api)
 
 Intro
 
 <iframe src="./assets/demos/app-bar/main.html" height="200px"></iframe>
+
+---
+
+## Label
+
+Description
+
+<iframe src="./assets/demos/app-bar/label.html" height="200px"></iframe>
+
+---
+
+## Logo
+
+Description
+
+<iframe src="./assets/demos/app-bar/logo.html" height="200px"></iframe>
 
 ---
 
@@ -22,8 +38,8 @@ Description
 
 | Name | Type | Default | Description |
 | :-- | :-- | :-- | :-- |
-| **`label`** | `String` | _undefined_ | Defines the text label displayed on the left side (if `mobile` is unset). |
-| **`logo`** | `String` | _undefined_ | Defines the logo shown on the left side. |
+| **`label`** | `String` | _undefined_ | If set, defines the text label displayed on the left side (if `mobile` is unset). |
+| **`logo`** | `String` | _undefined_ | If set, defines the logo shown on the left side. |
 | **`mobile`** | `Boolean` | _undefined_ | If set, toggles the mobile variation. |
 
 ### Slots
