@@ -10,9 +10,10 @@ export class DataService {
   constructor() { }
 
   // set all demos themes to match app theme
-  public setDemoTheme(el?: any) {
+  public setDemoTheme(el?: any): void {
     if (el) {
       el.contentWindow.document.body.setAttribute("theme", this.appTheme);
+      el.style.opacity = "1";
     } else {
       document.querySelectorAll('iframe').forEach(el => {
         el.contentWindow.document.body.setAttribute("theme", this.appTheme);

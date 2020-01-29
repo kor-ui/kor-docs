@@ -93,7 +93,9 @@ markdown {
   }
   // iframes
   iframe {
+    opacity: 0;
     border: none;
+    transition: .1s ease-in-out;
   }
   iframe:not([height]) {
     min-height: 320px;
