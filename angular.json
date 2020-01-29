@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "wa-docs": {
+    "kor-docs": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/wa-docs",
+            "outputPath": "dist/kor-docs",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -28,17 +28,17 @@
               "src/assets",
               {
                 "glob": "**/*",
-                "input": "./node_modules/wa-baukasten/",
-                "output": "./assets/wa-baukasten/"
+                "input": "./node_modules/kor-ui/",
+                "output": "./assets/kor-ui/"
               }
             ],
             "styles": [
               "src/styles.scss",
-              "node_modules/wa-baukasten/wa-styles.css",
+              "node_modules/kor-ui/kor-styles.css",
               "node_modules/prismjs/themes/prism-okaidia.css"
             ],
             "scripts": [
-              "node_modules/wa-baukasten/wa.js",
+              "node_modules/kor-ui/kor.js",
               "node_modules/marked/lib/marked.js",
               "node_modules/prismjs/prism.js",
               "node_modules/prismjs/components/prism-css.min.js"
@@ -79,18 +79,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "wa-docs:build"
+            "browserTarget": "kor-docs:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "wa-docs:build:production"
+              "browserTarget": "kor-docs:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "wa-docs:build"
+            "browserTarget": "kor-docs:build"
           }
         },
         "test": {
@@ -127,15 +127,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "wa-docs:serve"
+            "devServerTarget": "kor-docs:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "wa-docs:serve:production"
+              "devServerTarget": "kor-docs:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "wa-docs"
+  "defaultProject": "kor-docs"
 }

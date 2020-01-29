@@ -2,9 +2,9 @@
 
 [Label and info](components/avatar#label-and-info) • [Image](components/avatar#image) • [API](components/avatar#api)
 
-Intro 
-
 <iframe src="./assets/demos/avatar/main.html" height="440px"></iframe>
+
+Intro 
 
 ---
 

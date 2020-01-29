@@ -2,9 +2,9 @@
 
 [Color](components/button#color) • [Icon](components/button#icon) • [API](components/button#api)
 
-Intro 
-
 <iframe src="./assets/demos/button/main.html" height="440px"></iframe>
+
+Intro 
 
 ---
 

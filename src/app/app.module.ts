@@ -14,11 +14,11 @@ export function markedOptionsFactory(): MarkedOptions {
   const renderer = new MarkedRenderer();
   // headings
   renderer.heading = (text: string, level: number) => {
-    return `<wa-text size="header-2" id=${text.replace(/\s+/g, '-').toLowerCase()} class="h${level}">${text}</wa-text>`;
+    return `<kor-text size="header-2" id=${text.replace(/\s+/g, '-').toLowerCase()} class="h${level}">${text}</kor-text>`;
   };
   // paragraphs
   renderer.paragraph = (text: string) => {
-    return `<wa-text size="body-1">${text}</wa-text>`;
+    return `<kor-text size="body-1">${text}</kor-text>`;
   };
   // links
   renderer.link = (href: string, title: string, text: string) => {
@@ -26,7 +26,7 @@ export function markedOptionsFactory(): MarkedOptions {
   }
   // dividers
   renderer.hr = ()  => {
-    return `<wa-divider spacing="l"></wa-divider>`
+    return `<kor-divider spacing="l"></kor-divider>`
   }
  
   return {

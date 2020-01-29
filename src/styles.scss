@@ -1,7 +1,7 @@
 markdown {
   // text
-  > wa-text, 
-  > ul wa-text {
+  > kor-text, 
+  > ul kor-text {
     &.h1 {
       margin: 0 0 16px 0;
       font-size: 32px;
@@ -38,7 +38,7 @@ markdown {
     font-size: 16px;
     line-height: 32px;
   }
-  li > wa-text {
+  li > kor-text {
     margin: 0 !important;
   }
   // table
@@ -84,8 +84,8 @@ markdown {
     color: rgb(255,255,255,.90);
   }
   // images
-  wa-page[theme="dark"] img[src*="_light"],
-  wa-page[theme="light"] img[src*="_dark"] {
+  kor-page[theme="dark"] img[src*="_light"],
+  kor-page[theme="light"] img[src*="_dark"] {
     display: none !important;
   }
   img {

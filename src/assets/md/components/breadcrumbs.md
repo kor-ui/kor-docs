@@ -2,9 +2,9 @@
 
 [Label](components/breadcrumbs#label) • [API](components/breadcrumbs#api)
 
-Intro 
-
 <iframe src="./assets/demos/breadcrumbs/main.html" height="440px"></iframe>
+
+Intro
 
 ---
 
@@ -20,7 +20,7 @@ Description
 
 ### Properties 
 
-`wa-breadcrumb-item`
+`kor-breadcrumb-item`
 
 | Name | Type | Default | Description |
 | :-- | :-- | :-- | :-- |

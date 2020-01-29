@@ -2,9 +2,9 @@
 
 [Label](components/badge#label) • [Status](components/badge#status) • [API](components/badge#api)
 
-Intro 
-
 <iframe src="./assets/demos/badge/main.html" height="440px"></iframe>
+
+Intro 
 
 ---
 

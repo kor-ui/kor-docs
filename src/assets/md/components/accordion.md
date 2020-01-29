@@ -2,9 +2,9 @@
 
 [Footer Slot](components/accordion#footer-slot) • [API](components/accordion#api)
 
-Intro 
-
 <iframe src="./assets/demos/accordion/main.html" height="440px"></iframe>
+
+Intro 
 
 ---
 

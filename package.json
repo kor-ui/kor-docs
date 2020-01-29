@@ -1,5 +1,5 @@
 {
-  "name": "wa-docs",
+  "name": "kor-docs",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -19,10 +19,10 @@
     "@angular/platform-browser": "~8.2.3",
     "@angular/platform-browser-dynamic": "~8.2.3",
     "@angular/router": "~8.2.3",
+    "kor-ui": "^0.1.6",
     "ngx-markdown": "^8.2.2",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
-    "wa-baukasten": "^0.1.5",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
