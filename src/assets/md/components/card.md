@@ -54,7 +54,7 @@ Description
 
 | Name | Type | Default | Description |
 | :-- | :-- | :-- | :-- |
-| **`label`** | `String` | _undefined_ | If set, defines the card's text label. |
+| **`label`** | `String` | _undefined_ | If set, defines the text label. |
 | **`icon`** | `String` | _undefined_ | If set, defines the icon shown close to the label. |
 | **`image`** | `String` | _undefined_ | If set, defines the image shown on top of the card. |
 | **`flex-direction`** | `String` | `column` | Defines the direction in which the slotted content flows (e.g. top to bottom or left to right). Possible values are `column` and `row`. |

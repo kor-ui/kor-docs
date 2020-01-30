@@ -22,7 +22,7 @@ Description
 
 | Name | Type | Default | Description |
 | :-- | :-- | :-- | :-- |
-| **`label`** | `String` | `Label` | Defines the accordion's text label. |
+| **`label`** | `String` | `Label` | Defines the text label. |
 | **`icon`** | `String` | `Label` | If set, defines the icon shown before the label. |
 | **`expanded`** | `Boolean` | _undefined_ | If set to `true`, expands the accordion to display its' content. |
 | **`disabled`** | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated. |

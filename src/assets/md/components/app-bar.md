@@ -38,7 +38,7 @@ Description
 
 | Name | Type | Default | Description |
 | :-- | :-- | :-- | :-- |
-| **`label`** | `String` | _undefined_ | If set, defines the text label displayed on the left side (if `mobile` is unset). |
+| **`label`** | `String` | _undefined_ | If set, defines the text label shown on the left side (if `mobile` is unset). |
 | **`logo`** | `String` | _undefined_ | If set, defines the logo shown on the left side. |
 | **`mobile`** | `Boolean` | _undefined_ | If set, toggles the mobile variation. |
 

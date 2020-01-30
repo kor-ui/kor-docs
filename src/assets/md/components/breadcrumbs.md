@@ -24,5 +24,5 @@ Description
 
 | Name | Type | Default | Description |
 | :-- | :-- | :-- | :-- |
-| **`label`** | `String` | `Label` | Defines the breadcrumb's text label. |
+| **`label`** | `String` | `Label` | Defines the text label. |
 | **`active`** | `Boolean` | _undefined_ | Defines whether the item is currently active or not. |

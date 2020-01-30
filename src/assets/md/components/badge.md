@@ -30,5 +30,5 @@ Description
 
 | Name | Type | Default | Description |
 | :-- | :-- | :-- | :-- |
-| **`label`** | `Number` | _undefined_ | If set, displays a number inside the badge. Numbers bigger than 3 digits are shown as `999+`. |
+| **`label`** | `Number` | _undefined_ | If set, degines the number shown inside the badge. Numbers bigger than 3 digits are shown as `999+`. |
 | **`status`** | `String` | _undefined_ | If set, a status icon is shown inside the badge. Accepted values are `error`, `warning`, `success`. |
