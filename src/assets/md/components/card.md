@@ -65,6 +65,6 @@ Description
 | Name | Description |
 | :-- | :-- |
 | **_unnamed_** | Displayed inside the content area. |
-| **`header`** | If used, the header slot is shown on top of the card, below the label (if any is set). |
-| **`functions`** | Displayed on the right side of the label or header slot. |
-| **`footer`** | Displayed below the content area. |
+| **`header`** | Shown on top of the card, below the label (if any is set). |
+| **`functions`** | Shown on the right side of the label or header slot. |
+| **`footer`** | Shown below the content area. |
