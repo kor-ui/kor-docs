@@ -1,6 +1,6 @@
 <kor-page [theme]="data.appTheme" flat>
   <kor-app-bar slot="top" label="kor">
-    <kor-icon slot="functions" button icon="brightness_medium" (click)="switchTheme()"></kor-icon>
+    <kor-icon slot="functions" button icon="brightness_medium" (click)="data.switchTheme()"></kor-icon>
   </kor-app-bar>
   <app-menu slot="left"></app-menu>
   <app-content></app-content>

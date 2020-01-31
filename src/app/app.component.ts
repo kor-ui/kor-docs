@@ -12,10 +12,4 @@ export class AppComponent {
   constructor(
     public data: DataService
   ) {}
-
-  // switch app theme
-  public switchTheme(): void {
-    this.data.appTheme = this.data.appTheme == "dark" ? "light" : "dark";
-    this.data.setDemoTheme();
-  }
 }

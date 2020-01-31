@@ -9,11 +9,18 @@ export class DataService {
 
   constructor() { }
 
+  // switch app theme
+  public switchTheme(): void {
+    this.appTheme = this.appTheme == "dark" ? "light" : "dark";
+    this.setDemoTheme();
+  }
+
   // set all demos themes to match app theme
   public setDemoTheme(el?: any): void {
     if (el) {
-      el.contentWindow.document.body.setAttribute("theme", this.appTheme);
-      el.style.opacity = "1";
+      let body = el.contentWindow.document.body;
+      body.setAttribute("theme", this.appTheme);
+      body.querySelector('.demo').style.opacity = "1";
     } else {
       document.querySelectorAll('iframe').forEach(el => {
         el.contentWindow.document.body.setAttribute("theme", this.appTheme);
