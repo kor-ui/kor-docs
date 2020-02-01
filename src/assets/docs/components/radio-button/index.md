@@ -1,8 +1,8 @@
-# Checkbox
+# Radio Button
 
-[Label](components/checkbox#label) • [API](components/checkbox#api)
+[Label](components/radio-button#label) • [API](components/radio-button#api)
 
-<iframe src="./assets/docs/components/checkbox/main.html"></iframe>
+<iframe src="./assets/docs/components/radio-button/main.html"></iframe>
 
 ---
 
@@ -10,7 +10,7 @@
 
 Description
 
-<iframe src="./assets/docs/components/checkbox/label.html"></iframe>
+<iframe src="./assets/docs/components/radio-button/label.html"></iframe>
 
 ---
 

@@ -1,16 +1,8 @@
 # Progress Bar
 
-[Label, Info and Progress](components/progress-bar#label-info-and-progress) • [Radial](components/progress-bar#radial) • [Status](components/progress-bar#status) • [Color](components/progress-bar#color) • [API](components/progress-bar#api)
+[Radial](components/progress-bar#radial) • [Label, Info and Progress](components/progress-bar#label-info-and-progress) • [Status](components/progress-bar#status) • [Color](components/progress-bar#color) • [API](components/progress-bar#api)
 
 <iframe src="./assets/docs/components/progress-bar/main.html"></iframe>
-
----
-
-## Label, Info and Progress
-
-Description
-
-<iframe src="./assets/docs/components/progress-bar/label-info-and-progress.html"></iframe>
 
 ---
 
@@ -19,6 +11,14 @@ Description
 Description
 
 <iframe src="./assets/docs/components/progress-bar/radial.html"></iframe>
+
+---
+
+## Label, Info and Progress
+
+Description
+
+<iframe src="./assets/docs/components/progress-bar/label-info-and-progress.html"></iframe>
 
 ---
 
