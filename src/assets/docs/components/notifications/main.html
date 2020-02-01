@@ -1,0 +1,31 @@
+<script src="/assets/kor-ui/kor.js"></script>
+<link rel="stylesheet" href="/assets/kor-ui/kor-styles.css">
+<link rel="stylesheet" href="/assets/docs/demo-styles.css">
+
+<div class="demo stretch">
+  <kor-button label="Top Left" onclick="document.querySelector('#top-left').visible = true"></kor-button>
+  <kor-button label="Top Right" onclick="document.querySelector('#top-right').visible = true"></kor-button>
+  <kor-button label="Bottom Left" onclick="document.querySelector('#bottom-left').visible = true"></kor-button>
+  <kor-button label="Bottom Right" onclick="document.querySelector('#bottom-right').visible = true"></kor-button>
+</div>
+
+<kor-notifications position="top-left">
+  <kor-notification-item id="top-left" label="Top Left">
+    This is a top-left notification.
+  </kor-notification-item>
+</kor-notifications>
+<kor-notifications>
+  <kor-notification-item id="top-right" label="Top Right" visible>
+    This is a top-right notification.
+  </kor-notification-item>
+</kor-notifications>
+<kor-notifications position="bottom-left">
+  <kor-notification-item id="bottom-left" label="Bottom Left">
+    This is a bottom-left notification.
+  </kor-notification-item>
+</kor-notifications>
+<kor-notifications position="bottom-right">
+  <kor-notification-item id="bottom-right" label="Bottom Right">
+    This is a bottom-right notification.
+  </kor-notification-item>
+</kor-notifications>

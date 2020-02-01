@@ -1,0 +1,21 @@
+<script src="/assets/kor-ui/kor.js"></script>
+<link rel="stylesheet" href="/assets/kor-ui/kor-styles.css">
+<link rel="stylesheet" href="/assets/docs/demo-styles.css">
+
+<div class="demo stretch">
+  <kor-page>
+    <kor-app-bar slot="top" label="Label" logo="http://pngimg.com/uploads/microsoft/microsoft_PNG13.png">
+      <!-- unnamed slot -->
+      <kor-tabs>
+        <kor-tab-item label="Tab 1" active></kor-tab-item>
+        <kor-tab-item label="Tab 2"></kor-tab-item>
+        <kor-tab-item label="Tab 3"></kor-tab-item>
+      </kor-tabs>
+      <!-- functions slot: icons -->
+      <kor-icon button icon="settings" slot="functions"></kor-icon>
+      <kor-icon button icon="more_vert" slot="functions"></kor-icon>
+      <!-- functions slot: avatar -->
+      <kor-avatar slot="functions" label="John Doe" info="j.doe@email.com"></kor-avatar>
+    </kor-app-bar>
+  </kor-page>
+</div>
