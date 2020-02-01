@@ -63,7 +63,7 @@ Description
 | Name | Type | Default | Description |
 | :-- | :-- | :-- | :-- |
 | **`label`** | `String` | _undefined_ | If set, defines the text label shown on top. |
-| **`icon`** | `String` | _undefined_ | If set, defines the icon shown on the left side. |
+| **`icon`** | `String` | _undefined_ | If set, defines the icon shown before the label/value. |
 | **`value`** | `String` | _undefined_ | If set, defines the value of the input. Changes upon user interaction. |
 | **`type`** | `String` | `text` | Defines the type. Possible values are `text`, `number` and `select`. |
 | **`status`** | `String` | _undefined_ | If set, Displays a status icon on the right side of the input. |
