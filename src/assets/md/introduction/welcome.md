@@ -1,27 +1,35 @@
-# Welcome
+# Kor
 
 ## An open source Design System and lightweight UI Component Library.
 
----
+**Kor** is a Design System and User Interface component library built to facilitate the design and development of **intuitive, coherent and joyful** applications based on Web technologies (HTML5). 
 
-## User Experience
-
-The main goal of the library is to provide optimal User Experience in any context of use and for all types of users. From application and page templates to UX patterns and UI components, comprehensive design guidance is given to ensure the application is intuitive and delightful to use.
+It is built to be compatible with all major frameworks, browsers, operational systems, form factors and input types, allowing applications built with **kor** to be deployed and used virtually anywhere.
 
 ---
 
-## Campatibility
-
-All main Browsers, OS, frameworks, input modes and form factors are supported by **Kor**. Any app that supports HTML5 can include and use the library, this includes frameworks such as **Angular**, **React** and **Vue.js**. All major OS  (Windows, OSX, Linux, Android, iOS) and modern browsers (Chrome, Edge, Safari and Firefox) are supported as well.
+<kor-grid columns="3" style="margin: 64px 0">
+    <div style="display: flex; flex-direction: column; align-items: center; text-align: center">
+        <kor-icon size="xl" icon="touch_app" color="rgb(var(--accent-1))"></kor-icon>
+        <kor-text size="header-1" style="margin: 16px 0">User Experience</kor-text>
+        <kor-text color="var(--text-2)">
+            Designed to provide an intuitive, coherent and joyful experience to users.
+        </kor-text>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; text-align: center">
+        <kor-icon size="xl" icon="device_hub" color="rgb(var(--accent-1))"></kor-icon>
+        <kor-text size="header-1" style="margin: 16px 0">Compatibility</kor-text>
+        <kor-text color="var(--text-2)">
+            Support to all main frameworks, browsers, OS, form factors and input types.
+        </kor-text>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; text-align: center">
+        <kor-icon size="xl" icon="fast_forward" color="rgb(var(--accent-1))"></kor-icon>
+        <kor-text size="header-1" style="margin: 16px 0">Lightweight</kor-text>
+        <kor-text color="var(--text-2)">
+            Built to provide fast loading, initialization and usage in any environment.
+        </kor-text>
+    </div>
+</kor-grid>
 
 ---
-
-## Coherence
-
-The components and patterns in **Kor** are designed to work well together and appear coherent to the user. Apps built with the library should feel like one cohesive unit.
-
----
-
-## Lightweight
-
-The library contains only core elements and features in order to keep it lightweight and reusable, while covering around 80% to 90% of the UI needs of the app and providing possibilities of extending it for a full coverage. Its' size and scripts are optimized for a seamless user experience.
