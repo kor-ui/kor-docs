@@ -7,14 +7,14 @@
   <kor-button label="Header" onclick="document.querySelector('#header').visible = true"></kor-button>
 </div>
 
-<kor-drawer id="functions-and-footer" visible label="Functions and Footer">
+<kor-modal id="functions-and-footer" visible label="Functions and Footer">
   <kor-icon slot="functions" button icon="more_vert"></kor-icon slot="functions">
   <kor-button slot="footer" color="secondary" label="Close" onclick="document.querySelector('#functions-and-footer').visible = false"></kor-button>
-</kor-drawer>
-<kor-drawer id="header">
+</kor-modal>
+<kor-modal id="header">
   <kor-tabs slot="header">
     <kor-tab-item label="Tab 1" active></kor-tab-item>
     <kor-tab-item label="Tab 2"></kor-tab-item>
     <kor-tab-item label="Tab 3"></kor-tab-item>
   </kor-tabs>
-</kor-drawer>
+</kor-modal>

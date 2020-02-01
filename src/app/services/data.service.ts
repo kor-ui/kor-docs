@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class DataService {
 
-  public appTheme: string = "dark";
+  public appTheme: string = "light";
 
   constructor() { }
 

@@ -1,0 +1,11 @@
+<script src="/assets/kor-ui/kor.js"></script>
+<link rel="stylesheet" href="/assets/kor-ui/kor-styles.css">
+<link rel="stylesheet" href="/assets/demos/demo-styles.css">
+
+<div class="demo stretch">
+  <kor-button label="Sticky" onclick="document.querySelector('#modal').visible = true"></kor-button>
+</div>
+
+<kor-modal id="modal" visible sticky label="Sticky">
+  <kor-button slot="footer" color="secondary" label="Close" onclick="document.querySelector('#modal').visible = false"></kor-button>
+</kor-modal>
