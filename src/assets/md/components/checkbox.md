@@ -2,7 +2,7 @@
 
 [Label](components/checkbox#label) • [API](components/checkbox#api)
 
-<iframe src="./assets/demos/checkbox/main.html"></iframe>
+<iframe src="./assets/demos/components/checkbox/main.html"></iframe>
 
 Intro 
 
@@ -12,7 +12,7 @@ Intro
 
 Description
 
-<iframe src="./assets/demos/checkbox/label.html"></iframe>
+<iframe src="./assets/demos/components/checkbox/label.html"></iframe>
 
 ---
 

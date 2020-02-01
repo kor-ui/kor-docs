@@ -2,7 +2,7 @@
 
 [Icon](components/template#icon) • [API](components/template#api)
 
-<iframe src="./assets/demos/template/main.html" height="440px"></iframe>
+<iframe src="./assets/demos/components/template/main.html"></iframe>
 
 Intro 
 
@@ -12,7 +12,7 @@ Intro
 
 Description
 
-<iframe src="./assets/demos/template/icon.html" height="440px"></iframe>
+<iframe src="./assets/demos/components/template/icon.html"></iframe>
 
 ---
 

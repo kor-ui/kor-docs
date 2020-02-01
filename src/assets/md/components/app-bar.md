@@ -2,7 +2,7 @@
 
 [Mobile](components/app-bar#mobile) • [Label](components/app-bar#label) • [Logo](components/app-bar#logo) • [API](components/app-bar#api)
 
-<iframe src="./assets/demos/app-bar/main.html" height="200px"></iframe>
+<iframe src="./assets/demos/components/app-bar/main.html" height="200px"></iframe>
 
 Intro
 
@@ -12,7 +12,7 @@ Intro
 
 Description
 
-<iframe src="./assets/demos/app-bar/label.html" height="200px"></iframe>
+<iframe src="./assets/demos/components/app-bar/label.html" height="200px"></iframe>
 
 ---
 
@@ -20,7 +20,7 @@ Description
 
 Description
 
-<iframe src="./assets/demos/app-bar/logo.html" height="200px"></iframe>
+<iframe src="./assets/demos/components/app-bar/logo.html" height="200px"></iframe>
 
 ---
 
@@ -28,7 +28,7 @@ Description
 
 Description
 
-<iframe src="./assets/demos/app-bar/mobile.html" height="200px"></iframe>
+<iframe src="./assets/demos/components/app-bar/mobile.html" height="200px"></iframe>
 
 ---
 

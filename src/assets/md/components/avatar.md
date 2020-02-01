@@ -2,7 +2,7 @@
 
 [Label and info](components/avatar#label-and-info) • [Image](components/avatar#image) • [API](components/avatar#api)
 
-<iframe src="./assets/demos/avatar/main.html" height="440px"></iframe>
+<iframe src="./assets/demos/components/avatar/main.html" height="440px"></iframe>
 
 Intro 
 
@@ -12,7 +12,7 @@ Intro
 
 Description
 
-<iframe src="./assets/demos/avatar/label-and-info.html" height="440px"></iframe>
+<iframe src="./assets/demos/components/avatar/label-and-info.html" height="440px"></iframe>
 
 ---
 
@@ -20,7 +20,7 @@ Description
 
 Description
 
-<iframe src="./assets/demos/avatar/image.html" height="440px"></iframe>
+<iframe src="./assets/demos/components/avatar/image.html" height="440px"></iframe>
 
 ---
 

@@ -2,7 +2,7 @@
 
 [Label and Icon](components/empty-state#label-and-icon) • [Footer Slot](components/empty-state#footer-slot) • [API](components/empty-state#api)
 
-<iframe src="./assets/demos/empty-state/main.html"></iframe>
+<iframe src="./assets/demos/components/empty-state/main.html"></iframe>
 
 Intro 
 
@@ -12,7 +12,7 @@ Intro
 
 Description
 
-<iframe src="./assets/demos/empty-state/label-and-icon.html"></iframe>
+<iframe src="./assets/demos/components/empty-state/label-and-icon.html"></iframe>
 
 ---
 
@@ -20,7 +20,7 @@ Description
 
 Description
 
-<iframe src="./assets/demos/empty-state/footer-slot.html"></iframe>
+<iframe src="./assets/demos/components/empty-state/footer-slot.html"></iframe>
 
 ---
 

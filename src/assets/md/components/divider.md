@@ -2,7 +2,7 @@
 
 [Orientation](components/divider#orientation) • [API](components/divider#api)
 
-<iframe src="./assets/demos/divider/main.html"></iframe>
+<iframe src="./assets/demos/components/divider/main.html"></iframe>
 
 Intro 
 
@@ -12,7 +12,7 @@ Intro
 
 Description
 
-<iframe src="./assets/demos/divider/orientation.html"></iframe>
+<iframe src="./assets/demos/components/divider/orientation.html"></iframe>
 
 ---
 

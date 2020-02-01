@@ -2,7 +2,7 @@
 
 [Label](components/badge#label) • [Status](components/badge#status) • [API](components/badge#api)
 
-<iframe src="./assets/demos/badge/main.html" height="440px"></iframe>
+<iframe src="./assets/demos/components/badge/main.html" height="440px"></iframe>
 
 Intro 
 
@@ -12,7 +12,7 @@ Intro
 
 Description
 
-<iframe src="./assets/demos/badge/label.html" height="440px"></iframe>
+<iframe src="./assets/demos/components/badge/label.html" height="440px"></iframe>
 
 ---
 
@@ -20,7 +20,7 @@ Description
 
 Description
 
-<iframe src="./assets/demos/badge/status.html" height="440px"></iframe>
+<iframe src="./assets/demos/components/badge/status.html" height="440px"></iframe>
 
 ---
 

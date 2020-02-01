@@ -2,7 +2,7 @@
 
 [Footer Slot](components/accordion#footer-slot) • [API](components/accordion#api)
 
-<iframe src="./assets/demos/accordion/main.html" height="440px"></iframe>
+<iframe src="./assets/demos/components/accordion/main.html" height="440px"></iframe>
 
 Intro 
 
@@ -12,7 +12,7 @@ Intro
 
 Description
 
-<iframe src="./assets/demos/accordion/footer-slot.html" height="440px"></iframe>
+<iframe src="./assets/demos/components/accordion/footer-slot.html" height="440px"></iframe>
 
 ---
 

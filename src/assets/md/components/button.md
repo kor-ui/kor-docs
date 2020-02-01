@@ -2,7 +2,7 @@
 
 [Color](components/button#color) • [Icon](components/button#icon) • [API](components/button#api)
 
-<iframe src="./assets/demos/button/main.html" height="440px"></iframe>
+<iframe src="./assets/demos/components/button/main.html" height="440px"></iframe>
 
 Intro 
 
@@ -12,7 +12,7 @@ Intro
 
 Description
 
-<iframe src="./assets/demos/button/color.html" height="440px"></iframe>
+<iframe src="./assets/demos/components/button/color.html" height="440px"></iframe>
 
 ---
 
@@ -20,7 +20,7 @@ Description
 
 Description
 
-<iframe src="./assets/demos/button/icon.html" height="440px"></iframe>
+<iframe src="./assets/demos/components/button/icon.html" height="440px"></iframe>
 
 ---
 
