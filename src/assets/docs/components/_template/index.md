@@ -30,5 +30,5 @@ Description
 
 | Name | Description |
 | :-- | :-- |
-| **_unnamed_** | Displayed inside the content area. |
+| **_unnamed_** | The main content area. |
 | **`functions`** | Shown on the right side. |

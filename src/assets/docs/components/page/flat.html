@@ -1,0 +1,22 @@
+<script src="/assets/kor-ui/kor.js"></script>
+<link rel="stylesheet" href="/assets/kor-ui/kor-styles.css">
+<link rel="stylesheet" href="/assets/docs/demo-styles.css">
+
+<div class="demo row">
+  <kor-page flex-direction="column">
+    <kor-app-bar slot="top" mobile label="Not Flat"></kor-app-bar>
+    <kor-card>
+      <kor-menu-item></kor-menu-item>
+      <kor-menu-item></kor-menu-item>
+      <kor-menu-item></kor-menu-item>
+    </kor-card>
+  </kor-page>
+  <kor-page flat flex-direction="column">
+    <kor-app-bar slot="top" mobile label="Flat"></kor-app-bar>
+    <kor-grid columns="1" fit-content>
+      <kor-menu-item></kor-menu-item>
+      <kor-menu-item></kor-menu-item>
+      <kor-menu-item></kor-menu-item>
+    </kor-grid>
+  </kor-page>
+</div>
