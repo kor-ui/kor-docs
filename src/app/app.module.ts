@@ -18,7 +18,7 @@ export function markedOptionsFactory(): MarkedOptions {
   };
   // paragraphs
   renderer.paragraph = (text: string) => {
-    return `<kor-text size="body-1">${text}</kor-text>`;
+    return `<kor-text size="body-1" color="var(--text-2)">${text}</kor-text>`;
   };
   // links
   renderer.link = (href: string, title: string, text: string) => {
