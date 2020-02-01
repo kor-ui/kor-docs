@@ -2,7 +2,7 @@
 
 [Label](components/breadcrumbs#label) • [API](components/breadcrumbs#api)
 
-<iframe src="./assets/docs/components/breadcrumbs/main.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/breadcrumbs/main.html"></iframe>
 
 Intro
 
@@ -12,7 +12,7 @@ Intro
 
 Description
 
-<iframe src="./assets/docs/components/breadcrumbs/label.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/breadcrumbs/label.html"></iframe>
 
 ---
 

@@ -4,8 +4,6 @@
 
 <iframe src="./assets/docs/components/grid/main.html" height="440px"></iframe>
 
-Intro 
-
 ---
 
 ## Columns

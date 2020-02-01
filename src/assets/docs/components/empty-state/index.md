@@ -4,8 +4,6 @@
 
 <iframe src="./assets/docs/components/empty-state/main.html"></iframe>
 
-Intro 
-
 ---
 
 ## Label and Icon

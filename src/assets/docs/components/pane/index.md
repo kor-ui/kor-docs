@@ -4,8 +4,6 @@
 
 <iframe src="./assets/docs/components/pane/main.html" height="560px"></iframe>
 
-Intro 
-
 ---
 
 ## Label and Icon

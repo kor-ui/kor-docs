@@ -4,8 +4,6 @@
 
 <iframe src="./assets/docs/components/menu-item/main.html"></iframe>
 
-Intro 
-
 ---
 
 ## Label and Icon

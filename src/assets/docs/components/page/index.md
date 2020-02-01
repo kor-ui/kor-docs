@@ -4,8 +4,6 @@
 
 <iframe src="./assets/docs/components/page/main.html" height="560px"></iframe>
 
-Intro 
-
 ---
 
 ## Theme

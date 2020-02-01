@@ -4,8 +4,6 @@
 
 <iframe src="./assets/docs/components/modal/main.html" height="440px"></iframe>
 
-Intro 
-
 ---
 
 ## Label and Icon

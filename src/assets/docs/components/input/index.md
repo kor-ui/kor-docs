@@ -4,8 +4,6 @@
 
 <iframe src="./assets/docs/components/input/main.html" height="440px"></iframe>
 
-Intro 
-
 ---
 
 ## Type

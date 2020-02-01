@@ -4,8 +4,6 @@
 
 <iframe src="./assets/docs/components/accordion/main.html" height="440px"></iframe>
 
-Intro 
-
 ---
 
 ## Footer Slot

@@ -4,8 +4,6 @@
 
 <iframe src="./assets/docs/components/icon/main.html"></iframe>
 
-Intro 
-
 ---
 
 ## Icon

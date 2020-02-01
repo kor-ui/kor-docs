@@ -4,8 +4,6 @@
 
 <iframe src="./assets/docs/components/card/main.html" height="440px"></iframe>
 
-Intro 
-
 ---
 
 ## Label and Icon

@@ -4,8 +4,6 @@
 
 <iframe src="./assets/docs/components/divider/main.html"></iframe>
 
-Intro 
-
 ---
 
 ## Orientation

@@ -4,8 +4,6 @@
 
 <iframe src="./assets/docs/components/checkbox/main.html"></iframe>
 
-Intro 
-
 ---
 
 ## Label
