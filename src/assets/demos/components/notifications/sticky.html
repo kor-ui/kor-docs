@@ -1,0 +1,14 @@
+<script src="/assets/kor-ui/kor.js"></script>
+<link rel="stylesheet" href="/assets/kor-ui/kor-styles.css">
+<link rel="stylesheet" href="/assets/demos/demo-styles.css">
+
+<div class="demo stretch">
+  <kor-button label="Sticky" onclick="document.querySelector('#notification-item').visible = true"></kor-button>
+</div>
+
+<kor-notifications>
+  <kor-notification-item id="notification-item" visible sticky label="Sticky">
+    This is a sticky notification.
+    <kor-button slot="footer" color="secondary" label="Close" onclick="document.querySelector('#notification-item').visible = false"></kor-button>
+  </kor-notification-item>
+</kor-notifications>
