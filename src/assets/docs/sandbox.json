@@ -406,6 +406,22 @@
     ]
   },
   {
+    "name": "page",
+    "properties": [
+      {
+        "name": "Flat",
+        "type": "boolean",
+        "value": "true"
+      },
+      {
+        "name": "Theme",
+        "type": "select",
+        "value": "light",
+        "options": ["dark", "light"]
+      }
+    ]
+  },
+  {
     "name": "radio-button",
     "properties": [
       {

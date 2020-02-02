@@ -1,8 +1,16 @@
 # Page
 
+Intro
+
 [Theme](components/page#theme) • [Flex Direction](components/page#flex-direction) • [Flat](components/page#flat) • [API](components/page#api)
 
-<iframe src="./assets/docs/components/page/main.html" height="560px"></iframe>
+---
+
+## Slots
+
+Description
+
+<iframe src="./assets/docs/components/page/slots.html" height="560px"></iframe>
 
 ---
 
