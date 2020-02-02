@@ -1,8 +1,8 @@
 # Spinner
 
-[Icon](components/spinner#icon) • [API](components/spinner#api)
+Intro
 
-<iframe src="./assets/docs/components/spinner/main.html"></iframe>
+[Icon](components/spinner#icon) • [API](components/spinner#api)
 
 ---
 
