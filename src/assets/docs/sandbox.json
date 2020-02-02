@@ -89,6 +89,41 @@
     ]
   },
   {
+    "name": "card",
+    "properties": [
+      {
+        "name": "Style",
+        "value": "height: 100%"
+      },
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Icon",
+        "type": "string",
+        "value": "train"
+      },
+      {
+        "name": "Image",
+        "type": "string",
+        "value": "https://i.ytimg.com/vi/BfCwN4iy6T8/maxresdefault.jpg"
+      },
+      {
+        "name": "Flat",
+        "type": "boolean",
+        "value": false
+      },
+      {
+        "name": "Flex-direction",
+        "type": "select",
+        "value": "column",
+        "options": ["column", "row"]
+      }
+    ]
+  },
+  {
     "name": "button",
     "properties": [
       {

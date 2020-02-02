@@ -2,7 +2,7 @@
 
 [Label and Icon](components/card#label-and-icon) • [Image](components/card#image) • [Flex Direction](components/card#flex-direction) • [Flat](components/card#flat) • [Slots](components/card#slots) • [API](components/card#api)
 
-<iframe src="./assets/docs/components/card/main.html" height="480px"></iframe>
+Intro
 
 ---
 
