@@ -1,8 +1,8 @@
 # Divider
 
-[Orientation](components/divider#orientation) • [API](components/divider#api)
+Intro
 
-<iframe src="./assets/docs/components/divider/main.html"></iframe>
+[Orientation](components/divider#orientation) • [API](components/divider#api)
 
 ---
 

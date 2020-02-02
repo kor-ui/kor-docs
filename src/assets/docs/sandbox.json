@@ -234,6 +234,21 @@
     ]
   },
   {
+    "name": "empty-state",
+    "properties": [
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Icon",
+        "type": "string",
+        "value": "train"
+      }
+    ]
+  },
+  {
     "name": "radio-button",
     "properties": [
       {

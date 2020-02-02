@@ -1,8 +1,8 @@
 # Drawer
 
-[Label and Icon](components/drawer#label-and-icon) • [Sticky](components/drawer#sticky) • [Slots](components/drawer#slots) • [Mobile](components/drawer#mobile) • [API](components/drawer#api)
+Intro
 
-<iframe src="./assets/docs/components/drawer/main.html" height="480px"></iframe>
+[Label and Icon](components/drawer#label-and-icon) • [Sticky](components/drawer#sticky) • [Slots](components/drawer#slots) • [Mobile](components/drawer#mobile) • [API](components/drawer#api)
 
 ---
 

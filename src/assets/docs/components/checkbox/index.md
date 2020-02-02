@@ -1,8 +1,8 @@
 # Checkbox
 
-[Label](components/checkbox#label) • [API](components/checkbox#api)
+Intro
 
-<iframe src="./assets/docs/components/checkbox/main.html"></iframe>
+[Label](components/checkbox#label) • [API](components/checkbox#api)
 
 ---
 

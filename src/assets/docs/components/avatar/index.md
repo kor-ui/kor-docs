@@ -1,8 +1,8 @@
 # Avatar
 
-[Label and info](components/avatar#label-and-info) • [Image](components/avatar#image) • [API](components/avatar#api)
-
 Intro
+
+[Label and info](components/avatar#label-and-info) • [Image](components/avatar#image) • [API](components/avatar#api)
 
 ---
 

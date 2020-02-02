@@ -1,8 +1,8 @@
 # App Bar
 
-[Mobile](components/app-bar#mobile) • [Label](components/app-bar#label) • [Logo](components/app-bar#logo) • [API](components/app-bar#api)
-
 Intro
+
+[Mobile](components/app-bar#mobile) • [Label](components/app-bar#label) • [Logo](components/app-bar#logo) • [API](components/app-bar#api)
 
 ---
 

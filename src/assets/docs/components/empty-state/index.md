@@ -1,8 +1,8 @@
 # Empty State
 
-[Label and Icon](components/empty-state#label-and-icon) • [Footer Slot](components/empty-state#footer-slot) • [API](components/empty-state#api)
+Intro
 
-<iframe src="./assets/docs/components/empty-state/main.html"></iframe>
+[Label and Icon](components/empty-state#label-and-icon) • [Footer Slot](components/empty-state#footer-slot) • [API](components/empty-state#api)
 
 ---
 
