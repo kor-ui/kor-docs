@@ -422,6 +422,37 @@
     ]
   },
   {
+    "name": "pane",
+    "properties": [
+      {
+        "name": "Style",
+        "value": "height: 480px"
+      },
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Icon",
+        "type": "string",
+        "value": "train"
+      },
+      {
+        "name": "Size",
+        "type": "select",
+        "value": "l",
+        "options": ["s", "m", "l"]
+      },
+      {
+        "name": "Flex-direction",
+        "type": "select",
+        "value": "Column",
+        "options": ["Column", "Row"]
+      }
+    ]
+  },
+  {
     "name": "radio-button",
     "properties": [
       {

@@ -1,8 +1,8 @@
 # Pane
 
-[Label and Icon](components/pane#label-and-icon) • [Slots](components/pane#slots) • [API](components/pane#api)
+Intro
 
-<iframe src="./assets/docs/components/pane/main.html" height="560px"></iframe>
+[Label and Icon](components/pane#label-and-icon) • [Slots](components/pane#slots) • [API](components/pane#api)
 
 ---
 
