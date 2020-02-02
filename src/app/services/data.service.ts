@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import * as t from "src/assets/docs/tree.json";
 import * as s from "src/assets/docs/sandbox.json";
+import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +12,9 @@ export class DataService {
   public tree = (<any>t).default;
   public sandbox = (<any>s).default;
 
-  constructor() { }
+  constructor(
+    public router: Router
+  ) { }
 
   // switch app theme
   public switchTheme(): void {
@@ -30,5 +33,14 @@ export class DataService {
         el.contentWindow.document.body.setAttribute("theme", this.appTheme);
       })
     }
+  }
+
+  public formatUrl(str: string): string {
+    return str.replace(/\s+/g, '-').toLowerCase();
+  }
+
+  getNameFromUrl() {
+    let params = this.router.url.split('/');
+    return params[params.length - 1];
   }
 }

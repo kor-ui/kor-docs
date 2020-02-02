@@ -3,6 +3,10 @@
     "name": "accordion",
     "properties": [
       {
+        "name": "Style",
+        "value": "width: 320px"
+      },
+      {
         "name": "Label",
         "type": "string",
         "value": "Label"

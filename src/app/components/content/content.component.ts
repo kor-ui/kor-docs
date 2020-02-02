@@ -18,9 +18,7 @@ export class ContentComponent implements OnInit {
   }
 
   public findComponent(): boolean {
-    let params = this.router.url.split('/');
-    let pageName = params[params.length - 1];
-    return this.data.sandbox.find(({name}) => name == pageName);
+    return this.data.sandbox.find(({name}) => name == this.data.getNameFromUrl());
   }
 
   public handleLoad(): void {
@@ -29,7 +27,7 @@ export class ContentComponent implements OnInit {
       el.onload = () => this.data.setDemoTheme(el) 
     })
     // scroll content to top
-    document.querySelector('app-content').scrollTo(0, 0)
+    document.querySelector('app-content').scrollTo(0, 0);
   }
 
 }

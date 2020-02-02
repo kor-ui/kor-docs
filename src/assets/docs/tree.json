@@ -1,162 +1,49 @@
 [
   {
-    "label": "Introduction",
-    "url": "introduction",
-    "pages": [
-      {
-        "label": "Welcome",
-        "url": "welcome"
-      },
-      {
-        "label": "Installation",
-        "url": "installation"
-      },
-      {
-        "label": "Data Binding",
-        "url": "data-binding"
-      },
-      {
-        "label": "Custom Themes",
-        "url": "custom-themes"
-      }
+    "name": "Introduction",
+    "pages": [ 
+      "Welcome", 
+      "Installation", 
+      "Data Binding", 
+      "Custom Themes"
     ]
   },
   {
-    "label": "Components",
-    "url": "components",
-    "pages": [
-      {
-        "label": "Accordion",
-        "url": "accordion"
-      },
-      {
-        "label": "App Bar",
-        "url": "app-bar"
-      },
-      {
-        "label": "Avatar",
-        "url": "avatar"
-      },
-      {
-        "label": "Badge",
-        "url": "badge"
-      },
-      {
-        "label": "Breadcrumbs",
-        "url": "breadcrumbs"
-      },
-      {
-        "label": "Button",
-        "url": "button"
-      },
-      {
-        "label": "Card",
-        "url": "card"
-      },
-      {
-        "label": "Checkbox",
-        "url": "checkbox"
-      },
-      {
-        "label": "Divider",
-        "url": "divider"
-      },
-      {
-        "label": "Drawer",
-        "url": "drawer"
-      },
-      {
-        "label": "Empty State",
-        "url": "empty-state"
-      },
-      {
-        "label": "Grid",
-        "url": "grid"
-      },
-      {
-        "label": "Icon",
-        "url": "icon"
-      },
-      {
-        "label": "Input",
-        "url": "input"
-      },
-      {
-        "label": "Menu Item",
-        "url": "menu-item"
-      },
-      {
-        "label": "Modal",
-        "url": "modal"
-      },
-      {
-        "label": "Nav Bar",
-        "url": "nav-bar"
-      },
-      {
-        "label": "Notifications",
-        "url": "notifications"
-      },
-      {
-        "label": "Page",
-        "url": "page"
-      },
-      {
-        "label": "Pane",
-        "url": "pane"
-      },
-      {
-        "label": "Popover",
-        "url": "popover"
-      },
-      {
-        "label": "Progress Bar",
-        "url": "progress-bar"
-      },
-      {
-        "label": "Radio Button",
-        "url": "radio-button"
-      },
-      {
-        "label": "Spinner",
-        "url": "spinner"
-      },
-      {
-        "label": "Stepper",
-        "url": "stepper"
-      },
-      {
-        "label": "Switch",
-        "url": "switch"
-      },
-      {
-        "label": "Table",
-        "url": "table"
-      },
-      {
-        "label": "Tabs",
-        "url": "tabs"
-      },
-      {
-        "label": "Tag",
-        "url": "tag"
-      },
-      {
-        "label": "Text",
-        "url": "text"
-      },
-      {
-        "label": "Toggle",
-        "url": "toggle"
-      },
-      {
-        "label": "Tool",
-        "url": "tool"
-      },
-      {
-        "label": "Tooltip",
-        "url": "tooltip"
-      }
+    "name": "Components",
+    "pages": [ 
+      "Accordion", 
+      "App Bar", 
+      "Avatar", 
+      "Badge", 
+      "Breadcrumbs", 
+      "Button", 
+      "Card", 
+      "Checkbox", 
+      "Divider", 
+      "Drawer", 
+      "Empty State", 
+      "Grid", 
+      "Icon", 
+      "Input", 
+      "Menu Item", 
+      "Modal", 
+      "Nav Bar", 
+      "Notifications", 
+      "Page", 
+      "Pane", 
+      "Popover", 
+      "Progress Bar", 
+      "Radio Button", 
+      "Spinner", 
+      "Stepper", 
+      "Switch", 
+      "Table", 
+      "Tabs", 
+      "Tag", 
+      "Text", 
+      "Toggle", 
+      "Tool", 
+      "Tooltip"
     ]
   }
 ]
