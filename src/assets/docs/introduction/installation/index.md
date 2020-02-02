@@ -9,7 +9,7 @@ A few steps should be followed in order to include the library and start using t
 Install the library in your project's folder:
 
 ```
-npm install kor-ui
+npm install kor-ui --save
 ```
 
 ---
