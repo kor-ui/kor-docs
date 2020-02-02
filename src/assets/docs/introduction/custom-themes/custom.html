@@ -1,0 +1,57 @@
+<script src="/assets/kor-ui/kor.js"></script>
+<link rel="stylesheet" href="/assets/kor-ui/kor-styles.css">
+<link rel="stylesheet" href="/assets/docs/demo-styles.css">
+<link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+<div class="demo">
+  <kor-page theme="midnight">
+    <kor-app-bar slot="top" mobile label="Label" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png">
+      <!-- left -->
+      <kor-avatar slot="left"></kor-avatar>
+      <!-- right -->
+      <kor-icon button icon="more_vert" slot="right"></kor-icon>
+    </kor-app-bar>
+    <kor-card>
+      <kor-tabs slot="header">
+        <kor-tab-item label="Tab 1" active></kor-tab-item>
+        <kor-tab-item label="Tab 2"></kor-tab-item>
+      </kor-tabs>
+      <kor-checkbox active label="Label"></kor-checkbox>
+      <kor-checkbox label="Label"></kor-checkbox>
+      <kor-button slot="footer" color="secondary"></kor-button>
+      <kor-button slot="footer"></kor-button>
+    </kor-card>
+  </kor-page>
+</div>
+
+<style>
+  *[theme="midnight"] {
+    --neutral-1: 255, 255, 255; ;
+    --neutral-2: 0, 0, 0;
+    --accent-1: 150, 100, 250;
+    --accent-1b: 160, 110, 250;
+    --accent-1c: 140, 90, 230;
+    --base-0: 75, 50, 200;
+    --base-1: 15, 15, 55;
+    --base-2: 25, 25, 65;
+    --base-3: 35, 35, 75;
+    --base-4: 45, 45, 85;
+    --functional-blue: 20, 120, 220;
+    --functional-red: 220, 40, 40;
+    --functional-yellow: 220, 160, 40;
+    --functional-green: 40, 160, 40;
+    --text-1: rgba(255, 255, 255, .90);
+    --text-2: rgba(255, 255, 255, .60);
+    --text-3: rgba(255, 255, 255, .20);
+    --shadow-1: 0 2px 8px rgba(0,0,0,.2), 0 1px 4px rgba(0,0,0,.15);
+  }
+
+  html, body {
+    font-family: serif;
+    --body-1: normal 14px/24px 'Montserrat', sans-serif;
+    --body-2: normal 12px/16px 'Montserrat', sans-serif;
+    --header-1: bold 16px/24px 'Bree Serif', serif;
+    --header-2: bold 14px/24px 'Bree Serif', serif;
+  }
+</style>

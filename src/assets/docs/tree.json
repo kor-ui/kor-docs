@@ -10,6 +10,14 @@
       {
         "label": "Installation",
         "url": "installation"
+      },
+      {
+        "label": "Data Binding",
+        "url": "data-binding"
+      },
+      {
+        "label": "Custom Themes",
+        "url": "custom-themes"
       }
     ]
   },

@@ -152,12 +152,12 @@ markdown {
     &.id, &.important { font-weight: bold; }
     &.atrule &.boolean, &.constant, &.function, &.id, &.important, &.keyword, &.symbol { color: #c792ea; }
     &.attr-name, &.builtin, &.class { color: #fd9170 ; }
-    &.attr-value, &.cdata, &.char, &.inserted, &.property, &.string { color: #80cbc4; }
+    &.attr-value, &.cdata, &.char, &.inserted, &.property, &.string { color: #53b6ac; }
     &.class-name, &.hexcode, &.regex { color: #f2ff00; }
     &.comment, &.doctype, &.prolog { color: var(--text-3); }
     &.deleted, &.entity, &.selector, &.tag, &.url, &.variable { color: #ff6666; }
     &.number, &.unit { color: #ffb62e; }
-    &.operator, &.punctuation { color: #89ddff; }
+    &.operator, &.punctuation { color: #1190c2; }
     &.pseudo-class, &.pseudo-element { color: #a5e844; }
   }
 }
