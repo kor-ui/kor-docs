@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as t from "src/assets/tree.json";
+import * as t from "src/assets/docs/tree.json";
 import { Router } from '@angular/router';
 
 @Component({

@@ -21,5 +21,5 @@ Description
 | Name | Type | Default | Description |
 | :-- | :-- | :-- | :-- |
 | **`label`** | `String` | _undefined_ | If set, defines the text label. |
-| **`active`** | `Boolean` | _undefined_ | If set to `true`, the highlight style gets applied. |
+| **`active`** | `Boolean` | _undefined_ | If set to `true`, a highlight style gets applied. Only one item can be active at a time. |
 | **`disabled`** | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated. |

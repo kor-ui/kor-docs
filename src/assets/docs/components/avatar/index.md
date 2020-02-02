@@ -29,5 +29,5 @@ Description
 | Name | Type | Default | Description |
 | :-- | :-- | :-- | :-- |
 | **`label`** | `String` | _undefined_ | If set, defines the text label shown next to the icon/image. If the label is set and an image is not defined, the initials will be shown as a placeholder. |
-| **`info`** | `String` | _undefined_ | If set, defines the information text shown underneath the label. |
+| **`info`** | `String` | _undefined_ | If set, defines the information text shown below the label. |
 | **`image`** | `String` | _undefined_ | If set, replaces the placeholder image with a custom image. |
