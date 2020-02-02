@@ -2,7 +2,7 @@
 
 [Label](components/badge#label) • [Status](components/badge#status) • [API](components/badge#api)
 
-<iframe src="./assets/docs/components/badge/main.html"></iframe>
+Intro
 
 ---
 

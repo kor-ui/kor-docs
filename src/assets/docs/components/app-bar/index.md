@@ -2,8 +2,6 @@
 
 [Mobile](components/app-bar#mobile) • [Label](components/app-bar#label) • [Logo](components/app-bar#logo) • [API](components/app-bar#api)
 
-<iframe src="./assets/docs/components/app-bar/main.html" height="200px"></iframe>
-
 Intro
 
 ---

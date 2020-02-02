@@ -53,6 +53,42 @@
     ]
   },
   {
+    "name": "avatar",
+    "properties": [
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Info",
+        "type": "string",
+        "value": "Information text"
+      },
+      {
+        "name": "Image",
+        "type": "string",
+        "value": "https://www.evolutionsociety.org/userdata/news_picupload/pic_sid189-0-norm.jpg"
+      }
+    ]
+  },
+  {
+    "name": "badge",
+    "properties": [
+      {
+        "name": "Label",
+        "type": "number",
+        "value": null
+      },
+      {
+        "name": "Status",
+        "type": "select",
+        "value": null,
+        "options": [null, "success", "warning", "error"]
+      }
+    ]
+  },
+  {
     "name": "button",
     "properties": [
       {

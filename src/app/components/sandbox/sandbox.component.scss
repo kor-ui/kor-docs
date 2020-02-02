@@ -1,5 +1,7 @@
 :host {
   > kor-page {
+    border-radius: 4px;
+    border: 1px solid rgba(var(--neutral-1), 0.15);
     min-height: 400px;
     .demo-wrapper {
       width: 100%;

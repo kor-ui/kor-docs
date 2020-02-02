@@ -2,7 +2,7 @@
 
 [Color](components/button#color) • [Icon](components/button#icon) • [API](components/button#api)
 
-<iframe src="./assets/docs/components/button/main.html"></iframe>
+Intro
 
 ---
 

@@ -2,7 +2,7 @@
 
 [Label and info](components/avatar#label-and-info) • [Image](components/avatar#image) • [API](components/avatar#api)
 
-<iframe src="./assets/docs/components/avatar/main.html"></iframe>
+Intro
 
 ---
 
