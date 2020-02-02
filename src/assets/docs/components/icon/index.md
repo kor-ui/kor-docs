@@ -1,8 +1,8 @@
 # Icon
 
-[Icon](components/icon#size) • [Size](components/icon#size) • [Color](components/icon#color) • [Button](components/icon#button) • [API](components/icon#api)
+Intro
 
-<iframe src="./assets/docs/components/icon/main.html"></iframe>
+[Icon](components/icon#size) • [Size](components/icon#size) • [Color](components/icon#color) • [Button](components/icon#button) • [API](components/icon#api)
 
 ---
 

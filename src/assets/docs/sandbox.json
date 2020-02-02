@@ -249,6 +249,37 @@
     ]
   },
   {
+    "name": "icon",
+    "properties": [
+      {
+        "name": "Icon",
+        "type": "string",
+        "value": "favorite"
+      },
+      {
+        "name": "Color",
+        "type": "string",
+        "value": "var(--text-1)"
+      },
+      {
+        "name": "Button",
+        "type": "boolean",
+        "value": null
+      },
+      {
+        "name": "Disabled",
+        "type": "boolean",
+        "value": null
+      },
+      {
+        "name": "Size",
+        "type": "select",
+        "value": "m",
+        "options": ["s", "m", "l", "xl"]
+      }
+    ]
+  },
+  {
     "name": "radio-button",
     "properties": [
       {
