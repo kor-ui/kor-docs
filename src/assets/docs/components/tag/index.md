@@ -1,8 +1,8 @@
 # Tag
 
-[Label and Icon](components/tag#label-and-icon) • [Removable](components/tag#removable) • [Button](components/tag#button) • [API](components/tag#api)
+Intro
 
-<iframe src="./assets/docs/components/tag/main.html"></iframe>
+[Label and Icon](components/tag#label-and-icon) • [Removable](components/tag#removable) • [Button](components/tag#button) • [API](components/tag#api)
 
 ---
 
@@ -38,6 +38,7 @@ Description
 | :-- | :-- | :-- | :-- |
 | **`label`** | `String` | _undefined_ | If set, defines the text label. |
 | **`icon`** | `String` | _undefined_ | If set, defines the icon shown besides the label. |
+| **`button`** | `Boolean` | _undefined_ | If set to `true`, hover and click effects will be added. |
 | **`removable`** | `Boolean` | _undefined_ | If set to `true`, a close icon is displayed. Clicking on it dispatches a `remove` event. |
 
 ### Events

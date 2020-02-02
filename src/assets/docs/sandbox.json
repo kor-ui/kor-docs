@@ -577,6 +577,31 @@
     ]
   },
   {
+    "name": "tag",
+    "properties": [
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Icon",
+        "type": "string",
+        "value": "train"
+      },
+      {
+        "name": "Button",
+        "type": "boolean",
+        "value": null
+      },
+      {
+        "name": "Removable",
+        "type": "boolean",
+        "value": true
+      }
+    ]
+  },
+  {
     "name": "toggle",
     "properties": [
       {
