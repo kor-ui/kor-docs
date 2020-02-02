@@ -29,6 +29,30 @@
     ]
   },
   {
+    "name": "app-bar",
+    "properties": [
+      {
+        "name": "Style",
+        "value": "width: 100%"
+      },
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Logo",
+        "type": "string",
+        "value": "http://pngimg.com/uploads/microsoft/microsoft_PNG13.png"
+      },
+      {
+        "name": "Mobile",
+        "type": "boolean",
+        "value": null
+      }
+    ]
+  },
+  {
     "name": "button",
     "properties": [
       {

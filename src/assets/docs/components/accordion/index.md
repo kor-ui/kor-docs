@@ -2,6 +2,8 @@
 
 [Footer Slot](components/accordion#footer-slot) • [API](components/accordion#api)
 
+Intro
+
 ---
 
 ## Footer Slot
