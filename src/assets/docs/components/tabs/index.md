@@ -37,7 +37,7 @@ Description
 | Name | Type | Default | Description |
 | :-- | :-- | :-- | :-- |
 | **`label`** | `String` | _undefined_ | If set, defines the text label. |
-| **`icon`** | `String` | _undefined_ | If set, defines the icon shown close to the label (if set). |
+| **`icon`** | `String` | _undefined_ | If set, defines the icon shown above the label (if set). |
 | **`active`** | `Boolean` | _undefined_ | If set to `true`, a highlight style gets applied. Only one item can be active at a time. |
 | **`disabled`** | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated. |
 
