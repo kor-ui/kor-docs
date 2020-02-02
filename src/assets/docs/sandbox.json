@@ -336,6 +336,35 @@
     ]
   },
   {
+    "name": "menu-item",
+    "properties": [
+      {
+        "name": "Style",
+        "value": "width: 320px"
+      },
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Icon",
+        "type": "string",
+        "value": "train"
+      },
+      {
+        "name": "Active",
+        "type": "boolean",
+        "value": null
+      },
+      {
+        "name": "Disabled",
+        "type": "boolean",
+        "value": null
+      }
+    ]
+  },
+  {
     "name": "radio-button",
     "properties": [
       {
