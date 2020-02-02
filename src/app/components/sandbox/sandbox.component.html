@@ -1,0 +1,35 @@
+<kor-page>
+  <kor-pane slot="right">
+    <!-- properties -->
+    <ng-container *ngFor="let prop of component.properties">
+      <!-- string props -->
+      <kor-input *ngIf="prop.type == 'string'"
+        [label]="prop.name" 
+        [value]="prop.value"
+        (value-changed)="prop.value = $event.target.value; setDemo();">
+      </kor-input>
+      <!-- number props -->
+      <kor-input type="number" *ngIf="prop.type == 'number'"
+        [label]="prop.name" 
+        [value]="prop.value"
+        (value-changed)="prop.value = $event.target.value; setDemo();">
+      </kor-input>
+      <!-- boolean props -->
+      <kor-checkbox *ngIf="prop.type == 'boolean'"
+        [label]="prop.name" 
+        [active]="prop.value" 
+        (active-changed)="prop.value = $event.target.active; setDemo();">
+      </kor-checkbox>
+      <!-- select props -->
+      <div *ngIf="prop.type == 'select'">
+        <kor-text size="header-2">{{prop.name}}</kor-text>
+        <kor-radio-button *ngFor="let option of prop.options" 
+          [label]="option" 
+          [active]="prop.value == option" 
+          (active-changed)="$event.target.active ? prop.value = option : ''; setDemo();">
+        </kor-radio-button>
+      </div>
+    </ng-container>
+  </kor-pane>
+  <div class="demo-wrapper"></div>
+</kor-page>

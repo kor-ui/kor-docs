@@ -2,7 +2,7 @@
 
 [Label and Icon](components/tooltip#label-and-icon) • [Slots](components/tooltip#slots) • [API](components/tooltip#api)
 
-<iframe src="./assets/docs/components/tooltip/main.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/tooltip/main.html" height="480px"></iframe>
 
 ---
 
@@ -10,7 +10,7 @@
 
 Description
 
-<iframe src="./assets/docs/components/tooltip/label-and-icon.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/tooltip/label-and-icon.html" height="480px"></iframe>
 
 ---
 
@@ -18,7 +18,7 @@ Description
 
 Description
 
-<iframe src="./assets/docs/components/tooltip/slots.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/tooltip/slots.html" height="480px"></iframe>
 
 ---
 

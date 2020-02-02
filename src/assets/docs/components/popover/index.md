@@ -2,7 +2,7 @@
 
 [Label and Icon](components/popover#label-and-icon) • [Sticky](components/popover#sticky) • [Slots](components/popover#slots) • [API](components/popover#api)
 
-<iframe src="./assets/docs/components/popover/main.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/popover/main.html" height="480px"></iframe>
 
 ---
 
@@ -10,7 +10,7 @@
 
 Description
 
-<iframe src="./assets/docs/components/popover/label-and-icon.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/popover/label-and-icon.html" height="480px"></iframe>
 
 ---
 
@@ -18,7 +18,7 @@ Description
 
 Description
 
-<iframe src="./assets/docs/components/popover/sticky.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/popover/sticky.html" height="480px"></iframe>
 
 ---
 
@@ -26,7 +26,7 @@ Description
 
 Description
 
-<iframe src="./assets/docs/components/popover/slots.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/popover/slots.html" height="480px"></iframe>
 
 ---
 

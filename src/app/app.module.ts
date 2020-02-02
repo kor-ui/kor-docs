@@ -8,6 +8,7 @@ import { DataService } from './services/data.service';
 import { MenuComponent } from './components/menu/menu.component';
 import { ContentComponent } from './components/content/content.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { SandboxComponent } from './components/sandbox/sandbox.component';
 
 // markdown options
 export function markedOptionsFactory(): MarkedOptions {
@@ -45,7 +46,8 @@ export function markedOptionsFactory(): MarkedOptions {
   declarations: [
     AppComponent,
     MenuComponent,
-    ContentComponent
+    ContentComponent,
+    SandboxComponent
   ],
   imports: [
     BrowserModule,

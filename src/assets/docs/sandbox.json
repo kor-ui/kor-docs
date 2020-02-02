@@ -1,0 +1,53 @@
+[
+  {
+    "name": "accordion",
+    "properties": [
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Icon",
+        "type": "string",
+        "value": null
+      },
+      {
+        "name": "Expanded",
+        "type": "boolean",
+        "value": false
+      },
+      {
+        "name": "Disabled",
+        "type": "boolean",
+        "value": false
+      }
+    ]
+  },
+  {
+    "name": "button",
+    "properties": [
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Icon",
+        "type": "string",
+        "value": null
+      },
+      {
+        "name": "Color",
+        "type": "select",
+        "value": "Primary",
+        "options": ["Primary", "Secondary", "Tertiary"]
+      },
+      {
+        "name": "Disabled",
+        "type": "boolean",
+        "value": false
+      }
+    ]
+  }
+]

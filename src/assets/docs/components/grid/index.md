@@ -2,7 +2,7 @@
 
 [Columns](components/grid#columns) • [Rows](components/grid#rows) • [Spacing](components/grid#spacing) • [Responsive](components/grid#responsive) • [API](components/grid#api)
 
-<iframe src="./assets/docs/components/grid/main.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/grid/main.html" height="480px"></iframe>
 
 ---
 
@@ -10,7 +10,7 @@
 
 Description
 
-<iframe src="./assets/docs/components/grid/columns.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/grid/columns.html" height="480px"></iframe>
 
 ---
 
@@ -18,7 +18,7 @@ Description
 
 Description
 
-<iframe src="./assets/docs/components/grid/rows.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/grid/rows.html" height="480px"></iframe>
 
 ---
 
@@ -26,7 +26,7 @@ Description
 
 Description
 
-<iframe src="./assets/docs/components/grid/spacing.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/grid/spacing.html" height="480px"></iframe>
 
 ---
 
@@ -34,7 +34,7 @@ Description
 
 Description
 
-<iframe src="./assets/docs/components/grid/responsive.html" height="440px" style="resize: horizontal"></iframe>
+<iframe src="./assets/docs/components/grid/responsive.html" height="480px" style="resize: horizontal"></iframe>
 
 ---
 

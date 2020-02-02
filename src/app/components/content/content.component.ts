@@ -17,7 +17,13 @@ export class ContentComponent implements OnInit {
   ngOnInit() {
   }
 
-  handleLoad() {
+  public findComponent(): boolean {
+    let params = this.router.url.split('/');
+    let pageName = params[params.length - 1];
+    return this.data.sandbox.find(({name}) => name == pageName);
+  }
+
+  public handleLoad(): void {
     // wait for iframes to load and call set theme
     document.querySelectorAll('iframe').forEach(el => {
       el.onload = () => this.data.setDemoTheme(el) 

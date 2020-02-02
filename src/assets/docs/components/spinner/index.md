@@ -10,7 +10,7 @@
 
 Description
 
-<iframe src="./assets/docs/components/spinner/label.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/spinner/label.html" height="480px"></iframe>
 
 ---
 

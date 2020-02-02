@@ -2,7 +2,7 @@
 
 [Label and Icon](components/modal#label-and-icon) • [Sticky](components/modal#sticky) • [Slots](components/modal#slots) • [API](components/modal#api)
 
-<iframe src="./assets/docs/components/modal/main.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/modal/main.html" height="480px"></iframe>
 
 ---
 
@@ -10,7 +10,7 @@
 
 Description
 
-<iframe src="./assets/docs/components/modal/label-and-icon.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/modal/label-and-icon.html" height="480px"></iframe>
 
 ---
 
@@ -18,7 +18,7 @@ Description
 
 Description
 
-<iframe src="./assets/docs/components/modal/sticky.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/modal/sticky.html" height="480px"></iframe>
 
 ---
 
@@ -26,7 +26,7 @@ Description
 
 Description
 
-<iframe src="./assets/docs/components/modal/slots.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/modal/slots.html" height="480px"></iframe>
 
 ---
 

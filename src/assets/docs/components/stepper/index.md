@@ -18,7 +18,7 @@ Description
 
 Description
 
-<iframe src="./assets/docs/components/stepper/label-info-and-icon.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/stepper/label-info-and-icon.html" height="480px"></iframe>
 
 ---
 

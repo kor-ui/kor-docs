@@ -1,4 +1,6 @@
 import { Injectable } from '@angular/core';
+import * as t from "src/assets/docs/tree.json";
+import * as s from "src/assets/docs/sandbox.json";
 
 @Injectable({
   providedIn: 'root'
@@ -6,6 +8,8 @@ import { Injectable } from '@angular/core';
 export class DataService {
 
   public appTheme: string = "light";
+  public tree = (<any>t).default;
+  public sandbox = (<any>s).default;
 
   constructor() { }
 

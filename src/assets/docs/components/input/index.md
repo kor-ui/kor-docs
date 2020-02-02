@@ -2,7 +2,7 @@
 
 [Type](components/input#type) • [Status](components/input#status) • [Icon](components/input#icon) • [Condensed](components/input#condensed) • [Disabled and Readonly](components/input#disabled-and-readonly) • [Functions Slot](components/input#functions-slot) • [API](components/input#api)
 
-<iframe src="./assets/docs/components/input/main.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/input/main.html" height="480px"></iframe>
 
 ---
 
@@ -10,7 +10,7 @@
 
 Description
 
-<iframe src="./assets/docs/components/input/type.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/input/type.html" height="480px"></iframe>
 
 ---
 
@@ -18,7 +18,7 @@ Description
 
 Description
 
-<iframe src="./assets/docs/components/input/status.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/input/status.html" height="480px"></iframe>
 
 ---
 
@@ -26,7 +26,7 @@ Description
 
 Description
 
-<iframe src="./assets/docs/components/input/icon.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/input/icon.html" height="480px"></iframe>
 
 ---
 
@@ -34,7 +34,7 @@ Description
 
 Description
 
-<iframe src="./assets/docs/components/input/condensed.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/input/condensed.html" height="480px"></iframe>
 
 ---
 
@@ -42,7 +42,7 @@ Description
 
 Description
 
-<iframe src="./assets/docs/components/input/disabled-and-readonly.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/input/disabled-and-readonly.html" height="480px"></iframe>
 
 ---
 
@@ -50,7 +50,7 @@ Description
 
 Description
 
-<iframe src="./assets/docs/components/input/functions-slot.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/input/functions-slot.html" height="480px"></iframe>
 
 ---
 

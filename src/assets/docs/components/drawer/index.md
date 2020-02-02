@@ -2,7 +2,7 @@
 
 [Label and Icon](components/drawer#label-and-icon) • [Sticky](components/drawer#sticky) • [Slots](components/drawer#slots) • [Mobile](components/drawer#mobile) • [API](components/drawer#api)
 
-<iframe src="./assets/docs/components/drawer/main.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/drawer/main.html" height="480px"></iframe>
 
 ---
 
@@ -10,7 +10,7 @@
 
 Description
 
-<iframe src="./assets/docs/components/drawer/label-and-icon.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/drawer/label-and-icon.html" height="480px"></iframe>
 
 ---
 
@@ -18,7 +18,7 @@ Description
 
 Description
 
-<iframe src="./assets/docs/components/drawer/sticky.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/drawer/sticky.html" height="480px"></iframe>
 
 ---
 
@@ -26,7 +26,7 @@ Description
 
 Description
 
-<iframe src="./assets/docs/components/drawer/slots.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/drawer/slots.html" height="480px"></iframe>
 
 ---
 

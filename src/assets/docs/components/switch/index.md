@@ -10,7 +10,7 @@
 
 Description
 
-<iframe src="./assets/docs/components/switch/label-and-icon.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/switch/label-and-icon.html" height="480px"></iframe>
 
 ---
 

@@ -1,6 +1,6 @@
 <kor-pane>
   <!-- chapters -->
-  <kor-accordion *ngFor="let c of tree; index as i" [label]="c.label" expanded>
+  <kor-accordion *ngFor="let c of data.tree; index as i" [label]="c.label" expanded>
     <kor-tabs orientation="vertical" style="margin: 0 -16px;">
       <!-- pages -->
       <kor-tab-item *ngFor="let p of c.pages"

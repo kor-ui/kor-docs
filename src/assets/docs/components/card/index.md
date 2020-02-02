@@ -2,7 +2,7 @@
 
 [Label and Icon](components/card#label-and-icon) • [Image](components/card#image) • [Flex Direction](components/card#flex-direction) • [Flat](components/card#flat) • [Slots](components/card#slots) • [API](components/card#api)
 
-<iframe src="./assets/docs/components/card/main.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/card/main.html" height="480px"></iframe>
 
 ---
 
@@ -10,7 +10,7 @@
 
 Description
 
-<iframe src="./assets/docs/components/card/label-and-icon.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/card/label-and-icon.html" height="480px"></iframe>
 
 ---
 
@@ -18,7 +18,7 @@ Description
 
 Description
 
-<iframe src="./assets/docs/components/card/image.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/card/image.html" height="480px"></iframe>
 
 ---
 
@@ -26,7 +26,7 @@ Description
 
 Description
 
-<iframe src="./assets/docs/components/card/flex-direction.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/card/flex-direction.html" height="480px"></iframe>
 
 ---
 
@@ -34,7 +34,7 @@ Description
 
 Description
 
-<iframe src="./assets/docs/components/card/flat.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/card/flat.html" height="480px"></iframe>
 
 ---
 
@@ -42,7 +42,7 @@ Description
 
 Description
 
-<iframe src="./assets/docs/components/card/slots.html" height="440px"></iframe>
+<iframe src="./assets/docs/components/card/slots.html" height="480px"></iframe>
 
 ---
 

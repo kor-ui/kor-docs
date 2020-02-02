@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import * as t from "src/assets/docs/tree.json";
 import { Router } from '@angular/router';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-menu',
@@ -9,9 +9,8 @@ import { Router } from '@angular/router';
 })
 export class MenuComponent implements OnInit {
 
-  public tree = (<any>t).default;
-
   constructor(
+    public data: DataService,
     public router: Router
   ) { }
 
