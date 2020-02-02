@@ -1,8 +1,15 @@
 # Tooltip
 
-[Label and Icon](components/tooltip#label-and-icon) • [Slots](components/tooltip#slots) • [API](components/tooltip#api)
+[Position](components/tooltip#position) • [Label and Icon](components/tooltip#label-and-icon) • [Slots](components/tooltip#slots) • [API](components/tooltip#api)
 
-<iframe src="./assets/docs/components/tooltip/main.html" height="480px"></iframe>
+---
+
+## Position
+
+Description
+
+
+<iframe src="./assets/docs/components/tooltip/position.html" height="480px"></iframe>
 
 ---
 

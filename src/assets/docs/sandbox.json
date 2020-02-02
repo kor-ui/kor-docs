@@ -620,5 +620,41 @@
         "value": null
       }
     ]
+  },
+  {
+    "name": "tooltip",
+    "properties": [
+      {
+        "name": "Style",
+        "value": "display: contents;"
+      },
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Icon",
+        "type": "string",
+        "value": "train"
+      },
+      {
+        "name": "Visible",
+        "type": "boolean",
+        "value": true
+      },
+      {
+        "name": "Position",
+        "type": "select",
+        "value": "left",
+        "options": ["left", "right", "top", "bottom"]
+      },
+      {
+        "name": "Flex-direction",
+        "type": "select",
+        "value": "Column",
+        "options": ["Column", "Row"]
+      }
+    ]
   }
 ]
