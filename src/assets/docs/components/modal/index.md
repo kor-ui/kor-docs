@@ -1,8 +1,8 @@
 # Modal
 
-[Label and Icon](components/modal#label-and-icon) • [Sticky](components/modal#sticky) • [Slots](components/modal#slots) • [API](components/modal#api)
+Intro
 
-<iframe src="./assets/docs/components/modal/main.html" height="480px"></iframe>
+[Label and Icon](components/modal#label-and-icon) • [Sticky](components/modal#sticky) • [Slots](components/modal#slots) • [API](components/modal#api)
 
 ---
 
