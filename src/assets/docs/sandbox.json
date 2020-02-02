@@ -118,8 +118,8 @@
       {
         "name": "Flex-direction",
         "type": "select",
-        "value": "column",
-        "options": ["column", "row"]
+        "value": "Column",
+        "options": ["Column", "Row"]
       }
     ]
   },

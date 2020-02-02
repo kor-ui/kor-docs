@@ -22,7 +22,7 @@
       </kor-checkbox>
       <!-- select props -->
       <div *ngIf="prop.type == 'select'">
-        <kor-text size="header-2">{{prop.name}}</kor-text>
+        <kor-text size="header-2" style="margin-bottom: 8px;">{{prop.name}}</kor-text>
         <kor-radio-button *ngFor="let option of prop.options" 
           [label]="option" 
           [active]="prop.value == option" 
