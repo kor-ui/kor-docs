@@ -41,6 +41,6 @@ export class DataService {
 
   getNameFromUrl() {
     let params = this.router.url.split('/');
-    return params[params.length - 1];
+    return params[params.length - 1].split('#')[0];
   }
 }
