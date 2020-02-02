@@ -2,7 +2,7 @@
 
 Intro
 
-[Theme](components/page#theme) • [Flex Direction](components/page#flex-direction) • [Flat](components/page#flat) • [API](components/page#api)
+[Slots](components/page#slots) • [Theme](components/page#theme) • [Flex Direction](components/page#flex-direction) • [Flat](components/page#flat) • [API](components/page#api)
 
 ---
 

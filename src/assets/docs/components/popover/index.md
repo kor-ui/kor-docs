@@ -1,8 +1,16 @@
 # Popover
 
-[Label and Icon](components/popover#label-and-icon) • [Sticky](components/popover#sticky) • [Slots](components/popover#slots) • [API](components/popover#api)
+Intro
 
-<iframe src="./assets/docs/components/popover/main.html" height="480px"></iframe>
+[Label and Icon](components/popover#label-and-icon) • [Position](components/popover#position) • [Sticky](components/popover#sticky) • [Slots](components/popover#slots) • [API](components/popover#api)
+
+---
+
+## Position
+
+Description
+
+<iframe src="./assets/docs/components/popover/position.html" height="480px"></iframe>
 
 ---
 
