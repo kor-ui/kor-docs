@@ -148,5 +148,129 @@
         "value": false
       }
     ]
+  },
+  {
+    "name": "checkbox",
+    "properties": [
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Active",
+        "type": "boolean",
+        "value": null
+      },
+      {
+        "name": "Disabled",
+        "type": "boolean",
+        "value": null
+      }
+    ]
+  },
+  {
+    "name": "divider",
+    "properties": [
+      {
+        "name": "spacing",
+        "type": "select",
+        "value": "m",
+        "options": ["s", "m", "l"]
+      },
+      {
+        "name": "orientation",
+        "type": "select",
+        "value": "horizontal",
+        "options": ["horizontal", "vertical"]
+      }
+    ]
+  },
+  {
+    "name": "drawer",
+    "properties": [
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Icon",
+        "type": "string",
+        "value": "train"
+      },
+      {
+        "name": "Height",
+        "type": "string",
+        "value": "320px"
+      },
+      {
+        "name": "Width",
+        "type": "string",
+        "value": "320px"
+      },
+      {
+        "name": "Visible",
+        "type": "boolean",
+        "value": true
+      },
+      {
+        "name": "Sticky",
+        "type": "boolean",
+        "value": null
+      },
+      {
+        "name": "Position",
+        "type": "select",
+        "value": "left",
+        "options": ["left", "right", "top", "bottom"]
+      },
+      {
+        "name": "Flex-direction",
+        "type": "select",
+        "value": "Column",
+        "options": ["Column", "Row"]
+      }
+    ]
+  },
+  {
+    "name": "radio-button",
+    "properties": [
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Active",
+        "type": "boolean",
+        "value": null
+      },
+      {
+        "name": "Disabled",
+        "type": "boolean",
+        "value": null
+      }
+    ]
+  },
+  {
+    "name": "toggle",
+    "properties": [
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Active",
+        "type": "boolean",
+        "value": null
+      },
+      {
+        "name": "Disabled",
+        "type": "boolean",
+        "value": null
+      }
+    ]
   }
 ]
