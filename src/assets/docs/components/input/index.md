@@ -1,8 +1,8 @@
 # Input
 
-[Type](components/input#type) • [Status](components/input#status) • [Icon](components/input#icon) • [Condensed](components/input#condensed) • [Disabled and Readonly](components/input#disabled-and-readonly) • [Functions Slot](components/input#functions-slot) • [API](components/input#api)
+Intro
 
-<iframe src="./assets/docs/components/input/main.html" height="480px"></iframe>
+[Type](components/input#type) • [Status](components/input#status) • [Icon](components/input#icon) • [Condensed](components/input#condensed) • [Disabled and Readonly](components/input#disabled-and-readonly) • [Functions Slot](components/input#functions-slot) • [API](components/input#api)
 
 ---
 
