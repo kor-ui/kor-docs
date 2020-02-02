@@ -1,12 +1,10 @@
 :host {
-  display: flex;
-  justify-content: center;
+  display: block;
   width: calc(100% + 32px);
   height: calc(100% + 32px);
   margin: -16px;
   overflow: overlay;
-  markdown {
-    flex: 1;
+  > * {
     margin: 32px 64px;
     max-width: 960px;
     height: fit-content;

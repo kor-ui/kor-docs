@@ -22,6 +22,8 @@ export class ContentComponent implements OnInit {
     document.querySelectorAll('iframe').forEach(el => {
       el.onload = () => this.data.setDemoTheme(el) 
     })
+    // scroll content to top
+    document.querySelector('app-content').scrollTo(0, 0)
   }
 
 }
