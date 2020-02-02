@@ -490,6 +490,57 @@
     ]
   },
   {
+    "name": "progress-bar",
+    "properties": [
+      {
+        "name": "Style",
+        "value": "width: 320px"
+      },
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Info",
+        "type": "string",
+        "value": "Info text"
+      },
+      {
+        "name": "Value",
+        "type": "number",
+        "value": 50
+      },
+      {
+        "name": "Color",
+        "type": "string",
+        "value": "rgb(var(--accent-1))"
+      },
+      {
+        "name": "Radial",
+        "type": "boolean",
+        "value": null
+      },
+      {
+        "name": "Show-progress",
+        "type": "boolean",
+        "value": true
+      },
+      {
+        "name": "Status",
+        "type": "select",
+        "value": null,
+        "options": [null, "success", "warning", "error"]
+      },
+      {
+        "name": "Size",
+        "type": "select",
+        "value": "m",
+        "options": ["s", "m", "l"]
+      }
+    ]
+  },
+  {
     "name": "radio-button",
     "properties": [
       {
