@@ -48,7 +48,7 @@ Description
 | **`label`** | `String` | `Label` | Defines the text label. |
 | **`icon`** | `String` | _undefined_ | If set, defines the icon shown before the label. |
 | **`active`** | `Boolean` | _undefined_ | If set to `true`, a highlight style gets applied. |
-| **`toggle`** | `Boolean` | `true` | If set to `true`, clicking on the menu item will toggle the `active` property between `true` and `false`. |
+| **`toggle`** | `Boolean` | `true` | If set to `true`, clicking on the component will toggle the `active` property between `true` and `false`. |
 | **`disabled`** | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated. |
 
 ### Slots

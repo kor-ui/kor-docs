@@ -622,6 +622,42 @@
     ]
   },
   {
+    "name": "tool",
+    "properties": [
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Icon",
+        "type": "string",
+        "value": "train"
+      },
+      {
+        "name": "Toggle",
+        "type": "boolean",
+        "value": true
+      },
+      {
+        "name": "Active",
+        "type": "boolean",
+        "value": true
+      },
+      {
+        "name": "Disabled",
+        "type": "boolean",
+        "value": null
+      },
+      {
+        "name": "Size",
+        "type": "select",
+        "value": "m",
+        "options": ["s", "m"]
+      }
+    ]
+  },
+  {
     "name": "tooltip",
     "properties": [
       {

@@ -1,8 +1,8 @@
 # Toggle
 
-[Label](components/toggle#label) • [API](components/toggle#api)
+Intro
 
-<iframe src="./assets/docs/components/toggle/main.html"></iframe>
+[Label](components/toggle#label) • [API](components/toggle#api)
 
 ---
 
