@@ -577,6 +577,63 @@
     ]
   },
   {
+    "name": "stepper",
+    "tag": "stepper-item",
+    "properties": [
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Icon",
+        "type": "string",
+        "value": "train"
+      },
+      {
+        "name": "Info",
+        "type": "string",
+        "value": "Information text"
+      },
+      {
+        "name": "Active",
+        "type": "boolean",
+        "value": true
+      },
+      {
+        "name": "Disabled",
+        "type": "boolean",
+        "value": null
+      }
+    ]
+  },
+  {
+    "name": "switch",
+    "tag": "switch-item",
+    "properties": [
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Icon",
+        "type": "string",
+        "value": "train"
+      },
+      {
+        "name": "Active",
+        "type": "boolean",
+        "value": true
+      },
+      {
+        "name": "Disabled",
+        "type": "boolean",
+        "value": null
+      }
+    ]
+  },
+  {
     "name": "tabs",
     "tag": "tab-item",
     "properties": [
