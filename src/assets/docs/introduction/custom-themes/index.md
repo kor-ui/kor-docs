@@ -2,11 +2,13 @@
 
 Kor comes with 2 standard themes: `light` and `dark`. If necessary for branding purposes, additional themes can be created and/or the standard ones can be tweaked.
 
-Because the color system in **Kor** is based on opacities, only a few base and/or accent colors would have to be switched in order to define a new and coherent theme.
+Since the  **Kor**'s color system is based on opacities, very few base and/or accent colors would have to be switched in order to define a new and coherent theme.
 
 <iframe src="./assets/docs/introduction/custom-themes/custom.html" height="640px"></iframe>
 
 ---
+
+## Defining a Theme
 
 Theming affects the components by changing **colors** and/or **fonts**. To do it, simply define the css variables in your app. It is not recommended modifying the `kor-styles.css` file directly, since this would corrupt the library and affect future upgrades.
 
@@ -55,6 +57,8 @@ html, body {
   --header-2: bold 14px/24px 'open-sans';
 }
 ```
+
+## Applying the Theme
 
 After the theme has been defined through css, it can be called in the app through html class names.
 
