@@ -1,8 +1,10 @@
 # Text
 
-[Size](components/text#size) • [Color](components/text#color) • [API](components/text#api)
-
 <iframe src="./assets/docs/components/text/main.html"></iframe>
+
+Intro
+
+[Size](components/text#size) • [Color](components/text#color) • [API](components/text#api)
 
 ---
 
