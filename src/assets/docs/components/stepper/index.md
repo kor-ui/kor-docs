@@ -1,8 +1,16 @@
 # Stepper
 
-[Orientation](components/stepper#orientation) • [Label, Info and Icon](components/stepper#label,-info-and-icon) • [API](components/stepper#api)
+Intro
 
-<iframe src="./assets/docs/components/stepper/main.html"></iframe>
+[Active and Disabled](components/stepper#active-and-disabled) • [Orientation](components/stepper#orientation) • [Label, Info and Icon](components/stepper#label,-info-and-icon) • [API](components/stepper#api)
+
+---
+
+## Active and Disabled
+
+Description
+
+<iframe src="./assets/docs/components/stepper/active-and-disabled.html"></iframe>
 
 ---
 

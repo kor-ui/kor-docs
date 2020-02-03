@@ -1,10 +1,8 @@
 # Breadcrumbs
 
-[Label](components/breadcrumbs#label) • [API](components/breadcrumbs#api)
-
-<iframe src="./assets/docs/components/breadcrumbs/main.html"></iframe>
-
 Intro
+
+[Label](components/breadcrumbs#label) • [API](components/breadcrumbs#api)
 
 ---
 

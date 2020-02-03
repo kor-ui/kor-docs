@@ -1,10 +1,10 @@
 # Nav Bar
 
-[Functions Slot](components/nav-bar#icon) • [Mobile](components/nav-bar#icon) • [API](components/nav-bar#api)
-
 <iframe src="./assets/docs/components/nav-bar/main.html"></iframe>
 
 Intro
+
+[Functions Slot](components/nav-bar#icon) • [Mobile](components/nav-bar#icon) • [API](components/nav-bar#api)
 
 ---
 

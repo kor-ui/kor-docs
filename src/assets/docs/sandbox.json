@@ -89,6 +89,22 @@
     ]
   },
   {
+    "name": "breadcrumbs",
+    "tag": "breadcrumb-item",
+    "properties": [
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Active",
+        "type": "boolean",
+        "value": null
+      }
+    ]
+  },
+  {
     "name": "card",
     "properties": [
       {
@@ -386,6 +402,42 @@
         "name": "Width",
         "type": "string",
         "value": "320px"
+      },
+      {
+        "name": "Visible",
+        "type": "boolean",
+        "value": true
+      },
+      {
+        "name": "Sticky",
+        "type": "boolean",
+        "value": null
+      },
+      {
+        "name": "Flex-direction",
+        "type": "select",
+        "value": "Column",
+        "options": ["Column", "Row"]
+      }
+    ]
+  },
+  {
+    "name": "notifications",
+    "tag": "notification-item",
+    "properties": [
+      {
+        "name": "Style",
+        "value": "width: 320px;"
+      },
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Icon",
+        "type": "string",
+        "value": "train"
       },
       {
         "name": "Visible",

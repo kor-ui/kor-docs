@@ -1,8 +1,8 @@
 # Switch
 
-[Label and Icon](components/switch#label-and-icon) • [API](components/switch#api)
+Intro
 
-<iframe src="./assets/docs/components/switch/main.html"></iframe>
+[Label and Icon](components/switch#label-and-icon) • [API](components/switch#api)
 
 ---
 

@@ -1,7 +1,8 @@
 # Tabs
 
-[Orientation](components/tabs#orientation) • [Label and Icon](components/tabs#label-and-icon) • [API](components/tabs#api)
+Intro
 
+[Active and Disabled](components/stepper#active-and-disabled) • [Orientation](components/tabs#orientation) • [Label and Icon](components/tabs#label-and-icon) • [API](components/tabs#api)
 
 ---
 

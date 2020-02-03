@@ -1,8 +1,10 @@
 # Table
 
-[Icon](components/table#icon) • [API](components/table#api)
-
 <iframe src="./assets/docs/components/table/main.html" height="480px"></iframe>
+
+Intro
+
+[Icon](components/table#icon) • [API](components/table#api)
 
 ---
 

@@ -1,8 +1,16 @@
 # Notifications
 
-[Label and Icon](components/notifications#label-and-icon) • [Sticky](components/notifications#sticky) • [Slots](components/notifications#slots) • [API](components/notifications#api)
+Intro
 
-<iframe src="./assets/docs/components/notifications/main.html"></iframe>
+[Position](components/notifications#position) • [Label and Icon](components/notifications#label-and-icon) • [Sticky](components/notifications#sticky) • [Slots](components/notifications#slots) • [API](components/notifications#api)
+
+---
+
+## Position
+
+Description
+
+<iframe src="./assets/docs/components/notifications/position.html"></iframe>
 
 ---
 

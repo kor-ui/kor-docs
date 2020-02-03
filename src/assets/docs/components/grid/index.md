@@ -1,8 +1,10 @@
 # Grid
 
-[Columns](components/grid#columns) • [Rows](components/grid#rows) • [Spacing](components/grid#spacing) • [Responsive](components/grid#responsive) • [API](components/grid#api)
-
 <iframe src="./assets/docs/components/grid/main.html" height="480px"></iframe>
+
+Intro
+
+[Columns](components/grid#columns) • [Rows](components/grid#rows) • [Spacing](components/grid#spacing) • [Responsive](components/grid#responsive) • [API](components/grid#api)
 
 ---
 
