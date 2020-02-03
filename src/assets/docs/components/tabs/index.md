@@ -2,7 +2,14 @@
 
 [Orientation](components/tabs#orientation) • [Label and Icon](components/tabs#label-and-icon) • [API](components/tabs#api)
 
-<iframe src="./assets/docs/components/tabs/main.html"></iframe>
+
+---
+
+## Active and Disabled
+
+Description
+
+<iframe src="./assets/docs/components/tabs/active-and-disabled.html"></iframe>
 
 ---
 

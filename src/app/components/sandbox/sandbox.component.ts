@@ -23,7 +23,7 @@ export class SandboxComponent implements OnInit {
 
   setDemo(): void {
     let wrapper = document.querySelector('.demo-wrapper');
-    let el = document.createElement(`kor-${this.component.name}`);
+    let el = document.createElement(`kor-${this.component.tag ? this.component.tag : this.component.name}`);
     this.component.properties.forEach(prop => {
       if (!prop.value) {
         el.removeAttribute(prop.name);

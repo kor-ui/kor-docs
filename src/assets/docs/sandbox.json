@@ -577,6 +577,32 @@
     ]
   },
   {
+    "name": "tabs",
+    "tag": "tab-item",
+    "properties": [
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Icon",
+        "type": "string",
+        "value": "train"
+      },
+      {
+        "name": "Active",
+        "type": "boolean",
+        "value": true
+      },
+      {
+        "name": "Disabled",
+        "type": "boolean",
+        "value": null
+      }
+    ]
+  },
+  {
     "name": "tag",
     "properties": [
       {
