@@ -9,6 +9,8 @@ import { Router } from '@angular/router';
 export class DataService {
 
   public appTheme: string = "light";
+  public showMenu: boolean = false;
+  public mobile: boolean = false;
   public tree = (<any>t).default;
   public sandbox = (<any>s).default;
 

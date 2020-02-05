@@ -1,4 +1,19 @@
-<kor-pane>
+<ng-container *ngIf="data.mobile then drawer else pane"></ng-container>
+
+
+<ng-template #pane>
+  <kor-pane>
+    <ng-container *ngTemplateOutlet="menuContent"></ng-container>
+  </kor-pane>
+</ng-template>
+
+<ng-template #drawer>
+  <kor-drawer label="Menu" position="left" [visible]="data.showMenu" (visible-changed)="data.showMenu = $event.target.visible">
+    <ng-container *ngTemplateOutlet="menuContent"></ng-container>
+  </kor-drawer>
+</ng-template>
+
+<ng-template #menuContent>
   <!-- chapters -->
   <kor-accordion *ngFor="let c of data.tree; index as i" [label]="c.name" expanded>
     <kor-tabs orientation="vertical" style="margin: 0 -16px;">
@@ -6,8 +21,8 @@
       <kor-tab-item *ngFor="let p of c.pages"
         [label]="p" 
         [active]="router.url.split('#')[0] == '/' + data.formatUrl(c.name) + '/' + data.formatUrl(p)"
-        (click)="$event.stopImmediatePropagation(); router.navigateByUrl('/' + data.formatUrl(c.name) + '/' + data.formatUrl(p));">
+        (click)="$event.stopImmediatePropagation(); router.navigateByUrl('/' + data.formatUrl(c.name) + '/' + data.formatUrl(p)); data.showMenu = false;">
       </kor-tab-item>
     </kor-tabs>
   </kor-accordion>
-</kor-pane>
+</ng-template>

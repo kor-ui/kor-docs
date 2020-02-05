@@ -1,5 +1,5 @@
 <kor-page>
-  <kor-pane slot="right" label="Properties">
+  <kor-pane [slot]="data.mobile ? 'bottom' : 'right'" label="Properties">
     <!-- repeat for each prop -->
     <ng-container *ngFor="let prop of component.properties">
       <!-- string props -->

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { DataService } from './services/data.service';
 
 @Component({
@@ -6,10 +6,21 @@ import { DataService } from './services/data.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'kor-docs';
 
   constructor(
     public data: DataService
   ) {}
+
+  ngOnInit() {
+    this.handleMobile();
+    window.addEventListener("resize", () => {
+      this.handleMobile();
+    });
+  }
+
+  private handleMobile(): void {
+    this.data.mobile = document.documentElement.clientWidth < 767;
+  }
 }
