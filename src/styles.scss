@@ -34,6 +34,10 @@ markdown {
   a {
     font-weight: bold;
     color: rgb(var(--accent-1));
+    &.href-button {
+      width: fit-content;
+      text-decoration: none;
+    }
   }
   // lists
   li {
