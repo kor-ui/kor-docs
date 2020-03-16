@@ -1,38 +1,40 @@
 # Icon
 
-Intro
+Icons can be used to indicate a status or action to the user in a visual manner. They are often used in other components such as [Buttons](components/button) or [Tabs](components/tabs).
 
 [Icon](components/icon#size) • [Size](components/icon#size) • [Color](components/icon#color) • [Button](components/icon#button) • [API](components/icon#api)
 
 ---
 
-## Icon
+## Icon (Required)
 
-Description
+Icons from the [Material Design Icons](https://material.io/resources/icons/?style=baseline) library work out of the box with the icon component. In that case, all you need to do is assigning the icon property to the Material name (e.g. `icon='save'` or `icon='alarm_on'`). Check the Material library to see all the icons offered.
+
+Custom icons can also be used with the component, and to do that you can assign the icon property to match the path of the desired icon (e.g. `icon="url('./assets/icons/more.png')`).
 
 <iframe src="./assets/docs/components/icon/icon.html"></iframe>
 
 ---
 
-## Size
+## Size (Required)
 
-Description
+By default, icons have a size of 24x24px (m). Depending on the space available, icons can also be 16x16px (s), 32x32px (l) and 48x48px (xl)
 
 <iframe src="./assets/docs/components/icon/size.html"></iframe>
 
 ---
 
-## Color
+## Color (Optional)
 
-Description
+Icons can have custom colors assigned for cases where highlighting is necessary or for branding purposes. All main web color formats are accepted (e.g. RGB, RGBA, HEX, color name).
 
 <iframe src="./assets/docs/components/icon/color.html"></iframe>
 
 ---
 
-## Button
+## Button (Optional)
 
-Description
+Icons can be used to trigger an action and therefore behave like a [Button](components/button). In this case, opacity and cursor styles are used to visually indicate this interaction. 
 
 <iframe src="./assets/docs/components/icon/button.html"></iframe>
 
