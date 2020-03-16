@@ -2,39 +2,43 @@
 
 <iframe src="./assets/docs/components/grid/main.html" height="480px"></iframe>
 
-Intro
+Grids are used for organizing content within a [Page](components/page) or inside containers such as [Cards](components/card).
 
 [Columns](components/grid#columns) • [Rows](components/grid#rows) • [Spacing](components/grid#spacing) • [Responsive](components/grid#responsive) • [API](components/grid#api)
 
 ---
 
-## Columns
+## Columns (Required)
 
-Description
+By default, a grid contains 12 columns which can be assigned to its' child elements. For example, a child element that has 6 columns assigned will occupy 50% of the grid's width.
+
+In specific use cases where more or less than 12 columns are required, a custom number of columns can be defined as well.
 
 <iframe src="./assets/docs/components/grid/columns.html" height="480px"></iframe>
 
 ---
 
-## Rows
+## Rows (Optional)
 
-Description
+By default, a grid automatically calculates the amount of rows required to display all its' child elements. For example, if 24 columns are assigned to the children of a grid, it calculates that 2 rows (24 / 12 = 2) are required.
+
+Rows can also be customized and assigned to child elements. For example, a grid can be set to have 3 rows and a child element can be assigned any quantity between 1 and 3 rows.
 
 <iframe src="./assets/docs/components/grid/rows.html" height="480px"></iframe>
 
 ---
 
-## Spacing
+## Spacing (Required)
 
-Description
+By default, the child elements of a row have a space of 12px (m) between each other. This space can be set to 8px (s) or 16px (l) depending on the hierarchy and space available on a page.
 
 <iframe src="./assets/docs/components/grid/spacing.html" height="480px"></iframe>
 
 ---
 
-## Responsive
+## Responsive (Optional)
 
-Description
+Child elements of a grid respond to the width of the screen and adapt the amount of columns assigned to it accordingly. For example, an element can occupy 3 columns in big screens, 4 columns in medium screens and 6 columns in small screens.
 
 <iframe src="./assets/docs/components/grid/responsive.html" height="480px" style="resize: horizontal"></iframe>
 

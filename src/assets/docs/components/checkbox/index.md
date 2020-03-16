@@ -1,14 +1,16 @@
 # Checkbox
 
-Intro
+Checkboxes are used for selecting an option out of a list (such as in filters) or in a standalone context (such as in agreements or consents).
+
+When multiple checkboxes are used together, they can be either mutually exclusive or allow multiple items to be selected, depending on the use case.
 
 [Label](components/checkbox#label) • [API](components/checkbox#api)
 
 ---
 
-## Label
+## Label (Optional)
 
-Description
+If defined, the label is displayed as a text on the right side of the box. Keep labels short and descriptive of the item being selected.
 
 <iframe src="./assets/docs/components/checkbox/label.html"></iframe>
 

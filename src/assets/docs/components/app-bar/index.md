@@ -1,30 +1,38 @@
 # App Bar
 
-Intro
+The App Bar is located at the top of a page and remains stable across multiple pages of an app or website. It hosts the logo, app name, main navigation, common functions and user information.
+
+Only one App Bar should be used at a time and it is recommended to use this component in all pages, except in special cases such as full screen mode.
 
 [Mobile](components/app-bar#mobile) • [Label](components/app-bar#label) • [Logo](components/app-bar#logo) • [API](components/app-bar#api)
 
 ---
 
-## Label
+## Label (Optional)
 
-Description
+In desktop or laptop use cases, the Label is used to identify the app or website and does not change depending on the active page.
+
+In mobile use cases, on the other hand, the label is used to identify the app only in the main (home) view, and then used to identify the currently active page after navigation occurs.
+
+Keep labels short to avoid overflow of text specially if multiple languages are supported in your app or website.
 
 <iframe src="./assets/docs/components/app-bar/label.html" height="200px"></iframe>
 
 ---
 
-## Logo
+## Logo (Optional)
 
-Description
+For branding purposes, a logo can be defined and shown at the very left corner of the App Bar. If the logo already displays the app or website name, an additional label is not required.
+
+Logos are not supported in mobile App Bars since the corners are reserved for other functions.
 
 <iframe src="./assets/docs/components/app-bar/logo.html" height="200px"></iframe>
 
 ---
 
-## Mobile
+## Mobile (Optional)
 
-Description
+When used in its' mobile variation, the App Bar provides function slots on both left and right corners for actions such as 'Menu', 'Back' or 'More' and the label gets centered to the screen.
 
 <iframe src="./assets/docs/components/app-bar/mobile.html" height="200px"></iframe>
 

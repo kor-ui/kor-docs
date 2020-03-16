@@ -1,22 +1,22 @@
 # Badge
 
-Intro
+Badges are used to indicate status or quantity related to another component such as a [Card](components/card) or [Table](components/table) row.
 
 [Label](components/badge#label) • [Status](components/badge#status) • [API](components/badge#api)
 
 ---
 
-## Label
+## Label (Optional)
 
-Description
+If defined, a number is displayed inside the badge to indicate quantitative information related to the attached component (e.g. 20 new items).
 
 <iframe src="./assets/docs/components/badge/label.html"></iframe>
 
 ---
 
-## Status
+## Status (Optional)
 
-Description
+If defined, a status (Success, Warning or Error) is indicated through the use of iconography and color. If both label and status are defined, the label will not be displayed.
 
 <iframe src="./assets/docs/components/badge/status.html"></iframe>
 

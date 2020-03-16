@@ -1,14 +1,14 @@
 # Accordion
 
-Intro
+Accordions are containers used for categorizing components such as [Inputs](components/input) or plain [Text](components/text). Because of its' ability to collapse and expand its' content, Accordions can be used to unclutter an UI by being collapsed by default or giving the user the ability to hide content that he/she doesn't find relevant at a time.
 
 [Footer Slot](components/accordion#footer-slot) • [API](components/accordion#api)
 
 ---
 
-## Footer Slot
+## Footer Slot (Optional)
 
-Description
+The footer slot is located at a stable position at the bottom of the Accordion and can host components such as [Buttons](components/button) and [Icons](components/icon). Its' usage is optional and intended for hosting actions related to the content of the entire accordion (e.g. 'More', 'Reset', 'Details') and not to one individual item.
 
 <iframe src="./assets/docs/components/accordion/footer-slot.html" height="480px"></iframe>
 
