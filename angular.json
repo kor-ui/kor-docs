@@ -34,7 +34,7 @@
             ],
             "styles": [
               "src/styles.scss",
-              "node_modules/kor-ui/kor-styles.css",
+              "node_modules/kor-ui/kor-styles.css"
             ],
             "scripts": [
               "node_modules/kor-ui/kor.js",
