@@ -1,14 +1,14 @@
 # Switch
 
-Intro
+Switches are used by the user to switch between a set of pre-defined options. Use switches when fewer than 4 options are available, in other cases consider using [Radio Buttons](components/radio-button) or [Menu Items](components/menu-item) instead.
 
 [Label and Icon](components/switch#label-and-icon) • [API](components/switch#api)
 
 ---
 
-## Label and Icon
+## Label and Icon (Required)
 
-Description
+Either a label or an icon should be defined, but only one out of the two will be shown. If defined, a label or icon is shown inside the switch to represent the option being selected.
 
 <iframe src="./assets/docs/components/switch/label-and-icon.html" height="480px"></iframe>
 
