@@ -44,7 +44,7 @@ When used in contexts where vertical space is limited, inputs can be set to have
 
 ## Disabled and Readonly (Optional)
 
-If inputs are not intended to be edited by the user, they can be set to be disabled or read-only.
+If Inputs are not intended to be edited by the user, they can be set to be disabled or read-only.
 
 - **Disabled** inputs are used when the user can do something to enable editing.
 - **Readonly** inputs are used when the value should be read by the user but not necessarily edited.
@@ -55,7 +55,7 @@ If inputs are not intended to be edited by the user, they can be set to be disab
 
 ## Functions Slot (Optional)
 
-Functions related directly to the input (e.g. 'paste', 'undo') can be placed on the right side of it, usually through the use of [Icons]('./components/icon').
+Functions related directly to the Input (e.g. 'paste', 'undo') can be placed on the right side of it, usually through the use of [Icons]('./components/icon').
 
 <iframe src="./assets/docs/components/input/functions-slot.html" height="480px"></iframe>
 
