@@ -6,9 +6,9 @@ Popovers are used to show extra content close to a target component. It is frequ
 
 ---
 
-## Position (Required)
+## Position (optional)
 
-By default, popovers are shown on the left side of its' target component. According to the use case and the layout of the app or website, the position can be adapted to any other position.
+By default, popovers are shown on the left side of its' target component. According to the use case and the layout of the app or website, the position can be adapted to be on the top, right or bottom instead.
 
 <iframe src="./assets/docs/components/popover/position.html" height="480px"></iframe>
 

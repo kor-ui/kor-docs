@@ -1,29 +1,36 @@
 # Tooltip
 
+Tooltips are used to provide additional information to the user related to another element on the screen. It is usually triggered by components such as [Icons](components/icon) to help describing an action in a textual manner.
+
 [Position](components/tooltip#position) • [Label and Icon](components/tooltip#label-and-icon) • [Slots](components/tooltip#slots) • [API](components/tooltip#api)
 
 ---
 
-## Position
+## Position (Optional)
 
-Description
-
+By default, tooltips are shown on the left side of its' target component. According to the use case and the layout of the app or website, the position can be adapted to be on the top, right or bottom instead.
 
 <iframe src="./assets/docs/components/tooltip/position.html" height="480px"></iframe>
 
 ---
 
-## Label and Icon
+## Label and Icon (Optional)
 
-Description
+If defined, a label is shown above the content. Keep labels short and descriptive of the content inside.
+
+An icon can be defined to complement the label and provide additional information to the user or to help categorize content in a visual manner.
 
 <iframe src="./assets/docs/components/tooltip/label-and-icon.html" height="480px"></iframe>
 
 ---
 
-## Slots
+## Slots (Optional)
 
-Description
+The **header** slot can be used for placing components that will remain stable above the content, such as [Tabs](components/tabs).
+
+The **functions** slot can be used for hosting secondary functions, represented by components such as [Icons](components/icon).
+
+The **footer** slot can be used for hosting the main actions related to the content, represented by components such as [Buttons](components/button).
 
 <iframe src="./assets/docs/components/tooltip/slots.html" height="480px"></iframe>
 
