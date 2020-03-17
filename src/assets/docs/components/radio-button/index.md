@@ -1,14 +1,16 @@
 # Radio Button
 
-[Label](components/radio-button#label) • [API](components/radio-button#api)
-
 <iframe src="./assets/docs/components/radio-button/main.html"></iframe>
+
+Radio Buttons provide the user the possibility of choosing one option out of a list of pre-defined entries. Radio Buttons are mutually exclusive and do not allow multiple selection within the same group (use [Checkboxes](components/checkbox) in these cases instead).
+
+[Label](components/radio-button#label) • [API](components/radio-button#api)
 
 ---
 
-## Label
+## Label (Required)
 
-Description
+The label of a Radio Button describes the option being selected. Keep labels short and descriptive of the option.
 
 <iframe src="./assets/docs/components/radio-button/label.html"></iframe>
 
