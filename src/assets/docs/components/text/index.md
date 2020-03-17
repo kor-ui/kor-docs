@@ -2,7 +2,7 @@
 
 <iframe src="./assets/docs/components/text/main.html"></iframe>
 
-Intro
+Texts are used to display textual information on a page. Elements such as size and color can be used to define the hierarchy of elements on a page.
 
 [Size](components/text#size) • [Color](components/text#color) • [API](components/text#api)
 
@@ -10,7 +10,7 @@ Intro
 
 ## Size
 
-Description
+Text sizes are used mainly to define the hierarchy of components on a page. For example, headers can be used to create clusters and categories, while body text is used mostly for providing content to the user.
 
 <iframe src="./assets/docs/components/text/size.html"></iframe>
 
@@ -18,7 +18,7 @@ Description
 
 ## Color
 
-Description
+Colors can be used in conjunction with the size to indicate hierarchy of elements on a page. It can also be used to communicate that an element is disabled and therefore does not allow user interaction.
 
 <iframe src="./assets/docs/components/text/color.html"></iframe>
 
