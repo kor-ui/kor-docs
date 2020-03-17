@@ -1,38 +1,42 @@
 # Progress Bar
 
-Intro
+Progress bars are used to display the status of a running process to the user.
 
 [Radial](components/progress-bar#radial) • [Label, Info and Progress](components/progress-bar#label,-info-and-progress) • [Status](components/progress-bar#status) • [Color](components/progress-bar#color) • [API](components/progress-bar#api)
 
 ---
 
-## Radial
+## Radial (Optional)
 
-Description
+By default, the progress bar is displayed in a linear and horizontal manner, but depending on the page layout it can be displayed in a radial variation instead.
 
 <iframe src="./assets/docs/components/progress-bar/radial.html"></iframe>
 
 ---
 
-## Label, Info and Progress
+## Label, Info and Progress (Optional)
 
-Description
+If defined, a label is shown as a text on top of the Progress Bar. Keep labels short and descriptive of the running process.
+
+An info text can also be defined to provide further and more detailed information to the user, such as time remaining or bytes transferred.
+
+If more clarity is necessary, the progress can be shown as a percentage close to the Progress Bar.
 
 <iframe src="./assets/docs/components/progress-bar/label-info-and-progress.html"></iframe>
 
 ---
 
-## Status
+## Status (Optional)
 
-Description
+A status can be shown under the progress bar to indicate to the user whether the process has succeeded (success), failed (error) or requires attention (warning). In these cases, an icon is displayed close to the info text.
 
 <iframe src="./assets/docs/components/progress-bar/status.html"></iframe>
 
 ---
 
-## Color
+## Color (Optional)
 
-Description
+In special cases where color coding is required, the standard color of the progress bar can be replaced with another custom one.
 
 <iframe src="./assets/docs/components/progress-bar/color.html"></iframe>
 
