@@ -12,6 +12,16 @@ The footer slot is located at a stable position at the bottom of the Accordion a
 
 <iframe src="./assets/docs/components/accordion/footer-slot.html" height="480px"></iframe>
 
+```html
+<kor-accordion label="Name" expanded>
+  <kor-input label="First" value="John"></kor-input>
+  <kor-input label="Middle"></kor-input>
+  <kor-input label="Last" value="Doe"></kor-input>
+  <!-- footer slot -->
+  <kor-button slot="footer" label="Save"></kor-button>
+</kor-accordion>
+```
+
 ---
 
 ## API

@@ -12,6 +12,13 @@ If defined, a number is displayed inside the badge to indicate quantitative info
 
 <iframe src="./assets/docs/components/badge/label.html"></iframe>
 
+```html
+<kor-badge label="1"></kor-badge>
+<kor-badge label="13"></kor-badge>
+<kor-badge label="130"></kor-badge>
+<kor-badge label="1300"></kor-badge>
+```
+
 ---
 
 ## Status (Optional)
@@ -19,6 +26,12 @@ If defined, a number is displayed inside the badge to indicate quantitative info
 If defined, a status (Success, Warning or Error) is indicated through the use of iconography and color. If both label and status are defined, the label will not be displayed.
 
 <iframe src="./assets/docs/components/badge/status.html"></iframe>
+
+```html
+<kor-badge status="error"></kor-badge>
+<kor-badge status="warning"></kor-badge>
+<kor-badge status="success"></kor-badge>
+```
 
 ---
 

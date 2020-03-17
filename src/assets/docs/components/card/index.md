@@ -14,6 +14,10 @@ An icon can be defined to complement the label and provide additional informatio
 
 <iframe src="./assets/docs/components/card/label-and-icon.html" height="480px"></iframe>
 
+```html
+<kor-card icon="directions_bike" label="Label and Icon"></kor-card>
+```
+
 ---
 
 ## Image (Optional)
@@ -21,6 +25,15 @@ An icon can be defined to complement the label and provide additional informatio
 If defined, an image is displayed on top of the card's content. It is usually used for cards that represent a unit such as a product, video or person.
 
 <iframe src="./assets/docs/components/card/image.html" height="480px"></iframe>
+
+```html
+<kor-card image="https://i.ytimg.com/vi/BfCwN4iy6T8/maxresdefault.jpg" label="Label">
+  This is an image card with label.
+</kor-card>
+<kor-card image="https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+  This is an image card without label.
+</kor-card>
+```
 
 ---
 
@@ -30,6 +43,17 @@ The contents of a card can be displayed either vertically (top to bottom) or ver
 
 <iframe src="./assets/docs/components/card/flex-direction.html" height="480px"></iframe>
 
+```html
+<kor-card label="Flex direction - Column">
+  <kor-tag label="Tag"></kor-tag>
+  <kor-tag label="Tag"></kor-tag>
+</kor-card>
+<kor-card label="Flex Direction - Row" flex-direction="row">
+  <kor-tag label="Tag"></kor-tag>
+  <kor-tag label="Tag"></kor-tag>
+</kor-card>
+```
+
 ---
 
 ## Flat (Optional)
@@ -37,6 +61,9 @@ The contents of a card can be displayed either vertically (top to bottom) or ver
 A flat card does not display shadows, background color or margins around it. It is commonly used for grouping content inside another card, for example.
 
 <iframe src="./assets/docs/components/card/flat.html" height="480px"></iframe>
+
+```html
+```
 
 ---
 
@@ -49,6 +76,14 @@ The **functions** slot can be used for hosting secondary functions, represented 
 The **footer** slot can be used for hosting the main actions related to the content, represented by components such as [Buttons](components/button).
 
 <iframe src="./assets/docs/components/card/slots.html" height="480px"></iframe>
+
+```html
+<kor-card flat icon="train" label="Flat Card">
+  <kor-icon slot="functions" button icon="more_vert"></kor-icon slot="functions">
+    This is the content of my card.
+  <kor-button slot="footer"></kor-button>
+</kor-card>
+```
 
 ---
 

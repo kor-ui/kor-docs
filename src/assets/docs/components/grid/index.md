@@ -16,6 +16,15 @@ In specific use cases where more or less than 12 columns are required, a custom 
 
 <iframe src="./assets/docs/components/grid/columns.html" height="480px"></iframe>
 
+```html
+<kor-grid>
+  <kor-card label="2 Col" grid-cols="2"></kor-card>
+  <kor-card label="4 Cols" grid-cols="4"></kor-card>
+  <kor-card label="6 Cols" grid-cols="6"></kor-card>
+  <kor-card label="12 Cols" grid-cols="12"></kor-card>
+</kor-grid>
+```
+
 ---
 
 ## Rows (Optional)
@@ -26,6 +35,14 @@ Rows can also be customized and assigned to child elements. For example, a grid 
 
 <iframe src="./assets/docs/components/grid/rows.html" height="480px"></iframe>
 
+```html
+<kor-grid>
+  <kor-card label="1 Row" grid-cols="6" grid-rows="1"></kor-card>
+  <kor-card label="3 Rows" grid-cols="6" grid-rows="3"></kor-card>
+  <kor-card label="2 Rows" grid-cols="6" grid-rows="2"></kor-card>
+</kor-grid>
+```
+
 ---
 
 ## Spacing (Required)
@@ -34,6 +51,35 @@ By default, the child elements of a row have a space of 12px (m) between each ot
 
 <iframe src="./assets/docs/components/grid/spacing.html" height="480px"></iframe>
 
+```html  
+<kor-grid spacing="s">
+  <kor-card grid-cols="2" label="Spacing S"></kor-card>
+  <kor-card grid-cols="2"></kor-card>
+  <kor-card grid-cols="2"></kor-card>
+  <kor-card grid-cols="2"></kor-card>
+  <kor-card grid-cols="2"></kor-card>
+  <kor-card grid-cols="2"></kor-card>
+</kor-grid>
+<br>
+<kor-grid spacing="m">
+  <kor-card grid-cols="2" label="Spacing M"></kor-card>
+  <kor-card grid-cols="2"></kor-card>
+  <kor-card grid-cols="2"></kor-card>
+  <kor-card grid-cols="2"></kor-card>
+  <kor-card grid-cols="2"></kor-card>
+  <kor-card grid-cols="2"></kor-card>
+</kor-grid>
+<br>
+<kor-grid spacing="l">
+  <kor-card grid-cols="2" label="Spacing L"></kor-card>
+  <kor-card grid-cols="2"></kor-card>
+  <kor-card grid-cols="2"></kor-card>
+  <kor-card grid-cols="2"></kor-card>
+  <kor-card grid-cols="2"></kor-card>
+  <kor-card grid-cols="2"></kor-card>
+</kor-grid>
+```
+
 ---
 
 ## Responsive (Optional)
@@ -41,6 +87,17 @@ By default, the child elements of a row have a space of 12px (m) between each ot
 Child elements of a grid respond to the width of the screen and adapt the amount of columns assigned to it accordingly. For example, an element can occupy 3 columns in big screens, 4 columns in medium screens and 6 columns in small screens.
 
 <iframe src="./assets/docs/components/grid/responsive.html" height="480px" style="resize: horizontal"></iframe>
+
+```html
+<kor-grid spacing="l">
+  <kor-card grid-cols="2" grid-cols-m="4" grid-cols-s="6"></kor-card>
+  <kor-card grid-cols="2" grid-cols-m="4" grid-cols-s="6"></kor-card>
+  <kor-card grid-cols="2" grid-cols-m="4" grid-cols-s="6"></kor-card>
+  <kor-card grid-cols="2" grid-cols-m="4" grid-cols-s="6"></kor-card>
+  <kor-card grid-cols="2" grid-cols-m="4" grid-cols-s="6"></kor-card>
+  <kor-card grid-cols="2" grid-cols-m="4" grid-cols-s="6"></kor-card>
+</kor-grid>
+```
 
 ---
 

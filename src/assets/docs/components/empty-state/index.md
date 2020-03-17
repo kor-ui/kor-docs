@@ -14,6 +14,12 @@ If both label and icon are defined, the icon is displayed above the label.
 
 <iframe src="./assets/docs/components/empty-state/label-and-icon.html"></iframe>
 
+```html  
+<kor-empty-state label="Label only" ></kor-empty-state>
+<kor-empty-state icon="wifi"></kor-empty-state>
+<kor-empty-state label="Label and Icon" icon="wifi"></kor-empty-state>
+```
+
 ---
 
 ## Footer Slot (Optional)
@@ -23,6 +29,12 @@ The footer slot can be used to host actions that would provide the user with a r
 For example, if data is unavailable because the network is down, a 'Reconnect' or 'Try Again' button could be placed in the footer slot.
 
 <iframe src="./assets/docs/components/empty-state/footer-slot.html"></iframe>
+
+```html
+<kor-empty-state label="Network unavailable, please try again" icon="wifi">
+  <kor-button slot="footer" label="Try Again"></kor-button>
+</kor-empty-state>
+```
 
 ---
 

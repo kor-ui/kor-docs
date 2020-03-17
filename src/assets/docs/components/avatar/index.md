@@ -14,6 +14,12 @@ The Avatar's Info can display additional information such as e-mail, role, insti
 
 <iframe src="./assets/docs/components/avatar/label-and-info.html"></iframe>
 
+```html
+<kor-avatar></kor-avatar>
+<kor-avatar label="John Doe"></kor-avatar>
+<kor-avatar label="John Doe" image="https://www.evolutionsociety.org/userdata/news_picupload/pic_sid189-0-norm.jpg"></kor-avatar>
+```
+
 ---
 
 ## Image (Optional)
@@ -23,6 +29,12 @@ Images can be use to visually identify a user. It can host a picture uploaded by
 If not defined, the initial letters of the first and last words of the label are shown inside the circle as placeholders.
 
 <iframe src="./assets/docs/components/avatar/image.html"></iframe>
+
+```html
+<kor-avatar></kor-avatar>
+<kor-avatar label="John Doe"></kor-avatar>
+<kor-avatar label="John Lopez Doe" info="john.doe@email.com"></kor-avatar>
+```
 
 ---
 

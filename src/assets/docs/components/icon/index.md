@@ -14,6 +14,12 @@ Custom icons can also be used with the component, and to do that you can assign 
 
 <iframe src="./assets/docs/components/icon/icon.html"></iframe>
 
+```html
+<kor-icon icon="directions_bike"></kor-icon>
+<kor-icon icon="directions_car"></kor-icon>
+<kor-icon icon="train"></kor-icon>
+```
+
 ---
 
 ## Size (Required)
@@ -21,6 +27,13 @@ Custom icons can also be used with the component, and to do that you can assign 
 By default, icons have a size of 24x24px (m). Depending on the space available, icons can also be 16x16px (s), 32x32px (l) and 48x48px (xl)
 
 <iframe src="./assets/docs/components/icon/size.html"></iframe>
+
+```html
+<kor-icon icon="extension" size="s"></kor-icon>
+<kor-icon icon="extension"></kor-icon>
+<kor-icon icon="extension" size="l"></kor-icon>
+<kor-icon icon="extension" size="xl"></kor-icon>
+```
 
 ---
 
@@ -30,6 +43,12 @@ Icons can have custom colors assigned for cases where highlighting is necessary 
 
 <iframe src="./assets/docs/components/icon/color.html"></iframe>
 
+```html
+<kor-icon icon="favorite"></kor-icon>
+<kor-icon icon="favorite" color="rgb(var(--accent-1))"></kor-icon>
+<kor-icon icon="favorite" color="darkorange"></kor-icon>
+```
+
 ---
 
 ## Button (Optional)
@@ -37,6 +56,11 @@ Icons can have custom colors assigned for cases where highlighting is necessary 
 Icons can be used to trigger an action and therefore behave like a [Button](components/button). In this case, opacity and cursor styles are used to visually indicate this interaction. 
 
 <iframe src="./assets/docs/components/icon/button.html"></iframe>
+
+```html
+<kor-icon icon="save" button></kor-icon>
+<kor-icon icon="save" button disabled></kor-icon>
+```
 
 ---
 

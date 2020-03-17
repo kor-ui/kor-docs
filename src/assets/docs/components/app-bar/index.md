@@ -18,6 +18,12 @@ Keep labels short to avoid overflow of text specially if multiple languages are 
 
 <iframe src="./assets/docs/components/app-bar/label.html" height="200px"></iframe>
 
+```html
+<kor-page>
+  <kor-app-bar slot="top" label="Label"></kor-app-bar>
+</kor-page>
+```
+
 ---
 
 ## Logo (Optional)
@@ -28,6 +34,12 @@ Logos are not supported in mobile App Bars since the corners are reserved for ot
 
 <iframe src="./assets/docs/components/app-bar/logo.html" height="200px"></iframe>
 
+```html
+<kor-page>
+  <kor-app-bar slot="top" logo="https://upload.wikimedia.org/wikipedia/commons/2/29/Xiaomi_logo.svg"></kor-app-bar>
+</kor-page>
+```
+
 ---
 
 ## Mobile (Optional)
@@ -35,6 +47,17 @@ Logos are not supported in mobile App Bars since the corners are reserved for ot
 When used in its' mobile variation, the App Bar provides function slots on both left and right corners for actions such as 'Menu', 'Back' or 'More' and the label gets centered to the screen.
 
 <iframe src="./assets/docs/components/app-bar/mobile.html" height="200px"></iframe>
+
+```html
+<kor-page>
+  <kor-app-bar slot="top" mobile label="Label" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png">
+    <!-- left -->
+    <kor-avatar slot="left"></kor-avatar>
+    <!-- right -->
+    <kor-icon button icon="more_vert" slot="right"></kor-icon>
+  </kor-app-bar>
+</kor-page>
+```
 
 ---
 

@@ -29,6 +29,15 @@ Keep the button ordering always consistent within your app or with other apps th
 
 <iframe src="./assets/docs/components/button/color.html"></iframe>
 
+```html
+<kor-button></kor-button>
+<kor-button color="secondary"></kor-button>
+<kor-button color="tertiary"></kor-button>
+<kor-button disabled></kor-button>
+<kor-button color="secondary" disabled></kor-button>
+<kor-button color="tertiary" disabled></kor-button>
+```
+
 ---
 
 ## Icon (Optional)
@@ -38,6 +47,15 @@ Icon buttons can be used when to save space or to create visual metaphors that a
 Only use icon buttons when the metaphors are well established with your users, such as 'Save', 'Delete' or 'Share'.
 
 <iframe src="./assets/docs/components/button/icon.html"></iframe>
+
+```html
+<kor-button icon="save"></kor-button>
+<kor-button icon="save" color="secondary"></kor-button>
+<kor-button icon="save" color="tertiary"></kor-button>
+<kor-button icon="save" disabled></kor-button>
+<kor-button icon="save" color="secondary" disabled></kor-button>
+<kor-button icon="save" color="tertiary" disabled></kor-button>
+```
 
 ---
 

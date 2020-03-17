@@ -16,6 +16,14 @@ The label defines which text string is shown to the user.
 
 <iframe src="./assets/docs/components/breadcrumbs/label.html"></iframe>
 
+```html
+<kor-breadcrumbs>
+  <kor-breadcrumb-item label="Label"></kor-breadcrumb-item>
+  <kor-breadcrumb-item label="Medium one"></kor-breadcrumb-item>
+  <kor-breadcrumb-item label="And one long label" active></kor-breadcrumb-item>
+</kor-breadcrumbs>
+```
+
 ---
 
 ## API

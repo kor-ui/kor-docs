@@ -14,6 +14,10 @@ An icon can be defined to complement the label and provide additional informatio
 
 <iframe src="./assets/docs/components/drawer/label-and-icon.html" height="480px"></iframe>
 
+```html
+<kor-drawer visible icon="directions_bike" label="Label and Icon"></kor-drawer>
+```
+
 ---
 
 ## Sticky (Optional)
@@ -23,6 +27,12 @@ Sticky drawers do not display a close icon on its' top-right corner and disabled
 This variation is used in situations when the user is obliged to make a decision in order to continue, such as pressing a button or selecting and option.
 
 <iframe src="./assets/docs/components/drawer/sticky.html" height="480px"></iframe>
+
+```html
+<kor-drawer id="drawer" visible sticky label="Sticky">
+  <kor-button slot="footer" color="secondary" label="Close" onclick="document.querySelector('#drawer').visible = false"></kor-button>
+</kor-drawer>
+```
 
 ---
 
@@ -36,6 +46,20 @@ The **footer** slot can be used for hosting the main actions related to the cont
 
 <iframe src="./assets/docs/components/drawer/slots.html" height="480px"></iframe>
 
+```html
+<kor-drawer id="functions-and-footer" visible label="Functions and Footer">
+  <kor-icon slot="functions" button icon="more_vert"></kor-icon slot="functions">
+  <kor-button slot="footer" color="secondary" label="Close" onclick="document.querySelector('#functions-and-footer').visible = false"></kor-button>
+</kor-drawer>
+<kor-drawer id="header">
+  <kor-tabs slot="header">
+    <kor-tab-item label="Tab 1" active></kor-tab-item>
+    <kor-tab-item label="Tab 2"></kor-tab-item>
+    <kor-tab-item label="Tab 3"></kor-tab-item>
+  </kor-tabs>
+</kor-drawer>
+```
+
 ---
 
 ## Mobile
@@ -45,6 +69,17 @@ Drawers are commonly used in mobile apps or websites for hosting content that is
 Drawers can be displayed in top, bottom, left or right positions.
 
 <iframe src="./assets/docs/components/drawer/mobile.html" height="640px"></iframe>
+
+```html
+<kor-page style="transform: perspective(1px); overflow: hidden;">
+  <kor-app-bar slot="top" mobile label="Mobile">
+    <kor-avatar slot="left" onclick="document.querySelector('#left').visible = true"></kor-avatar>
+    <kor-icon button icon="filter_list" slot="right" onclick="document.querySelector('#bottom').visible = true"></kor-icon>
+  </kor-app-bar>
+  <kor-drawer id="left" visible width="calc(100% - 40px)"></kor-drawer>
+  <kor-drawer id="bottom" position="bottom"></kor-drawer>
+</kor-page>
+```
 
 ---
 

@@ -12,6 +12,15 @@ The orientation of a divider is determined by the direction in which the content
 
 <iframe src="./assets/docs/components/divider/orientation.html"></iframe>
 
+```html
+<wa-text>Spacing S</wa-text>
+<kor-divider spacing="s" orientation="vertical"></kor-divider>
+<wa-text>Spacing M</wa-text>
+<kor-divider orientation="vertical"></kor-divider>
+<wa-text>Spacing L</wa-text>
+<kor-divider spacing="l" orientation="vertical"></kor-divider>
+```
+
 ---
 
 ## API

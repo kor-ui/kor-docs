@@ -14,6 +14,12 @@ If defined, the label is displayed as a text on the right side of the box. Keep 
 
 <iframe src="./assets/docs/components/checkbox/label.html"></iframe>
 
+```html
+<kor-checkbox></kor-checkbox>
+<kor-checkbox label="Small label"></kor-checkbox>
+<kor-checkbox label="This is a quite long label that gets truncated because of its length"></kor-checkbox>
+```
+
 ---
 
 ## API
