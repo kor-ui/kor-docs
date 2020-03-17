@@ -55,7 +55,7 @@ If Inputs are not intended to be edited by the user, they can be set to be disab
 
 ## Functions Slot (Optional)
 
-Functions related directly to the Input (e.g. 'paste', 'undo') can be placed on the right side of it, usually through the use of [Icons]('./components/icon').
+Functions related directly to the Input (e.g. 'paste', 'undo') can be placed on the right side of it, usually through the use of [Icons](components/icon).
 
 <iframe src="./assets/docs/components/input/functions-slot.html" height="480px"></iframe>
 

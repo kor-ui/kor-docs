@@ -35,7 +35,7 @@ If a Menu Item does not allow user interactions, it can be set to be disabled. D
 
 ## Functions Slot (Optional)
 
-Functions related directly to the Menu Item (e.g. 'save', 'share') can be placed on the right side of it, usually through the use of [Icons]('./components/icon').
+Functions related directly to the Menu Item (e.g. 'save', 'share') can be placed on the right side of it, usually through the use of [Icons](components/icon).
 
 <iframe src="./assets/docs/components/menu-item/functions-slot.html"></iframe>
 

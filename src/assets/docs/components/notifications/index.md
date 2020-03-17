@@ -1,22 +1,26 @@
 # Notifications
 
-Intro
+Notifications are used to inform the user about background processes without disrupting the main workflow and taking the focus away from the task at hand.
+
+They should not be used for critical messages that require immediate action ([Modals](component/modal) should be used in these cases), and they should also not be used for messages that are completely irrelevant for the user at that time ([Badges](component/badge) could be used alternatively).
 
 [Position](components/notifications#position) • [Label and Icon](components/notifications#label-and-icon) • [Sticky](components/notifications#sticky) • [Slots](components/notifications#slots) • [API](components/notifications#api)
 
 ---
 
-## Position
+## Position (Required)
 
-Description
+By default, Notifications appear on the upper-right corner of the screen. In special cases such as when content in that corner cannot be temporarily covered, the position of the Notification can be set to any of the other corners.
 
 <iframe src="./assets/docs/components/notifications/position.html"></iframe>
 
 ---
 
-## Label and Icon
+## Label and Icon (Optional)
 
-Description
+If defined, a label is shown above the content. Keep labels short and descriptive of the content inside.
+
+An icon can be defined to complement the label and provide additional information to the user or to help categorize content in a visual manner.
 
 <iframe src="./assets/docs/components/notifications/label-and-icon.html"></iframe>
 
@@ -24,7 +28,7 @@ Description
 
 ## Sticky
 
-Description
+Sticky modals do not display a close icon on its' top-right corner. This variation is used in situations when the user is obliged to make a decision in order to continue, such as pressing a button or selecting an option.
 
 <iframe src="./assets/docs/components/notifications/sticky.html"></iframe>
 
@@ -46,7 +50,7 @@ Description
 
 | Name | Type | Default | Description |
 | :-- | :-- | :-- | :-- |
-| **`position`** | `String` | `top-right` | If set, defines the text label. |
+| **`position`** | `String` | `top-right` | Defines the corner where the notification is located. Possible values are `top-left`, `top-right`, `bottom-left` and `bottom-right`. |
 
 `kor-notification-item`
 
