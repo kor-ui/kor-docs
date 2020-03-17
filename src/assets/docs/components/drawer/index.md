@@ -18,7 +18,7 @@ An icon can be defined to complement the label and provide additional informatio
 
 ## Sticky (Optional)
 
-Sticky drawers do not display a close icon on its' top-right corner and disabled the ability of clicking outside it in order to close.
+Sticky drawers do not display a close icon on its' top-right corner and disabled the ability of clicking outside in order to close it.
 
 This variation is used in situations when the user is obliged to make a decision in order to continue, such as pressing a button or selecting and option.
 

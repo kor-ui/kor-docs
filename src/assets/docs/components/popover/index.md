@@ -1,38 +1,46 @@
 # Popover
 
-Intro
+Popovers are used to show extra content close to a target component. It is frequently triggered by components such as [Icons](components/icon) to provide a contextual set of [Menu Items](components/menu-item), for example.
 
 [Label and Icon](components/popover#label-and-icon) • [Position](components/popover#position) • [Sticky](components/popover#sticky) • [Slots](components/popover#slots) • [API](components/popover#api)
 
 ---
 
-## Position
+## Position (Required)
 
-Description
+By default, popovers are shown on the left side of its' target component. According to the use case and the layout of the app or website, the position can be adapted to any other position.
 
 <iframe src="./assets/docs/components/popover/position.html" height="480px"></iframe>
 
 ---
 
-## Label and Icon
+## Label and Icon (Optional)
 
-Description
+If defined, a label is shown above the content. Keep labels short and descriptive of the content inside.
+
+An icon can be defined to complement the label and provide additional information to the user or to help categorize content in a visual manner.
 
 <iframe src="./assets/docs/components/popover/label-and-icon.html" height="480px"></iframe>
 
 ---
 
-## Sticky
+## Sticky (Optional)
 
-Description
+Sticky popovers do not allow clicking outside in order to close it.
+
+This variation is used in situations when the user is obliged to make a decision in order to continue, such as pressing a button or selecting an option.
 
 <iframe src="./assets/docs/components/popover/sticky.html" height="480px"></iframe>
 
 ---
 
-## Slots
+## Slots (Optional)
 
-Description
+The **header** slot can be used for placing components that will remain stable above the content, such as [Tabs](components/tabs).
+
+The **functions** slot can be used for hosting secondary functions, represented by components such as [Icons](components/icon).
+
+The **footer** slot can be used for hosting the main actions related to the content, represented by components such as [Buttons](components/button).
 
 <iframe src="./assets/docs/components/popover/slots.html" height="480px"></iframe>
 
