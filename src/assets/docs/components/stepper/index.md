@@ -16,7 +16,7 @@ Items can also be disabled in case the user is not supposed to click on it for n
 
 ---
 
-## Orientation
+## Orientation (Optional)
 
 By default, steppers are displayed in a horizontal orientation, but when using in vertical containers it could also be shown in a vertical orientation, with the items being aligned from top to bottom.
 
