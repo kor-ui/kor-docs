@@ -8,7 +8,7 @@ Grids are used for organizing content within a [Page](components/page) or inside
 
 ---
 
-## Columns (Required)
+## Columns (Optional)
 
 By default, a grid contains 12 columns which can be assigned to its' child elements. For example, a child element that has 6 columns assigned will occupy 50% of the grid's width.
 

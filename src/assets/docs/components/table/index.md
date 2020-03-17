@@ -2,39 +2,41 @@
 
 <iframe src="./assets/docs/components/table/main.html" height="480px"></iframe>
 
-Intro
+Tables are used to display large amounts of information in a concise manner which allows the user to easily scan and compare the contents.
 
 [Icon](components/table#icon) • [API](components/table#api)
 
 ---
 
-## Columns
+## Columns (Optional)
 
-Description
+By default, a table row contains 12 columns which can be assigned to its' child table cells. For example, a cell that has 12 columns assigned to it will occupy 50% of the table's width.
+
+In specific use cases where more or less than 24 columns are required, a custom number of columns can be defined as well.
 
 <iframe src="./assets/docs/components/table/columns.html" height="600px" style="resize: horizontal"></iframe>
 
 ---
 
-## Readonly
+## Readonly (Optional)
 
-Description
+A table can be set to be read-only if the user should passive interact with the content and not perform active interactions such as selecting table rows.
 
 <iframe src="./assets/docs/components/table/readonly.html"></iframe>
 
 ---
 
-## Condensed
+## Condensed (Optional)
 
-Description
+In cases where vertical space is scarce, tables can be set to have a condensed height, which allows more items to be shown at a time.
 
 <iframe src="./assets/docs/components/table/condensed.html"></iframe>
 
 ---
 
-## Sorting
+## Sorting (Optional)
 
-Description
+When the user clicks on a sortable table header, the data of the table can be sorted and rearranged according to the alphabetical or numerical order of entries in that column.
 
 <iframe src="./assets/docs/components/table/sorting.html"></iframe>
 
