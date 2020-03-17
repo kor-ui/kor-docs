@@ -1,14 +1,16 @@
 # Stepper
 
-Intro
+Steppers are used to give an overview of where the user is in a linear process and how many steps are left in order to complete it.
 
 [Active and Disabled](components/stepper#active-and-disabled) • [Orientation](components/stepper#orientation) • [Label, Info and Icon](components/stepper#label,-info-and-icon) • [API](components/stepper#api)
 
 ---
 
-## Active and Disabled
+## Active and Disabled (Optional)
 
-Description
+An individual item of the stepper can be active to represent the stage at which the user is currently. Only one item should be active at a time.
+
+Items can also be disabled in case the user is not supposed to click on it for navigating to that step.
 
 <iframe src="./assets/docs/components/stepper/active-and-disabled.html"></iframe>
 
@@ -16,15 +18,19 @@ Description
 
 ## Orientation
 
-Description
+By default, steppers are displayed in a horizontal orientation, but when using in vertical containers it could also be shown in a vertical orientation, with the items being aligned from top to bottom.
 
 <iframe src="./assets/docs/components/stepper/orientation.html"></iframe>
 
 ---
 
-## Label, Info and Icon
+## Label, Info and Icon (Optional)
 
-Description
+If defined, a label is shown under the stepper bubble. Keep labels short and descriptive of the step being represented.
+
+An info text can also be defined to provide further and more detailed information to the user, such as a short description of the step.
+
+An icon can be defined to complement the label and provide additional information to the user or to help categorize content in a visual manner. If defined it is shown inside the circle, replacing the numerical index shown by default.
 
 <iframe src="./assets/docs/components/stepper/label-info-and-icon.html" height="480px"></iframe>
 
