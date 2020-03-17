@@ -1,40 +1,40 @@
 # Page
 
-Intro
+The Page component is used to define the main layout and color theme of an app or website.
 
 [Slots](components/page#slots) • [Theme](components/page#theme) • [Flex Direction](components/page#flex-direction) • [Flat](components/page#flat) • [API](components/page#api)
 
 ---
 
-## Slots
+## Slots (Optional)
 
-Description
+The **top** slot of a page usually hosts components such as [App Bar](components/app-bar) or [Nav Bar](components/nav-bar).
+The **left** and **right** slot of a page usually hosts a side [Pane](components/pane).
+The **bottom** slot of a page is usually used in mobile apps or websites to host a [Nav Bar](components/nav-bar).
 
 <iframe src="./assets/docs/components/page/slots.html" height="560px"></iframe>
 
 ---
 
-## Theme
+## Theme (Optional)
 
-Description
+The theme of a page defines the color scheem applied to all components inside it. It can be light, dark or any other [Custom Theme](introduction/custom-themes).
 
 <iframe src="./assets/docs/components/page/theme.html" height="560px"></iframe>
 
-
 ---
 
-## Flex Direction
+## Flex Direction (Required)
 
-Description
+The contents of a card can be displayed either vertically (top to bottom) or vertically (left to right) depending on the flex direction defined.
 
 <iframe src="./assets/docs/components/page/flex-direction.html" height="560px"></iframe>
 
-
 ---
 
-## Flat
+## Flat (Optional)
 
-Description
+Flat pages have a lighter background color, allowing content to be placed directly over it without the need of using a container such as a [Card](components/card).
 
 <iframe src="./assets/docs/components/page/flat.html" height="560px"></iframe>
 
