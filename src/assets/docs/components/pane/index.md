@@ -1,22 +1,30 @@
 # Pane
 
-Intro
+Panes are used on side slots of a [Page](components/page) to host side controls or vertical navigation. 
+
+Components usually used inside panes include [Accordions](components/accordion), [Menu Items](components/menu-item) and [Inputs](components/input).
 
 [Label and Icon](components/pane#label-and-icon) • [Slots](components/pane#slots) • [API](components/pane#api)
 
 ---
 
-## Label and Icon
+## Label and Icon (Optional)
 
-Description
+If defined, a label is shown above the content. Keep labels short and descriptive of the content inside.
+
+An icon can be defined to complement the label and provide additional information to the user or to help categorize content in a visual manner.
 
 <iframe src="./assets/docs/components/pane/label-and-icon.html" height="560px"></iframe>
 
 ---
 
-## Slots
+## Slots (Optional)
 
-Description
+The **header** slot can be used for placing components that will remain stable above the content, such as [Tabs](components/tabs).
+
+The **functions** slot can be used for hosting secondary functions, represented by components such as [Icons](components/icon).
+
+The **footer** slot can be used for hosting the main actions related to the content, represented by components such as [Buttons](components/button).
 
 <iframe src="./assets/docs/components/pane/slots.html" height="560px"></iframe>
 
