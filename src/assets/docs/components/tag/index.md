@@ -1,30 +1,32 @@
 # Tag
 
-Intro
+Tags are used to categorize content in a page. It is commonly used in conjunction with [Tables](components/table)
 
 [Label and Icon](components/tag#label-and-icon) • [Removable](components/tag#removable) • [Button](components/tag#button) • [API](components/tag#api)
 
 ---
 
-## Label and Icon
+## Label (Required) and Icon (Optional)
 
-Description
+The label is shown inside the tag and is the main element to describe the category to the user. Keep labels short and descriptive of the category represented.
+
+An icon can be defined to complement the label and provide additional information to the user or to help categorize content in a visual manner.
 
 <iframe src="./assets/docs/components/tag/label-and-icon.html"></iframe>
 
 ---
 
-## Removable
+## Removable (Optional)
 
-Description
+In special use cases such as when used for applying filters, Tags can be removed by the user upon clicking on the close icon shown at its' right side.
 
 <iframe src="./assets/docs/components/tag/removable.html"></iframe>
 
 ---
 
-## Button
+## Button (Optional)
 
-Description
+If a Tag is used in its' button variation, the user can click on it for navigating or seeing more details regarding that category.
 
 <iframe src="./assets/docs/components/tag/button.html"></iframe>
 
