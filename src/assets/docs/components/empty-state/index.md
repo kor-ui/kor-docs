@@ -18,7 +18,7 @@ If both label and icon are defined, the icon is displayed above the label.
 
 ## Footer Slot (Optional)
 
-The footer slot can be used to host actions that would help the user to populate the content being represented by the Empty State.
+The footer slot can be used to host actions that would provide the user with a resolution to the cause of showing the Empty State.
 
 For example, if data is unavailable because the network is down, a 'Reconnect' or 'Try Again' button could be placed in the footer slot.
 

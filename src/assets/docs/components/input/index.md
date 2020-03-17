@@ -1,54 +1,61 @@
 # Input
 
-Intro
+Inputs are used to provide the user with a way of entering a value or selecting out of a list, which could be of different types.
 
 [Type](components/input#type) • [Status](components/input#status) • [Icon](components/input#icon) • [Condensed](components/input#condensed) • [Disabled and Readonly](components/input#disabled-and-readonly) • [Functions Slot](components/input#functions-slot) • [API](components/input#api)
 
 ---
 
-## Type
+## Type (Required)
 
-Description
+Depending on the type of value accepted by the app, the Input component can be set to only allow this type of value to be entered and to provide the user with specific ways of interaction.
+
+- **Text** inputs only support strings entered through a keyboard (physical or virtual).
+- **Number** inputs only support numbers entered also through a keyboard (physical or virtual). Minimum and maximum values as well as steps can be customized depending on the use case.
+- **Select** inputs support string or numbers selected from a pre-defined list through mouse interactions (or touch).
 
 <iframe src="./assets/docs/components/input/type.html" height="480px"></iframe>
 
 ---
 
-## Status
+## Status (Optional)
 
-Description
+A status can be assigned to an input to indicate, for example, if a validation has failed (`error`) or succeeded (`success`), or if special attention is required (`warning`).
 
 <iframe src="./assets/docs/components/input/status.html" height="480px"></iframe>
 
 ---
 
-## Icon
+## Icon (Optional)
 
-Description
+If defined, an icon is displayed on the left side of the input, before the label and value. Icons are useful for visually communicating the meaning of the input (e.g. 'email' or 'password').
 
 <iframe src="./assets/docs/components/input/icon.html" height="480px"></iframe>
 
 ---
 
-## Condensed
+## Condensed (Optional)
 
-Description
+When used in contexts where vertical space is limited, inputs can be set to have a condensed size, which will reduce its height and hide its' label if the value is not empty.
 
 <iframe src="./assets/docs/components/input/condensed.html" height="480px"></iframe>
 
 ---
 
-## Disabled and Readonly
+## Disabled and Readonly (Optional)
 
-Description
+If inputs are not intended to be edited by the user, they can be set to be disabled or read-only.
+
+- **Disabled** inputs are used when the user can do something to enable editing.
+- **Readonly** inputs are used when the value should be read by the user but not necessarily edited.
 
 <iframe src="./assets/docs/components/input/disabled-and-readonly.html" height="480px"></iframe>
 
 ---
 
-## Functions Slot
+## Functions Slot (Optional)
 
-Description
+Functions related directly to the input (e.g. 'paste', 'undo') can be placed on the right side of it, usually through the use of [Icons]('./components/icon').
 
 <iframe src="./assets/docs/components/input/functions-slot.html" height="480px"></iframe>
 
