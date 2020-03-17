@@ -20,4 +20,4 @@ This sample showcases features such as [Custom Themes](/introduction/custom-them
 
 <iframe src="./assets/docs/introduction/sample-apps/music.html" height="640px"></iframe>
 
-[Launch the App](/samples/music) or [Browse the Repository](https://github.com/eduferfer/kor-samples/tree/gaming)
+[Launch the App](/samples/music) or [Browse the Repository](https://github.com/eduferfer/kor-samples/tree/music)
