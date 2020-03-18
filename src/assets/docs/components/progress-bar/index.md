@@ -12,6 +12,12 @@ By default, the progress bar is displayed in a linear and horizontal manner, but
 
 <iframe src="./assets/docs/components/progress-bar/radial.html"></iframe>
 
+```html
+<kor-progress-bar radial value="20" label="Radial" info="Size S" size="s"></kor-progress-bar>
+<kor-progress-bar radial value="20" label="Radial" info="Size M"></kor-progress-bar>
+<kor-progress-bar radial value="20" label="Radial" info="Size L" size="l"></kor-progress-bar>
+```
+
 ---
 
 ## Label, Info and Progress (Optional)
@@ -24,6 +30,12 @@ If more clarity is necessary, the progress can be shown as a percentage close to
 
 <iframe src="./assets/docs/components/progress-bar/label-info-and-progress.html"></iframe>
 
+```html
+<kor-progress-bar value="20" label="Label" info="Information text" show-progress></kor-progress-bar>
+<br>
+<kor-progress-bar radial value="20" label="Label" info="Information text" show-progress></kor-progress-bar>
+```
+
 ---
 
 ## Status (Optional)
@@ -32,6 +44,12 @@ A status can be shown under the progress bar to indicate to the user whether the
 
 <iframe src="./assets/docs/components/progress-bar/status.html"></iframe>
 
+```html
+<kor-progress-bar value="20" label="Success" status="success" info="Information text"></kor-progress-bar>
+<kor-progress-bar value="20" label="Warning" status="warning" info="Information text"></kor-progress-bar>
+<kor-progress-bar value="20" label="Error" status="error" info="Information text"></kor-progress-bar>
+```
+
 ---
 
 ## Color (Optional)
@@ -39,6 +57,10 @@ A status can be shown under the progress bar to indicate to the user whether the
 In special cases where color coding is required, the standard color of the progress bar can be replaced with another custom one.
 
 <iframe src="./assets/docs/components/progress-bar/color.html"></iframe>
+
+```html
+<kor-progress-bar value="20" label="Color" color="red"></kor-progress-bar>
+```
 
 ---
 

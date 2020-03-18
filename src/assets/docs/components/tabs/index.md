@@ -2,7 +2,21 @@
 
 Tabs are used for navigating between pages or switching the contents of a container. It is usually used inside components such as [App Bar](components/app-bar), [Nav Bar](components/nav-bar), [Panes](components/pane) and [Cards](components/card).
 
-[Active and Disabled](components/stepper#active-and-disabled) • [Orientation](components/tabs#orientation) • [Label and Icon](components/tabs#label-and-icon) • [API](components/tabs#api)
+[Label and Icon](components/tabs#label-and-icon) • [Active and Disabled](components/stepper#active-and-disabled) • [Orientation](components/tabs#orientation) • [API](components/tabs#api)
+
+---
+
+## Label and Icon (Required)
+
+Tab items should have either a label or an icon defined (or both at the same time). Labels and icons are used to represent the page or content to which the user would navigate upon clicking on it.
+
+<iframe src="./assets/docs/components/tabs/label-and-icon.html"></iframe>
+
+```html
+<kor-tab-item icon="directions_bike" style="width: fit-content" active></kor-tab-item>
+<kor-tab-item label="Label" style="width: fit-content" active></kor-tab-item>
+<kor-tab-item label="Icon and label" icon="directions_bike" active style="width: fit-content"></kor-tab-item>
+```
 
 ---
 
@@ -14,6 +28,14 @@ Items can also be disabled in case the user is not supposed to click on it for n
 
 <iframe src="./assets/docs/components/tabs/active-and-disabled.html"></iframe>
 
+```html
+<kor-tabs style="width: fit-content;">
+  <kor-tab-item label="Disabled" disabled></kor-tab-item>
+  <kor-tab-item label="Idle"></kor-tab-item>
+  <kor-tab-item label="Active" active></kor-tab-item>
+</kor-tabs>
+```
+
 ---
 
 ## Orientation (Optional)
@@ -22,13 +44,18 @@ By default, Tabs are displayed in a horizontal orientation, but when using in ve
 
 <iframe src="./assets/docs/components/tabs/orientation.html"></iframe>
 
----
-
-## Label and Icon (Required)
-
-Tab items should have either a label or an icon defined (or both at the same time). Labels and icons are used to represent the page or content to which the user would navigate upon clicking on it.
-
-<iframe src="./assets/docs/components/tabs/label-and-icon.html"></iframe>
+```html
+<kor-tabs orientation="vertical">
+  <kor-tab-item label="Disabled" disabled></kor-tab-item>
+  <kor-tab-item label="Idle"></kor-tab-item>
+  <kor-tab-item label="Active" active></kor-tab-item>
+</kor-tabs>
+<kor-tabs orientation="vertical">
+  <kor-tab-item icon="directions_bike" disabled></kor-tab-item>
+  <kor-tab-item icon="directions_car"></kor-tab-item>
+  <kor-tab-item icon="train" active></kor-tab-item>
+</kor-tabs>
+```
 
 ---
 

@@ -14,6 +14,12 @@ The label of a Radio Button describes the option being selected. Keep labels sho
 
 <iframe src="./assets/docs/components/radio-button/label.html"></iframe>
 
+```html
+<kor-radio-button active></kor-radio-button>
+<kor-radio-button label="Small label"></kor-radio-button>
+<kor-radio-button label="This is a quite long label that gets truncated because of its length"></kor-radio-button>
+```
+
 ---
 
 ## API

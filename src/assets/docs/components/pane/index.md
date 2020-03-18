@@ -16,6 +16,13 @@ An icon can be defined to complement the label and provide additional informatio
 
 <iframe src="./assets/docs/components/pane/label-and-icon.html" height="560px"></iframe>
 
+```html
+<kor-page>
+  <kor-app-bar slot="top"></kor-app-bar>
+  <kor-pane slot="left" icon="directions_bike" label="Label and Icon"></kor-pane>
+</kor-page>
+```
+
 ---
 
 ## Slots (Optional)
@@ -27,6 +34,23 @@ The **functions** slot can be used for hosting secondary functions, represented 
 The **footer** slot can be used for hosting the main actions related to the content, represented by components such as [Buttons](components/button).
 
 <iframe src="./assets/docs/components/pane/slots.html" height="560px"></iframe>
+
+```html
+<kor-page>
+  <kor-app-bar slot="top"></kor-app-bar>
+  <kor-pane slot="left" label="Functions and Footer">
+    <kor-icon slot="functions" button icon="more_vert"></kor-icon slot="functions">
+    <kor-button slot="footer" onclick="document.querySelector('#functions-and-footer').visible = false"></kor-button>
+  </kor-pane>
+  <kor-pane slot="right">
+    <kor-tabs slot="header">
+      <kor-tab-item label="Tab 1" active></kor-tab-item>
+      <kor-tab-item label="Tab 2"></kor-tab-item>
+      <kor-tab-item label="Tab 3"></kor-tab-item>
+    </kor-tabs>
+  </kor-pane>
+</kor-page>
+```
 
 ---
 

@@ -2,25 +2,7 @@
 
 Steppers are used to give an overview of where the user is in a linear process and how many steps are left in order to complete it.
 
-[Active and Disabled](components/stepper#active-and-disabled) • [Orientation](components/stepper#orientation) • [Label, Info and Icon](components/stepper#label,-info-and-icon) • [API](components/stepper#api)
-
----
-
-## Active and Disabled (Optional)
-
-An individual item of the stepper can be active to represent the stage at which the user is currently. Only one item should be active at a time.
-
-Items can also be disabled in case the user is not supposed to click on it for navigating to that step.
-
-<iframe src="./assets/docs/components/stepper/active-and-disabled.html"></iframe>
-
----
-
-## Orientation (Optional)
-
-By default, steppers are displayed in a horizontal orientation, but when using in vertical containers it could also be shown in a vertical orientation, with the items being aligned from top to bottom.
-
-<iframe src="./assets/docs/components/stepper/orientation.html"></iframe>
+[Label, Info and Icon](components/stepper#label,-info-and-icon) • [Active and Disabled](components/stepper#active-and-disabled) • [Orientation](components/stepper#orientation) • [API](components/stepper#api)
 
 ---
 
@@ -33,6 +15,48 @@ An info text can also be defined to provide further and more detailed informatio
 An icon can be defined to complement the label and provide additional information to the user or to help categorize content in a visual manner. If defined it is shown inside the circle, replacing the numerical index shown by default.
 
 <iframe src="./assets/docs/components/stepper/label-info-and-icon.html" height="480px"></iframe>
+
+```html
+  <kor-stepper-item active></kor-stepper-item>
+  <kor-stepper-item icon="directions_bike" active></kor-stepper-item>
+  <kor-stepper-item label="Label" active></kor-stepper-item>
+  <kor-stepper-item label="Icon and label" icon="directions_bike" info="" active></kor-stepper-item>
+  <kor-stepper-item label="Icon, label and info" icon="directions_bike" info="Info text" active></kor-stepper-item>
+```
+
+---
+
+## Active and Disabled (Optional)
+
+An individual item of the stepper can be active to represent the stage at which the user is currently. Only one item should be active at a time.
+
+Items can also be disabled in case the user is not supposed to click on it for navigating to that step.
+
+<iframe src="./assets/docs/components/stepper/active-and-disabled.html"></iframe>
+
+```html
+<kor-stepper>
+  <kor-stepper-item label="Disabled" info="Info text" disabled></kor-stepper-item>
+  <kor-stepper-item label="Idle" info="Info text"></kor-stepper-item>
+  <kor-stepper-item label="Active" info="Info text" active></kor-stepper-item>
+</kor-stepper>
+```
+
+---
+
+## Orientation (Optional)
+
+By default, steppers are displayed in a horizontal orientation, but when using in vertical containers it could also be shown in a vertical orientation, with the items being aligned from top to bottom.
+
+<iframe src="./assets/docs/components/stepper/orientation.html"></iframe>
+
+```html
+<kor-stepper orientation="vertical">
+  <kor-stepper-item label="Disabled" info="Information text" disabled></kor-stepper-item>
+  <kor-stepper-item label="Idle" info="Information text"></kor-stepper-item>
+  <kor-stepper-item label="Active" info="Information text" active></kor-stepper-item>
+</kor-stepper>
+```
 
 ---
 

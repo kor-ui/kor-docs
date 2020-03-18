@@ -14,6 +14,29 @@ By default, Notifications appear on the upper-right corner of the screen. In spe
 
 <iframe src="./assets/docs/components/notifications/position.html"></iframe>
 
+```html
+<kor-notifications position="top-left">
+  <kor-notification-item id="top-left" label="Top Left">
+    This is a top-left notification.
+  </kor-notification-item>
+</kor-notifications>
+<kor-notifications>
+  <kor-notification-item id="top-right" label="Top Right" visible>
+    This is a top-right notification.
+  </kor-notification-item>
+</kor-notifications>
+<kor-notifications position="bottom-left">
+  <kor-notification-item id="bottom-left" label="Bottom Left">
+    This is a bottom-left notification.
+  </kor-notification-item>
+</kor-notifications>
+<kor-notifications position="bottom-right">
+  <kor-notification-item id="bottom-right" label="Bottom Right">
+    This is a bottom-right notification.
+  </kor-notification-item>
+</kor-notifications>
+```
+
 ---
 
 ## Label and Icon (Optional)
@@ -24,6 +47,14 @@ An icon can be defined to complement the label and provide additional informatio
 
 <iframe src="./assets/docs/components/notifications/label-and-icon.html"></iframe>
 
+```html
+<kor-notifications>
+  <kor-notification-item id="notification-item" visible icon="directions_bike" label="Label and Icon">
+    This is a notification with label and icon.
+  </kor-notification-item>
+</kor-notifications>
+```
+
 ---
 
 ## Sticky
@@ -32,6 +63,15 @@ Sticky modals do not display a close icon on its' top-right corner. This variati
 
 <iframe src="./assets/docs/components/notifications/sticky.html"></iframe>
 
+```html
+<kor-notifications>
+  <kor-notification-item id="notification-item" visible sticky label="Sticky">
+    This is a sticky notification.
+    <kor-button slot="footer" color="secondary" label="Close" onclick="document.querySelector('#notification-item').visible = false"></kor-button>
+  </kor-notification-item>
+</kor-notifications>
+```
+
 ---
 
 ## Slots
@@ -39,6 +79,24 @@ Sticky modals do not display a close icon on its' top-right corner. This variati
 Description
 
 <iframe src="./assets/docs/components/notifications/slots.html"></iframe>
+
+```html
+<kor-notifications>
+  <kor-notification-item id="functions-and-footer" visible label="Functions and Footer">
+    <kor-icon slot="functions" button icon="more_vert"></kor-icon slot="functions">
+      This is a notification with content in the functions and footer slots.
+    <kor-button slot="footer" color="secondary" label="Close" onclick="document.querySelector('#functions-and-footer').visible = false"></kor-button>
+  </kor-notification-item>
+  <kor-notification-item id="header">
+    <kor-tabs slot="header">
+      <kor-tab-item label="Tab 1" active></kor-tab-item>
+      <kor-tab-item label="Tab 2"></kor-tab-item>
+      <kor-tab-item label="Tab 3"></kor-tab-item>
+    </kor-tabs>
+    This is a notification with content in the header slot.
+  </kor-notification-item>
+</kor-notifications>
+```
 
 ---
 

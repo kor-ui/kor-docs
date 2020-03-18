@@ -16,6 +16,56 @@ In specific use cases where more or less than 24 columns are required, a custom 
 
 <iframe src="./assets/docs/components/table/columns.html" height="600px" style="resize: horizontal"></iframe>
 
+```html
+<kor-card label="Default (24 cols)" style="width: 100%">
+  <kor-table>
+    <kor-table-row slot="header">
+      <kor-table-cell head grid-cols="12">12 grid-cols</kor-table-cell>
+      <kor-table-cell head grid-cols="6">6 grid-cols</kor-table-cell>
+      <kor-table-cell head grid-cols="3">3 grid-cols</kor-table-cell>
+      <kor-table-cell head grid-cols="3">3 grid-cols</kor-table-cell>
+    </kor-table-row>
+    <kor-table-row>
+      <kor-table-cell grid-cols="12">12 grid-cols</kor-table-cell>
+      <kor-table-cell grid-cols="6">6 grid-cols</kor-table-cell>
+      <kor-table-cell grid-cols="3">3 grid-cols</kor-table-cell>
+      <kor-table-cell grid-cols="3">3 grid-cols</kor-table-cell>
+    </kor-table-row>
+    <kor-table-row>
+      <kor-table-cell grid-cols="12">12 grid-cols</kor-table-cell>
+      <kor-table-cell grid-cols="6">6 grid-cols</kor-table-cell>
+      <kor-table-cell grid-cols="3">3 grid-cols</kor-table-cell>
+      <kor-table-cell grid-cols="3">3 grid-cols</kor-table-cell>
+    </kor-table-row>
+  </kor-table>
+</kor-card>
+<kor-card label="Custom (1fr 120px auto)" style="width: 100%">
+  <kor-table columns="1fr 120px auto">
+    <kor-table-row slot="header">
+      <kor-table-cell head>1 grid-cols</kor-table-cell>
+      <kor-table-cell head>1 grid-cols</kor-table-cell>
+      <kor-table-cell head>
+        <kor-icon icon="more_vert" button></kor-icon>
+      </kor-table-cell>
+    </kor-table-row>
+    <kor-table-row>
+      <kor-table-cell>1 grid-cols</kor-table-cell>
+      <kor-table-cell>1 grid-cols</kor-table-cell>
+      <kor-table-cell>
+        <kor-icon icon="more_vert" button></kor-icon>
+      </kor-table-cell>
+    </kor-table-row>
+    <kor-table-row>
+      <kor-table-cell>1 grid-cols</kor-table-cell>
+      <kor-table-cell>1 grid-cols</kor-table-cell>
+      <kor-table-cell>
+        <kor-icon icon="more_vert" button></kor-icon>
+      </kor-table-cell>
+    </kor-table-row>
+  </kor-table>
+</kor-card>
+```
+
 ---
 
 ## Readonly (Optional)
@@ -23,6 +73,47 @@ In specific use cases where more or less than 24 columns are required, a custom 
 A table can be set to be read-only if the user should passive interact with the content and not perform active interactions such as selecting table rows.
 
 <iframe src="./assets/docs/components/table/readonly.html"></iframe>
+
+```html
+<kor-table readonly>
+  <kor-table-row slot="header">
+    <kor-table-cell grid-cols="12" head sortable sorted sort-direction="desc">Sortable Head A</kor-table-cell>
+    <kor-table-cell grid-cols="6" head>Head B</kor-table-cell>
+    <kor-table-cell grid-cols="3" head>Head C</kor-table-cell>
+    <kor-table-cell grid-cols="3" head>Head D</kor-table-cell>
+  </kor-table-row>
+  <kor-table-row>
+    <kor-table-cell grid-cols="12">Cell 1A</kor-table-cell>
+    <kor-table-cell grid-cols="6">Cell 1B</kor-table-cell>
+    <kor-table-cell grid-cols="3">Cell 1C</kor-table-cell>
+    <kor-table-cell grid-cols="3">Cell 1D</kor-table-cell>
+  </kor-table-row>
+  <kor-table-row>
+    <kor-table-cell grid-cols="12">Cell 2A</kor-table-cell>
+    <kor-table-cell grid-cols="6">Cell 2B</kor-table-cell>
+    <kor-table-cell grid-cols="3">Cell 2C</kor-table-cell>
+    <kor-table-cell grid-cols="3">Cell 2D</kor-table-cell>
+  </kor-table-row>
+  <kor-table-row>
+    <kor-table-cell grid-cols="12">Cell 3A</kor-table-cell>
+    <kor-table-cell grid-cols="6">Cell 3B</kor-table-cell>
+    <kor-table-cell grid-cols="3">Cell 3C</kor-table-cell>
+    <kor-table-cell grid-cols="3">Cell 3D</kor-table-cell>
+  </kor-table-row>
+  <kor-table-row>
+    <kor-table-cell grid-cols="12">Cell 4A</kor-table-cell>
+    <kor-table-cell grid-cols="6">Cell 4B</kor-table-cell>
+    <kor-table-cell grid-cols="3">Cell 4C</kor-table-cell>
+    <kor-table-cell grid-cols="3">Cell 4D</kor-table-cell>
+  </kor-table-row>
+  <kor-table-row>
+    <kor-table-cell grid-cols="12">Cell 5A</kor-table-cell>
+    <kor-table-cell grid-cols="6">Cell 5B</kor-table-cell>
+    <kor-table-cell grid-cols="3">Cell 5C</kor-table-cell>
+    <kor-table-cell grid-cols="3">Cell 5D</kor-table-cell>
+  </kor-table-row>
+</kor-table>
+```
 
 ---
 
@@ -32,6 +123,47 @@ In cases where vertical space is scarce, tables can be set to have a condensed h
 
 <iframe src="./assets/docs/components/table/condensed.html"></iframe>
 
+```html
+<kor-table condensed>
+  <kor-table-row slot="header">
+    <kor-table-cell grid-cols="12" head sortable sorted sort-direction="desc">Sortable Head A</kor-table-cell>
+    <kor-table-cell grid-cols="6" head>Head B</kor-table-cell>
+    <kor-table-cell grid-cols="3" head>Head C</kor-table-cell>
+    <kor-table-cell grid-cols="3" head>Head D</kor-table-cell>
+  </kor-table-row>
+  <kor-table-row>
+    <kor-table-cell grid-cols="12">Cell 1A</kor-table-cell>
+    <kor-table-cell grid-cols="6">Cell 1B</kor-table-cell>
+    <kor-table-cell grid-cols="3">Cell 1C</kor-table-cell>
+    <kor-table-cell grid-cols="3">Cell 1D</kor-table-cell>
+  </kor-table-row>
+  <kor-table-row>
+    <kor-table-cell grid-cols="12">Cell 2A</kor-table-cell>
+    <kor-table-cell grid-cols="6">Cell 2B</kor-table-cell>
+    <kor-table-cell grid-cols="3">Cell 2C</kor-table-cell>
+    <kor-table-cell grid-cols="3">Cell 2D</kor-table-cell>
+  </kor-table-row>
+  <kor-table-row>
+    <kor-table-cell grid-cols="12">Cell 3A</kor-table-cell>
+    <kor-table-cell grid-cols="6">Cell 3B</kor-table-cell>
+    <kor-table-cell grid-cols="3">Cell 3C</kor-table-cell>
+    <kor-table-cell grid-cols="3">Cell 3D</kor-table-cell>
+  </kor-table-row>
+  <kor-table-row>
+    <kor-table-cell grid-cols="12">Cell 4A</kor-table-cell>
+    <kor-table-cell grid-cols="6">Cell 4B</kor-table-cell>
+    <kor-table-cell grid-cols="3">Cell 4C</kor-table-cell>
+    <kor-table-cell grid-cols="3">Cell 4D</kor-table-cell>
+  </kor-table-row>
+  <kor-table-row>
+    <kor-table-cell grid-cols="12">Cell 5A</kor-table-cell>
+    <kor-table-cell grid-cols="6">Cell 5B</kor-table-cell>
+    <kor-table-cell grid-cols="3">Cell 5C</kor-table-cell>
+    <kor-table-cell grid-cols="3">Cell 5D</kor-table-cell>
+  </kor-table-row>
+</kor-table>
+```
+
 ---
 
 ## Sorting (Optional)
@@ -39,6 +171,19 @@ In cases where vertical space is scarce, tables can be set to have a condensed h
 When the user clicks on a sortable table header, the data of the table can be sorted and rearranged according to the alphabetical or numerical order of entries in that column.
 
 <iframe src="./assets/docs/components/table/sorting.html"></iframe>
+
+```html  
+<kor-card style="width: 100%">
+  <kor-table condensed>
+    <kor-table-row slot="header">
+      <kor-table-cell grid-cols="12" head sortable sorted sort-direction="desc">Sorted Head A</kor-table-cell>
+      <kor-table-cell grid-cols="6" head sortable>Sortable Head B</kor-table-cell>
+      <kor-table-cell grid-cols="3" head sortable>Sortable Head C</kor-table-cell>
+      <kor-table-cell grid-cols="3" head>Head D</kor-table-cell>
+    </kor-table-row>
+  </kor-table>
+</kor-card>
+```
 
 ---
 

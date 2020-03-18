@@ -12,6 +12,14 @@ Tools should have either a label or an icon defined (or both at the same time). 
 
 <iframe src="./assets/docs/components/tool/label-and-icon.html"></iframe>
 
+```html
+<kor-tool label="Label" active></kor-tool>
+<kor-tool label="This is a quite long label" active></kor-tool>
+<kor-tool icon="train" active></kor-tool>
+<kor-tool icon="train" label="Label" active></kor-tool>
+<kor-tool icon="train" label="This is a quite long label" active></kor-tool>
+```
+
 ---
 
 ## Toggle (Optional)
@@ -19,6 +27,13 @@ Tools should have either a label or an icon defined (or both at the same time). 
 Toggle Tools are used when a functionality can be set to on and off. Clicking or pressing the Tool will toggle the opposite state (on becomes off and vice versa).
 
 <iframe src="./assets/docs/components/tool/toggle.html"></iframe>
+
+```html
+<kor-tool label="Idle"></kor-tool>
+<kor-tool label="Active" active></kor-tool>
+<kor-tool label="Idle Toggle" active toggle></kor-tool>
+<kor-tool label="Active Toggle" active toggle></kor-tool>
+```
 
 ---
 

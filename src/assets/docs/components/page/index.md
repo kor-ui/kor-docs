@@ -14,6 +14,16 @@ The **bottom** slot of a page is usually used in mobile apps or websites to host
 
 <iframe src="./assets/docs/components/page/slots.html" height="560px"></iframe>
 
+```html
+<kor-page>
+  <kor-app-bar slot="top"></kor-app-bar>
+  <kor-nav-bar slot="top"></kor-nav-bar>
+  <kor-pane slot="left"></kor-pane>
+  <kor-card></kor-card>
+  <kor-pane slot="right"></kor-pane>
+</kor-page>
+```
+
 ---
 
 ## Theme (Optional)
@@ -21,6 +31,18 @@ The **bottom** slot of a page is usually used in mobile apps or websites to host
 The theme of a page defines the color scheem applied to all components inside it. It can be light, dark or any other [Custom Theme](introduction/custom-themes).
 
 <iframe src="./assets/docs/components/page/theme.html" height="560px"></iframe>
+
+```html
+<kor-page theme="light">
+  <kor-app-bar slot="top" mobile label="Light"></kor-app-bar>
+  <kor-card></kor-card>
+</kor-page>
+
+<kor-page theme="dark">
+  <kor-app-bar slot="top" mobile label="Dark"></kor-app-bar>
+  <kor-card></kor-card>
+</kor-page>
+```
 
 ---
 
@@ -30,6 +52,24 @@ The contents of a card can be displayed either vertically (top to bottom) or ver
 
 <iframe src="./assets/docs/components/page/flex-direction.html" height="560px"></iframe>
 
+```html
+<kor-page>
+  <kor-app-bar slot="top" mobile label="Flex Direction Row"></kor-app-bar>
+  <kor-icon icon="save"></kor-icon>
+  <kor-icon icon="save"></kor-icon>
+  <kor-icon icon="save"></kor-icon>
+  <kor-icon icon="save"></kor-icon>
+</kor-page>
+
+<kor-page flex-direction="column">
+  <kor-app-bar slot="top" mobile label="Flex Direction Column"></kor-app-bar>
+  <kor-icon icon="save"></kor-icon>
+  <kor-icon icon="save"></kor-icon>
+  <kor-icon icon="save"></kor-icon>
+  <kor-icon icon="save"></kor-icon>
+</kor-page>
+```
+
 ---
 
 ## Flat (Optional)
@@ -37,6 +77,26 @@ The contents of a card can be displayed either vertically (top to bottom) or ver
 Flat pages have a lighter background color, allowing content to be placed directly over it without the need of using a container such as a [Card](components/card).
 
 <iframe src="./assets/docs/components/page/flat.html" height="560px"></iframe>
+
+```html
+<kor-page flex-direction="column">
+  <kor-app-bar slot="top" mobile label="Not Flat"></kor-app-bar>
+  <kor-card>
+    <kor-menu-item></kor-menu-item>
+    <kor-menu-item></kor-menu-item>
+    <kor-menu-item></kor-menu-item>
+  </kor-card>
+</kor-page>
+
+<kor-page flat flex-direction="column">
+  <kor-app-bar slot="top" mobile label="Flat"></kor-app-bar>
+  <kor-grid columns="1" fit-content>
+    <kor-menu-item></kor-menu-item>
+    <kor-menu-item></kor-menu-item>
+    <kor-menu-item></kor-menu-item>
+  </kor-grid>
+</kor-page>
+```
 
 ---
 

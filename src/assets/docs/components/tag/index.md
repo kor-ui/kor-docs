@@ -14,6 +14,11 @@ An icon can be defined to complement the label and provide additional informatio
 
 <iframe src="./assets/docs/components/tag/label-and-icon.html"></iframe>
 
+```html
+<kor-tag label="Label"></kor-tag>
+<kor-tag label="Label and icon" icon="train"></kor-tag>
+```
+
 ---
 
 ## Removable (Optional)
@@ -22,6 +27,11 @@ In special use cases such as when used for applying filters, Tags can be removed
 
 <iframe src="./assets/docs/components/tag/removable.html"></iframe>
 
+```html
+<kor-tag label="Removable" removable></kor-tag>
+<kor-tag label="Removable" icon="train" removable></kor-tag>
+```
+
 ---
 
 ## Button (Optional)
@@ -29,6 +39,11 @@ In special use cases such as when used for applying filters, Tags can be removed
 If a Tag is used in its' button variation, the user can click on it for navigating or seeing more details regarding that category.
 
 <iframe src="./assets/docs/components/tag/button.html"></iframe>
+
+```html
+<kor-tag label="Button" button></kor-tag>
+<kor-tag label="Button" icon="train" button></kor-tag>
+```
 
 ---
 

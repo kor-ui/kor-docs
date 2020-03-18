@@ -14,6 +14,13 @@ An icon can be defined to complement the label and provide additional informatio
 
 <iframe src="./assets/docs/components/menu-item/label-and-icon.html"></iframe>
 
+```html
+<kor-menu-item label="Label only"></kor-menu-item>
+<kor-menu-item icon="save" label="Label and icon"></kor-menu-item>
+<kor-menu-item icon="save" label="Label and icon disabled" disabled></kor-menu-item>
+<kor-menu-item icon="save" label="This is a quite long label that gets truncated because of its length"></kor-menu-item>
+```
+
 ---
 
 ## Toggle (Optional)
@@ -21,6 +28,11 @@ An icon can be defined to complement the label and provide additional informatio
 Toggle Menu Items are used when a function can be set to on and off. Clicking or pressing the item will toggle the opposite state (on becomes off and vice versa).
 
 <iframe src="./assets/docs/components/menu-item/toggle.html"></iframe>
+
+```html
+<kor-menu-item label="Toggle"></kor-menu-item>
+<kor-menu-item label="No Toggle" toggle="false"></kor-menu-item>
+```
 
 ---
 
@@ -30,6 +42,14 @@ If a Menu Item does not allow user interactions, it can be set to be disabled. D
 
 <iframe src="./assets/docs/components/menu-item/disabled.html"></iframe>
 
+```html
+<kor-menu-item disabled active label="Disabled active"></kor-menu-item>
+<kor-menu-item disabled label="Disabled label only"></kor-menu-item>
+<kor-menu-item disabled icon="save" label="Disabled label and icon"></kor-menu-item>
+<kor-menu-item disabled icon="save" label="Disabled label, icon and functions">
+  <kor-icon icon="more_vert" button slot="functions"></kor-icon>
+</kor-menu-item>
+```
 
 ---
 
@@ -38,6 +58,19 @@ If a Menu Item does not allow user interactions, it can be set to be disabled. D
 Functions related directly to the Menu Item (e.g. 'save', 'share') can be placed on the right side of it, usually through the use of [Icons](components/icon).
 
 <iframe src="./assets/docs/components/menu-item/functions-slot.html"></iframe>
+
+```html
+<kor-menu-item label="Functions slot">
+  <kor-icon icon="more_vert" button slot="functions"></kor-icon>
+</kor-menu-item>
+<kor-menu-item label="Functions slot">
+  <kor-icon icon="launch" button slot="functions"></kor-icon>
+  <kor-icon icon="more_vert" button slot="functions"></kor-icon>
+</kor-menu-item>
+<kor-menu-item label="Functions slot">
+  <kor-text color="var(--text-2)" slot="functions">Jan 22, 2029</kor-text>
+</kor-menu-item>
+```
 
 ---
 

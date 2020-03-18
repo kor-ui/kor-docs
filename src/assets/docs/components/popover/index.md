@@ -12,6 +12,21 @@ By default, popovers are shown on the left side of its' target component. Accord
 
 <iframe src="./assets/docs/components/popover/position.html" height="480px"></iframe>
 
+```html
+<kor-popover target="#left" position="left" label="Left Popover">
+  This is a left popover.
+</kor-popover>
+<kor-popover target="#right" position="right" label="Right Popover">
+  This is a right popover.
+</kor-popover>
+<kor-popover target="#top" position="top" label="Top Popover">
+  This is a top popover.
+</kor-popover>
+<kor-popover target="#bottom" position="bottom" label="Bottom Popover">
+  This is a bottom popover.
+</kor-popover>
+```
+
 ---
 
 ## Label and Icon (Optional)
@@ -22,6 +37,10 @@ An icon can be defined to complement the label and provide additional informatio
 
 <iframe src="./assets/docs/components/popover/label-and-icon.html" height="480px"></iframe>
 
+```html
+<kor-popover target="#button" position="top" icon="directions_bike" label="Label and Icon"></kor-popover>
+```
+
 ---
 
 ## Sticky (Optional)
@@ -31,6 +50,13 @@ Sticky popovers do not allow clicking outside in order to close it.
 This variation is used in situations when the user is obliged to make a decision in order to continue, such as pressing a button or selecting an option.
 
 <iframe src="./assets/docs/components/popover/sticky.html" height="480px"></iframe>
+
+```html
+<kor-popover target="#button" position="top" label="Sticky" sticky>
+  This is a sticky popover.
+  <kor-button slot="footer" color="secondary" label="Close" onclick="event.target.parentElement.visible = false"></kor-button>
+</kor-popover>
+```
 
 ---
 
@@ -43,6 +69,21 @@ The **functions** slot can be used for hosting secondary functions, represented 
 The **footer** slot can be used for hosting the main actions related to the content, represented by components such as [Buttons](components/button).
 
 <iframe src="./assets/docs/components/popover/slots.html" height="480px"></iframe>
+
+```html
+<kor-popover target="#functions-and-footer" position="left" icon="directions_bike" label="Functions and Footer">
+  <kor-icon slot="functions" button icon="more_vert"></kor-icon slot="functions">
+  This is a popover with content in the functions and footer slots.
+  <kor-button slot="footer" color="secondary" label="Close" onclick="event.target.parentElement.visible = false"></kor-button>
+</kor-popover>
+<kor-popover target="#header" position="right">
+  <kor-tabs slot="header">
+    <kor-tab-item label="Tab 1" active></kor-tab-item>
+    <kor-tab-item label="Tab 2"></kor-tab-item>
+  </kor-tabs>
+  This is a popover with content in the header slot.
+</kor-popover>
+```
 
 ---
 

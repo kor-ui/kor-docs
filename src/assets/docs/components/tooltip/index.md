@@ -12,6 +12,21 @@ By default, tooltips are shown on the left side of its' target component. Accord
 
 <iframe src="./assets/docs/components/tooltip/position.html" height="480px"></iframe>
 
+```html
+<kor-tooltip target="#left" position="left" label="Left tooltip">
+  This is a left tooltip.
+</kor-tooltip>
+<kor-tooltip target="#right" position="right" label="Right tooltip">
+  This is a right tooltip.
+</kor-tooltip>
+<kor-tooltip target="#top" position="top" label="Top tooltip">
+  This is a top tooltip.
+</kor-tooltip>
+<kor-tooltip target="#bottom" position="bottom" label="Bottom tooltip">
+  This is a bottom tooltip.
+</kor-tooltip>
+```
+
 ---
 
 ## Label and Icon (Optional)
@@ -21,6 +36,10 @@ If defined, a label is shown above the content. Keep labels short and descriptiv
 An icon can be defined to complement the label and provide additional information to the user or to help categorize content in a visual manner.
 
 <iframe src="./assets/docs/components/tooltip/label-and-icon.html" height="480px"></iframe>
+
+```html
+<kor-tooltip target="#button" position="top" icon="directions_bike" label="Label and Icon"></kor-tooltip>
+```
 
 ---
 
@@ -33,6 +52,21 @@ The **functions** slot can be used for hosting secondary functions, represented 
 The **footer** slot can be used for hosting the main actions related to the content, represented by components such as [Buttons](components/button).
 
 <iframe src="./assets/docs/components/tooltip/slots.html" height="480px"></iframe>
+
+```html
+<kor-tooltip target="#functions-and-footer" position="left" icon="directions_bike" label="Functions and Footer">
+  <kor-icon slot="functions" button icon="more_vert"></kor-icon slot="functions">
+  This is a tooltip with content in the functions and footer slots.
+  <kor-button slot="footer" color="secondary" label="Close" onclick="event.target.parentElement.visible = false"></kor-button>
+</kor-tooltip>
+<kor-tooltip target="#header" position="right">
+  <kor-tabs slot="header">
+    <kor-tab-item label="Tab 1" active></kor-tab-item>
+    <kor-tab-item label="Tab 2"></kor-tab-item>
+  </kor-tabs>
+  This is a tooltip with content in the header slot.
+</kor-tooltip>
+```
 
 ---
 

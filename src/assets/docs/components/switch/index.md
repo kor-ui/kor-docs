@@ -12,6 +12,15 @@ Either a label or an icon should be defined, but only one out of the two will be
 
 <iframe src="./assets/docs/components/switch/label-and-icon.html" height="480px"></iframe>
 
+```html
+<kor-switch style="width: fit-content;">
+  <kor-switch-item icon="directions_car" disabled></kor-switch-item>
+  <kor-switch-item icon="directions_bike"></kor-switch-item>
+  <kor-switch-item label="Label" active></kor-switch-item>
+  <kor-switch-item label="Label" disabled></kor-switch-item>
+</kor-switch>
+```
+
 ---
 
 ## API

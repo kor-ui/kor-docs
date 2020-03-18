@@ -14,6 +14,13 @@ Text sizes are used mainly to define the hierarchy of components on a page. For 
 
 <iframe src="./assets/docs/components/text/size.html"></iframe>
 
+```html
+<kor-text size="header-1">Header 1</kor-text>
+<kor-text size="header-2">Header 2</kor-text>
+<kor-text size="body-1">Body 1</kor-text>
+<kor-text size="body-2">Body 2</kor-text>
+```
+
 ---
 
 ## Color
@@ -21,6 +28,13 @@ Text sizes are used mainly to define the hierarchy of components on a page. For 
 Colors can be used in conjunction with the size to indicate hierarchy of elements on a page. It can also be used to communicate that an element is disabled and therefore does not allow user interaction.
 
 <iframe src="./assets/docs/components/text/color.html"></iframe>
+
+```html
+<kor-text size="header-1">Text 1 (90%)</kor-text>
+<kor-text size="header-1" color="var(--text-2)">Text 2 (60%)</kor-text>
+<kor-text size="header-1" color="var(--text-3)">Text 3 (20%)</kor-text>
+<kor-text size="header-1" color="violet">Custom color</kor-text>
+```
 
 ---
 

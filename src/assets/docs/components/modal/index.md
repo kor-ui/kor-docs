@@ -18,6 +18,10 @@ An icon can be defined to complement the label and provide additional informatio
 
 <iframe src="./assets/docs/components/modal/label-and-icon.html" height="480px"></iframe>
 
+```html
+<kor-modal id="modal" visible icon="directions_bike" label="Label and Icon"></kor-modal>
+```
+
 ---
 
 ## Sticky (Optional)
@@ -27,6 +31,12 @@ Sticky modals do not display a close icon on its' top-right corner and disabled 
 This variation is used in situations when the user is obliged to make a decision in order to continue, such as pressing a button or selecting an option.
 
 <iframe src="./assets/docs/components/modal/sticky.html" height="480px"></iframe>
+
+```html
+<kor-modal id="modal" visible sticky label="Sticky">
+  <kor-button slot="footer" color="secondary" label="Close" onclick="document.querySelector('#modal').visible = false"></kor-button>
+</kor-modal>
+```
 
 ---
 
@@ -39,6 +49,20 @@ The **functions** slot can be used for hosting secondary functions, represented 
 The **footer** slot can be used for hosting the main actions related to the content, represented by components such as [Buttons](components/button).
 
 <iframe src="./assets/docs/components/modal/slots.html" height="480px"></iframe>
+
+```html
+<kor-modal id="functions-and-footer" visible label="Functions and Footer">
+  <kor-icon slot="functions" button icon="more_vert"></kor-icon slot="functions">
+  <kor-button slot="footer" color="secondary" label="Close" onclick="document.querySelector('#functions-and-footer').visible = false"></kor-button>
+</kor-modal>
+<kor-modal id="header">
+  <kor-tabs slot="header">
+    <kor-tab-item label="Tab 1" active></kor-tab-item>
+    <kor-tab-item label="Tab 2"></kor-tab-item>
+    <kor-tab-item label="Tab 3"></kor-tab-item>
+  </kor-tabs>
+</kor-modal>
+```
 
 ---
 

@@ -12,6 +12,12 @@ The label of a Toggled describes the funcionality being toggle. Keep labels shor
 
 <iframe src="./assets/docs/components/toggle/label.html"></iframe>
 
+```html
+<kor-toggle></kor-toggle>
+<kor-toggle label="Small label"></kor-toggle>
+<kor-toggle label="This is a quite long label that gets truncated because of its length"></kor-toggle>
+```
+
 ---
 
 ## API
