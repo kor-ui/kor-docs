@@ -44,7 +44,7 @@ Logos are not supported in mobile App Bars since the corners are reserved for ot
 
 ## Mobile (Optional)
 
-When used in its' mobile variation, the App Bar provides function slots on both left and right corners for actions such as 'Menu', 'Back' or 'More' and the label gets centered to the screen.
+When used in its mobile variation, the App Bar provides function slots on both left and right corners for actions such as 'Menu', 'Back' or 'More' and the label gets centered to the screen.
 
 <iframe src="./assets/docs/components/app-bar/mobile.html" height="200px"></iframe>
 

@@ -1,6 +1,6 @@
 # Sample Apps
 
-Below you can find some sample implementations of applications that can be used by you as design and/or development references. All samples come with a link to a live demo and to its' open source repository.
+Below you can find some sample implementations of applications that can be used by you as design and/or development references. All samples come with a link to a live demo and to its open source repository.
 
 ---
 

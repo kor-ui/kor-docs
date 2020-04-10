@@ -11,6 +11,8 @@ export class SandboxComponent implements OnInit {
 
   @Input() component: any;
 
+  public codeSnippet: string;
+
   constructor(
     public data: DataService,
     public router: Router
@@ -18,10 +20,10 @@ export class SandboxComponent implements OnInit {
 
   ngOnInit() {
     this.setDemo();
-    this.router.events.subscribe(() => { this.setDemo(); }); 
+    this.router.events.subscribe(() => { this.setDemo(); });
   }
 
-  setDemo(): void {
+  private setDemo(): void {
     const wrapper = document.querySelector('.demo-wrapper');
     const el = document.createElement(`kor-${this.component.tag ? this.component.tag : this.component.name}`);
     this.component.properties.forEach(prop => {
@@ -33,6 +35,16 @@ export class SandboxComponent implements OnInit {
     });
     wrapper.innerHTML = '';
     wrapper.appendChild(el);
+    this.codeSnippet = wrapper.innerHTML;
+  }
+
+  public copyCode(): void {
+    const input = document.createElement('input');
+    input.value = this.codeSnippet;
+    document.body.appendChild(input);
+    input.select();
+    document.execCommand('copy');
+    document.body.removeChild(input);
   }
 
 }

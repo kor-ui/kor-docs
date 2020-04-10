@@ -59,7 +59,7 @@ An icon can be defined to complement the label and provide additional informatio
 
 ## Sticky
 
-Sticky modals do not display a close icon on its' top-right corner. This variation is used in situations when the user is obliged to make a decision in order to continue, such as pressing a button or selecting an option.
+Sticky modals do not display a close icon on its top-right corner. This variation is used in situations when the user is obliged to make a decision in order to continue, such as pressing a button or selecting an option.
 
 <iframe src="./assets/docs/components/notifications/sticky.html"></iframe>
 

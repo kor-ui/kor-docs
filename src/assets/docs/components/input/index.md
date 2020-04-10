@@ -59,7 +59,7 @@ If defined, an icon is displayed on the left side of the input, before the label
 
 ## Condensed (Optional)
 
-When used in contexts where vertical space is limited, inputs can be set to have a condensed size, which will reduce its height and hide its' label if the value is not empty.
+When used in contexts where vertical space is limited, inputs can be set to have a condensed size, which will reduce its height and hide its label if the value is not empty.
 
 <iframe src="./assets/docs/components/input/condensed.html" height="480px"></iframe>
 

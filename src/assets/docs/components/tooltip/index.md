@@ -8,7 +8,7 @@ Tooltips are used to provide additional information to the user related to anoth
 
 ## Position (Optional)
 
-By default, tooltips are shown on the left side of its' target component. According to the use case and the layout of the app or website, the position can be adapted to be on the top, right or bottom instead.
+By default, tooltips are shown on the left side of its target component. According to the use case and the layout of the app or website, the position can be adapted to be on the top, right or bottom instead.
 
 <iframe src="./assets/docs/components/tooltip/position.html" height="480px"></iframe>
 

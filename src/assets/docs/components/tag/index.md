@@ -23,7 +23,7 @@ An icon can be defined to complement the label and provide additional informatio
 
 ## Removable (Optional)
 
-In special use cases such as when used for applying filters, Tags can be removed by the user upon clicking on the close icon shown at its' right side.
+In special use cases such as when used for applying filters, Tags can be removed by the user upon clicking on the close icon shown at its right side.
 
 <iframe src="./assets/docs/components/tag/removable.html"></iframe>
 
@@ -36,7 +36,7 @@ In special use cases such as when used for applying filters, Tags can be removed
 
 ## Button (Optional)
 
-If a Tag is used in its' button variation, the user can click on it for navigating or seeing more details regarding that category.
+If a Tag is used in its button variation, the user can click on it for navigating or seeing more details regarding that category.
 
 <iframe src="./assets/docs/components/tag/button.html"></iframe>
 

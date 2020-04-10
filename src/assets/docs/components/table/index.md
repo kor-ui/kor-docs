@@ -10,7 +10,7 @@ Tables are used to display large amounts of information in a concise manner whic
 
 ## Columns (Optional)
 
-By default, a table row contains 12 columns which can be assigned to its' child table cells. For example, a cell that has 12 columns assigned to it will occupy 50% of the table's width.
+By default, a table row contains 12 columns which can be assigned to its child table cells. For example, a cell that has 12 columns assigned to it will occupy 50% of the table's width.
 
 In specific use cases where more or less than 24 columns are required, a custom number of columns can be defined as well.
 

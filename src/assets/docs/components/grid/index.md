@@ -10,7 +10,7 @@ Grids are used for organizing content within a [Page](components/page) or inside
 
 ## Columns (Optional)
 
-By default, a grid contains 12 columns which can be assigned to its' child elements. For example, a child element that has 6 columns assigned will occupy 50% of the grid's width.
+By default, a grid contains 12 columns which can be assigned to its child elements. For example, a child element that has 6 columns assigned will occupy 50% of the grid's width.
 
 In specific use cases where more or less than 12 columns are required, a custom number of columns can be defined as well.
 
@@ -29,7 +29,7 @@ In specific use cases where more or less than 12 columns are required, a custom 
 
 ## Rows (Optional)
 
-By default, a grid automatically calculates the amount of rows required to display all its' child elements. For example, if 24 columns are assigned to the children of a grid, it calculates that 2 rows (24 / 12 = 2) are required.
+By default, a grid automatically calculates the amount of rows required to display all its child elements. For example, if 24 columns are assigned to the children of a grid, it calculates that 2 rows (24 / 12 = 2) are required.
 
 Rows can also be customized and assigned to child elements. For example, a grid can be set to have 3 rows and a child element can be assigned any quantity between 1 and 3 rows.
 
