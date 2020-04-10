@@ -28,16 +28,15 @@
               "src/assets",
               {
                 "glob": "**/*",
-                "input": "./node_modules/kor-ui/",
-                "output": "./assets/kor-ui/"
+                "input": "./node_modules/@kor-ui/kor/",
+                "output": "./assets/kor/"
               }
             ],
             "styles": [
               "src/styles.scss",
-              "node_modules/kor-ui/kor-styles.css"
+              "node_modules/@kor-ui/kor/kor-styles.css"
             ],
             "scripts": [
-              "node_modules/kor-ui/kor.js",
               "node_modules/marked/lib/marked.js",
               "node_modules/prismjs/prism.js"
             ]

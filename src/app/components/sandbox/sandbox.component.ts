@@ -1,6 +1,10 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { DataService } from 'src/app/services/data.service';
 import { Router } from '@angular/router';
+import '@kor-ui/input';
+import '@kor-ui/checkbox';
+import '@kor-ui/text';
+import '@kor-ui/radio-button';
 
 @Component({
   selector: 'app-sandbox',
@@ -8,7 +12,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./sandbox.component.scss']
 })
 export class SandboxComponent implements OnInit {
-  
+
   @Input() component: any;
 
   constructor(
@@ -22,8 +26,8 @@ export class SandboxComponent implements OnInit {
   }
 
   setDemo(): void {
-    let wrapper = document.querySelector('.demo-wrapper');
-    let el = document.createElement(`kor-${this.component.tag ? this.component.tag : this.component.name}`);
+    const wrapper = document.querySelector('.demo-wrapper');
+    const el = document.createElement(`kor-${this.component.tag ? this.component.tag : this.component.name}`);
     this.component.properties.forEach(prop => {
       if (!prop.value) {
         el.removeAttribute(prop.name);

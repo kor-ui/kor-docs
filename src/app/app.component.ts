@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from './services/data.service';
+import '@kor-ui/page';
+import '@kor-ui/app-bar';
+// import '@kor-ui/icon';
 
 @Component({
   selector: 'app-root',

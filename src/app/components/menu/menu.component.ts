@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { DataService } from 'src/app/services/data.service';
+import '@kor-ui/pane';
+import '@kor-ui/drawer';
+import '@kor-ui/accordion';
+import '@kor-ui/tabs';
 
 @Component({
   selector: 'app-menu',
