@@ -6,42 +6,56 @@ A few steps should be followed in order to include the library and start using t
 
 ## Installing the package
 
-Install the library in your project's folder:
+Install the library through npm:
 
 ```
-npm install kor-ui --save
+npm install @kor-ui/kor --save
 ```
 
 ---
 
 ## Integration of Components
 
-There are three ways of integrating the components into your app. You can follow any of the three following methods:
+### Load the whole bundle
 
-1. Include the JS bundle and CSS styles directly in your `index.html` file:
+The most simple and common way of including the components into an application is by loading the core bundle:
 
 ```html
-<script type="text/javascript" charset="utf-8" src="node_modules/kor-ui/kor.js"></script>
-<link rel="stylesheet" type="text/css" href="node_modules/kor-ui/kor-styles.css">
+<!-- include whole js bundle in index.html -->
+<script type="text/javascript" charset="utf-8" src="node_modules/@kor-ui/kor/index.js"></script>
+
+<!-- include stylesheet in index.html -->
+<link rel="stylesheet" type="text/css" href="node_modules/@kor-ui/kor/kor-styles.css">
 ```
 
-2. Alternatively, import the ES module directly:
+*or*
 
 ```js
-import { kor } from 'kor-ui/kor.js' 
+// include js bundle through js import instead
+import '@kor-ui/kor' 
 ```
 
-3. If you are using Angular, you can instead include the assets in your `angular.json` file:
+### Lazy load
 
-```json
-"styles": [
-    // ...    
-    "node_modules/kor-ui/kor-styles.css"
-],
-"scripts": [
-    // ...
-    "node_modules/kor-ui/kor.js"
-]
+As an alternative, you can also install and load individual components to reduce loading time (stylesheet still needs to be included in addition to the following steps):
+
+```
+npm install @kor-ui/button --save
+npm install @kor-ui/accordion --save
+```
+
+```html
+<!-- include components in html file -->
+<script type="text/javascript" charset="utf-8" src="node_modules/@kor-ui/button/index.js"></script>
+<script type="text/javascript" charset="utf-8" src="node_modules/@kor-ui/accordion/index.js"></script>
+```
+
+*or*
+
+```js
+// include individual components through js import
+import { korButton } from '@kor-ui/button' 
+import { korAccordion } from '@kor-ui/accordion' 
 ```
 
 ---

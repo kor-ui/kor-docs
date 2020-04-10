@@ -1,10 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { DataService } from 'src/app/services/data.service';
 import { Router } from '@angular/router';
-import '@kor-ui/input';
-import '@kor-ui/checkbox';
-import '@kor-ui/text';
-import '@kor-ui/radio-button';
 
 @Component({
   selector: 'app-sandbox',
