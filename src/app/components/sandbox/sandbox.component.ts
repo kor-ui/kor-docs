@@ -23,7 +23,7 @@ export class SandboxComponent implements OnInit {
     this.router.events.subscribe(() => { this.setDemo(); });
   }
 
-  private setDemo(): void {
+  public setDemo(): void {
     const wrapper = document.querySelector('.demo-wrapper');
     const el = document.createElement(`kor-${this.component.tag ? this.component.tag : this.component.name}`);
     this.component.properties.forEach(prop => {
