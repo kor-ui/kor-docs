@@ -69,6 +69,11 @@
         "name": "Image",
         "type": "string",
         "value": "https://www.evolutionsociety.org/userdata/news_picupload/pic_sid189-0-norm.jpg"
+      },
+      {
+        "name": "Condensed",
+        "type": "boolean",
+        "value": null
       }
     ]
   },

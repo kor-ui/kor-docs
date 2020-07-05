@@ -79,3 +79,9 @@ When used in its mobile variation, the App Bar provides function slots on both l
 | **`functions`** | Displayed on the right side (if `mobile` is unset). Used for hosting components such as [Icon](/components/icon) and [Avatar](/components/avatar). |
 | **`left`** | Displayed on the left side (if `mobile` is set to `true`). Used for hosting components such as [Icon](/components/icon). |
 | **`right`** | Displayed on the right side (if `mobile` is set to `true`). Used for hosting components such as [Icon](/components/icon). |
+
+### Events
+
+| Name | Description |
+| :-- | :-- |
+| **`logo-clicked`** | Emitted when clicking on the logo. |

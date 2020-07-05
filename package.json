@@ -19,7 +19,7 @@
     "@angular/platform-browser": "~8.2.3",
     "@angular/platform-browser-dynamic": "~8.2.3",
     "@angular/router": "~8.2.3",
-    "@kor-ui/kor": "^1.0.9",
+    "@kor-ui/kor": "^1.1.3",
     "ngx-markdown": "^8.2.2",
     "rxjs": "~6.4.0",
     "tslib": "^1.11.1",
