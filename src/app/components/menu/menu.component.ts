@@ -5,16 +5,10 @@ import { DataService } from 'src/app/services/data.service';
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.scss']
+  styleUrls: ['./menu.component.scss'],
 })
 export class MenuComponent implements OnInit {
+  constructor(public data: DataService, public router: Router) {}
 
-  constructor(
-    public data: DataService,
-    public router: Router
-  ) { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

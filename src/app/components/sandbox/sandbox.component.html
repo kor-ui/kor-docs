@@ -3,36 +3,55 @@
     <!-- repeat for each prop -->
     <ng-container *ngFor="let prop of component.properties">
       <!-- string props -->
-      <kor-input *ngIf="prop.type == 'string'"
-        [label]="prop.name" 
+      <kor-input
+        *ngIf="prop.type == 'string'"
+        [label]="prop.name"
         [value]="prop.value"
-        (value-changed)="prop.value = $event.target.value; setDemo();">
+        (value-changed)="prop.value = $event.target.value; setDemo()"
+      >
       </kor-input>
       <!-- number props -->
-      <kor-input type="number" *ngIf="prop.type == 'number'"
-        [label]="prop.name" 
+      <kor-input
+        type="number"
+        *ngIf="prop.type == 'number'"
+        [label]="prop.name"
         [value]="prop.value"
-        (value-changed)="prop.value = $event.target.value; setDemo();">
+        (value-changed)="prop.value = $event.target.value; setDemo()"
+      >
       </kor-input>
       <!-- boolean props -->
-      <kor-checkbox *ngIf="prop.type == 'boolean'"
-        [label]="prop.name" 
-        [active]="prop.value" 
-        (active-changed)="prop.value = $event.target.active; setDemo();">
+      <kor-checkbox
+        *ngIf="prop.type == 'boolean'"
+        [label]="prop.name"
+        [active]="prop.value"
+        (active-changed)="prop.value = $event.target.active; setDemo()"
+      >
       </kor-checkbox>
       <!-- select props -->
-      <kor-input type="select" *ngIf="prop.type == 'select'"
+      <kor-input
+        type="select"
+        *ngIf="prop.type == 'select'"
         [label]="prop.name"
-        [value]="prop.value ? prop.value : 'undefined'">
-        <kor-menu-item *ngFor="let option of prop.options" 
-          [label]="option ? option : 'undefined'" 
-          [active]="prop.value == option" 
-          (active-changed)="$event.target.active ? prop.value = option : ''; setDemo();">
+        [value]="prop.value ? prop.value : 'undefined'"
+      >
+        <kor-menu-item
+          *ngFor="let option of prop.options"
+          [label]="option ? option : 'undefined'"
+          [active]="prop.value == option"
+          (active-changed)="
+            $event.target.active ? (prop.value = option) : ''; setDemo()
+          "
+        >
         </kor-menu-item>
       </kor-input>
     </ng-container>
     <!-- copy code button -->
-    <kor-button slot="footer" label="Copy Code" color="secondary" (click)="copyCode()"></kor-button>
+    <kor-button
+      slot="footer"
+      label="Copy Code"
+      color="secondary"
+      (click)="copyCode()"
+    ></kor-button>
   </kor-pane>
   <div class="demo-wrapper"></div>
 </kor-page>

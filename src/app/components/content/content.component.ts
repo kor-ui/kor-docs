@@ -5,29 +5,25 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
-  styleUrls: ['./content.component.scss']
+  styleUrls: ['./content.component.scss'],
 })
 export class ContentComponent implements OnInit {
+  constructor(public data: DataService, public router: Router) {}
 
-  constructor(
-    public data: DataService,
-    public router: Router
-  ) { }
-
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   public findComponent(): boolean {
-    return this.data.sandbox.find(({name}) => name == this.data.getNameFromUrl());
+    return this.data.sandbox.find(
+      ({ name }) => name == this.data.getNameFromUrl()
+    );
   }
 
   public handleLoad(): void {
     // wait for iframes to load and call set theme
-    document.querySelectorAll('iframe').forEach(el => {
-      el.onload = () => this.data.setDemoTheme(el) 
-    })
+    document.querySelectorAll('iframe').forEach((el) => {
+      el.onload = () => this.data.setDemoTheme(el);
+    });
     // scroll content to top
     document.querySelector('app-content').scrollTo(0, 0);
   }
-
 }

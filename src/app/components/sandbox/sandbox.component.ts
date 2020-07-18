@@ -5,28 +5,28 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-sandbox',
   templateUrl: './sandbox.component.html',
-  styleUrls: ['./sandbox.component.scss']
+  styleUrls: ['./sandbox.component.scss'],
 })
 export class SandboxComponent implements OnInit {
-
   @Input() component: any;
 
   public codeSnippet: string;
 
-  constructor(
-    public data: DataService,
-    public router: Router
-  ) { }
+  constructor(public data: DataService, public router: Router) {}
 
   ngOnInit() {
     this.setDemo();
-    this.router.events.subscribe(() => { this.setDemo(); });
+    this.router.events.subscribe(() => {
+      this.setDemo();
+    });
   }
 
   public setDemo(): void {
     const wrapper = document.querySelector('.demo-wrapper');
-    const el = document.createElement(`kor-${this.component.tag ? this.component.tag : this.component.name}`);
-    this.component.properties.forEach(prop => {
+    const el = document.createElement(
+      `kor-${this.component.tag ? this.component.tag : this.component.name}`
+    );
+    this.component.properties.forEach((prop) => {
       if (!prop.value) {
         el.removeAttribute(prop.name);
       } else {
@@ -46,5 +46,4 @@ export class SandboxComponent implements OnInit {
     document.execCommand('copy');
     document.body.removeChild(input);
   }
-
 }
