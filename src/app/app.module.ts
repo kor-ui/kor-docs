@@ -1,14 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { MarkdownModule, MarkedOptions, MarkedRenderer } from 'ngx-markdown';
-
 import { AngularFireModule } from '@angular/fire';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+
+import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DataService } from './services/data.service';
 import { MenuComponent } from './components/menu/menu.component';
 import { ContentComponent } from './components/content/content.component';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { SandboxComponent } from './components/sandbox/sandbox.component';
 
 // markdown options
@@ -43,17 +44,6 @@ export function markedOptionsFactory(): MarkedOptions {
   };
 }
 
-const firebaseConfig = {
-  apiKey: "AIzaSyCX1nD5-wcE7sqyFMWGRg_7qzZXyuNESuY",
-  authDomain: "kor-ui.firebaseapp.com",
-  databaseURL: "https://kor-ui.firebaseio.com",
-  projectId: "kor-ui",
-  storageBucket: "kor-ui.appspot.com",
-  messagingSenderId: "531473931382",
-  appId: "1:531473931382:web:e4175a113fc693ae9cd357",
-  measurementId: "G-2BC3003EHD"
-};
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -65,7 +55,7 @@ const firebaseConfig = {
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireModule.initializeApp(environment.firebase),
     MarkdownModule.forRoot({
       loader: HttpClient,
       markedOptions: {

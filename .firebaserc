@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "kor-ui": {
+      "hosting": {
+        "kor-docs": [
+          "kor-ui"
+        ]
+      }
+    }
+  }
+}
