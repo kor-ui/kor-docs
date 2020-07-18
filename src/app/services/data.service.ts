@@ -19,6 +19,7 @@ export class DataService {
   public switchTheme(): void {
     this.appTheme = this.appTheme == 'dark' ? 'light' : 'dark';
     localStorage.setItem('appTheme', this.appTheme);
+    console.log(localStorage)
     this.setDemoTheme();
   }
 

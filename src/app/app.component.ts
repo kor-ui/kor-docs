@@ -19,6 +19,7 @@ export class AppComponent implements OnInit {
     });
     // pre-set theme from local storage
     const storedTheme = localStorage.getItem('appTheme');
+    console.log(localStorage)
     if (storedTheme) {
       this.data.appTheme = storedTheme;
     }
