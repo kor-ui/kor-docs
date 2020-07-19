@@ -2,13 +2,15 @@
 
 ## An open source Design System and lightweight UI Component Library.
 
+**Kor** is built to facilitate the design and development of **intuitive, coherent and pleasing** user interfaces based on Web technologies (HTML5). 
+
 ---
 
-**Kor** is a Design System and User Interface component library built to facilitate the design and development of **intuitive, coherent and pleasing** applications based on Web technologies (HTML5). 
+<video width="100%" height="auto" autoplay loop muted>
+  <source src="/assets/docs/introduction/welcome/splash.mp4" type="video/mp4" />
+</video>
 
-It is built to be compatible with all major frameworks, browsers, operational systems, form factors and input types, allowing applications built with **kor** to be deployed and used virtually anywhere.
-
-<img src="/assets/docs/introduction/welcome/splash.gif" style="object-fit: contain">
+Built to be compatible with all major frameworks, browsers, operational systems, form factors and input types, **Kor** allows applications built with it to be deployed and used virtually anywhere.
 
 ---
 
