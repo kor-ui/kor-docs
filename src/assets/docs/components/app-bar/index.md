@@ -61,6 +61,21 @@ When used in its mobile variation, the App Bar provides function slots on both l
 
 ---
 
+## Slots
+
+The **functions** slot can be used for hosting global app functions, represented by components such as [Icons](components/icon) and for the user [Avatar](components/avatar).
+
+<iframe src="./assets/docs/components/app-bar/slots.html" height="480px"></iframe>
+
+```html
+<kor-app-bar slot="top" label="Label">
+  <kor-icon slot="functions" icon="settings" button></kor-icon>
+  <kor-avatar label="Label" info="Information text" image="https://www.evolutionsociety.org/userdata/news_picupload/pic_sid189-0-norm.jpg"></kor-avatar>
+</kor-app-bar>
+```
+
+---
+
 ## API
 
 ### Properties

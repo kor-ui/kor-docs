@@ -63,6 +63,11 @@ A flat card does not display shadows, background color or margins around it. It 
 <iframe src="./assets/docs/components/card/flat.html" height="480px"></iframe>
 
 ```html
+<kor-card flat icon="train" label="Flat Card">
+  <kor-icon slot="functions" button icon="more_vert"></kor-icon slot="functions">
+    This is the content of my card.
+  <kor-button slot="footer"></kor-button>
+</kor-card>
 ```
 
 ---
