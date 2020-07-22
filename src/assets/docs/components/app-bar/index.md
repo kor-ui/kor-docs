@@ -70,7 +70,7 @@ The **functions** slot can be used for hosting global app functions, represented
 ```html
 <kor-app-bar slot="top" label="Label">
   <kor-icon slot="functions" icon="settings" button></kor-icon>
-  <kor-avatar label="Label" info="Information text" image="https://www.evolutionsociety.org/userdata/news_picupload/pic_sid189-0-norm.jpg"></kor-avatar>
+  <kor-avatar slot="functions" label="Label" info="Information text" image="https://www.evolutionsociety.org/userdata/news_picupload/pic_sid189-0-norm.jpg"></kor-avatar>
 </kor-app-bar>
 ```
 
