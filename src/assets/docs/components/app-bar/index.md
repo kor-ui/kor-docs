@@ -4,7 +4,7 @@ The App Bar is located at the top of a page and remains stable across multiple p
 
 Only one App Bar should be used at a time and it is recommended to use this component in all pages, except in special cases such as full screen mode.
 
-[Mobile](components/app-bar#mobile) • [Label](components/app-bar#label) • [Logo](components/app-bar#logo) • [Slots](components/app-bar#slots) • [API](components/app-bar#api)
+[Label](components/app-bar#label-(optional)) • [Logo](components/app-bar#logo-(optional)) • [Mobile](components/app-bar#mobile-(optional)) • [Slots](components/app-bar#slots) • [API](components/app-bar#api)
 
 ---
 

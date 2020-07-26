@@ -2,7 +2,7 @@
 
 Popovers are used to show extra content close to a target component. It is frequently triggered by components such as [Icons](components/icon) to provide a contextual set of [Menu Items](components/menu-item), for example.
 
-[Label and Icon](components/popover#label-and-icon) • [Position](components/popover#position) • [Sticky](components/popover#sticky) • [Slots](components/popover#slots) • [API](components/popover#api)
+[Position](components/popover#position-(optional)) • [Label and Icon](components/popover#label-and-icon-(optional)) • [Sticky](components/popover#sticky-(optional)) • [Slots](components/popover#slots) • [API](components/popover#api)
 
 ---
 
@@ -60,7 +60,7 @@ This variation is used in situations when the user is obliged to make a decision
 
 ---
 
-## Slots (Optional)
+## Slots
 
 The **header** slot can be used for placing components that will remain stable above the content, such as [Tabs](components/tabs).
 

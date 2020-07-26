@@ -2,7 +2,7 @@
 
 Spinners are used to indicate a process running indeterminately. If the duration and progress of the process is known, consider using a [Progress Bar](components/progress-bar) instead.
 
-[Icon](components/spinner#icon) • [API](components/spinner#api)
+[Icon](components/spinner#icon-(optional)) • [Size](components/spinner#size-(optional)) • [API](components/spinner#api)
 
 ---
 

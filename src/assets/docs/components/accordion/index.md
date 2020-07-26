@@ -2,7 +2,7 @@
 
 Accordions are containers used for categorizing components such as [Inputs](components/input) or plain [Text](components/text). Because of its ability to collapse and expand its content, Accordions can be used to unclutter an UI by being collapsed by default or giving the user the ability to hide content that he/she doesn't find relevant at a time.
 
-[Footer Slot](components/accordion#footer-slot) • [API](components/accordion#api)
+[Footer Slot](components/accordion#footer-slot-(optional)) • [API](components/accordion#api)
 
 ---
 

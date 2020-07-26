@@ -4,7 +4,7 @@ Panes are used on side slots of a [Page](components/page) to host side controls 
 
 Components usually used inside panes include [Accordions](components/accordion), [Menu Items](components/menu-item) and [Inputs](components/input).
 
-[Label and Icon](components/pane#label-and-icon) • [Slots](components/pane#slots) • [API](components/pane#api)
+[Label and Icon](components/pane#label-and-icon-(optional)) • [Slots](components/pane#slots) • [API](components/pane#api)
 
 ---
 
@@ -25,7 +25,7 @@ An icon can be defined to complement the label and provide additional informatio
 
 ---
 
-## Slots (Optional)
+## Slots
 
 The **header** slot can be used for placing components that will remain stable above the content, such as [Tabs](components/tabs).
 

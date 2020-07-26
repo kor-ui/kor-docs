@@ -2,7 +2,7 @@
 
 Avatars are used to identify the user logged into an app or website by displaying information such as profile picture and name.
 
-[Label and info](components/avatar#label-and-info) • [Image](components/avatar#image) • [API](components/avatar#api)
+[Label and info](components/avatar#label-and-info-(optional)) • [Image](components/avatar#image-(optional)) • [API](components/avatar#api)
 
 ---
 

@@ -2,7 +2,7 @@
 
 Tooltips are used to provide additional information to the user related to another element on the screen. It is usually triggered by components such as [Icons](components/icon) to help describing an action in a textual manner.
 
-[Position](components/tooltip#position) • [Label and Icon](components/tooltip#label-and-icon) • [Slots](components/tooltip#slots) • [API](components/tooltip#api)
+[Position](components/tooltip#position-(optional)) • [Label and Icon](components/tooltip#label-and-icon-(optional)) • [Slots](components/tooltip#slots) • [API](components/tooltip#api)
 
 ---
 
@@ -43,7 +43,7 @@ An icon can be defined to complement the label and provide additional informatio
 
 ---
 
-## Slots (Optional)
+## Slots
 
 The **header** slot can be used for placing components that will remain stable above the content, such as [Tabs](components/tabs).
 

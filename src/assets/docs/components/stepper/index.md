@@ -2,7 +2,7 @@
 
 Steppers are used to give an overview of where the user is in a linear process and how many steps are left in order to complete it.
 
-[Label, Info and Icon](components/stepper#label,-info-and-icon) • [Active and Disabled](components/stepper#active-and-disabled) • [Orientation](components/stepper#orientation) • [API](components/stepper#api)
+[Label, Info and Icon](components/stepper#label,-info-and-icon-(optional)) • [Active and Disabled](components/stepper#active-and-disabled-(optional)) • [Orientation](components/stepper#orientation-(optional)) • [API](components/stepper#api)
 
 ---
 

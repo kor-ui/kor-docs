@@ -2,7 +2,7 @@
 
 Switches are used by the user to switch between a set of pre-defined options. Use switches when fewer than 4 options are available, in other cases consider using [Radio Buttons](components/radio-button) or [Menu Items](components/menu-item) instead.
 
-[Label and Icon](components/switch#label-and-icon) • [API](components/switch#api)
+[Label and Icon](components/switch#label-and-icon-(required)) • [API](components/switch#api)
 
 ---
 

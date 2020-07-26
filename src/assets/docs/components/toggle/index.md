@@ -2,7 +2,7 @@
 
 Toggles are used to turn a functionality ON or OFF. It should not be used in mutually exclusive groups, for these cases consider using [Radio Buttons](components/radio-button) instead.
 
-[Label](components/toggle#label) • [API](components/toggle#api)
+[Label](components/toggle#label-(required)) • [API](components/toggle#api)
 
 ---
 

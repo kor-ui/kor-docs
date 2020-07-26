@@ -2,7 +2,7 @@
 
 Intro
 
-[Label and Icon](components/menu-item#label-and-icon) • [Toggle](components/menu-item#toggle) • [Disabled](components/menu-item#disabled) • [Functions Slot](components/menu-item#functions-slot) • [API](components/menu-item#api)
+[Label and Icon](components/menu-item#label-(required)-and-icon-(optional)) • [Toggle](components/menu-item#toggle-(optional)) • [Disabled](components/menu-item#disabled-(optional)) • [Functions Slot](components/menu-item#functions-slot-(optional)) • [API](components/menu-item#api)
 
 ---
 

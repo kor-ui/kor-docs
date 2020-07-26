@@ -2,7 +2,7 @@
 
 Tabs are used for navigating between pages or switching the contents of a container. It is usually used inside components such as [App Bar](components/app-bar), [Nav Bar](components/nav-bar), [Panes](components/pane) and [Cards](components/card).
 
-[Label and Icon](components/tabs#label-and-icon) • [Active and Disabled](components/stepper#active-and-disabled) • [Orientation](components/tabs#orientation) • [API](components/tabs#api)
+[Label and Icon](components/tabs#label-and-icon-(optirequiredonal)) • [Active and Disabled](components/stepper#active-and-disabled-(optional)) • [Orientation](components/tabs#orientation-(required)) • [API](components/tabs#api)
 
 ---
 
@@ -38,7 +38,7 @@ Items can also be disabled in case the user is not supposed to click on it for n
 
 ---
 
-## Orientation (Optional)
+## Orientation (Required)
 
 By default, Tabs are displayed in a horizontal orientation, but when using in vertical containers it could also be shown in a vertical orientation, with the items being aligned from top to bottom.
 

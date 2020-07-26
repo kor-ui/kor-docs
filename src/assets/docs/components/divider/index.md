@@ -2,11 +2,11 @@
 
 Dividers are used to create visual boundaries between unrelated content. While it helps creating a visual hierarchy on the page, do not overuse dividers or they can create unnecessary complexity to the users.
 
-[Orientation](components/divider#orientation) • [API](components/divider#api)
+[Orientation](components/divider#orientation-(required)) • [API](components/divider#api)
 
 ---
 
-## Orientation
+## Orientation (Required)
 
 The orientation of a divider is determined by the direction in which the content flows. When the content flows vertically, horizontal dividers should be used, and when it flows horizontally, use vertical dividers instead.
 

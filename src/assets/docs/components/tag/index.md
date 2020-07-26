@@ -2,7 +2,7 @@
 
 Tags are used to categorize content in a page. It is commonly used in conjunction with [Tables](components/table)
 
-[Label and Icon](components/tag#label-and-icon) • [Removable](components/tag#removable) • [Button](components/tag#button) • [API](components/tag#api)
+[Label and Icon](components/tag#label-(required)-and-icon-(optional)) • [Removable](components/tag#removable-(optional)) • [Button](components/tag#button-(optional)) • [API](components/tag#api)
 
 ---
 

@@ -6,7 +6,7 @@ A Nav Bar provides ways for the user to navigate within an app or website throug
 
 It is usually used for second level of navigation (sub-pages), while the main navigation is shown in the [App Bar](components/app-bar).
 
-[Functions Slot](components/nav-bar#icon) • [Mobile](components/nav-bar#icon) • [API](components/nav-bar#api)
+[Functions Slot](components/nav-bar#functions-slot-(optional)) • [Mobile](components/nav-bar#mobile) • [API](components/nav-bar#api)
 
 ---
 
@@ -33,7 +33,7 @@ Functions that apply to the entire page (but no to the entire app or website) ca
 
 ---
 
-## Mobile (Optional)
+## Mobile
 
 In mobile devices, the Nav Bar can be placed in the bottom slot of the [Page](components/page) in order to make it easier to reach by the user's finger.
 

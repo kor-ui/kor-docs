@@ -2,7 +2,7 @@
 
 Badges are used to indicate status or quantity related to another component such as a [Card](components/card) or [Table](components/table) row.
 
-[Label](components/badge#label) • [Status](components/badge#status) • [API](components/badge#api)
+[Label](components/badge#label-(optional)) • [Status](components/badge#status-(optional)) • [API](components/badge#api)
 
 ---
 

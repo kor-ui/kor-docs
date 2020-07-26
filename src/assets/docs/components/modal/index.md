@@ -6,7 +6,7 @@ They can appear on demand after a user interaction (e.g. to change settings) or 
 
 When a modal is visible, the main content of the page gets overlaid with a transparent layer, therefore it should not be used when information on the page is still relevant to the user at that point.
 
-[Label and Icon](components/modal#label-and-icon) • [Sticky](components/modal#sticky) • [Slots](components/modal#slots) • [API](components/modal#api)
+[Label and Icon](components/modal#label-and-icon-(optional)) • [Sticky](components/modal#sticky-(optional)) • [Slots](components/modal#slots) • [API](components/modal#api)
 
 ---
 
@@ -40,7 +40,7 @@ This variation is used in situations when the user is obliged to make a decision
 
 ---
 
-## Slots (Optional)
+## Slots
 
 The **header** slot can be used for placing components that will remain stable above the content, such as [Tabs](components/tabs).
 

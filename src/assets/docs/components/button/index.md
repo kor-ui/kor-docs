@@ -2,7 +2,7 @@
 
 Buttons are used to trigger an action by click or touch, such as 'Open', 'Save', or 'Cancel'.
 
-[Color](components/button#color) • [Icon](components/button#icon) • [API](components/button#api)
+[Color](components/button#color-(required)) • [Icon](components/button#icon-(optional)) • [API](components/button#api)
 
 ---
 

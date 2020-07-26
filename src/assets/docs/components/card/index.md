@@ -2,7 +2,7 @@
 
 Cards are used to cluster related content. It helps creating a visual separation of different sections of a page through the use of background color and shadow. Cards are usually placed inside [Grids](components/grid).
 
-[Label and Icon](components/card#label-and-icon) • [Image](components/card#image) • [Flex Direction](components/card#flex-direction) • [Flat](components/card#flat) • [Slots](components/card#slots) • [API](components/card#api)
+[Label and Icon](components/card#label-and-icon-(optional)) • [Image](components/card#image-(optional)) • [Flex Direction](components/card#flex-direction-(required)) • [Flat](components/card#flat-(optional)) • [Slots](components/card#slots) • [API](components/card#api)
 
 ---
 

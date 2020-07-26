@@ -2,11 +2,11 @@
 
 The Page component is used to define the main layout and color theme of an app or website.
 
-[Slots](components/page#slots) • [Theme](components/page#theme) • [Flex Direction](components/page#flex-direction) • [Flat](components/page#flat) • [API](components/page#api)
+[Slots](components/page#slots) • [Theme](components/page#theme-(optional)) • [Flex Direction](components/page#flex-direction-(required)) • [Flat](components/page#flat-(optional)) • [API](components/page#api)
 
 ---
 
-## Slots (Optional)
+## Slots
 
 The **top** slot of a page usually hosts components such as [App Bar](components/app-bar) or [Nav Bar](components/nav-bar).
 The **left** and **right** slot of a page usually hosts a side [Pane](components/pane).

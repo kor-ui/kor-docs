@@ -2,7 +2,7 @@
 
 Tools are used to trigger or toggle a functionality upon mouse or touch interaction performed by the user.
 
-[Label](components/tool#label) • [API](components/tool#api)
+[Label](components/tool#label-and-icon-(required)) • [Toggle](components/tool#toggle-(optional)) • [API](components/tool#api)
 
 ---
 

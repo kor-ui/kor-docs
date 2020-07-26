@@ -2,7 +2,7 @@
 
 Inputs are used to provide the user with a way of entering a value or selecting out of a list, which could be of different types.
 
-[Type](components/input#type) • [Status](components/input#status) • [Icon](components/input#icon) • [Condensed](components/input#condensed) • [Disabled and Readonly](components/input#disabled-and-readonly) • [Functions Slot](components/input#functions-slot) • [API](components/input#api)
+[Type](components/input#type-(required)) • [Status](components/input#status-(optional)) • [Icon](components/input#icon-(optional)) • [Condensed](components/input#condensed-(optional)) • [Disabled and Readonly](components/input#disabled-and-readonly-(optional)) • [Functions Slot](components/input#functions-slot-(optional)) • [API](components/input#api)
 
 ---
 

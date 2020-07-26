@@ -4,7 +4,7 @@ Notifications are used to inform the user about background processes without dis
 
 They should not be used for critical messages that require immediate action ([Modals](component/modal) should be used in these cases), and they should also not be used for messages that are completely irrelevant for the user at that time ([Badges](component/badge) could be used alternatively).
 
-[Position](components/notifications#position) • [Label and Icon](components/notifications#label-and-icon) • [Sticky](components/notifications#sticky) • [Slots](components/notifications#slots) • [API](components/notifications#api)
+[Position](components/notifications#position-(required)) • [Label and Icon](components/notifications#label-and-icon-(optional)) • [Sticky](components/notifications#sticky-(optional)) • [Slots](components/notifications#slots) • [API](components/notifications#api)
 
 ---
 
@@ -57,7 +57,7 @@ An icon can be defined to complement the label and provide additional informatio
 
 ---
 
-## Sticky
+## Sticky (Optional)
 
 Sticky modals do not display a close icon on its top-right corner. This variation is used in situations when the user is obliged to make a decision in order to continue, such as pressing a button or selecting an option.
 

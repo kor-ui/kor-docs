@@ -2,7 +2,7 @@
 
 Empty States are used as placeholders for content that are either unavailable or do not exist yet.
 
-[Label and Icon](components/empty-state#label-and-icon) • [Footer Slot](components/empty-state#footer-slot) • [API](components/empty-state#api)
+[Label and Icon](components/empty-state#label-and-icon-(optional)) • [Footer Slot](components/empty-state#footer-slot-(optional)) • [API](components/empty-state#api)
 
 ---
 

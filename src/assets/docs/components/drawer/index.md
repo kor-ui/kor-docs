@@ -2,7 +2,7 @@
 
 Drawers are used to provide on-demand content to the user. They are specially used in situations where space is restricted on the page to hide less relevant information, such as in mobile apps for filtering options or menus.
 
-[Label and Icon](components/drawer#label-and-icon) • [Sticky](components/drawer#sticky) • [Slots](components/drawer#slots) • [Mobile](components/drawer#mobile) • [API](components/drawer#api)
+[Label and Icon](components/drawer#label-and-icon-(optional)) • [Sticky](components/drawer#sticky-(optional)) • [Slots](components/drawer#slots) • [Mobile](components/drawer#mobile) • [API](components/drawer#api)
 
 ---
 
@@ -36,7 +36,7 @@ This variation is used in situations when the user is obliged to make a decision
 
 ---
 
-## Slots (Optional)
+## Slots
 
 The **header** slot can be used for placing components that will remain stable above the content, such as [Tabs](components/tabs).
 

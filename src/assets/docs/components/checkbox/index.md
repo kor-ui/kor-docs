@@ -4,7 +4,7 @@ Checkboxes are used for selecting an option out of a list (such as in filters) o
 
 When multiple checkboxes are used together, they can be either mutually exclusive or allow multiple items to be selected, depending on the use case.
 
-[Label](components/checkbox#label) • [API](components/checkbox#api)
+[Label](components/checkbox#label-(optional)) • [API](components/checkbox#api)
 
 ---
 

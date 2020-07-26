@@ -4,11 +4,11 @@
 
 Texts are used to display textual information on a page. Elements such as size and color can be used to define the hierarchy of elements on a page.
 
-[Size](components/text#size) • [Color](components/text#color) • [API](components/text#api)
+[Size](components/text#size-(required)) • [Color](components/text#color-(required)) • [API](components/text#api)
 
 ---
 
-## Size
+## Size (Required)
 
 Text sizes are used mainly to define the hierarchy of components on a page. For example, headers can be used to create clusters and categories, while body text is used mostly for providing content to the user.
 
@@ -23,7 +23,7 @@ Text sizes are used mainly to define the hierarchy of components on a page. For 
 
 ---
 
-## Color
+## Color (Required)
 
 Colors can be used in conjunction with the size to indicate hierarchy of elements on a page. It can also be used to communicate that an element is disabled and therefore does not allow user interaction.
 

@@ -6,7 +6,7 @@ While Breadcrumbs allow backward navigation by clicking on a previous item, it s
 
 The active item of a breadcrumb should always be the last (right-most) one.
 
-[Label](components/breadcrumbs#label) • [API](components/breadcrumbs#api)
+[Label](components/breadcrumbs#label-(required)) • [API](components/breadcrumbs#api)
 
 ---
 

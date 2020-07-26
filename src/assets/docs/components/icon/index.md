@@ -2,7 +2,7 @@
 
 Icons can be used to indicate a status or action to the user in a visual manner. They are often used in other components such as [Buttons](components/button) or [Tabs](components/tabs).
 
-[Icon](components/icon#size) • [Size](components/icon#size) • [Color](components/icon#color) • [Button](components/icon#button) • [API](components/icon#api)
+[Icon](components/icon#icon-(required)) • [Size](components/icon#size-(required)) • [Color](components/icon#color-(optional)) • [Button](components/icon#button-(optional)) • [API](components/icon#api)
 
 ---
 

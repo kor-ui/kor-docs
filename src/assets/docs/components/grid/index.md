@@ -4,7 +4,7 @@
 
 Grids are used for organizing content within a [Page](components/page) or inside containers such as [Cards](components/card).
 
-[Columns](components/grid#columns) • [Rows](components/grid#rows) • [Spacing](components/grid#spacing) • [Responsive](components/grid#responsive) • [API](components/grid#api)
+[Columns](components/grid#columns-(optional)) • [Rows](components/grid#rows-(optional)) • [Spacing](components/grid#spacing-(required)) • [Responsive](components/grid#responsive-(optional)) • [API](components/grid#api)
 
 ---
 

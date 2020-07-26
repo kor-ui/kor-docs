@@ -4,7 +4,7 @@
 
 Tables are used to display large amounts of information in a concise manner which allows the user to easily scan and compare the contents.
 
-[Icon](components/table#icon) • [API](components/table#api)
+[Columns](components/table#columns-(optional)) • [Readonly](components/table#readonly-(optional)) • [Condensed](components/table#condensed-(optional)) • [Sorting](components/table#sorting-(optional)) • [API](components/table#api)
 
 ---
 

@@ -634,6 +634,45 @@
     ]
   },
   {
+    "name": "slider",
+    "properties": [
+      {
+        "name": "Style",
+        "value": "width: 320px"
+      },
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Value",
+        "type": "number",
+        "value": 50
+      },
+      {
+        "name": "Min",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "name": "Max",
+        "type": "number",
+        "value": 100
+      },
+      {
+        "name": "Step",
+        "type": "number",
+        "value": 1
+      },
+      {
+        "name": "Input",
+        "type": "boolean",
+        "value": false
+      }
+    ]
+  },
+  {
     "name": "stepper",
     "tag": "stepper-item",
     "properties": [

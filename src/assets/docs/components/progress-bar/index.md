@@ -2,7 +2,7 @@
 
 Progress bars are used to display the status of a running process to the user.
 
-[Radial](components/progress-bar#radial) • [Label, Info and Progress](components/progress-bar#label,-info-and-progress) • [Status](components/progress-bar#status) • [Color](components/progress-bar#color) • [API](components/progress-bar#api)
+[Radial](components/progress-bar#radial-(optional)) • [Label, Info and Progress](components/progress-bar#label,-info-and-progress-(optional)) • [Status](components/progress-bar#status-(optional)) • [Color](components/progress-bar#color-(optional)) • [API](components/progress-bar#api)
 
 ---
 
