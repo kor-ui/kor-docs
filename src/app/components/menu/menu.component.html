@@ -24,24 +24,22 @@
     [label]="c.name"
     expanded
   >
-    <kor-tabs orientation="vertical" style="margin: 0 -16px;">
-      <!-- pages -->
-      <kor-tab-item
-        *ngFor="let p of c.pages"
-        [label]="p"
-        [active]="
-          router.url.split('#')[0] ==
+    <!-- pages -->
+    <kor-menu-item
+      *ngFor="let p of c.pages"
+      [label]="p"
+      [active]="
+        router.url.split('#')[0] ==
+        '/' + data.formatUrl(c.name) + '/' + data.formatUrl(p)
+      "
+      (click)="
+        $event.stopImmediatePropagation();
+        router.navigateByUrl(
           '/' + data.formatUrl(c.name) + '/' + data.formatUrl(p)
-        "
-        (click)="
-          $event.stopImmediatePropagation();
-          router.navigateByUrl(
-            '/' + data.formatUrl(c.name) + '/' + data.formatUrl(p)
-          );
-          data.showMenu = false
-        "
-      >
-      </kor-tab-item>
-    </kor-tabs>
+        );
+        data.showMenu = false
+      "
+    >
+    </kor-menu-item>
   </kor-accordion>
 </ng-template>

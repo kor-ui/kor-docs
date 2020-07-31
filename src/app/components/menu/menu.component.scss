@@ -1,9 +1,6 @@
 :host {
   display: flex;
-}
-kor-text + kor-tab-item {
-  margin-top: 8px;
-}
-kor-tab-item + kor-text {
-  margin-top: 16px;
+  kor-menu-item {
+    margin-bottom: 0px;
+  }
 }
