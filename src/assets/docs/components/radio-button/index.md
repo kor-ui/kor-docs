@@ -1,7 +1,5 @@
 # Radio Button
 
-<iframe src="./assets/docs/components/radio-button/main.html"></iframe>
-
 Radio Buttons provide the user the possibility of choosing one option out of a list of pre-defined entries. Radio Buttons are mutually exclusive and do not allow multiple selection within the same group (use [Checkboxes](components/checkbox) in these cases instead).
 
 [Label](components/radio-button#label-(required)) • [API](components/radio-button#api)
