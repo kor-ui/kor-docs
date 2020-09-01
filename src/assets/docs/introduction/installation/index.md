@@ -5,17 +5,17 @@ A few steps should be followed in order to include the library and start using t
 Samples are available for the main frameworks on the links below:
 
 <kor-grid columns="3">
-    <a target="blank" style="text-decoration: none; font: var(--body-1); color: var(--text-2);" href="https://stackblitz.com/edit/kor-ui-angular">
+    <a grid-cols-s="3" target="blank" style="text-decoration: none; font: var(--body-1); color: var(--text-2);" href="https://stackblitz.com/edit/kor-ui-angular">
         <kor-card icon="url('/assets/docs/introduction/installation/logo_angular.png')" label="Angular">
             Supports all versions, JS and TS
         </kor-card>
     </a>
-    <a target="blank" style="text-decoration: none; font: var(--body-1); color: var(--text-2);" href="https://stackblitz.com/edit/kor-ui-react">
+    <a grid-cols-s="3" target="blank" style="text-decoration: none; font: var(--body-1); color: var(--text-2);" href="https://stackblitz.com/edit/kor-ui-react">
         <kor-card icon="url('/assets/docs/introduction/installation/logo_react.png')" label="React">
             Supports all versions, JS and TS
         </kor-card>
     </a>
-    <a target="blank" style="text-decoration: none; font: var(--body-1); color: var(--text-2);" href="https://stackblitz.com/edit/kor-ui-vue">
+    <a grid-cols-s="3" target="blank" style="text-decoration: none; font: var(--body-1); color: var(--text-2);" href="https://stackblitz.com/edit/kor-ui-vue">
         <kor-card icon="url('/assets/docs/introduction/installation/logo_vue.png')" label="Vue">
             Supports all versions, JS and TS
         </kor-card>
