@@ -5,6 +5,26 @@
     [mobile]="data.mobile"
     logo="./assets/favicon_{{ data.appTheme }}.png"
   >
+    <!-- links -->
+    <a slot="functions" href="https://github.com/kor-ui/kor" target="_blank">
+      <kor-icon
+        button
+        icon="url(./assets/imgs/logo_github_{{ data.appTheme }}.png)"
+      ></kor-icon>
+    </a>
+    <a slot="functions" href="https://patreon.com/kor_ui" target="_blank">
+      <kor-icon
+        slot="functions"
+        button
+        icon="url(./assets/imgs/logo_patreon_{{ data.appTheme }}.png)"
+      ></kor-icon>
+    </a>
+    <kor-divider
+      slot="functions"
+      orientation="vertical"
+      style="height: 32px"
+      spacing="s"
+    ></kor-divider>
     <kor-icon
       [slot]="data.mobile ? 'right' : 'functions'"
       button
@@ -17,14 +37,6 @@
       icon="menu"
       (click)="data.showMenu = true"
     ></kor-icon>
-    <kor-divider slot="functions" orientation="vertical" style="height: 32px"></kor-divider>
-    <!-- links -->
-    <a slot="functions" href="https://github.com/kor-ui/kor" target="_blank">
-      <kor-icon button icon="url(./assets/imgs/logo_github_{{ data.appTheme }}.png)"></kor-icon>
-    </a>
-    <a slot="functions" href="https://patreon.com/kor_ui" target="_blank">
-      <kor-icon slot="functions" button icon="url(./assets/imgs/logo_patreon_{{ data.appTheme }}.png)"></kor-icon>
-    </a>
   </kor-app-bar>
   <app-menu slot="left"></app-menu>
   <app-content></app-content>
