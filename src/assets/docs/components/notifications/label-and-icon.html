@@ -1,13 +1,21 @@
 <script src="/assets/kor/index.js"></script>
-<link rel="stylesheet" href="/assets/kor/kor-styles.css">
-<link rel="stylesheet" href="/assets/docs/demo-styles.css">
+<link rel="stylesheet" href="/assets/kor/kor-styles.css" />
+<link rel="stylesheet" href="/assets/docs/demo-styles.css" />
 
 <div class="demo stretch">
-  <kor-button label="Label and Icon" onclick="document.querySelector('#notification-item').visible = true"></kor-button>
+  <kor-button
+    label="Label and Icon"
+    onclick="document.querySelector('#notification-item').visible = true"
+  ></kor-button>
 </div>
 
 <kor-notifications>
-  <kor-notification-item id="notification-item" visible icon="directions_bike" label="Label and Icon">
+  <kor-notification-item
+    id="notification-item"
+    visible
+    icon="directions_bike"
+    label="Label and Icon"
+  >
     This is a notification with label and icon.
   </kor-notification-item>
 </kor-notifications>

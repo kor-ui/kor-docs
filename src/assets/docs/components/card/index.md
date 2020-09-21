@@ -69,7 +69,7 @@ A flat card does not display shadows, background color or margins around it. It 
 
 ```html
 <kor-card flat icon="train" label="Flat Card">
-  <kor-icon slot="functions" button icon="more_vert"></kor-icon slot="functions">
+  <kor-icon slot="functions" button icon="more_vert"></kor-icon>
     This is the content of my card.
   <kor-button slot="footer"></kor-button>
 </kor-card>
@@ -89,7 +89,7 @@ The **footer** slot can be used for hosting the main actions related to the cont
 
 ```html
 <kor-card flat icon="train" label="Flat Card">
-  <kor-icon slot="functions" button icon="more_vert"></kor-icon slot="functions">
+  <kor-icon slot="functions" button icon="more_vert"></kor-icon>
     This is the content of my card.
   <kor-button slot="footer"></kor-button>
 </kor-card>

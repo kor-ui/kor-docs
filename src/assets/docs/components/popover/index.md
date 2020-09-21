@@ -82,7 +82,7 @@ The **footer** slot can be used for hosting the main actions related to the cont
 
 ```html
 <kor-popover target="#functions-and-footer" position="left" icon="directions_bike" label="Functions and Footer">
-  <kor-icon slot="functions" button icon="more_vert"></kor-icon slot="functions">
+  <kor-icon slot="functions" button icon="more_vert"></kor-icon>
   This is a popover with content in the functions and footer slots.
   <kor-button slot="footer" color="secondary" label="Close" onclick="event.target.parentElement.visible = false"></kor-button>
 </kor-popover>

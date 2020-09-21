@@ -53,7 +53,7 @@ The **footer** slot can be used for hosting the main actions related to the cont
 
 ```html
 <kor-drawer id="functions-and-footer" visible label="Functions and Footer">
-  <kor-icon slot="functions" button icon="more_vert"></kor-icon slot="functions">
+  <kor-icon slot="functions" button icon="more_vert"></kor-icon>
   <kor-button slot="footer" color="secondary" label="Close" onclick="document.querySelector('#functions-and-footer').visible = false"></kor-button>
 </kor-drawer>
 <kor-drawer id="header">

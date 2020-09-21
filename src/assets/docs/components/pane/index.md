@@ -43,7 +43,7 @@ The **footer** slot can be used for hosting the main actions related to the cont
 <kor-page>
   <kor-app-bar slot="top"></kor-app-bar>
   <kor-pane slot="left" label="Functions and Footer">
-    <kor-icon slot="functions" button icon="more_vert"></kor-icon slot="functions">
+    <kor-icon slot="functions" button icon="more_vert"></kor-icon>
     <kor-button slot="footer" onclick="document.querySelector('#functions-and-footer').visible = false"></kor-button>
   </kor-pane>
   <kor-pane slot="right">

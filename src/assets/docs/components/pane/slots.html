@@ -1,13 +1,16 @@
 <script src="/assets/kor/index.js"></script>
-<link rel="stylesheet" href="/assets/kor/kor-styles.css">
-<link rel="stylesheet" href="/assets/docs/demo-styles.css">
+<link rel="stylesheet" href="/assets/kor/kor-styles.css" />
+<link rel="stylesheet" href="/assets/docs/demo-styles.css" />
 
 <div class="demo stretch">
   <kor-page>
     <kor-app-bar slot="top"></kor-app-bar>
     <kor-pane slot="left" label="Functions and Footer">
-      <kor-icon slot="functions" button icon="more_vert"></kor-icon slot="functions">
-      <kor-button slot="footer" onclick="document.querySelector('#functions-and-footer').visible = false"></kor-button>
+      <kor-icon slot="functions" button icon="more_vert"></kor-icon>
+      <kor-button
+        slot="footer"
+        onclick="document.querySelector('#functions-and-footer').visible = false"
+      ></kor-button>
     </kor-pane>
     <kor-pane slot="right">
       <kor-tabs slot="header">

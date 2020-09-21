@@ -1,6 +1,6 @@
 <script src="/assets/kor/index.js"></script>
-<link rel="stylesheet" href="/assets/kor/kor-styles.css">
-<link rel="stylesheet" href="/assets/docs/demo-styles.css">
+<link rel="stylesheet" href="/assets/kor/kor-styles.css" />
+<link rel="stylesheet" href="/assets/docs/demo-styles.css" />
 
 <div class="demo stretch">
   <kor-button label="Sticky" id="button"></kor-button>
@@ -8,5 +8,10 @@
 
 <kor-popover target="#button" position="top" label="Sticky" sticky>
   This is a sticky popover.
-  <kor-button slot="footer" color="secondary" label="Close" onclick="event.target.parentElement.visible = false"></kor-button>
+  <kor-button
+    slot="footer"
+    color="secondary"
+    label="Close"
+    onclick="event.target.parentElement.visible = false"
+  ></kor-button>
 </kor-popover>

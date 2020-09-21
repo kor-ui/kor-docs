@@ -93,7 +93,7 @@ Description
 ```html
 <kor-notifications>
   <kor-notification-item id="functions-and-footer" visible label="Functions and Footer">
-    <kor-icon slot="functions" button icon="more_vert"></kor-icon slot="functions">
+    <kor-icon slot="functions" button icon="more_vert"></kor-icon>
       This is a notification with content in the functions and footer slots.
     <kor-button slot="footer" color="secondary" label="Close" onclick="document.querySelector('#functions-and-footer').visible = false"></kor-button>
   </kor-notification-item>

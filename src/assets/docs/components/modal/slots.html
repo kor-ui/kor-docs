@@ -1,15 +1,26 @@
 <script src="/assets/kor/index.js"></script>
-<link rel="stylesheet" href="/assets/kor/kor-styles.css">
-<link rel="stylesheet" href="/assets/docs/demo-styles.css">
+<link rel="stylesheet" href="/assets/kor/kor-styles.css" />
+<link rel="stylesheet" href="/assets/docs/demo-styles.css" />
 
 <div class="demo stretch">
-  <kor-button label="Functions and Footer" onclick="document.querySelector('#functions-and-footer').visible = true"></kor-button>
-  <kor-button label="Header" onclick="document.querySelector('#header').visible = true"></kor-button>
+  <kor-button
+    label="Functions and Footer"
+    onclick="document.querySelector('#functions-and-footer').visible = true"
+  ></kor-button>
+  <kor-button
+    label="Header"
+    onclick="document.querySelector('#header').visible = true"
+  ></kor-button>
 </div>
 
 <kor-modal id="functions-and-footer" visible label="Functions and Footer">
-  <kor-icon slot="functions" button icon="more_vert"></kor-icon slot="functions">
-  <kor-button slot="footer" color="secondary" label="Close" onclick="document.querySelector('#functions-and-footer').visible = false"></kor-button>
+  <kor-icon slot="functions" button icon="more_vert"></kor-icon>
+  <kor-button
+    slot="footer"
+    color="secondary"
+    label="Close"
+    onclick="document.querySelector('#functions-and-footer').visible = false"
+  ></kor-button>
 </kor-modal>
 <kor-modal id="header">
   <kor-tabs slot="header">

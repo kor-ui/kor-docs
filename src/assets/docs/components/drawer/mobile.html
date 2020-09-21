@@ -1,12 +1,20 @@
 <script src="/assets/kor/index.js"></script>
-<link rel="stylesheet" href="/assets/kor/kor-styles.css">
-<link rel="stylesheet" href="/assets/docs/demo-styles.css">
+<link rel="stylesheet" href="/assets/kor/kor-styles.css" />
+<link rel="stylesheet" href="/assets/docs/demo-styles.css" />
 
 <div class="demo">
   <kor-page style="transform: perspective(1px); overflow: hidden;">
     <kor-app-bar slot="top" mobile label="Mobile">
-      <kor-avatar slot="left" onclick="document.querySelector('#left').visible = true"></kor-avatar>
-      <kor-icon button icon="filter_list" slot="right" onclick="document.querySelector('#bottom').visible = true"></kor-icon>
+      <kor-avatar
+        slot="left"
+        onclick="document.querySelector('#left').visible = true"
+      ></kor-avatar>
+      <kor-icon
+        button
+        icon="filter_list"
+        slot="right"
+        onclick="document.querySelector('#bottom').visible = true"
+      ></kor-icon>
     </kor-app-bar>
     <kor-drawer id="left" visible width="calc(100% - 40px)"></kor-drawer>
     <kor-drawer id="bottom" position="bottom"></kor-drawer>
