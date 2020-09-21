@@ -14,9 +14,9 @@ Theming affects the components by changing **colors** and/or **fonts**. To do it
 
 ```css
 /* use an asterisk to allow any element to use the theme attribute. give it any name you wish */
-*[theme="custom-name"] {
+*[theme='custom-name'] {
   /* the negative color (e.g. white for light theme) */
-  --neutral-1: 255, 255, 255; ;
+  --neutral-1: 255, 255, 255;
   /* the positive color (e.g. black for dark theme) */
   --neutral-2: 0, 0, 0;
   /* the accent color in idle states (blue by default) */
@@ -41,15 +41,16 @@ Theming affects the components by changing **colors** and/or **fonts**. To do it
   --functional-yellow: 220, 160, 40;
   --functional-green: 40, 160, 40;
   /* the text colors */
-  --text-1: rgba(255, 255, 255, .90);
-  --text-2: rgba(255, 255, 255, .60);
-  --text-3: rgba(255, 255, 255, .20);
+  --text-1: rgba(255, 255, 255, 0.9);
+  --text-2: rgba(255, 255, 255, 0.6);
+  --text-3: rgba(255, 255, 255, 0.2);
   /* the shadow definitions for card, app-bar, nav-bar, pane, etc. */
-  --shadow-1: 0 2px 8px rgba(0,0,0,.2), 0 1px 4px rgba(0,0,0,.15);
+  --shadow-1: 0 2px 8px rgba(0, 0, 0, 0.2), 0 1px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* define the font variables globally */
-html, body {
+html,
+body {
   /* it is not recommended modifying sizes or weight, but the font family can be replaced with any other */
   --body-1: normal 14px/24px 'open-sans';
   --body-2: normal 12px/16px 'open-sans';

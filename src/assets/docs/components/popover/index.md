@@ -2,7 +2,7 @@
 
 Popovers are used to show extra content close to a target component. It is frequently triggered by components such as [Icons](components/icon) to provide a contextual set of [Menu Items](components/menu-item), for example.
 
-[Position](components/popover#position-(optional)) • [Label and Icon](components/popover#label-and-icon-(optional)) • [Sticky](components/popover#sticky-(optional)) • [Slots](components/popover#slots) • [API](components/popover#api)
+[Position](<components/popover#position-(optional)>) • [Label and Icon](<components/popover#label-and-icon-(optional)>) • [Sticky](<components/popover#sticky-(optional)>) • [Slots](components/popover#slots) • [API](components/popover#api)
 
 ---
 
@@ -38,7 +38,12 @@ An icon can be defined to complement the label and provide additional informatio
 <iframe src="./assets/docs/components/popover/label-and-icon.html" height="480px"></iframe>
 
 ```html
-<kor-popover target="#button" position="top" icon="directions_bike" label="Label and Icon"></kor-popover>
+<kor-popover
+  target="#button"
+  position="top"
+  icon="directions_bike"
+  label="Label and Icon"
+></kor-popover>
 ```
 
 ---
@@ -54,7 +59,12 @@ This variation is used in situations when the user is obliged to make a decision
 ```html
 <kor-popover target="#button" position="top" label="Sticky" sticky>
   This is a sticky popover.
-  <kor-button slot="footer" color="secondary" label="Close" onclick="event.target.parentElement.visible = false"></kor-button>
+  <kor-button
+    slot="footer"
+    color="secondary"
+    label="Close"
+    onclick="event.target.parentElement.visible = false"
+  ></kor-button>
 </kor-popover>
 ```
 
@@ -91,21 +101,21 @@ The **footer** slot can be used for hosting the main actions related to the cont
 
 ### Properties
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`label`** | `String` | _undefined_ | If set, defines the text label. |
-| **`icon`** | `String` | _undefined_ | If set, defines the icon shown close to the label. |
-| **`position`** | `String` | `left` | Defines the position of the component in the screen. Possible values are `left`, `right`, `top` and `bottom`. |
-| **`flex-direction`** | `String` | `column` | Defines the direction in which the slotted content flows (e.g. top to bottom or left to right). Possible values are `column` and `row`. |
-| **`target`** | `String` | _undefined_ | Defines the DOM element to which the click event will be attached. It behaves identically to `querySelector`, which means tag names, IDs, classes and similar can be used (e.g. `#myEl`, `.myEl`, `kor-input[type='number']`). Please ensure the selector is unique. |
-| **`visible`** | `Boolean` | `false` | If set to `true`, displays the component on top of the screen. |
-| **`sticky`** | `Boolean` | _undefined_ | If set to `true`, clicking on the page will not hide the component. |
+| Name                 | Type      | Default     | Description                                                                                                                                                                                                                                                          |
+| :------------------- | :-------- | :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **`label`**          | `String`  | _undefined_ | If set, defines the text label.                                                                                                                                                                                                                                      |
+| **`icon`**           | `String`  | _undefined_ | If set, defines the icon shown close to the label.                                                                                                                                                                                                                   |
+| **`position`**       | `String`  | `left`      | Defines the position of the component in the screen. Possible values are `left`, `right`, `top` and `bottom`.                                                                                                                                                        |
+| **`flex-direction`** | `String`  | `column`    | Defines the direction in which the slotted content flows (e.g. top to bottom or left to right). Possible values are `column` and `row`.                                                                                                                              |
+| **`target`**         | `String`  | _undefined_ | Defines the DOM element to which the click event will be attached. It behaves identically to `querySelector`, which means tag names, IDs, classes and similar can be used (e.g. `#myEl`, `.myEl`, `kor-input[type='number']`). Please ensure the selector is unique. |
+| **`visible`**        | `Boolean` | `false`     | If set to `true`, displays the component on top of the screen.                                                                                                                                                                                                       |
+| **`sticky`**         | `Boolean` | _undefined_ | If set to `true`, clicking on the page will not hide the component.                                                                                                                                                                                                  |
 
 ### Slots
 
-| Name | Description |
-| :-- | :-- |
-| **_unnamed_** | Displayed inside the content area. |
-| **`header`** | If used, the header slot is shown on top of the component, below the label (if any is set). |
-| **`functions`** | Displayed on the right side of the label or header slot. |
-| **`footer`** | Displayed below the content area. |
+| Name            | Description                                                                                 |
+| :-------------- | :------------------------------------------------------------------------------------------ |
+| **_unnamed_**   | Displayed inside the content area.                                                          |
+| **`header`**    | If used, the header slot is shown on top of the component, below the label (if any is set). |
+| **`functions`** | Displayed on the right side of the label or header slot.                                    |
+| **`footer`**    | Displayed below the content area.                                                           |

@@ -2,7 +2,7 @@
 
 Badges are used to indicate status or quantity related to another component such as a [Card](components/card) or [Table](components/table) row.
 
-[Label](components/badge#label-(optional)) • [Status](components/badge#status-(optional)) • [API](components/badge#api)
+[Label](<components/badge#label-(optional)>) • [Status](<components/badge#status-(optional)>) • [API](components/badge#api)
 
 ---
 
@@ -39,7 +39,7 @@ If defined, a status (Success, Warning or Error) is indicated through the use of
 
 ### Properties
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`label`** | `Number` | _undefined_ | If set, degines the number shown inside the badge. Numbers bigger than 3 digits are shown as `999+`. |
-| **`status`** | `String` | _undefined_ | If set, a status icon is shown inside the badge. Accepted values are `error`, `warning`, `success`. |
+| Name         | Type     | Default     | Description                                                                                          |
+| :----------- | :------- | :---------- | :--------------------------------------------------------------------------------------------------- |
+| **`label`**  | `Number` | _undefined_ | If set, degines the number shown inside the badge. Numbers bigger than 3 digits are shown as `999+`. |
+| **`status`** | `String` | _undefined_ | If set, a status icon is shown inside the badge. Accepted values are `error`, `warning`, `success`.  |

@@ -2,7 +2,7 @@
 
 Spinners are used to indicate a process running indeterminately. If the duration and progress of the process is known, consider using a [Progress Bar](components/progress-bar) instead.
 
-[Icon](components/spinner#icon-(optional)) • [Size](components/spinner#size-(optional)) • [API](components/spinner#api)
+[Icon](<components/spinner#icon-(optional)>) • [Size](<components/spinner#size-(optional)>) • [API](components/spinner#api)
 
 ---
 
@@ -15,7 +15,9 @@ If defined, a label is shown underneath the spinner. Keep labels short and descr
 ```html
 <kor-spinner></kor-spinner>
 <kor-spinner label="Label"></kor-spinner>
-<kor-spinner label="This is a quite long label that gets wrapped because of its length"></kor-spinner>
+<kor-spinner
+  label="This is a quite long label that gets wrapped because of its length"
+></kor-spinner>
 ```
 
 ---
@@ -38,7 +40,7 @@ By default, spinners are 32x32px in size, but it can be adjusted depending on th
 
 ### Properties
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`label`** | `String` | _undefined_ | If set, defines the text label. |
-| **`size`** | `String` | `m` | Defines the size of the component. Possible values are `s` (24px), `m` (32px) and `l` (40px). |
+| Name        | Type     | Default     | Description                                                                                   |
+| :---------- | :------- | :---------- | :-------------------------------------------------------------------------------------------- |
+| **`label`** | `String` | _undefined_ | If set, defines the text label.                                                               |
+| **`size`**  | `String` | `m`         | Defines the size of the component. Possible values are `s` (24px), `m` (32px) and `l` (40px). |

@@ -2,7 +2,7 @@
 
 Toggles are used to turn a functionality ON or OFF. It should not be used in mutually exclusive groups, for these cases consider using [Radio Buttons](components/radio-button) instead.
 
-[Label](components/toggle#label-(required)) • [API](components/toggle#api)
+[Label](<components/toggle#label-(required)>) • [API](components/toggle#api)
 
 ---
 
@@ -15,7 +15,9 @@ The label of a Toggled describes the funcionality being toggle. Keep labels shor
 ```html
 <kor-toggle></kor-toggle>
 <kor-toggle label="Small label"></kor-toggle>
-<kor-toggle label="This is a quite long label that gets truncated because of its length"></kor-toggle>
+<kor-toggle
+  label="This is a quite long label that gets truncated because of its length"
+></kor-toggle>
 ```
 
 ---
@@ -24,8 +26,8 @@ The label of a Toggled describes the funcionality being toggle. Keep labels shor
 
 ### Properties
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`label`** | `String` | _undefined_ | If set, defines the text label. |
-| **`active`** | `Boolean` | _undefined_ | If set to `true`, a highlight style gets applied. |
+| Name           | Type      | Default     | Description                                                         |
+| :------------- | :-------- | :---------- | :------------------------------------------------------------------ |
+| **`label`**    | `String`  | _undefined_ | If set, defines the text label.                                     |
+| **`active`**   | `Boolean` | _undefined_ | If set to `true`, a highlight style gets applied.                   |
 | **`disabled`** | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated. |

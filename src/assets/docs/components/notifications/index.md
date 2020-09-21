@@ -4,7 +4,7 @@ Notifications are used to inform the user about background processes without dis
 
 They should not be used for critical messages that require immediate action ([Modals](component/modal) should be used in these cases), and they should also not be used for messages that are completely irrelevant for the user at that time ([Badges](component/badge) could be used alternatively).
 
-[Position](components/notifications#position-(required)) • [Label and Icon](components/notifications#label-and-icon-(optional)) • [Sticky](components/notifications#sticky-(optional)) • [Slots](components/notifications#slots) • [API](components/notifications#api)
+[Position](<components/notifications#position-(required)>) • [Label and Icon](<components/notifications#label-and-icon-(optional)>) • [Sticky](<components/notifications#sticky-(optional)>) • [Slots](components/notifications#slots) • [API](components/notifications#api)
 
 ---
 
@@ -49,7 +49,12 @@ An icon can be defined to complement the label and provide additional informatio
 
 ```html
 <kor-notifications>
-  <kor-notification-item id="notification-item" visible icon="directions_bike" label="Label and Icon">
+  <kor-notification-item
+    id="notification-item"
+    visible
+    icon="directions_bike"
+    label="Label and Icon"
+  >
     This is a notification with label and icon.
   </kor-notification-item>
 </kor-notifications>
@@ -67,7 +72,12 @@ Sticky modals do not display a close icon on its top-right corner. This variatio
 <kor-notifications>
   <kor-notification-item id="notification-item" visible sticky label="Sticky">
     This is a sticky notification.
-    <kor-button slot="footer" color="secondary" label="Close" onclick="document.querySelector('#notification-item').visible = false"></kor-button>
+    <kor-button
+      slot="footer"
+      color="secondary"
+      label="Close"
+      onclick="document.querySelector('#notification-item').visible = false"
+    ></kor-button>
   </kor-notification-item>
 </kor-notifications>
 ```
@@ -106,33 +116,33 @@ Description
 
 `kor-notifications`
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
+| Name           | Type     | Default     | Description                                                                                                                          |
+| :------------- | :------- | :---------- | :----------------------------------------------------------------------------------------------------------------------------------- |
 | **`position`** | `String` | `top-right` | Defines the corner where the notification is located. Possible values are `top-left`, `top-right`, `bottom-left` and `bottom-right`. |
 
 `kor-notification-item`
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`label`** | `String` | _undefined_ | If set, defines the text label. |
-| **`icon`** | `String` | _undefined_ | If set, defines the icon shown close to the label. |
-| **`flex-direction`** | `String` | `column` | Defines the direction in which the slotted content flows (e.g. top to bottom or left to right). Possible values are `column` and `row`. |
-| **`visible`** | `Boolean` | `false` | If set to `true`, displays the component on top of the screen. |
-| **`sticky`** | `Boolean` | _undefined_ | If set to `true`, the close icon will not be displayed. |
+| Name                 | Type      | Default     | Description                                                                                                                             |
+| :------------------- | :-------- | :---------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| **`label`**          | `String`  | _undefined_ | If set, defines the text label.                                                                                                         |
+| **`icon`**           | `String`  | _undefined_ | If set, defines the icon shown close to the label.                                                                                      |
+| **`flex-direction`** | `String`  | `column`    | Defines the direction in which the slotted content flows (e.g. top to bottom or left to right). Possible values are `column` and `row`. |
+| **`visible`**        | `Boolean` | `false`     | If set to `true`, displays the component on top of the screen.                                                                          |
+| **`sticky`**         | `Boolean` | _undefined_ | If set to `true`, the close icon will not be displayed.                                                                                 |
 
 ### Slots
 
 `kor-notifications`
 
-| Name | Description |
-| :-- | :-- |
+| Name          | Description                     |
+| :------------ | :------------------------------ |
 | **_unnamed_** | Hosts `kor-notification-item`s. |
 
 `kor-notification-item`
 
-| Name | Description |
-| :-- | :-- |
-| **_unnamed_** | Displayed inside the content area. |
-| **`header`** | If used, the header slot is shown on top of the component, below the label (if any is set). |
-| **`functions`** | Displayed on the right side of the label or header slot. |
-| **`footer`** | Displayed below the content area. |
+| Name            | Description                                                                                 |
+| :-------------- | :------------------------------------------------------------------------------------------ |
+| **_unnamed_**   | Displayed inside the content area.                                                          |
+| **`header`**    | If used, the header slot is shown on top of the component, below the label (if any is set). |
+| **`functions`** | Displayed on the right side of the label or header slot.                                    |
+| **`footer`**    | Displayed below the content area.                                                           |

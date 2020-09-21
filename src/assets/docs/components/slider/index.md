@@ -2,7 +2,7 @@
 
 Sliders are used to allow quick selection of a numeric value within a pre-defined range.
 
-[Label and Value](components/slider#label-(optional)-and-value-(required)) • [Min and Max](components/slider#min-and-max-(required)) • [Input](components/slider#input-(optional)) • [Step](components/slider#step-(required)) • [API](components/slider#api)
+[Label and Value](<components/slider#label-(optional)-and-value-(required)>) • [Min and Max](<components/slider#min-and-max-(required)>) • [Input](<components/slider#input-(optional)>) • [Step](<components/slider#step-(required)>) • [API](components/slider#api)
 
 ---
 
@@ -61,7 +61,14 @@ To define the granularity of value updates when the user moves the thumb, a cust
 ```html
 <kor-slider label="Step 1" input></kor-slider>
 <kor-slider label="Step 10" step="10" input></kor-slider>
-<kor-slider label="Step 0.1" min="0" max="10" value="5" step="0.5" input></kor-slider>
+<kor-slider
+  label="Step 0.1"
+  min="0"
+  max="10"
+  value="5"
+  step="0.5"
+  input
+></kor-slider>
 ```
 
 ---
@@ -70,11 +77,11 @@ To define the granularity of value updates when the user moves the thumb, a cust
 
 ### Properties
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`label`** | `String` | _undefined_ | If set, defines the text label shown on top. |
-| **`value`** | `Number` | `50` | Defines the current value. Must be a value between min and max. |
-| **`min`** | `Number` | `50` | Defines the minimum value accepted. |
-| **`max`** | `Number` | `50` | Defines the maximum value accepted. |
-| **`step`** | `Number` | `1` | Defines the steps to skip when the user drags the thumb. |
+| Name        | Type      | Default     | Description                                                          |
+| :---------- | :-------- | :---------- | :------------------------------------------------------------------- |
+| **`label`** | `String`  | _undefined_ | If set, defines the text label shown on top.                         |
+| **`value`** | `Number`  | `50`        | Defines the current value. Must be a value between min and max.      |
+| **`min`**   | `Number`  | `50`        | Defines the minimum value accepted.                                  |
+| **`max`**   | `Number`  | `50`        | Defines the maximum value accepted.                                  |
+| **`step`**  | `Number`  | `1`         | Defines the steps to skip when the user drags the thumb.             |
 | **`input`** | `Boolean` | _undefined_ | If set to true, allows the user to input a value using the keyboard. |

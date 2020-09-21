@@ -8,7 +8,7 @@
 
 Compatible with all major frameworks, browsers, operational systems, form factors and input types, **Kor** allows applications built with it to be deployed and used virtually anywhere.
 
-**Kor** is built to facilitate the design and development of **intuitive, coherent and pleasing** user interfaces based on Web technologies (HTML5). 
+**Kor** is built to facilitate the design and development of **intuitive, coherent and pleasing** user interfaces based on Web technologies (HTML5).
 
 ---
 

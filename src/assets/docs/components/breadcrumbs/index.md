@@ -6,7 +6,7 @@ While Breadcrumbs allow backward navigation by clicking on a previous item, it s
 
 The active item of a breadcrumb should always be the last (right-most) one.
 
-[Label](components/breadcrumbs#label-(required)) • [API](components/breadcrumbs#api)
+[Label](<components/breadcrumbs#label-(required)>) • [API](components/breadcrumbs#api)
 
 ---
 
@@ -28,11 +28,11 @@ The label defines which text string is shown to the user.
 
 ## API
 
-### Properties 
+### Properties
 
 `kor-breadcrumb-item`
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`label`** | `String` | `Label` | Defines the text label. |
+| Name         | Type      | Default     | Description                                          |
+| :----------- | :-------- | :---------- | :--------------------------------------------------- |
+| **`label`**  | `String`  | `Label`     | Defines the text label.                              |
 | **`active`** | `Boolean` | _undefined_ | Defines whether the item is currently active or not. |

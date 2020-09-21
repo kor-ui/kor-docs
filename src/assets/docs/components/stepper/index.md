@@ -2,7 +2,7 @@
 
 Steppers are used to give an overview of where the user is in a linear process and how many steps are left in order to complete it.
 
-[Label, Info and Icon](components/stepper#label,-info-and-icon-(optional)) • [Active and Disabled](components/stepper#active-and-disabled-(optional)) • [Orientation](components/stepper#orientation-(optional)) • [API](components/stepper#api)
+[Label, Info and Icon](<components/stepper#label,-info-and-icon-(optional)>) • [Active and Disabled](<components/stepper#active-and-disabled-(optional)>) • [Orientation](<components/stepper#orientation-(optional)>) • [API](components/stepper#api)
 
 ---
 
@@ -17,11 +17,21 @@ An icon can be defined to complement the label and provide additional informatio
 <iframe src="./assets/docs/components/stepper/label-info-and-icon.html" height="480px"></iframe>
 
 ```html
-  <kor-stepper-item active></kor-stepper-item>
-  <kor-stepper-item icon="directions_bike" active></kor-stepper-item>
-  <kor-stepper-item label="Label" active></kor-stepper-item>
-  <kor-stepper-item label="Icon and label" icon="directions_bike" info="" active></kor-stepper-item>
-  <kor-stepper-item label="Icon, label and info" icon="directions_bike" info="Info text" active></kor-stepper-item>
+<kor-stepper-item active></kor-stepper-item>
+<kor-stepper-item icon="directions_bike" active></kor-stepper-item>
+<kor-stepper-item label="Label" active></kor-stepper-item>
+<kor-stepper-item
+  label="Icon and label"
+  icon="directions_bike"
+  info=""
+  active
+></kor-stepper-item>
+<kor-stepper-item
+  label="Icon, label and info"
+  icon="directions_bike"
+  info="Info text"
+  active
+></kor-stepper-item>
 ```
 
 ---
@@ -36,7 +46,11 @@ Items can also be disabled in case the user is not supposed to click on it for n
 
 ```html
 <kor-stepper>
-  <kor-stepper-item label="Disabled" info="Info text" disabled></kor-stepper-item>
+  <kor-stepper-item
+    label="Disabled"
+    info="Info text"
+    disabled
+  ></kor-stepper-item>
   <kor-stepper-item label="Idle" info="Info text"></kor-stepper-item>
   <kor-stepper-item label="Active" info="Info text" active></kor-stepper-item>
 </kor-stepper>
@@ -52,9 +66,17 @@ By default, steppers are displayed in a horizontal orientation, but when using i
 
 ```html
 <kor-stepper orientation="vertical">
-  <kor-stepper-item label="Disabled" info="Information text" disabled></kor-stepper-item>
+  <kor-stepper-item
+    label="Disabled"
+    info="Information text"
+    disabled
+  ></kor-stepper-item>
   <kor-stepper-item label="Idle" info="Information text"></kor-stepper-item>
-  <kor-stepper-item label="Active" info="Information text" active></kor-stepper-item>
+  <kor-stepper-item
+    label="Active"
+    info="Information text"
+    active
+  ></kor-stepper-item>
 </kor-stepper>
 ```
 
@@ -66,25 +88,25 @@ By default, steppers are displayed in a horizontal orientation, but when using i
 
 `kor-stepper`
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
+| Name              | Type     | Default      | Description                                                                               |
+| :---------------- | :------- | :----------- | :---------------------------------------------------------------------------------------- |
 | **`orientation`** | `String` | `horizontal` | Defines the orientation of the component. Possible values are `horizontal` and `vertical` |
 
 `kor-stepper-item`
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`label`** | `String` | _undefined_ | If set, defines the text label. |
-| **`info`** | `String` | _undefined_ | If set, defines the information text shown below the label. |
-| **`icon`** | `String` | _undefined_ | If set, defines the icon shown instead of the index number. |
-| **`index`** | `Number` | _set dinamically_ | Defines the index number shown inside the bubble (if `icon` is undefined). It is set dinamically by the component. |
-| **`active`** | `Boolean` | _undefined_ | If set to `true`, a highlight style gets applied. Only one item can be active at a time. |
-| **`disabled`** | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated. |
+| Name           | Type      | Default           | Description                                                                                                        |
+| :------------- | :-------- | :---------------- | :----------------------------------------------------------------------------------------------------------------- |
+| **`label`**    | `String`  | _undefined_       | If set, defines the text label.                                                                                    |
+| **`info`**     | `String`  | _undefined_       | If set, defines the information text shown below the label.                                                        |
+| **`icon`**     | `String`  | _undefined_       | If set, defines the icon shown instead of the index number.                                                        |
+| **`index`**    | `Number`  | _set dinamically_ | Defines the index number shown inside the bubble (if `icon` is undefined). It is set dinamically by the component. |
+| **`active`**   | `Boolean` | _undefined_       | If set to `true`, a highlight style gets applied. Only one item can be active at a time.                           |
+| **`disabled`** | `Boolean` | _undefined_       | If set to `true`, disables mouse clicks and the style gets updated.                                                |
 
 ### Slots
 
 `kor-stepper`
 
-| Name | Description |
-| :-- | :-- |
+| Name          | Description               |
+| :------------ | :------------------------ |
 | **_unnamed_** | Hosts `kor-stepper-item`s |

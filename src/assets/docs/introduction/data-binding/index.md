@@ -13,7 +13,9 @@ When a property is changed either manually by the user or internally by the comp
 <kor-input (value-changed)="myVar = $event.target.value"></kor-input>
 
 <!-- event dispatched when active changes, an additional check can be done to determine if active value is true or false-->
-<kor-menu-item (active-changed)="$event.target.active ? handleActive() : myOtherFunction()"></kor-menu-item>
+<kor-menu-item
+  (active-changed)="$event.target.active ? handleActive() : myOtherFunction()"
+></kor-menu-item>
 ```
 
 ---
@@ -24,7 +26,10 @@ Regardless of type, any property can be bound to a value dynamically. This is sp
 
 ```html
 <!-- value will be changed in the UI every time the variable updates in the background -->
-<kor-tab-item [active]="currentTab == 'tab-1'" (click)="currentTab = 'tab-1"></kor-tab-item>
+<kor-tab-item
+  [active]="currentTab == 'tab-1'"
+  (click)="currentTab = 'tab-1"
+></kor-tab-item>
 
 <!-- inner html of components can be bound as well -->
 <kor-text>{{myString}}</kor-text>

@@ -2,7 +2,7 @@
 
 Drawers are used to provide on-demand content to the user. They are specially used in situations where space is restricted on the page to hide less relevant information, such as in mobile apps for filtering options or menus.
 
-[Label and Icon](components/drawer#label-and-icon-(optional)) • [Sticky](components/drawer#sticky-(optional)) • [Slots](components/drawer#slots) • [Mobile](components/drawer#mobile) • [API](components/drawer#api)
+[Label and Icon](<components/drawer#label-and-icon-(optional)>) • [Sticky](<components/drawer#sticky-(optional)>) • [Slots](components/drawer#slots) • [Mobile](components/drawer#mobile) • [API](components/drawer#api)
 
 ---
 
@@ -30,7 +30,12 @@ This variation is used in situations when the user is obliged to make a decision
 
 ```html
 <kor-drawer id="drawer" visible sticky label="Sticky">
-  <kor-button slot="footer" color="secondary" label="Close" onclick="document.querySelector('#drawer').visible = false"></kor-button>
+  <kor-button
+    slot="footer"
+    color="secondary"
+    label="Close"
+    onclick="document.querySelector('#drawer').visible = false"
+  ></kor-button>
 </kor-drawer>
 ```
 
@@ -73,8 +78,16 @@ Drawers can be displayed in top, bottom, left or right positions.
 ```html
 <kor-page style="transform: perspective(1px); overflow: hidden;">
   <kor-app-bar slot="top" mobile label="Mobile">
-    <kor-avatar slot="left" onclick="document.querySelector('#left').visible = true"></kor-avatar>
-    <kor-icon button icon="filter_list" slot="right" onclick="document.querySelector('#bottom').visible = true"></kor-icon>
+    <kor-avatar
+      slot="left"
+      onclick="document.querySelector('#left').visible = true"
+    ></kor-avatar>
+    <kor-icon
+      button
+      icon="filter_list"
+      slot="right"
+      onclick="document.querySelector('#bottom').visible = true"
+    ></kor-icon>
   </kor-app-bar>
   <kor-drawer id="left" visible width="calc(100% - 40px)"></kor-drawer>
   <kor-drawer id="bottom" position="bottom"></kor-drawer>
@@ -87,22 +100,22 @@ Drawers can be displayed in top, bottom, left or right positions.
 
 ### Properties
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`label`** | `String` | _undefined_ | If set, defines the text label. |
-| **`icon`** | `String` | _undefined_ | If set, defines the icon shown close to the label. |
-| **`position`** | `String` | `left` | Defines the position of the component in the screen. Possible values are `left`, `right`, `top` and `bottom`. |
-| **`flex-direction`** | `String` | `column` | Defines the direction in which the slotted content flows (e.g. top to bottom or left to right). Possible values are `column` and `row`. |
-| **`height`** | `String` | `320px` | Defines the height of the container (not the overlay). |
-| **`width`** | `String` | `320px` | Defines the width of the container (not the overlay). |
-| **`visible`** | `Boolean` | `false` | If set to `true`, displays the component on top of the screen. |
-| **`sticky`** | `Boolean` | _undefined_ | If set to `true`, clicking on the background will not hide the component. The close icon will also not be displayed. |
+| Name                 | Type      | Default     | Description                                                                                                                             |
+| :------------------- | :-------- | :---------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| **`label`**          | `String`  | _undefined_ | If set, defines the text label.                                                                                                         |
+| **`icon`**           | `String`  | _undefined_ | If set, defines the icon shown close to the label.                                                                                      |
+| **`position`**       | `String`  | `left`      | Defines the position of the component in the screen. Possible values are `left`, `right`, `top` and `bottom`.                           |
+| **`flex-direction`** | `String`  | `column`    | Defines the direction in which the slotted content flows (e.g. top to bottom or left to right). Possible values are `column` and `row`. |
+| **`height`**         | `String`  | `320px`     | Defines the height of the container (not the overlay).                                                                                  |
+| **`width`**          | `String`  | `320px`     | Defines the width of the container (not the overlay).                                                                                   |
+| **`visible`**        | `Boolean` | `false`     | If set to `true`, displays the component on top of the screen.                                                                          |
+| **`sticky`**         | `Boolean` | _undefined_ | If set to `true`, clicking on the background will not hide the component. The close icon will also not be displayed.                    |
 
 ### Slots
 
-| Name | Description |
-| :-- | :-- |
-| **_unnamed_** | Displayed inside the content area. |
-| **`header`** | If used, the header slot is shown on top of the component, below the label (if any is set). |
-| **`functions`** | Displayed on the right side of the label or header slot. |
-| **`footer`** | Displayed below the content area. |
+| Name            | Description                                                                                 |
+| :-------------- | :------------------------------------------------------------------------------------------ |
+| **_unnamed_**   | Displayed inside the content area.                                                          |
+| **`header`**    | If used, the header slot is shown on top of the component, below the label (if any is set). |
+| **`functions`** | Displayed on the right side of the label or header slot.                                    |
+| **`footer`**    | Displayed below the content area.                                                           |

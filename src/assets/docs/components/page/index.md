@@ -2,7 +2,7 @@
 
 The Page component is used to define the main layout and color theme of an app or website.
 
-[Slots](components/page#slots) • [Theme](components/page#theme-(optional)) • [Flex Direction](components/page#flex-direction-(required)) • [Flat](components/page#flat-(optional)) • [API](components/page#api)
+[Slots](components/page#slots) • [Theme](<components/page#theme-(optional)>) • [Flex Direction](<components/page#flex-direction-(required)>) • [Flat](<components/page#flat-(optional)>) • [API](components/page#api)
 
 ---
 
@@ -104,18 +104,18 @@ Flat pages have a lighter background color, allowing content to be placed direct
 
 ### Properties
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`theme`** | `String` | _undefined_ | Defines the color theme of the page. Possible values are `dark` and `light`. |
-| **`flex-direction`** | `String` | `row` | Defines the direction in which the slotted content flows (e.g. top to bottom or left to right). Possible values are `column` and `row`. |
-| **`flat`** | `Boolean` | _undefined_ | If set to `true`, the page background will be flat, without the need to use card as containers for the content. |
+| Name                 | Type      | Default     | Description                                                                                                                             |
+| :------------------- | :-------- | :---------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| **`theme`**          | `String`  | _undefined_ | Defines the color theme of the page. Possible values are `dark` and `light`.                                                            |
+| **`flex-direction`** | `String`  | `row`       | Defines the direction in which the slotted content flows (e.g. top to bottom or left to right). Possible values are `column` and `row`. |
+| **`flat`**           | `Boolean` | _undefined_ | If set to `true`, the page background will be flat, without the need to use card as containers for the content.                         |
 
 ### Slots
 
-| Name | Description |
-| :-- | :-- |
-| **_unnamed_** | The main content area. |
-| **`top`** | Shown on the top. Hosts components such as `kor-app-bar` and `kor-nav-bar`. |
-| **`bottom`** | Shown on the bottom. Hosts components such as `kor-nav-bar`. |
-| **`left`** | Shown on the left side. Hosts components such as `kor-pane`. |
-| **`right`** | Shown on the right side. Hosts components such as `kor-pane`. |
+| Name          | Description                                                                 |
+| :------------ | :-------------------------------------------------------------------------- |
+| **_unnamed_** | The main content area.                                                      |
+| **`top`**     | Shown on the top. Hosts components such as `kor-app-bar` and `kor-nav-bar`. |
+| **`bottom`**  | Shown on the bottom. Hosts components such as `kor-nav-bar`.                |
+| **`left`**    | Shown on the left side. Hosts components such as `kor-pane`.                |
+| **`right`**   | Shown on the right side. Hosts components such as `kor-pane`.               |

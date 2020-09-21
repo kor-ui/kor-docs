@@ -2,7 +2,7 @@
 
 Intro
 
-[Label and Icon](components/menu-item#label-(required)-and-icon-(optional)) • [Toggle](components/menu-item#toggle-(optional)) • [Disabled](components/menu-item#disabled-(optional)) • [Functions Slot](components/menu-item#functions-slot-(optional)) • [API](components/menu-item#api)
+[Label and Icon](<components/menu-item#label-(required)-and-icon-(optional)>) • [Toggle](<components/menu-item#toggle-(optional)>) • [Disabled](<components/menu-item#disabled-(optional)>) • [Functions Slot](<components/menu-item#functions-slot-(optional)>) • [API](components/menu-item#api)
 
 ---
 
@@ -17,8 +17,15 @@ An icon can be defined to complement the label and provide additional informatio
 ```html
 <kor-menu-item label="Label only"></kor-menu-item>
 <kor-menu-item icon="save" label="Label and icon"></kor-menu-item>
-<kor-menu-item icon="save" label="Label and icon disabled" disabled></kor-menu-item>
-<kor-menu-item icon="save" label="This is a quite long label that gets truncated because of its length"></kor-menu-item>
+<kor-menu-item
+  icon="save"
+  label="Label and icon disabled"
+  disabled
+></kor-menu-item>
+<kor-menu-item
+  icon="save"
+  label="This is a quite long label that gets truncated because of its length"
+></kor-menu-item>
 ```
 
 ---
@@ -45,7 +52,11 @@ If a Menu Item does not allow user interactions, it can be set to be disabled. D
 ```html
 <kor-menu-item disabled active label="Disabled active"></kor-menu-item>
 <kor-menu-item disabled label="Disabled label only"></kor-menu-item>
-<kor-menu-item disabled icon="save" label="Disabled label and icon"></kor-menu-item>
+<kor-menu-item
+  disabled
+  icon="save"
+  label="Disabled label and icon"
+></kor-menu-item>
 <kor-menu-item disabled icon="save" label="Disabled label, icon and functions">
   <kor-icon icon="more_vert" button slot="functions"></kor-icon>
 </kor-menu-item>
@@ -78,17 +89,17 @@ Functions related directly to the Menu Item (e.g. 'save', 'share') can be placed
 
 ### Properties
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`label`** | `String` | `Label` | Defines the text label. |
-| **`icon`** | `String` | _undefined_ | If set, defines the icon shown before the label. |
-| **`active`** | `Boolean` | _undefined_ | If set to `true`, a highlight style gets applied. |
-| **`toggle`** | `Boolean` | `true` | If set to `true`, clicking on the component will toggle the `active` property between `true` and `false`. |
-| **`disabled`** | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated. |
+| Name           | Type      | Default     | Description                                                                                               |
+| :------------- | :-------- | :---------- | :-------------------------------------------------------------------------------------------------------- |
+| **`label`**    | `String`  | `Label`     | Defines the text label.                                                                                   |
+| **`icon`**     | `String`  | _undefined_ | If set, defines the icon shown before the label.                                                          |
+| **`active`**   | `Boolean` | _undefined_ | If set to `true`, a highlight style gets applied.                                                         |
+| **`toggle`**   | `Boolean` | `true`      | If set to `true`, clicking on the component will toggle the `active` property between `true` and `false`. |
+| **`disabled`** | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated.                                       |
 
 ### Slots
 
-| Name | Description |
-| :-- | :-- |
-| **_unnamed_** | Displayed inside the content area. |
-| **`functions`** | Shown on the right side. |
+| Name            | Description                        |
+| :-------------- | :--------------------------------- |
+| **_unnamed_**   | Displayed inside the content area. |
+| **`functions`** | Shown on the right side.           |

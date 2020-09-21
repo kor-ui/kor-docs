@@ -4,7 +4,7 @@
 
 Grids are used for organizing content within a [Page](components/page) or inside containers such as [Cards](components/card).
 
-[Columns](components/grid#columns-(optional)) • [Rows](components/grid#rows-(optional)) • [Spacing](components/grid#spacing-(required)) • [Responsive](components/grid#responsive-(optional)) • [API](components/grid#api)
+[Columns](<components/grid#columns-(optional)>) • [Rows](<components/grid#rows-(optional)>) • [Spacing](<components/grid#spacing-(required)>) • [Responsive](<components/grid#responsive-(optional)>) • [API](components/grid#api)
 
 ---
 
@@ -51,7 +51,7 @@ By default, the child elements of a row have a space of 12px (m) between each ot
 
 <iframe src="./assets/docs/components/grid/spacing.html" height="480px"></iframe>
 
-```html  
+```html
 <kor-grid spacing="s">
   <kor-card grid-cols="2" label="Spacing S"></kor-card>
   <kor-card grid-cols="2"></kor-card>
@@ -60,7 +60,7 @@ By default, the child elements of a row have a space of 12px (m) between each ot
   <kor-card grid-cols="2"></kor-card>
   <kor-card grid-cols="2"></kor-card>
 </kor-grid>
-<br>
+<br />
 <kor-grid spacing="m">
   <kor-card grid-cols="2" label="Spacing M"></kor-card>
   <kor-card grid-cols="2"></kor-card>
@@ -69,7 +69,7 @@ By default, the child elements of a row have a space of 12px (m) between each ot
   <kor-card grid-cols="2"></kor-card>
   <kor-card grid-cols="2"></kor-card>
 </kor-grid>
-<br>
+<br />
 <kor-grid spacing="l">
   <kor-card grid-cols="2" label="Spacing L"></kor-card>
   <kor-card grid-cols="2"></kor-card>
@@ -107,23 +107,23 @@ Child elements of a grid respond to the width of the screen and adapt the amount
 
 `kor-grid`
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`columns`** | `Number` | `12` | Defines how many columns the grid has. |
-| **`rows`** | `Number` | _undefined_ | If set, defines how many rows the grid has. If left _undefined_, the rows will be automatically populated according to the columns wrapping. |
-| **`spacing`** | `String` | `m` | Defines the gap between the elements in the grid. Possible values are `s` (8px), `m` (12px) and `l`(16px). |
+| Name          | Type     | Default     | Description                                                                                                                                  |
+| :------------ | :------- | :---------- | :------------------------------------------------------------------------------------------------------------------------------------------- |
+| **`columns`** | `Number` | `12`        | Defines how many columns the grid has.                                                                                                       |
+| **`rows`**    | `Number` | _undefined_ | If set, defines how many rows the grid has. If left _undefined_, the rows will be automatically populated according to the columns wrapping. |
+| **`spacing`** | `String` | `m`         | Defines the gap between the elements in the grid. Possible values are `s` (8px), `m` (12px) and `l`(16px).                                   |
 
 _slotted elements_
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`grid-cols`** | `Number` | _undefined_ | If set, defines how many grid columns are occupied by the element. |
-| **`grid-cols-m`** | `Number` | _undefined_ | Same as above, but for medium-sized screens (< 1024px). |
-| **`grid-cols-s`** | `Number` | _undefined_ | Same as above, but for medium-sized screens (< 766px). |
-| **`grid-rows`** | `Number` | _undefined_ | If set, defines how many grid rows are occupied by the element. |
+| Name              | Type     | Default     | Description                                                        |
+| :---------------- | :------- | :---------- | :----------------------------------------------------------------- |
+| **`grid-cols`**   | `Number` | _undefined_ | If set, defines how many grid columns are occupied by the element. |
+| **`grid-cols-m`** | `Number` | _undefined_ | Same as above, but for medium-sized screens (< 1024px).            |
+| **`grid-cols-s`** | `Number` | _undefined_ | Same as above, but for medium-sized screens (< 766px).             |
+| **`grid-rows`**   | `Number` | _undefined_ | If set, defines how many grid rows are occupied by the element.    |
 
 ### Slots
 
-| Name | Description |
-| :-- | :-- |
+| Name          | Description                             |
+| :------------ | :-------------------------------------- |
 | **_unnamed_** | The slot where the content is rendered. |

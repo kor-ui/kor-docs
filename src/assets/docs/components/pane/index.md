@@ -1,10 +1,10 @@
 # Pane
 
-Panes are used on side slots of a [Page](components/page) to host side controls or vertical navigation. 
+Panes are used on side slots of a [Page](components/page) to host side controls or vertical navigation.
 
 Components usually used inside panes include [Accordions](components/accordion), [Menu Items](components/menu-item) and [Inputs](components/input).
 
-[Label and Icon](components/pane#label-and-icon-(optional)) • [Slots](components/pane#slots) • [API](components/pane#api)
+[Label and Icon](<components/pane#label-and-icon-(optional)>) • [Slots](components/pane#slots) • [API](components/pane#api)
 
 ---
 
@@ -19,7 +19,11 @@ An icon can be defined to complement the label and provide additional informatio
 ```html
 <kor-page>
   <kor-app-bar slot="top"></kor-app-bar>
-  <kor-pane slot="left" icon="directions_bike" label="Label and Icon"></kor-pane>
+  <kor-pane
+    slot="left"
+    icon="directions_bike"
+    label="Label and Icon"
+  ></kor-pane>
 </kor-page>
 ```
 
@@ -58,18 +62,18 @@ The **footer** slot can be used for hosting the main actions related to the cont
 
 ### Properties
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`label`** | `String` | _undefined_ | If set, defines the text label. |
-| **`icon`** | `String` | _undefined_ | If set, defines the icon shown close to the label. |
-| **`flex-direction`** | `String` | `column` | Defines the direction in which the slotted content flows (e.g. top to bottom or left to right). Possible values are `column` and `row`. |
-| **`size`** | `String` | `l` | Defines the size (width) of the component. Possible values are `s` (80px), `m` (120px) and `l`(320px). |
+| Name                 | Type     | Default     | Description                                                                                                                             |
+| :------------------- | :------- | :---------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| **`label`**          | `String` | _undefined_ | If set, defines the text label.                                                                                                         |
+| **`icon`**           | `String` | _undefined_ | If set, defines the icon shown close to the label.                                                                                      |
+| **`flex-direction`** | `String` | `column`    | Defines the direction in which the slotted content flows (e.g. top to bottom or left to right). Possible values are `column` and `row`. |
+| **`size`**           | `String` | `l`         | Defines the size (width) of the component. Possible values are `s` (80px), `m` (120px) and `l`(320px).                                  |
 
 ### Slots
 
-| Name | Description |
-| :-- | :-- |
-| **_unnamed_** | Displayed inside the content area. |
-| **`header`** | If used, the header slot is shown on top of the component, below the label (if any is set). |
-| **`functions`** | Displayed on the right side of the label or header slot. |
-| **`footer`** | Displayed below the content area. |
+| Name            | Description                                                                                 |
+| :-------------- | :------------------------------------------------------------------------------------------ |
+| **_unnamed_**   | Displayed inside the content area.                                                          |
+| **`header`**    | If used, the header slot is shown on top of the component, below the label (if any is set). |
+| **`functions`** | Displayed on the right side of the label or header slot.                                    |
+| **`footer`**    | Displayed below the content area.                                                           |

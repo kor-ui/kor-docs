@@ -4,7 +4,7 @@ The App Bar is located at the top of a page and remains stable across multiple p
 
 Only one App Bar should be used at a time and it is recommended to use this component in all pages, except in special cases such as full screen mode.
 
-[Label](components/app-bar#label-(optional)) • [Logo](components/app-bar#logo-(optional)) • [Mobile](components/app-bar#mobile-(optional)) • [Slots](components/app-bar#slots) • [API](components/app-bar#api)
+[Label](<components/app-bar#label-(optional)>) • [Logo](<components/app-bar#logo-(optional)>) • [Mobile](<components/app-bar#mobile-(optional)>) • [Slots](components/app-bar#slots) • [API](components/app-bar#api)
 
 ---
 
@@ -36,7 +36,10 @@ Logos are not supported in mobile App Bars since the corners are reserved for ot
 
 ```html
 <kor-page>
-  <kor-app-bar slot="top" logo="https://upload.wikimedia.org/wikipedia/commons/2/29/Xiaomi_logo.svg"></kor-app-bar>
+  <kor-app-bar
+    slot="top"
+    logo="https://upload.wikimedia.org/wikipedia/commons/2/29/Xiaomi_logo.svg"
+  ></kor-app-bar>
 </kor-page>
 ```
 
@@ -50,7 +53,12 @@ When used in its mobile variation, the App Bar provides function slots on both l
 
 ```html
 <kor-page>
-  <kor-app-bar slot="top" mobile label="Label" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png">
+  <kor-app-bar
+    slot="top"
+    mobile
+    label="Label"
+    logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png"
+  >
     <!-- left -->
     <kor-avatar slot="left"></kor-avatar>
     <!-- right -->
@@ -70,7 +78,12 @@ The **functions** slot can be used for hosting global app functions, represented
 ```html
 <kor-app-bar slot="top" label="Label">
   <kor-icon slot="functions" icon="settings" button></kor-icon>
-  <kor-avatar slot="functions" label="Label" info="Information text" image="https://www.evolutionsociety.org/userdata/news_picupload/pic_sid189-0-norm.jpg"></kor-avatar>
+  <kor-avatar
+    slot="functions"
+    label="Label"
+    info="Information text"
+    image="https://www.evolutionsociety.org/userdata/news_picupload/pic_sid189-0-norm.jpg"
+  ></kor-avatar>
 </kor-app-bar>
 ```
 
@@ -80,23 +93,23 @@ The **functions** slot can be used for hosting global app functions, represented
 
 ### Properties
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`label`** | `String` | _undefined_ | If set, defines the text label shown on the left side (if `mobile` is unset). |
-| **`logo`** | `String` | _undefined_ | If set, defines the logo shown on the left side. |
-| **`mobile`** | `Boolean` | _undefined_ | If set, toggles the mobile variation. |
+| Name         | Type      | Default     | Description                                                                   |
+| :----------- | :-------- | :---------- | :---------------------------------------------------------------------------- |
+| **`label`**  | `String`  | _undefined_ | If set, defines the text label shown on the left side (if `mobile` is unset). |
+| **`logo`**   | `String`  | _undefined_ | If set, defines the logo shown on the left side.                              |
+| **`mobile`** | `Boolean` | _undefined_ | If set, toggles the mobile variation.                                         |
 
 ### Slots
 
-| Name | Description |
-| :-- | :-- |
-| **_unnamed_** | The central content area. Used for hosting components such as  [Tabs](/components/tabs). |
+| Name            | Description                                                                                                                                        |
+| :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **_unnamed_**   | The central content area. Used for hosting components such as [Tabs](/components/tabs).                                                            |
 | **`functions`** | Displayed on the right side (if `mobile` is unset). Used for hosting components such as [Icon](/components/icon) and [Avatar](/components/avatar). |
-| **`left`** | Displayed on the left side (if `mobile` is set to `true`). Used for hosting components such as [Icon](/components/icon). |
-| **`right`** | Displayed on the right side (if `mobile` is set to `true`). Used for hosting components such as [Icon](/components/icon). |
+| **`left`**      | Displayed on the left side (if `mobile` is set to `true`). Used for hosting components such as [Icon](/components/icon).                           |
+| **`right`**     | Displayed on the right side (if `mobile` is set to `true`). Used for hosting components such as [Icon](/components/icon).                          |
 
 ### Events
 
-| Name | Description |
-| :-- | :-- |
+| Name               | Description                        |
+| :----------------- | :--------------------------------- |
 | **`logo-clicked`** | Emitted when clicking on the logo. |

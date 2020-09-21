@@ -2,7 +2,7 @@
 
 Dividers are used to create visual boundaries between unrelated content. While it helps creating a visual hierarchy on the page, do not overuse dividers or they can create unnecessary complexity to the users.
 
-[Orientation](components/divider#orientation-(required)) • [API](components/divider#api)
+[Orientation](<components/divider#orientation-(required)>) • [API](components/divider#api)
 
 ---
 
@@ -27,7 +27,7 @@ The orientation of a divider is determined by the direction in which the content
 
 ### Properties
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`spacing`** | `String` | `m` | Defines the space around the divider. Possible values are `s`, `n` and `l`. |
+| Name              | Type     | Default      | Description                                                                              |
+| :---------------- | :------- | :----------- | :--------------------------------------------------------------------------------------- |
+| **`spacing`**     | `String` | `m`          | Defines the space around the divider. Possible values are `s`, `n` and `l`.              |
 | **`orientation`** | `String` | `horizontal` | Defines the orientation of the divider. Possible values are `vertical` and `horizontal`. |

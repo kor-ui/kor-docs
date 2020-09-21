@@ -2,7 +2,7 @@
 
 Inputs are used to provide the user with a way of entering a value or selecting out of a list, which could be of different types.
 
-[Type](components/input#type-(required)) • [Status](components/input#status-(optional)) • [Icon](components/input#icon-(optional)) • [Condensed](components/input#condensed-(optional)) • [Disabled and Readonly](components/input#disabled-and-readonly-(optional)) • [Functions Slot](components/input#functions-slot-(optional)) • [API](components/input#api)
+[Type](<components/input#type-(required)>) • [Status](<components/input#status-(optional)>) • [Icon](<components/input#icon-(optional)>) • [Condensed](<components/input#condensed-(optional)>) • [Disabled and Readonly](<components/input#disabled-and-readonly-(optional)>) • [Functions Slot](<components/input#functions-slot-(optional)>) • [API](components/input#api)
 
 ---
 
@@ -16,7 +16,7 @@ Depending on the type of value accepted by the app, the Input component can be s
 
 <iframe src="./assets/docs/components/input/type.html" height="480px"></iframe>
 
-```html  
+```html
 <kor-input label="Text" value="Value"></kor-input>
 <kor-input label="Number" value="1" type="number"></kor-input>
 <kor-input label="Select" type="select">
@@ -68,7 +68,13 @@ When used in contexts where vertical space is limited, inputs can be set to have
 <kor-input value="Value" condensed></kor-input>
 <kor-input label="Text" value="Value" condensed></kor-input>
 <kor-input icon="email" label="Text" value="Value" condensed></kor-input>
-<kor-input icon="email" label="Text" value="Value" status="error" condensed></kor-input>
+<kor-input
+  icon="email"
+  label="Text"
+  value="Value"
+  status="error"
+  condensed
+></kor-input>
 ```
 
 ---
@@ -109,26 +115,26 @@ Functions related directly to the Input (e.g. 'paste', 'undo') can be placed on 
 
 ### Properties
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`label`** | `String` | _undefined_ | If set, defines the text label shown on top. |
-| **`icon`** | `String` | _undefined_ | If set, defines the icon shown before the label/value. |
-| **`value`** | `String` | _undefined_ | If set, defines the value of the input. Changes upon user interaction. |
-| **`type`** | `String` | `text` | Defines the type. Possible values are `text`, `number` and `select`. |
-| **`status`** | `String` | _undefined_ | If set, Displays a status icon on the right side of the input. |
-| **`pattern`** | `String` | _undefined_ | (If `type="number"` only) If set, defines a custom input pattern (see [full documentation](https://www.w3schools.com/TAGS/att_input_pattern.asp)). |
-| **`min`** | `Number` | _undefined_ | (If `type="number"` only) If set, defines the minimum value accepted. |
-| **`max`** | `Number` | _undefined_ | (If `type="number"` only) If set, defines the maximum value accepted. |
-| **`step`** | `Number` | `1` | (If `type="number"` only) Defines the steps to skip when the user presses the left or right arrows. |
-| **`condensed`** | `Boolean` | _undefined_ | If set to `true`, reduces the height of the input. The label is only shown if the value is _undefined_. |
-| **`active`** | `Boolean` | _undefined_ | If set to `true`, highlights the label and underline. |
-| **`disabled`** | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated. |
-| **`readonly`** | `Boolean` | _undefined_ | If set to `true`, disables the input without reducing the opacity. |
-| **`no-clear`** | `Boolean` | _undefined_ | If set to `true`, the clear icon and functionality will not be available. |
+| Name            | Type      | Default     | Description                                                                                                                                        |
+| :-------------- | :-------- | :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **`label`**     | `String`  | _undefined_ | If set, defines the text label shown on top.                                                                                                       |
+| **`icon`**      | `String`  | _undefined_ | If set, defines the icon shown before the label/value.                                                                                             |
+| **`value`**     | `String`  | _undefined_ | If set, defines the value of the input. Changes upon user interaction.                                                                             |
+| **`type`**      | `String`  | `text`      | Defines the type. Possible values are `text`, `number` and `select`.                                                                               |
+| **`status`**    | `String`  | _undefined_ | If set, Displays a status icon on the right side of the input.                                                                                     |
+| **`pattern`**   | `String`  | _undefined_ | (If `type="number"` only) If set, defines a custom input pattern (see [full documentation](https://www.w3schools.com/TAGS/att_input_pattern.asp)). |
+| **`min`**       | `Number`  | _undefined_ | (If `type="number"` only) If set, defines the minimum value accepted.                                                                              |
+| **`max`**       | `Number`  | _undefined_ | (If `type="number"` only) If set, defines the maximum value accepted.                                                                              |
+| **`step`**      | `Number`  | `1`         | (If `type="number"` only) Defines the steps to skip when the user presses the left or right arrows.                                                |
+| **`condensed`** | `Boolean` | _undefined_ | If set to `true`, reduces the height of the input. The label is only shown if the value is _undefined_.                                            |
+| **`active`**    | `Boolean` | _undefined_ | If set to `true`, highlights the label and underline.                                                                                              |
+| **`disabled`**  | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated.                                                                                |
+| **`readonly`**  | `Boolean` | _undefined_ | If set to `true`, disables the input without reducing the opacity.                                                                                 |
+| **`no-clear`**  | `Boolean` | _undefined_ | If set to `true`, the clear icon and functionality will not be available.                                                                          |
 
 ### Slots
 
-| Name | Description |
-| :-- | :-- |
-| **_unnamed_** | Displayed inside the content area. |
-| **`functions`** | Shown on the right side. |
+| Name            | Description                        |
+| :-------------- | :--------------------------------- |
+| **_unnamed_**   | Displayed inside the content area. |
+| **`functions`** | Shown on the right side.           |

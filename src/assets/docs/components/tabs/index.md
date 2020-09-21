@@ -2,7 +2,7 @@
 
 Tabs are used for navigating between pages or switching the contents of a container. It is usually used inside components such as [App Bar](components/app-bar), [Nav Bar](components/nav-bar), [Panes](components/pane) and [Cards](components/card).
 
-[Label and Icon](components/tabs#label-and-icon-(optirequiredonal)) • [Active and Disabled](components/stepper#active-and-disabled-(optional)) • [Orientation](components/tabs#orientation-(required)) • [API](components/tabs#api)
+[Label and Icon](<components/tabs#label-and-icon-(optirequiredonal)>) • [Active and Disabled](<components/stepper#active-and-disabled-(optional)>) • [Orientation](<components/tabs#orientation-(required)>) • [API](components/tabs#api)
 
 ---
 
@@ -13,9 +13,18 @@ Tab items should have either a label or an icon defined (or both at the same tim
 <iframe src="./assets/docs/components/tabs/label-and-icon.html"></iframe>
 
 ```html
-<kor-tab-item icon="directions_bike" style="width: fit-content" active></kor-tab-item>
+<kor-tab-item
+  icon="directions_bike"
+  style="width: fit-content"
+  active
+></kor-tab-item>
 <kor-tab-item label="Label" style="width: fit-content" active></kor-tab-item>
-<kor-tab-item label="Icon and label" icon="directions_bike" active style="width: fit-content"></kor-tab-item>
+<kor-tab-item
+  label="Icon and label"
+  icon="directions_bike"
+  active
+  style="width: fit-content"
+></kor-tab-item>
 ```
 
 ---
@@ -65,23 +74,23 @@ By default, Tabs are displayed in a horizontal orientation, but when using in ve
 
 `kor-tabs`
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
+| Name              | Type     | Default      | Description                                                                               |
+| :---------------- | :------- | :----------- | :---------------------------------------------------------------------------------------- |
 | **`orientation`** | `String` | `horizontal` | Defines the orientation of the component. Possible values are `horizontal` and `vertical` |
 
 `kor-tab-item`
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`label`** | `String` | _undefined_ | If set, defines the text label. |
-| **`icon`** | `String` | _undefined_ | If set, defines the icon shown above the label (if set). |
-| **`active`** | `Boolean` | _undefined_ | If set to `true`, a highlight style gets applied. Only one item can be active at a time. |
-| **`disabled`** | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated. |
+| Name           | Type      | Default     | Description                                                                              |
+| :------------- | :-------- | :---------- | :--------------------------------------------------------------------------------------- |
+| **`label`**    | `String`  | _undefined_ | If set, defines the text label.                                                          |
+| **`icon`**     | `String`  | _undefined_ | If set, defines the icon shown above the label (if set).                                 |
+| **`active`**   | `Boolean` | _undefined_ | If set to `true`, a highlight style gets applied. Only one item can be active at a time. |
+| **`disabled`** | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated.                      |
 
 ### Slots
 
 `kor-tabs`
 
-| Name | Description |
-| :-- | :-- |
+| Name          | Description           |
+| :------------ | :-------------------- |
 | **_unnamed_** | Hosts `kor-tab-item`s |

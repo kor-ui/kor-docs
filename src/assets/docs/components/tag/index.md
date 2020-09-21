@@ -2,7 +2,7 @@
 
 Tags are used to categorize content in a page. It is commonly used in conjunction with [Tables](components/table)
 
-[Label and Icon](components/tag#label-(required)-and-icon-(optional)) • [Removable](components/tag#removable-(optional)) • [Button](components/tag#button-(optional)) • [API](components/tag#api)
+[Label and Icon](<components/tag#label-(required)-and-icon-(optional)>) • [Removable](<components/tag#removable-(optional)>) • [Button](<components/tag#button-(optional)>) • [API](components/tag#api)
 
 ---
 
@@ -51,15 +51,15 @@ If a Tag is used in its button variation, the user can click on it for navigatin
 
 ### Properties
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`label`** | `String` | _undefined_ | If set, defines the text label. |
-| **`icon`** | `String` | _undefined_ | If set, defines the icon shown besides the label. |
-| **`button`** | `Boolean` | _undefined_ | If set to `true`, hover and click effects will be added. |
+| Name            | Type      | Default     | Description                                                                              |
+| :-------------- | :-------- | :---------- | :--------------------------------------------------------------------------------------- |
+| **`label`**     | `String`  | _undefined_ | If set, defines the text label.                                                          |
+| **`icon`**      | `String`  | _undefined_ | If set, defines the icon shown besides the label.                                        |
+| **`button`**    | `Boolean` | _undefined_ | If set to `true`, hover and click effects will be added.                                 |
 | **`removable`** | `Boolean` | _undefined_ | If set to `true`, a close icon is displayed. Clicking on it dispatches a `remove` event. |
 
 ### Events
 
-| Name | Description |
-| :-- | :-- |
+| Name         | Description                                                    |
+| :----------- | :------------------------------------------------------------- |
 | **`remove`** | Dispatched when clicking on the close icon (`removable` only). |

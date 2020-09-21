@@ -4,7 +4,7 @@
 
 Tables are used to display large amounts of information in a concise manner which allows the user to easily scan and compare the contents.
 
-[Columns](components/table#columns-(optional)) • [Readonly](components/table#readonly-(optional)) • [Condensed](components/table#condensed-(optional)) • [Sorting](components/table#sorting-(optional)) • [API](components/table#api)
+[Columns](<components/table#columns-(optional)>) • [Readonly](<components/table#readonly-(optional)>) • [Condensed](<components/table#condensed-(optional)>) • [Sorting](<components/table#sorting-(optional)>) • [API](components/table#api)
 
 ---
 
@@ -77,7 +77,9 @@ A table can be set to be read-only if the user should passive interact with the 
 ```html
 <kor-table readonly>
   <kor-table-row slot="header">
-    <kor-table-cell grid-cols="12" head sortable sorted sort-direction="desc">Sortable Head A</kor-table-cell>
+    <kor-table-cell grid-cols="12" head sortable sorted sort-direction="desc"
+      >Sortable Head A</kor-table-cell
+    >
     <kor-table-cell grid-cols="6" head>Head B</kor-table-cell>
     <kor-table-cell grid-cols="3" head>Head C</kor-table-cell>
     <kor-table-cell grid-cols="3" head>Head D</kor-table-cell>
@@ -126,7 +128,9 @@ In cases where vertical space is scarce, tables can be set to have a condensed h
 ```html
 <kor-table condensed>
   <kor-table-row slot="header">
-    <kor-table-cell grid-cols="12" head sortable sorted sort-direction="desc">Sortable Head A</kor-table-cell>
+    <kor-table-cell grid-cols="12" head sortable sorted sort-direction="desc"
+      >Sortable Head A</kor-table-cell
+    >
     <kor-table-cell grid-cols="6" head>Head B</kor-table-cell>
     <kor-table-cell grid-cols="3" head>Head C</kor-table-cell>
     <kor-table-cell grid-cols="3" head>Head D</kor-table-cell>
@@ -172,13 +176,19 @@ When the user clicks on a sortable table header, the data of the table can be so
 
 <iframe src="./assets/docs/components/table/sorting.html"></iframe>
 
-```html  
+```html
 <kor-card style="width: 100%">
   <kor-table condensed>
     <kor-table-row slot="header">
-      <kor-table-cell grid-cols="12" head sortable sorted sort-direction="desc">Sorted Head A</kor-table-cell>
-      <kor-table-cell grid-cols="6" head sortable>Sortable Head B</kor-table-cell>
-      <kor-table-cell grid-cols="3" head sortable>Sortable Head C</kor-table-cell>
+      <kor-table-cell grid-cols="12" head sortable sorted sort-direction="desc"
+        >Sorted Head A</kor-table-cell
+      >
+      <kor-table-cell grid-cols="6" head sortable
+        >Sortable Head B</kor-table-cell
+      >
+      <kor-table-cell grid-cols="3" head sortable
+        >Sortable Head C</kor-table-cell
+      >
       <kor-table-cell grid-cols="3" head>Head D</kor-table-cell>
     </kor-table-row>
   </kor-table>
@@ -193,46 +203,46 @@ When the user clicks on a sortable table header, the data of the table can be so
 
 `kor-table`
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`columns`** | `String` | `repeat(24, 1fr)` | Defines the column template. It accepts any value also accepted by the standard css [grid-template-columns](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns) (e.g. `repeat(4, 1fr)`, `40px 1fr auto`) |
-| **`readonly`** | `Boolean` | _undefined_ | If set to `true`, disables selection on mouse clicks and the hover effects. |
-| **`condensed`** | `Boolean` | _undefined_ | If set to `true`, condensed the height of the rows and cells. |
+| Name            | Type      | Default           | Description                                                                                                                                                                                                                  |
+| :-------------- | :-------- | :---------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **`columns`**   | `String`  | `repeat(24, 1fr)` | Defines the column template. It accepts any value also accepted by the standard css [grid-template-columns](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns) (e.g. `repeat(4, 1fr)`, `40px 1fr auto`) |
+| **`readonly`**  | `Boolean` | _undefined_       | If set to `true`, disables selection on mouse clicks and the hover effects.                                                                                                                                                  |
+| **`condensed`** | `Boolean` | _undefined_       | If set to `true`, condensed the height of the rows and cells.                                                                                                                                                                |
 
 `kor-table-row`
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
+| Name         | Type      | Default     | Description                                       |
+| :----------- | :-------- | :---------- | :------------------------------------------------ |
 | **`active`** | `Boolean` | _undefined_ | If set to `true`, a highlight style gets applied. |
 
 `kor-table-cell`
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`grid-cols`** | `Number` | _undefined_ | Defines how many columns the cell occupies. The sum of all cells in a given row should not surpass the total number of columns in the table (which is 24 by default). |
-| **`alignment`** | `String` | `left` | Defines the alignment of items inside the cell. Possible values are `left`, `center` and `right`. |
-| **`head`** | `Boolean` | _undefined_ | If set to `true`, the cell will behave like a table head (use if the parent `kor-table-row` is placed on the `header` slot of the table). |
-| **`sortable`** | `Boolean` | _undefined_ | (If `head` is `true`) If set to `true`, upon clicking on the cell it will toggle the `sorted` property. |
-| **`sorted`** | `Boolean` | _undefined_ | (If `head` and `sortable` are `true`) If set to `true`, an arrow will be shown to indicate that the column is sorted. |
-| **`sort-direction`** | `String` | _undefined_ | (If `head`, `sortable` and `sorted` are `true`) Defines the direction of sorting. Possible values are `asc` and `desc`. |
+| Name                 | Type      | Default     | Description                                                                                                                                                           |
+| :------------------- | :-------- | :---------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **`grid-cols`**      | `Number`  | _undefined_ | Defines how many columns the cell occupies. The sum of all cells in a given row should not surpass the total number of columns in the table (which is 24 by default). |
+| **`alignment`**      | `String`  | `left`      | Defines the alignment of items inside the cell. Possible values are `left`, `center` and `right`.                                                                     |
+| **`head`**           | `Boolean` | _undefined_ | If set to `true`, the cell will behave like a table head (use if the parent `kor-table-row` is placed on the `header` slot of the table).                             |
+| **`sortable`**       | `Boolean` | _undefined_ | (If `head` is `true`) If set to `true`, upon clicking on the cell it will toggle the `sorted` property.                                                               |
+| **`sorted`**         | `Boolean` | _undefined_ | (If `head` and `sortable` are `true`) If set to `true`, an arrow will be shown to indicate that the column is sorted.                                                 |
+| **`sort-direction`** | `String`  | _undefined_ | (If `head`, `sortable` and `sorted` are `true`) Defines the direction of sorting. Possible values are `asc` and `desc`.                                               |
 
 ### Slots
 
 `kor-table`
 
-| Name | Description |
-| :-- | :-- |
-| **_unnamed_** | The container where the table body is rendered (`kor-table-row`s). |
-| **`header`** | The container for the header (`kor-table-row`). It does not scroll with the content, but remains sticky on top. |
+| Name          | Description                                                                                                     |
+| :------------ | :-------------------------------------------------------------------------------------------------------------- |
+| **_unnamed_** | The container where the table body is rendered (`kor-table-row`s).                                              |
+| **`header`**  | The container for the header (`kor-table-row`). It does not scroll with the content, but remains sticky on top. |
 
 `kor-table-row`
 
-| Name | Description |
-| :-- | :-- |
+| Name          | Description                |
+| :------------ | :------------------------- |
 | **_unnamed_** | Hosts (`kor-table-cell`s). |
 
 `kor-table-cell`
 
-| Name | Description |
-| :-- | :-- |
+| Name          | Description                         |
+| :------------ | :---------------------------------- |
 | **_unnamed_** | Hosts plain text or other elements. |

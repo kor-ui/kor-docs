@@ -2,7 +2,7 @@
 
 Tools are used to trigger or toggle a functionality upon mouse or touch interaction performed by the user.
 
-[Label](components/tool#label-and-icon-(required)) • [Toggle](components/tool#toggle-(optional)) • [API](components/tool#api)
+[Label](<components/tool#label-and-icon-(required)>) • [Toggle](<components/tool#toggle-(optional)>) • [API](components/tool#api)
 
 ---
 
@@ -41,11 +41,11 @@ Toggle Tools are used when a functionality can be set to on and off. Clicking or
 
 ### Properties
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`label`** | `String` | _undefined_ | If set, defines the text label. |
-| **`icon`** | `String` | _undefined_ | If set, defines the icon shown above the text label (if set). |
-| **`size`** | `String` | `m` | Defines the size of the component. Possible values are `s` and `m`. |
-| **`active`** | `Boolean` | _undefined_ | If set to `true`, a highlight style gets applied. |
-| **`toggle`** | `Boolean` | `true` | If set to `true`, clicking on the menu item will toggle the `active` property between `true` and `false`. |
-| **`disabled`** | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated. |
+| Name           | Type      | Default     | Description                                                                                               |
+| :------------- | :-------- | :---------- | :-------------------------------------------------------------------------------------------------------- |
+| **`label`**    | `String`  | _undefined_ | If set, defines the text label.                                                                           |
+| **`icon`**     | `String`  | _undefined_ | If set, defines the icon shown above the text label (if set).                                             |
+| **`size`**     | `String`  | `m`         | Defines the size of the component. Possible values are `s` and `m`.                                       |
+| **`active`**   | `Boolean` | _undefined_ | If set to `true`, a highlight style gets applied.                                                         |
+| **`toggle`**   | `Boolean` | `true`      | If set to `true`, clicking on the menu item will toggle the `active` property between `true` and `false`. |
+| **`disabled`** | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated.                                       |

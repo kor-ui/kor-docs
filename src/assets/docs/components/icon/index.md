@@ -2,7 +2,7 @@
 
 Icons can be used to indicate a status or action to the user in a visual manner. They are often used in other components such as [Buttons](components/button) or [Tabs](components/tabs).
 
-[Icon](components/icon#icon-(required)) • [Size](components/icon#size-(required)) • [Color](components/icon#color-(optional)) • [Button](components/icon#button-(optional)) • [API](components/icon#api)
+[Icon](<components/icon#icon-(required)>) • [Size](<components/icon#size-(required)>) • [Color](<components/icon#color-(optional)>) • [Button](<components/icon#button-(optional)>) • [API](components/icon#api)
 
 ---
 
@@ -53,7 +53,7 @@ Icons can have custom colors assigned for cases where highlighting is necessary 
 
 ## Button (Optional)
 
-Icons can be used to trigger an action and therefore behave like a [Button](components/button). In this case, opacity and cursor styles are used to visually indicate this interaction. 
+Icons can be used to trigger an action and therefore behave like a [Button](components/button). In this case, opacity and cursor styles are used to visually indicate this interaction.
 
 <iframe src="./assets/docs/components/icon/button.html"></iframe>
 
@@ -68,10 +68,10 @@ Icons can be used to trigger an action and therefore behave like a [Button](comp
 
 ### Properties
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`icon`** | `String` | _undefined_ | Defines the icon shown. Takes any string from the [Material Design Library](https://material.io/resources/icons/?style=baseline) or custom `url('')` pointing to local or remote images or vectors. |
-| **`size`** | `String` | `m` | If set, defines the size of the icon. Possible values are `xl` (48px) `l` (32px), `m` (24px) and `s` (16px), but css `font-size` can be used to set custom sizes. |
-| **`color`** | `String` | _undefined_ | If set, replaces the text label with a custom icon. |
-| **`button`** | `Boolean` | _undefined_ | If set to `true`, updates hover, click effects and cursors. |
-| **`disabled`** | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated. |
+| Name           | Type      | Default     | Description                                                                                                                                                                                         |
+| :------------- | :-------- | :---------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **`icon`**     | `String`  | _undefined_ | Defines the icon shown. Takes any string from the [Material Design Library](https://material.io/resources/icons/?style=baseline) or custom `url('')` pointing to local or remote images or vectors. |
+| **`size`**     | `String`  | `m`         | If set, defines the size of the icon. Possible values are `xl` (48px) `l` (32px), `m` (24px) and `s` (16px), but css `font-size` can be used to set custom sizes.                                   |
+| **`color`**    | `String`  | _undefined_ | If set, replaces the text label with a custom icon.                                                                                                                                                 |
+| **`button`**   | `Boolean` | _undefined_ | If set to `true`, updates hover, click effects and cursors.                                                                                                                                         |
+| **`disabled`** | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated.                                                                                                                                 |

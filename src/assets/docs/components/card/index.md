@@ -2,7 +2,7 @@
 
 Cards are used to cluster related content. It helps creating a visual separation of different sections of a page through the use of background color and shadow. Cards are usually placed inside [Grids](components/grid).
 
-[Label and Icon](components/card#label-and-icon-(optional)) • [Image](components/card#image-(optional)) • [Flex Direction](components/card#flex-direction-(required)) • [Flat](components/card#flat-(optional)) • [Slots](components/card#slots) • [API](components/card#api)
+[Label and Icon](<components/card#label-and-icon-(optional)>) • [Image](<components/card#image-(optional)>) • [Flex Direction](<components/card#flex-direction-(required)>) • [Flat](<components/card#flat-(optional)>) • [Slots](components/card#slots) • [API](components/card#api)
 
 ---
 
@@ -27,10 +27,15 @@ If defined, an image is displayed on top of the card's content. It is usually us
 <iframe src="./assets/docs/components/card/image.html" height="480px"></iframe>
 
 ```html
-<kor-card image="https://i.ytimg.com/vi/BfCwN4iy6T8/maxresdefault.jpg" label="Label">
+<kor-card
+  image="https://i.ytimg.com/vi/BfCwN4iy6T8/maxresdefault.jpg"
+  label="Label"
+>
   This is an image card with label.
 </kor-card>
-<kor-card image="https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+<kor-card
+  image="https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+>
   This is an image card without label.
 </kor-card>
 ```
@@ -96,19 +101,19 @@ The **footer** slot can be used for hosting the main actions related to the cont
 
 ### Properties
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`label`** | `String` | _undefined_ | If set, defines the text label. |
-| **`icon`** | `String` | _undefined_ | If set, defines the icon shown close to the label. |
-| **`image`** | `String` | _undefined_ | If set, defines the image shown on top of the card. |
-| **`flex-direction`** | `String` | `column` | Defines the direction in which the slotted content flows (e.g. top to bottom or left to right). Possible values are `column` and `row`. |
-| **`flat`** | `Boolean` | _undefined_ | If set, background, shadows and external padding are not shown. |
+| Name                 | Type      | Default     | Description                                                                                                                             |
+| :------------------- | :-------- | :---------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| **`label`**          | `String`  | _undefined_ | If set, defines the text label.                                                                                                         |
+| **`icon`**           | `String`  | _undefined_ | If set, defines the icon shown close to the label.                                                                                      |
+| **`image`**          | `String`  | _undefined_ | If set, defines the image shown on top of the card.                                                                                     |
+| **`flex-direction`** | `String`  | `column`    | Defines the direction in which the slotted content flows (e.g. top to bottom or left to right). Possible values are `column` and `row`. |
+| **`flat`**           | `Boolean` | _undefined_ | If set, background, shadows and external padding are not shown.                                                                         |
 
 ### Slots
 
-| Name | Description |
-| :-- | :-- |
-| **_unnamed_** | Displayed inside the content area. |
-| **`header`** | Shown on top of the card, below the label (if any is set). |
-| **`functions`** | Shown on the right side of the label or header slot. |
-| **`footer`** | Shown below the content area. |
+| Name            | Description                                                |
+| :-------------- | :--------------------------------------------------------- |
+| **_unnamed_**   | Displayed inside the content area.                         |
+| **`header`**    | Shown on top of the card, below the label (if any is set). |
+| **`functions`** | Shown on the right side of the label or header slot.       |
+| **`footer`**    | Shown below the content area.                              |

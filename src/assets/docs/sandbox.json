@@ -301,6 +301,48 @@
     ]
   },
   {
+    "name": "image",
+    "properties": [
+      {
+        "name": "Src",
+        "type": "string",
+        "value": "https://i.ytimg.com/vi/BfCwN4iy6T8/maxresdefault.jpg"
+      },
+      {
+        "name": "Alt",
+        "type": "string",
+        "value": "Alt text."
+      },
+      {
+        "name": "Height",
+        "type": "string",
+        "value": "200px"
+      },
+      {
+        "name": "Width",
+        "type": "string",
+        "value": "400px"
+      },
+      {
+        "name": "Legend",
+        "type": "string",
+        "value": "Legend text."
+      },
+      {
+        "name": "legend-position",
+        "type": "select",
+        "value": null,
+        "options": [null, "inner-top", "inner-bottom"]
+      },
+      {
+        "name": "Fit",
+        "type": "select",
+        "value": "cover",
+        "options": ["contain", "cover", "fill", "scale-down", "none"]
+      }
+    ]
+  },
+  {
     "name": "input",
     "properties": [
       {
@@ -313,7 +355,7 @@
         "value": "Label"
       },
       {
-        "name": "value",
+        "name": "Value",
         "type": "string",
         "value": "Value"
       },

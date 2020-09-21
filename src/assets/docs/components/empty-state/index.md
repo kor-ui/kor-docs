@@ -2,7 +2,7 @@
 
 Empty States are used as placeholders for content that are either unavailable or do not exist yet.
 
-[Label and Icon](components/empty-state#label-and-icon-(optional)) • [Footer Slot](components/empty-state#footer-slot-(optional)) • [API](components/empty-state#api)
+[Label and Icon](<components/empty-state#label-and-icon-(optional)>) • [Footer Slot](<components/empty-state#footer-slot-(optional)>) • [API](components/empty-state#api)
 
 ---
 
@@ -14,8 +14,8 @@ If both label and icon are defined, the icon is displayed above the label.
 
 <iframe src="./assets/docs/components/empty-state/label-and-icon.html"></iframe>
 
-```html  
-<kor-empty-state label="Label only" ></kor-empty-state>
+```html
+<kor-empty-state label="Label only"></kor-empty-state>
 <kor-empty-state icon="wifi"></kor-empty-state>
 <kor-empty-state label="Label and Icon" icon="wifi"></kor-empty-state>
 ```
@@ -42,13 +42,13 @@ For example, if data is unavailable because the network is down, a 'Reconnect' o
 
 ### Properties
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
+| Name        | Type     | Default     | Description                                          |
+| :---------- | :------- | :---------- | :--------------------------------------------------- |
 | **`label`** | `String` | _undefined_ | If set, defines the text label shown under the icon. |
-| **`icon`** | `String` | _undefined_ | If set, defines the icon shown above the label. |
+| **`icon`**  | `String` | _undefined_ | If set, defines the icon shown above the label.      |
 
 ### Slots
 
-| Name | Description |
-| :-- | :-- |
+| Name         | Description                |
+| :----------- | :------------------------- |
 | **`footer`** | Displayed below the label. |

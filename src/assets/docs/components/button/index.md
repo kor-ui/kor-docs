@@ -2,7 +2,7 @@
 
 Buttons are used to trigger an action by click or touch, such as 'Open', 'Save', or 'Cancel'.
 
-[Color](components/button#color-(required)) • [Icon](components/button#icon-(optional)) • [API](components/button#api)
+[Color](<components/button#color-(required)>) • [Icon](<components/button#icon-(optional)>) • [API](components/button#api)
 
 ---
 
@@ -18,10 +18,10 @@ The color of a button is defined by how important that function is in the contex
 
 When defining the order of buttons, please consider the guidelines of the platform where your app or website is used:
 
-| Platform | Ordering |
-| :-- | :-- |
+| Platform       | Ordering                       |
+| :------------- | :----------------------------- |
 | Web (browsers) | Tertiary / Secondary / Primary |
-| Native MacOS | Tertiary / Secondary / Primary |
+| Native MacOS   | Tertiary / Secondary / Primary |
 | Cross-platform | Tertiary / Secondary / Primary |
 | Native Windows | Primary / Secondary / Tertiary |
 
@@ -63,9 +63,9 @@ Only use icon buttons when the metaphors are well established with your users, s
 
 ### Properties
 
-| Name | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| **`label`** | `String` | _undefined_ | If set, defines the text label. |
-| **`icon`** | `String` | _undefined_ | If set, replaces the text label with a custom icon. |
-| **`color`** | `String` | `primary` | Defines the color. The possible values are `primary`, `secondary` and `tertiary` |
-| **`disabled`** | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated. |
+| Name           | Type      | Default     | Description                                                                      |
+| :------------- | :-------- | :---------- | :------------------------------------------------------------------------------- |
+| **`label`**    | `String`  | _undefined_ | If set, defines the text label.                                                  |
+| **`icon`**     | `String`  | _undefined_ | If set, replaces the text label with a custom icon.                              |
+| **`color`**    | `String`  | `primary`   | Defines the color. The possible values are `primary`, `secondary` and `tertiary` |
+| **`disabled`** | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated.              |
