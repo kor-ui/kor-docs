@@ -1,6 +1,6 @@
 # Image
 
-Icons can be used to indicate a status or action to the user in a visual manner. They are often used in other components such as [Buttons](components/button) or [Tabs](components/tabs).
+The image component enhances the standard `img` HTML tag by adding functionality such as legend or slots for overlaying content on top of it.
 
 [Src](<components/image#src-(required)>) • [Legend](<components/image#legend-(optional)>) • [Width and Height](<components/image#width-and-height-(optional)>) • [Fit](<components/image#fit-(required)>) • [Slots](<components/image#slots-(optional)>)
 
