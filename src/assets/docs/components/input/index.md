@@ -131,6 +131,7 @@ Functions related directly to the Input (e.g. 'paste', 'undo') can be placed on 
 | **`disabled`**  | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated.                                                                                |
 | **`readonly`**  | `Boolean` | _undefined_ | If set to `true`, disables the input without reducing the opacity.                                                                                 |
 | **`no-clear`**  | `Boolean` | _undefined_ | If set to `true`, the clear icon and functionality will not be available.                                                                          |
+| **`atofocus`**  | `Boolean` | _undefined_ | If set to `true`, the component gets focused as soon as the page loads.                                                                            |
 
 ### Slots
 

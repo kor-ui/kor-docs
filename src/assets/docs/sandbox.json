@@ -385,6 +385,11 @@
         "value": null
       },
       {
+        "name": "Autofocus",
+        "type": "boolean",
+        "value": null
+      },
+      {
         "name": "Type",
         "type": "select",
         "value": "text",
@@ -819,6 +824,50 @@
         "name": "Removable",
         "type": "boolean",
         "value": true
+      }
+    ]
+  },
+  {
+    "name": "textarea",
+    "properties": [
+      {
+        "name": "Style",
+        "value": "width: 320px;"
+      },
+      {
+        "name": "Label",
+        "type": "string",
+        "value": "Label"
+      },
+      {
+        "name": "Value",
+        "type": "string",
+        "value": "Value"
+      },
+      {
+        "name": "Readonly",
+        "type": "boolean",
+        "value": null
+      },
+      {
+        "name": "Disabled",
+        "type": "boolean",
+        "value": null
+      },
+      {
+        "name": "Autofocus",
+        "type": "boolean",
+        "value": null
+      },
+      {
+        "name": "Rows",
+        "type": "number",
+        "value": "2"
+      },
+      {
+        "name": "Max-length",
+        "type": "number",
+        "value": null
       }
     ]
   },
