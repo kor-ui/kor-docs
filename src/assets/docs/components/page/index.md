@@ -108,6 +108,7 @@ Flat pages have a lighter background color, allowing content to be placed direct
 | :------------------- | :-------- | :---------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
 | **`theme`**          | `String`  | _undefined_ | Defines the color theme of the page. Possible values are `dark` and `light`.                                                            |
 | **`flex-direction`** | `String`  | `row`       | Defines the direction in which the slotted content flows (e.g. top to bottom or left to right). Possible values are `column` and `row`. |
+| **`padding`**        | `String`  | `16px`      | Defines the padding style of the default slot. It can take any string supported by the CSS `padding` rule.                              |
 | **`flat`**           | `Boolean` | _undefined_ | If set to `true`, the page background will be flat, without the need to use card as containers for the content.                         |
 
 ### Slots
