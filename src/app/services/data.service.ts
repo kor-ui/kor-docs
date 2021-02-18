@@ -7,40 +7,40 @@ import { Router } from '@angular/router';
   providedIn: 'root',
 })
 export class DataService {
-  public appTheme: string = 'light';
-  public showMenu: boolean = false;
-  public mobile: boolean = false;
-  public tree = (<any>t).default;
-  public sandbox = (<any>s).default;
+  public appTheme = 'light';
+  public showMenu = false;
+  public mobile = false;
+  tree = (t as any).default;
+  sandbox = (s as any).default;
 
   constructor(public router: Router) {}
 
   // switch app theme
-  public switchTheme(): void {
-    this.appTheme = this.appTheme == 'dark' ? 'light' : 'dark';
+  switchTheme(): void {
+    this.appTheme = this.appTheme === 'dark' ? 'light' : 'dark';
     localStorage.setItem('appTheme', this.appTheme);
     this.setDemoTheme();
   }
 
   // set all demos themes to match app theme
-  public setDemoTheme(el?: any): void {
+  setDemoTheme(el?: any): void {
     if (el) {
-      let body = el.contentWindow.document.body;
+      const body = el.contentWindow.document.body;
       body.setAttribute('theme', this.appTheme);
       body.querySelector('.demo').style.opacity = '1';
     } else {
-      document.querySelectorAll('iframe').forEach((el) => {
-        el.contentWindow.document.body.setAttribute('theme', this.appTheme);
+      document.querySelectorAll('iframe').forEach((frame) => {
+        frame.contentWindow.document.body.setAttribute('theme', this.appTheme);
       });
     }
   }
 
-  public formatUrl(str: string): string {
+  formatUrl(str: string): string {
     return str.replace(/\s+/g, '-').toLowerCase();
   }
 
-  getNameFromUrl() {
-    let params = this.router.url.split('/');
+  getNameFromUrl(): string {
+    const params = this.router.url.split('/');
     return params[params.length - 1].split('#')[0];
   }
 }

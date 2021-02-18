@@ -10,15 +10,15 @@ import { Router } from '@angular/router';
 export class ContentComponent implements OnInit {
   constructor(public data: DataService, public router: Router) {}
 
-  ngOnInit() {}
+  ngOnInit(): void {}
 
-  public findComponent(): boolean {
+  findComponent(): boolean {
     return this.data.sandbox.find(
-      ({ name }) => name == this.data.getNameFromUrl()
+      ({ name }) => name === this.data.getNameFromUrl()
     );
   }
 
-  public handleLoad(): void {
+  handleLoad(): void {
     // wait for iframes to load and call set theme
     document.querySelectorAll('iframe').forEach((el) => {
       el.onload = () => this.data.setDemoTheme(el);

@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 export class SandboxComponent implements OnInit {
   @Input() component: any;
 
-  public codeSnippet: string;
+  codeSnippet: string;
 
   constructor(public data: DataService, public router: Router) {}
 
@@ -21,7 +21,7 @@ export class SandboxComponent implements OnInit {
     });
   }
 
-  public setDemo(): void {
+  setDemo(): void {
     const wrapper = document.querySelector('.demo-wrapper');
     const el = document.createElement(
       `kor-${this.component.tag ? this.component.tag : this.component.name}`
@@ -38,7 +38,7 @@ export class SandboxComponent implements OnInit {
     this.codeSnippet = wrapper.innerHTML;
   }
 
-  public copyCode(): void {
+  copyCode(): void {
     const input = document.createElement('input');
     input.value = this.codeSnippet;
     document.body.appendChild(input);

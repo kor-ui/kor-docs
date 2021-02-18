@@ -12,7 +12,7 @@ export class AppComponent implements OnInit {
 
   constructor(public data: DataService) {}
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.handleMobile();
     window.addEventListener('resize', () => {
       this.handleMobile();
