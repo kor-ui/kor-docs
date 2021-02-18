@@ -1,12 +1,8 @@
 <app-sandbox
-  *ngIf="findComponent()"
-  [component]="findComponent()"
+  *ngIf="component"
+  [component]="component"
 ></app-sandbox>
 <markdown
-  [src]="
-    router.url !== '/'
-      ? './assets/docs' + router.url.split('#')[0] + '/index.md'
-      : ''
-  "
-  (load)="handleLoad()"
+  [src]="getMarkdownPath()"
+  (ready)="handleLoad()"
 ></markdown>

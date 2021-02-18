@@ -27,7 +27,6 @@ export class DataService {
     if (el) {
       const body = el.contentWindow.document.body;
       body.setAttribute('theme', this.appTheme);
-      body.querySelector('.demo').style.opacity = '1';
     } else {
       document.querySelectorAll('iframe').forEach((frame) => {
         frame.contentWindow.document.body.setAttribute('theme', this.appTheme);

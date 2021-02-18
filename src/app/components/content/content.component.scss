@@ -6,6 +6,13 @@
   height: calc(100% - 72px);
   margin: -16px;
   overflow: auto;
+  &.loaded {
+    transition: .5s all ease-in-out;
+  }
+  &:not(.loaded) {
+    margin-top: 16px;
+    opacity: 0;
+  }
   > * {
     padding: 0 64px 32px 64px;
     margin: auto;
