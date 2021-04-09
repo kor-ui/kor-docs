@@ -7,10 +7,10 @@
   margin: -16px;
   overflow: auto;
   &.loaded {
-    transition: 1s all ease-out;
+    transition: .4s all ease-out;
   }
   &:not(.loaded) {
-    margin-top: 16px;
+    margin-top: -8px;
     opacity: 0;
   }
   > * {
