@@ -10,4 +10,15 @@ Jooni is a Progressive Web App built with Kor UI, Angular and Firebase. It is a 
 
 <iframe src="./assets/docs/introduction/sample-apps/jooni.html" height="640px"></iframe>
 
-[Launch the App](https://jooni.app/) or [download from the Play Store](https://play.google.com/store/apps/details?id=com.jooni.app)
+[Launch the App](https://jooni.app/) or download from [Play Store](https://play.google.com/store/apps/details?id=com.jooni.app) or [App Store](https://apps.apple.com/ai/app/jooni/id1537602737).
+
+---
+
+## Tuca
+
+Tuca is an app for automatically identifying bird species powered by Machine Learning. Built with Kor UI, Angular and Firebase, it is deployed as an app on the Google Play Store and as on the web.
+
+<iframe src="./assets/docs/introduction/sample-apps/tuca.html" height="720px"></iframe>
+
+[Launch the App](https://tuca.app/) or [download from the Play Store](https://play.google.com/store/apps/details?id=app.tuca.twa)
+
