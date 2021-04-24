@@ -122,6 +122,7 @@ Functions related directly to the Input (e.g. 'paste', 'undo') can be placed on 
 | **`value`**     | `String`  | _undefined_ | If set, defines the value of the input. Changes upon user interaction.                                                                             |
 | **`type`**      | `String`  | `text`      | Defines the type. Possible values are `text`, `number` and `select`.                                                                               |
 | **`status`**    | `String`  | _undefined_ | If set, Displays a status icon on the right side of the input.                                                                                     |
+| **`name`**    | `String`  | _undefined_ | Sets the name of the input. Corresponds to the native input's 'name' attribute.                                                                                     |
 | **`pattern`**   | `String`  | _undefined_ | (If `type="number"` only) If set, defines a custom input pattern (see [full documentation](https://www.w3schools.com/TAGS/att_input_pattern.asp)). |
 | **`min`**       | `Number`  | _undefined_ | (If `type="number"` only) If set, defines the minimum value accepted.                                                                              |
 | **`max`**       | `Number`  | _undefined_ | (If `type="number"` only) If set, defines the maximum value accepted.                                                                              |
