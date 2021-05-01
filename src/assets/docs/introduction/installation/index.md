@@ -65,7 +65,7 @@ _or_
 
 ### Load single components
 
-As an alternative, you can also load individual components to reduce loading time. Be aware that components are inter-dependent and should be imported independently:
+As an alternative, you can also load individual components to improve performance and reduce loading time.
 
 ```js
 // include individual components and styles through module import
