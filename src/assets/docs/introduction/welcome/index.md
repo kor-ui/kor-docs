@@ -37,7 +37,7 @@ Compatible with all major frameworks, browsers, operational systems, form factor
 ## Components
 
 <style>
-    kor-grid kor-image {
+    kor-grid img {
         background: #EBEBEB;
         box-shadow: unset;
         border: 1px solid rgba(var(--neutral-1), .1);
@@ -45,7 +45,7 @@ Compatible with all major frameworks, browsers, operational systems, form factor
         margin-bottom: 8px;
         border-radius: 4px;
     }
-    kor-grid a:hover kor-image {
+    kor-grid a:hover img {
         background: #E0E0E0;
     }
     kor-grid a {
@@ -54,114 +54,114 @@ Compatible with all major frameworks, browsers, operational systems, form factor
     }
 </style>
 
-<kor-grid columns="4">
-    <a href="components/accordion">
-        <kor-image src="assets/wireframes/accordion.png"></kor-image>Accordion
+<kor-grid>
+    <a href="components/accordion" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/accordion.png"/>Accordion
     </a>
-    <a href="components/app-bar">
-        <kor-image src="assets/wireframes/app-bar.png"></kor-image>App Bar
+    <a href="components/app-bar" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/app-bar.png"/>App Bar
     </a>
-    <a href="components/avatar">
-        <kor-image src="assets/wireframes/avatar.png"></kor-image>Avatar
+    <a href="components/avatar" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/avatar.png"/>Avatar
     </a>
-    <a href="components/badge">
-        <kor-image src="assets/wireframes/badge.png"></kor-image>Badge
+    <a href="components/badge" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/badge.png"/>Badge
     </a>
-    <a href="components/breadcrumbs">
-        <kor-image src="assets/wireframes/breadcrumbs.png"></kor-image>Breadcrumbs
+    <a href="components/breadcrumbs" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/breadcrumbs.png"/>Breadcrumbs
     </a>
-    <a href="components/button">
-        <kor-image src="assets/wireframes/button.png"></kor-image>Button
+    <a href="components/button" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/button.png"/>Button
     </a>
-    <a href="components/card">
-        <kor-image src="assets/wireframes/card.png"></kor-image>Card
+    <a href="components/card" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/card.png"/>Card
     </a>
-    <a href="components/checkbox">
-        <kor-image src="assets/wireframes/checkbox.png"></kor-image>Checkbox
+    <a href="components/checkbox" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/checkbox.png"/>Checkbox
     </a>
-    <a href="components/divider">
-        <kor-image src="assets/wireframes/divider.png"></kor-image>Divider
+    <a href="components/divider" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/divider.png"/>Divider
     </a>
-    <a href="components/drawer">
-        <kor-image src="assets/wireframes/drawer.png"></kor-image>Drawer
+    <a href="components/drawer" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/drawer.png"/>Drawer
     </a>
-    <a href="components/empty-state">
-        <kor-image src="assets/wireframes/empty-state.png"></kor-image>Empty Stategrid
+    <a href="components/empty-state" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/empty-state.png"/>Empty State
     </a>
-    <a href="components/grid">
-        <kor-image src="assets/wireframes/grid.png"></kor-image>Grid
+    <a href="components/grid" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/grid.png"/>Grid
     </a>
-    <a href="components/icon">
-        <kor-image src="assets/wireframes/icon.png"></kor-image>Icon
+    <a href="components/icon" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/icon.png"/>Icon
     </a>
-    <a href="components/image">
-        <kor-image src="assets/wireframes/image.png"></kor-image>Image
+    <a href="components/image" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/image.png"/>Image
     </a>
-    <a href="components/input">
-        <kor-image src="assets/wireframes/input.png"></kor-image>Input
+    <a href="components/input" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/input.png"/>Input
     </a>
-    <a href="components/menu-item">
-        <kor-image src="assets/wireframes/menu-item.png"></kor-image>Menu Item
+    <a href="components/menu-item" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/menu-item.png"/>Menu Item
     </a>
-    <a href="components/modal">
-        <kor-image src="assets/wireframes/modal.png"></kor-image>Modal
+    <a href="components/modal" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/modal.png"/>Modal
     </a>
-    <a href="components/nav-bar">
-        <kor-image src="assets/wireframes/nav-bar.png"></kor-image>Nav Bar
+    <a href="components/nav-bar" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/nav-bar.png"/>Nav Bar
     </a>
-    <a href="components/notifications">
-        <kor-image src="assets/wireframes/notifications.png"></kor-image>Notifications
+    <a href="components/notifications" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/notifications.png"/>Notifications
     </a>
-    <a href="components/page">
-        <kor-image src="assets/wireframes/page.png"></kor-image>Page
+    <a href="components/page" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/page.png"/>Page
     </a>
-    <a href="components/pane">
-        <kor-image src="assets/wireframes/pane.png"></kor-image>Pane
+    <a href="components/pane" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/pane.png"/>Pane
     </a>
-    <a href="components/popover">
-        <kor-image src="assets/wireframes/popover.png"></kor-image>Popover
+    <a href="components/popover" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/popover.png"/>Popover
     </a>
-    <a href="components/progress-bar">
-        <kor-image src="assets/wireframes/progress-bar.png"></kor-image>Progress Bar
+    <a href="components/progress-bar" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/progress-bar.png"/>Progress Bar
     </a>
-    <a href="components/radio-button">
-        <kor-image src="assets/wireframes/radio-button.png"></kor-image>Radio Button
+    <a href="components/radio-button" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/radio-button.png"/>Radio Button
     </a>
-    <a href="components/slider">
-        <kor-image src="assets/wireframes/slider.png"></kor-image>Slider
+    <a href="components/slider" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/slider.png"/>Slider
     </a>
-    <a href="components/spinner">
-        <kor-image src="assets/wireframes/spinner.png"></kor-image>Spinner
+    <a href="components/spinner" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/spinner.png"/>Spinner
     </a>
-    <a href="components/stepper">
-        <kor-image src="assets/wireframes/stepper.png"></kor-image>Stepper
+    <a href="components/stepper" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/stepper.png"/>Stepper
     </a>
-    <a href="components/switch">
-        <kor-image src="assets/wireframes/switch.png"></kor-image>Switch
+    <a href="components/switch" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/switch.png"/>Switch
     </a>
-    <a href="components/table">
-        <kor-image src="assets/wireframes/table.png"></kor-image>Table
+    <a href="components/table" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/table.png"/>Table
     </a>
-    <a href="components/tabs">
-        <kor-image src="assets/wireframes/tabs.png"></kor-image>Tabs
+    <a href="components/tabs" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/tabs.png"/>Tabs
     </a>
-    <a href="components/tag">
-        <kor-image src="assets/wireframes/tag.png"></kor-image>Tag
+    <a href="components/tag" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/tag.png"/>Tag
     </a>
-    <a href="components/text">
-        <kor-image src="assets/wireframes/text.png"></kor-image>Text
+    <a href="components/text" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/text.png"/>Text
     </a>
-    <a href="components/textarea">
-        <kor-image src="assets/wireframes/textarea.png"></kor-image>Textarea
+    <a href="components/textarea" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/textarea.png"/>Textarea
     </a>
-    <a href="components/toggle">
-        <kor-image src="assets/wireframes/toggle.png"></kor-image>Toggle
+    <a href="components/toggle" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/toggle.png"/>Toggle
     </a>
-    <a href="components/tool">
-        <kor-image src="assets/wireframes/tool.png"></kor-image>Tool
+    <a href="components/tool" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/tool.png"/>Tool
     </a>
-    <a href="components/tooltip">
-        <kor-image src="assets/wireframes/tooltip.png"></kor-image>Tooltip
+    <a href="components/tooltip" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/tooltip.png"/>Tooltip
     </a>
 </kor-grid>
 
