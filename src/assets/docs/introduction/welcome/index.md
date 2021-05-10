@@ -13,26 +13,29 @@ Compatible with all major frameworks, browsers, operational systems, form factor
     display: flex; 
     flex-direction: column; 
 }
+.highlight kor-text[size="header-1"] {
+    margin: 16px 0;
+}
 </style>
 
 <kor-grid columns="3" style="margin: 64px 0">
     <div grid-cols-s="3" class="highlight">
         <kor-icon size="xl" icon="touch_app" color="rgb(var(--accent-1))"></kor-icon>
-        <kor-text size="header-1" style="margin: 16px 0">Ease of use</kor-text>
+        <kor-text size="header-1">Ease of use</kor-text>
         <kor-text color="var(--text-2)">
             Designed to provide an intuitive, coherent and pleasing experience to users
         </kor-text>
     </div>
     <div grid-cols-s="3" class="highlight">
         <kor-icon size="xl" icon="device_hub" color="rgb(var(--accent-1))"></kor-icon>
-        <kor-text size="header-1" style="margin: 16px 0">Compatibility</kor-text>
+        <kor-text size="header-1">Compatibility</kor-text>
         <kor-text color="var(--text-2)">
             Support to all main frameworks, browsers, OS, form factors and input types
         </kor-text>
     </div>
     <div grid-cols-s="3" class="highlight">
         <kor-icon size="xl" icon="fast_forward" color="rgb(var(--accent-1))"></kor-icon>
-        <kor-text size="header-1" style="margin: 16px 0">Size and Speed</kor-text>
+        <kor-text size="header-1">Size and Speed</kor-text>
         <kor-text color="var(--text-2)">
             Lightweight package made to provide fast loading and usage in any context
         </kor-text>
