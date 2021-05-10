@@ -8,22 +8,29 @@ Compatible with all major frameworks, browsers, operational systems, form factor
 
 ---
 
+<style>
+.highlight {
+    display: flex; 
+    flex-direction: column; 
+}
+</style>
+
 <kor-grid columns="3" style="margin: 64px 0">
-    <div grid-cols-s="3" style="display: flex; flex-direction: column; align-items: center; text-align: center; height: fit-content;">
+    <div grid-cols-s="3" class="highlight">
         <kor-icon size="xl" icon="touch_app" color="rgb(var(--accent-1))"></kor-icon>
         <kor-text size="header-1" style="margin: 16px 0">Ease of use</kor-text>
         <kor-text color="var(--text-2)">
             Designed to provide an intuitive, coherent and pleasing experience to users
         </kor-text>
     </div>
-    <div grid-cols-s="3" style="display: flex; flex-direction: column; align-items: center; text-align: center; height: fit-content;">
+    <div grid-cols-s="3" class="highlight">
         <kor-icon size="xl" icon="device_hub" color="rgb(var(--accent-1))"></kor-icon>
         <kor-text size="header-1" style="margin: 16px 0">Compatibility</kor-text>
         <kor-text color="var(--text-2)">
             Support to all main frameworks, browsers, OS, form factors and input types
         </kor-text>
     </div>
-    <div grid-cols-s="3" style="display: flex; flex-direction: column; align-items: center; text-align: center; height: fit-content;">
+    <div grid-cols-s="3" class="highlight">
         <kor-icon size="xl" icon="fast_forward" color="rgb(var(--accent-1))"></kor-icon>
         <kor-text size="header-1" style="margin: 16px 0">Size and Speed</kor-text>
         <kor-text color="var(--text-2)">
@@ -37,24 +44,23 @@ Compatible with all major frameworks, browsers, operational systems, form factor
 ## Components
 
 <style>
-    kor-grid img {
+    kor-grid a {
+        text-decoration: none;
+        color: var(--text-1);
+    }
+    kor-grid a img {
         background: #EBEBEB;
         box-shadow: unset;
         border: 1px solid rgba(var(--neutral-1), .1);
         transition: .1s all ease-out;
-        margin-bottom: 8px;
         border-radius: 4px;
     }
     kor-grid a:hover img {
         background: #E0E0E0;
     }
-    kor-grid a {
-        text-decoration: none;
-        color: var(--text-1);
-    }
 </style>
 
-<kor-grid>
+<kor-grid spacing="l">
     <a href="components/accordion" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
         <img src="assets/wireframes/accordion.png"/>Accordion
     </a>
