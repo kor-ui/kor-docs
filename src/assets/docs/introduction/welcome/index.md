@@ -2,8 +2,6 @@
 
 ## An open source Design System and lightweight UI Component Library.
 
-<!-- ![](/assets/docs/introduction/welcome/cover.png) -->
-
 Compatible with all major frameworks, browsers, operational systems, form factors and input types, **Kor** can be used virtually anywhere. It is built to facilitate the design and development of **intuitive, coherent and pleasing** user interfaces based on Web technologies (HTML5).
 
 ---
@@ -144,6 +142,9 @@ Compatible with all major frameworks, browsers, operational systems, form factor
     </a>
     <a href="components/stepper" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
         <img src="assets/wireframes/stepper.png"/>Stepper
+    </a>
+    <a href="components/swipe-actions" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
+        <img src="assets/wireframes/swipe-actions.png"/>Swipe Actions
     </a>
     <a href="components/switch" grid-cols="3" grid-cols-m="4" grid-cols-s="6">
         <img src="assets/wireframes/switch.png"/>Switch

@@ -1,0 +1,32 @@
+<script src="/assets/kor/index.js"></script>
+<link
+  rel="stylesheet"
+  href="/assets/kor/kor-styles.css"
+/>
+<link
+  rel="stylesheet"
+  href="/assets/docs/demo-styles.css"
+/>
+
+<div class="demo">
+  <kor-table columns="1fr">
+    <!-- red and green -->
+    <kor-swipe-actions>
+      <!-- content -->
+      <kor-table-row>
+        <kor-table-cell>Swipe to delete or reply</kor-table-cell>
+      </kor-table-row>
+      <!-- action -->
+      <kor-swipe-action
+        slot="left"
+        icon="delete"
+        bg-color="rgba(var(--functional-red), .2)"
+      ></kor-swipe-action>
+      <kor-swipe-action
+        slot="right"
+        icon="reply"
+        bg-color="rgba(var(--functional-green), .2)"
+      ></kor-swipe-action>
+    </kor-swipe-actions>
+  </kor-table>
+</div>

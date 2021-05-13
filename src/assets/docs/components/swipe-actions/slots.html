@@ -1,0 +1,54 @@
+<script src="/assets/kor/index.js"></script>
+<link
+  rel="stylesheet"
+  href="/assets/kor/kor-styles.css"
+/>
+<link
+  rel="stylesheet"
+  href="/assets/docs/demo-styles.css"
+/>
+
+<div class="demo">
+  <kor-table columns="1fr">
+    <!-- left and right -->
+    <kor-swipe-actions>
+      <!-- content -->
+      <kor-table-row>
+        <kor-table-cell>Swipe to the left or right</kor-table-cell>
+      </kor-table-row>
+      <!-- action -->
+      <kor-swipe-action
+        slot="left"
+        icon="archive"
+      ></kor-swipe-action>
+      <kor-swipe-action
+        slot="right"
+        icon="archive"
+      ></kor-swipe-action>
+    </kor-swipe-actions>
+    <!-- left only -->
+    <kor-swipe-actions>
+      <!-- content -->
+      <kor-table-row>
+        <kor-table-cell>Swipe to the left only</kor-table-cell>
+      </kor-table-row>
+      <!-- action -->
+      <kor-swipe-action
+        slot="left"
+        icon="archive"
+      ></kor-swipe-action>
+    </kor-swipe-actions>
+    <!-- left only -->
+    <kor-swipe-actions>
+      <!-- content -->
+      <kor-table-row>
+        <kor-table-cell>Swipe to the right only</kor-table-cell>
+      </kor-table-row>
+      <!-- action -->
+      <kor-swipe-action
+        slot="right"
+        icon="archive"
+      ></kor-swipe-action>
+    </kor-swipe-actions>
+  </kor-table>
+</div>
