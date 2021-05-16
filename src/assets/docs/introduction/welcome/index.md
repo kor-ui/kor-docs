@@ -77,14 +77,14 @@ Compatible with all major frameworks, browsers, operational systems, form factor
         font-weight: unset;
     }
     kor-grid a img {
-        background: #EBEBEB;
+        background: rgba(var(--neutral-1), .25);
         box-shadow: unset;
         border: 1px solid rgba(var(--neutral-1), .1);
         transition: .1s all ease-out;
         border-radius: 4px;
     }
     kor-grid a:hover img {
-        background: #E0E0E0;
+        background: rgba(var(--neutral-1), .5);
     }
 </style>
 

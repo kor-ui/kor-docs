@@ -1,8 +1,10 @@
-# Custom Themes
+# Custom Theme
+
+**Try out the [Kor Theme Editor](https://theme.kor-ui.com) for browsing, editing and exporting themes as CSS snippets.**
 
 Kor comes with 2 standard themes: `light` and `dark`. If necessary for branding purposes, additional themes can be created and/or the standard ones can be tweaked.
 
-Since **Kor**'s color system is based on opacities, very few base and/or accent colors would have to be switched in order to define a new and coherent theme.
+Since Kor's color system is based on opacities, very few base and/or accent colors would have to be switched in order to define a new and coherent theme.
 
 <iframe src="./assets/docs/introduction/custom-themes/custom.html" height="640px"></iframe>
 
