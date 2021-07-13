@@ -68,7 +68,7 @@
       {
         "name": "Image",
         "type": "string",
-        "value": "https://www.evolutionsociety.org/userdata/news_picupload/pic_sid189-0-norm.jpg"
+        "value": "https://images.generated.photos/5mVRDczbWQhI0IMBAyFkT2K1ogxtMewBdflheKKn3hs/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA0MzA0OTUuanBn.jpg"
       },
       {
         "name": "Condensed",
@@ -89,7 +89,12 @@
         "name": "Status",
         "type": "select",
         "value": null,
-        "options": [null, "success", "warning", "error"]
+        "options": [
+          null,
+          "success",
+          "warning",
+          "error"
+        ]
       }
     ]
   },
@@ -140,7 +145,10 @@
         "name": "Flex-direction",
         "type": "select",
         "value": "Column",
-        "options": ["Column", "Row"]
+        "options": [
+          "Column",
+          "Row"
+        ]
       }
     ]
   },
@@ -161,7 +169,11 @@
         "name": "Color",
         "type": "select",
         "value": "Primary",
-        "options": ["Primary", "Secondary", "Tertiary"]
+        "options": [
+          "Primary",
+          "Secondary",
+          "Tertiary"
+        ]
       },
       {
         "name": "Disabled",
@@ -197,13 +209,20 @@
         "name": "spacing",
         "type": "select",
         "value": "m",
-        "options": ["s", "m", "l"]
+        "options": [
+          "s",
+          "m",
+          "l"
+        ]
       },
       {
         "name": "orientation",
         "type": "select",
         "value": "horizontal",
-        "options": ["horizontal", "vertical"]
+        "options": [
+          "horizontal",
+          "vertical"
+        ]
       }
     ]
   },
@@ -244,13 +263,21 @@
         "name": "Position",
         "type": "select",
         "value": "left",
-        "options": ["left", "right", "top", "bottom"]
+        "options": [
+          "left",
+          "right",
+          "top",
+          "bottom"
+        ]
       },
       {
         "name": "Flex-direction",
         "type": "select",
         "value": "Column",
-        "options": ["Column", "Row"]
+        "options": [
+          "Column",
+          "Row"
+        ]
       }
     ]
   },
@@ -296,7 +323,12 @@
         "name": "Size",
         "type": "select",
         "value": "m",
-        "options": ["s", "m", "l", "xl"]
+        "options": [
+          "s",
+          "m",
+          "l",
+          "xl"
+        ]
       }
     ]
   },
@@ -332,13 +364,23 @@
         "name": "legend-position",
         "type": "select",
         "value": null,
-        "options": [null, "inner-top", "inner-bottom"]
+        "options": [
+          null,
+          "inner-top",
+          "inner-bottom"
+        ]
       },
       {
         "name": "Fit",
         "type": "select",
         "value": "cover",
-        "options": ["contain", "cover", "fill", "scale-down", "none"]
+        "options": [
+          "contain",
+          "cover",
+          "fill",
+          "scale-down",
+          "none"
+        ]
       }
     ]
   },
@@ -393,13 +435,22 @@
         "name": "Type",
         "type": "select",
         "value": "text",
-        "options": ["text", "number", "select"]
+        "options": [
+          "text",
+          "number",
+          "select"
+        ]
       },
       {
         "name": "Status",
         "type": "select",
         "value": null,
-        "options": [null, "success", "warning", "error"]
+        "options": [
+          null,
+          "success",
+          "warning",
+          "error"
+        ]
       }
     ]
   },
@@ -469,7 +520,10 @@
         "name": "Flex-direction",
         "type": "select",
         "value": "Column",
-        "options": ["Column", "Row"]
+        "options": [
+          "Column",
+          "Row"
+        ]
       }
     ]
   },
@@ -505,7 +559,10 @@
         "name": "Flex-direction",
         "type": "select",
         "value": "Column",
-        "options": ["Column", "Row"]
+        "options": [
+          "Column",
+          "Row"
+        ]
       }
     ]
   },
@@ -521,7 +578,10 @@
         "name": "Theme",
         "type": "select",
         "value": "light",
-        "options": ["dark", "light"]
+        "options": [
+          "dark",
+          "light"
+        ]
       }
     ]
   },
@@ -546,13 +606,20 @@
         "name": "Size",
         "type": "select",
         "value": "l",
-        "options": ["s", "m", "l"]
+        "options": [
+          "s",
+          "m",
+          "l"
+        ]
       },
       {
         "name": "Flex-direction",
         "type": "select",
         "value": "Column",
-        "options": ["Column", "Row"]
+        "options": [
+          "Column",
+          "Row"
+        ]
       }
     ]
   },
@@ -583,13 +650,21 @@
         "name": "Position",
         "type": "select",
         "value": "left",
-        "options": ["left", "right", "top", "bottom"]
+        "options": [
+          "left",
+          "right",
+          "top",
+          "bottom"
+        ]
       },
       {
         "name": "Flex-direction",
         "type": "select",
         "value": "Column",
-        "options": ["Column", "Row"]
+        "options": [
+          "Column",
+          "Row"
+        ]
       }
     ]
   },
@@ -634,13 +709,22 @@
         "name": "Status",
         "type": "select",
         "value": null,
-        "options": [null, "success", "warning", "error"]
+        "options": [
+          null,
+          "success",
+          "warning",
+          "error"
+        ]
       },
       {
         "name": "Size",
         "type": "select",
         "value": "m",
-        "options": ["s", "m", "l"]
+        "options": [
+          "s",
+          "m",
+          "l"
+        ]
       }
     ]
   },
@@ -676,7 +760,11 @@
         "name": "Size",
         "type": "select",
         "value": "m",
-        "options": ["s", "m", "l"]
+        "options": [
+          "s",
+          "m",
+          "l"
+        ]
       }
     ]
   },
@@ -923,7 +1011,10 @@
         "name": "Size",
         "type": "select",
         "value": "m",
-        "options": ["s", "m"]
+        "options": [
+          "s",
+          "m"
+        ]
       }
     ]
   },
@@ -953,13 +1044,21 @@
         "name": "Position",
         "type": "select",
         "value": "left",
-        "options": ["left", "right", "top", "bottom"]
+        "options": [
+          "left",
+          "right",
+          "top",
+          "bottom"
+        ]
       },
       {
         "name": "Flex-direction",
         "type": "select",
         "value": "Column",
-        "options": ["Column", "Row"]
+        "options": [
+          "Column",
+          "Row"
+        ]
       }
     ]
   }
