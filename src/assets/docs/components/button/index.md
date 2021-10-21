@@ -30,12 +30,12 @@ Keep the button ordering always consistent within your app or with other apps th
 <iframe src="./assets/docs/components/button/color.html"></iframe>
 
 ```html
-<kor-button></kor-button>
-<kor-button color="secondary"></kor-button>
-<kor-button color="tertiary"></kor-button>
-<kor-button disabled></kor-button>
-<kor-button color="secondary" disabled></kor-button>
-<kor-button color="tertiary" disabled></kor-button>
+  <kor-button label="Primary"></kor-button>
+  <kor-button label="Secondary" color="secondary"></kor-button>
+  <kor-button label="Tertiary" color="tertiary"></kor-button>
+  <kor-button disabled label="Primary"></kor-button>
+  <kor-button disabled label="Secondary" color="secondary"></kor-button>
+  <kor-button disabled label="Tertiary" color="tertiary"></kor-button>
 ```
 
 ---
@@ -52,9 +52,9 @@ Only use icon buttons when the metaphors are well established with your users, s
 <kor-button icon="save"></kor-button>
 <kor-button icon="save" color="secondary"></kor-button>
 <kor-button icon="save" color="tertiary"></kor-button>
-<kor-button icon="save" disabled></kor-button>
-<kor-button icon="save" color="secondary" disabled></kor-button>
-<kor-button icon="save" color="tertiary" disabled></kor-button>
+<kor-button icon="save" label="Primary"></kor-button>
+<kor-button icon="save" label="Secondary" color="secondary" disabled></kor-button>
+<kor-button icon="save" label="Tertiary" color="tertiary" disabled></kor-button>
 ```
 
 ---
@@ -66,6 +66,6 @@ Only use icon buttons when the metaphors are well established with your users, s
 | Name           | Type      | Default     | Description                                                                      |
 | :------------- | :-------- | :---------- | :------------------------------------------------------------------------------- |
 | **`label`**    | `String`  | _undefined_ | If set, defines the text label.                                                  |
-| **`icon`**     | `String`  | _undefined_ | If set, replaces the text label with a custom icon.                              |
+| **`icon`**     | `String`  | _undefined_ | If set, shows an icon (can be used together with `label`).                       |
 | **`color`**    | `String`  | `primary`   | Defines the color. The possible values are `primary`, `secondary` and `tertiary` |
 | **`disabled`** | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated.              |
