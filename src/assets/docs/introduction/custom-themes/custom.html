@@ -1,18 +1,12 @@
 <script src="/assets/kor/index.js"></script>
-<link
-  rel="stylesheet"
-  href="/assets/kor/kor-styles.css"
-/>
-<link
-  rel="stylesheet"
-  href="/assets/docs/demo-styles.css"
-/>
+<link rel="stylesheet" href="/assets/kor/kor-styles.css" />
+<link rel="stylesheet" href="/assets/docs/demo-styles.css" />
 
 <!-- import the theme font -->
 <link
   href="https://fonts.googleapis.com/css2?family=IBM+Plex Mono&amp;display=swap"
   rel="stylesheet"
->
+/>
 <!-- set the theme styles -->
 <style>
   html,
@@ -46,69 +40,36 @@
       label="Label"
       logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png"
     >
-      <kor-icon
-        button
-        icon="arrow_back"
-        slot="left"
-      ></kor-icon>
+      <kor-icon button icon="arrow_back" slot="left"></kor-icon>
       <kor-avatar slot="right"></kor-avatar>
     </kor-app-bar>
     <!-- nav bar -->
     <kor-nav-bar slot="bottom">
       <kor-tabs style="justify-content: center">
-        <kor-tab-item
-          icon="inbox"
-          active
-        ></kor-tab-item>
+        <kor-tab-item icon="inbox" active></kor-tab-item>
         <kor-tab-item icon="favorite"></kor-tab-item>
         <kor-tab-item icon="person"></kor-tab-item>
       </kor-tabs>
     </kor-nav-bar>
     <kor-card flat>
       <!-- checkbox -->
-      <kor-accordion
-        expanded
-        label="Checkboxes"
-      >
-        <kor-checkbox
-          active
-          label="Label"
-        ></kor-checkbox>
+      <kor-accordion expanded label="Checkboxes">
+        <kor-checkbox active label="Label"></kor-checkbox>
         <kor-checkbox label="Label"></kor-checkbox>
-        <kor-button
-          slot="footer"
-          color="secondary"
-        ></kor-button>
-        <kor-button slot="footer"></kor-button>
+        <kor-button label="Label" slot="footer" color="secondary"></kor-button>
+        <kor-button label="Label" slot="footer"></kor-button>
       </kor-accordion>
       <!-- inputs -->
       <kor-accordion label="Input">
         <!-- text -->
-        <kor-input
-          condensed
-          label="Text condensed empty"
-        ></kor-input>
-        <kor-input
-          label="Text filled"
-          value="Hi"
-        ></kor-input>
-        <kor-input
-          label="Text icon"
-          icon="text_format"
-        ></kor-input>
+        <kor-input condensed label="Text condensed empty"></kor-input>
+        <kor-input label="Text filled" value="Hi"></kor-input>
+        <kor-input label="Text icon" icon="text_format"></kor-input>
         <kor-input label="Text icon">
-          <kor-icon
-            button
-            icon="text_format"
-            slot="functions"
-          ></kor-icon>
+          <kor-icon button icon="text_format" slot="functions"></kor-icon>
         </kor-input>
         <!-- search -->
-        <kor-input
-          label="Search"
-          value="Hi"
-          type="search"
-        ></kor-input>
+        <kor-input label="Search" value="Hi" type="search"></kor-input>
         <!-- number -->
         <kor-input
           condensed
@@ -122,25 +83,15 @@
           max="100"
           step="10"
         ></kor-input>
-        <kor-input
-          label="Number filled"
-          type="number"
-          value="150"
-        ></kor-input>
-        <br>
+        <kor-input label="Number filled" type="number" value="150"></kor-input>
+        <br />
         <!-- date -->
         <kor-input type="date"></kor-input>
         <!-- select -->
-        <kor-input
-          type="select"
-          label="Select"
-        >
+        <kor-input type="select" label="Select">
           <kor-menu-item label="Option 1"></kor-menu-item>
           <kor-menu-item label="Option 2"></kor-menu-item>
-          <kor-menu-item
-            label="Option 3"
-            active
-          ></kor-menu-item>
+          <kor-menu-item label="Option 3" active></kor-menu-item>
           <kor-menu-item label="Option 4"></kor-menu-item>
           <kor-menu-item label="Option 5"></kor-menu-item>
           <kor-menu-item label="Option 6"></kor-menu-item>
@@ -151,37 +102,17 @@
           <kor-menu-item label="Option 11"></kor-menu-item>
         </kor-input>
         <!-- status -->
-        <kor-input
-          label="Status error"
-          status="error"
-        ></kor-input>
-        <kor-input
-          label="Status success"
-          status="success"
-        ></kor-input>
-        <kor-input
-          label="Status warning"
-          status="warning"
-        ></kor-input>
-        <br>
-        <kor-input
-          disabled
-          label="Disabled"
-          status="error"
-        ></kor-input>
-        <kor-input
-          readonly
-          label="Readonly"
-          status="error"
-        ></kor-input>
+        <kor-input label="Status error" status="error"></kor-input>
+        <kor-input label="Status success" status="success"></kor-input>
+        <kor-input label="Status warning" status="warning"></kor-input>
+        <br />
+        <kor-input disabled label="Disabled" status="error"></kor-input>
+        <kor-input readonly label="Readonly" status="error"></kor-input>
       </kor-accordion>
       <!-- progress bar -->
       <kor-accordion label="Progress Bar">
         <kor-progress-bar value="20"></kor-progress-bar>
-        <kor-progress-bar
-          value="20"
-          label="With label"
-        ></kor-progress-bar>
+        <kor-progress-bar value="20" label="With label"></kor-progress-bar>
         <kor-progress-bar
           value="20"
           label="Show progress"
@@ -203,11 +134,8 @@
           label="Color"
           color="red"
         ></kor-progress-bar>
-        <br>
-        <kor-progress-bar
-          radial
-          value="20"
-        ></kor-progress-bar>
+        <br />
+        <kor-progress-bar radial value="20"></kor-progress-bar>
         <kor-progress-bar
           radial
           value="20"
@@ -257,81 +185,44 @@
           label="Idle toggle='false'"
           toggle="false"
         ></kor-menu-item>
-        <kor-menu-item
-          label="With icon"
-          icon="save"
-        ></kor-menu-item>
+        <kor-menu-item label="With icon" icon="save"></kor-menu-item>
         <kor-menu-item label="Icon slot">
-          <kor-icon
-            button
-            icon="save"
-            slot="functions"
-          ></kor-icon>
+          <kor-icon button icon="save" slot="functions"></kor-icon>
         </kor-menu-item>
-        <kor-menu-item
-          label="Active"
-          active
-        ></kor-menu-item>
-        <kor-menu-item
-          label="Disabled"
-          disabled
-        ></kor-menu-item>
+        <kor-menu-item label="Active" active></kor-menu-item>
+        <kor-menu-item label="Disabled" disabled></kor-menu-item>
       </kor-accordion>
       <!-- text -->
       <kor-accordion label="Text">
         <kor-text>Body 1, Text 1</kor-text>
-        <kor-text
-          size="body-1"
-          color="var(--text-2)"
-        >Body 1, Text 2</kor-text>
-        <kor-text
-          size="body-1"
-          color="var(--text-3)"
-        >Body 1, Text 3</kor-text>
-        <kor-text
-          size="body-2"
-          color="var(--text-1)"
-        >Body 2, Text 1</kor-text>
-        <kor-text
-          size="body-2"
-          color="var(--text-2)"
-        >Body 2, Text 2</kor-text>
-        <kor-text
-          size="body-2"
-          color="var(--text-3)"
-        >Body 2, Text 3</kor-text>
-        <kor-text
-          size="header-1"
-          color="var(--text-1)"
-        >Header 1, Text 1</kor-text>
-        <kor-text
-          size="header-1"
-          color="var(--text-2)"
-        >Header 1, Text 2</kor-text>
-        <kor-text
-          size="header-1"
-          color="var(--text-3)"
-        >Header 1, Text 3</kor-text>
-        <kor-text
-          size="header-2"
-          color="var(--text-1)"
-        >Header 2, Text 1</kor-text>
-        <kor-text
-          size="header-2"
-          color="var(--text-2)"
-        >Header 2, Text 2</kor-text>
-        <kor-text
-          size="header-2"
-          color="var(--text-3)"
-        >Header 2, Text 3</kor-text>
+        <kor-text size="body-1" color="var(--text-2)">Body 1, Text 2</kor-text>
+        <kor-text size="body-1" color="var(--text-3)">Body 1, Text 3</kor-text>
+        <kor-text size="body-2" color="var(--text-1)">Body 2, Text 1</kor-text>
+        <kor-text size="body-2" color="var(--text-2)">Body 2, Text 2</kor-text>
+        <kor-text size="body-2" color="var(--text-3)">Body 2, Text 3</kor-text>
+        <kor-text size="header-1" color="var(--text-1)"
+          >Header 1, Text 1</kor-text
+        >
+        <kor-text size="header-1" color="var(--text-2)"
+          >Header 1, Text 2</kor-text
+        >
+        <kor-text size="header-1" color="var(--text-3)"
+          >Header 1, Text 3</kor-text
+        >
+        <kor-text size="header-2" color="var(--text-1)"
+          >Header 2, Text 1</kor-text
+        >
+        <kor-text size="header-2" color="var(--text-2)"
+          >Header 2, Text 2</kor-text
+        >
+        <kor-text size="header-2" color="var(--text-3)"
+          >Header 2, Text 3</kor-text
+        >
       </kor-accordion>
       <!-- slider -->
       <kor-accordion label="Slider">
         <kor-slider></kor-slider>
-        <kor-slider
-          label="Label"
-          value="50"
-        ></kor-slider>
+        <kor-slider label="Label" value="50"></kor-slider>
         <kor-slider
           label="Label"
           min="0"
@@ -351,26 +242,14 @@
       <!-- switch -->
       <kor-accordion label="Switch">
         <kor-switch>
-          <kor-switch-item
-            label="First"
-            disabled
-          ></kor-switch-item>
+          <kor-switch-item label="First" disabled></kor-switch-item>
           <kor-switch-item label="Second"></kor-switch-item>
-          <kor-switch-item
-            label="Active"
-            active
-          ></kor-switch-item>
+          <kor-switch-item label="Active" active></kor-switch-item>
         </kor-switch>
         <kor-switch>
-          <kor-switch-item
-            icon="train"
-            disabled
-          ></kor-switch-item>
+          <kor-switch-item icon="train" disabled></kor-switch-item>
           <kor-switch-item icon="directions_car"></kor-switch-item>
-          <kor-switch-item
-            icon="directions_bike"
-            active
-          ></kor-switch-item>
+          <kor-switch-item icon="directions_bike" active></kor-switch-item>
         </kor-switch>
       </kor-accordion>
     </kor-card>
