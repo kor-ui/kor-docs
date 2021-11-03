@@ -1,36 +1,39 @@
 markdown {
+  gap: 40px;
   // text
   > kor-text, 
   > ul kor-text {
     > strong {
       color: var(--text-1);
     }
-    &.h1 {
-      position: absolute;
-      top: 0;
-      margin: 32px 0;
-      font-size: 32px;
-      line-height: 40px;
-    }
-    &.h2 {
-      margin: 32px 0 16px 0;
-      font-size: 20px;
-      line-height: 32px;
-    }
-    &.h3 {
-      font-size: 16px;
-      margin: 32px 0 12px 0;
-    }
-    &.h4 {
-      font-size: 14px !important;
-      margin: 24px 0px 8px 0px !important;
-    }
-    &[size="body-1"] {
-      font-size: 16px;
-      line-height: 24px;
-      margin: 24px 0;
-    }
   }  
+  h1, .h1 {
+    position: absolute;
+    top: 0;
+    margin: 32px 0 !important;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  h2, .h2 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  h3, .h3 {
+    font-size: 16px;
+  }
+  h4, .h4 {
+    font-size: 14px !important;
+  }
+  p, kor-text[size="body-1"] {
+    font: var(--body-1);
+    color: var(--text-2);
+    font-size: 16px;
+    line-height: 24px;
+  }
+  p, h1, h2, h3, h4,
+  .p, .h1, .h2, .h3, .h4 {
+    margin: unset;
+  }
   // links
   a {
     font-weight: bold;

@@ -36,6 +36,6 @@
 /* embedded iframe */
 .demo > iframe {
   border-radius: 16px;
-  border: 12px solid rgba(var(--neutral-1), 0.75);
+  border: 12px solid rgba(var(--neutral-1), 0.2);
   transform: scale(0.75);
 }

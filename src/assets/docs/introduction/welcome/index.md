@@ -10,6 +10,7 @@ Compatible with all major frameworks, browsers, operational systems, form factor
     .highlight {
         display: flex; 
         flex-direction: column; 
+        gap: 16px;
     }
     .highlight kor-text[size="header-1"] {
         margin: 16px 0;
@@ -19,17 +20,17 @@ Compatible with all major frameworks, browsers, operational systems, form factor
 <kor-grid columns="3">
     <div grid-cols-s="3" class="highlight">
         <kor-icon size="xl" icon="touch_app" color="rgb(var(--accent-1))"></kor-icon>
-        <h3>Ease of use</h3>
+        <h2>Ease of use</h2>
         <p>Designed to provide an intuitive, coherent and pleasing experience to users.</p>
     </div>
     <div grid-cols-s="3" class="highlight">
         <kor-icon size="xl" icon="device_hub" color="rgb(var(--accent-1))"></kor-icon>
-        <h3>Compatibility</h3>
+        <h2>Compatibility</h2>
         <p>Support to all main frameworks, browsers, OS, form factors and input types.</p>
     </div>
     <div grid-cols-s="3" class="highlight">
         <kor-icon size="xl" icon="fast_forward" color="rgb(var(--accent-1))"></kor-icon>
-        <h3>Size and Speed</h3>
+        <h2>Size and Speed</h2>
         <p>Lightweight package made to provide fast loading and usage in any context.</p>
     </div>
 </kor-grid>
@@ -42,14 +43,14 @@ Compatible with all major frameworks, browsers, operational systems, form factor
     <a href="https://theme.kor-ui.com" target="_blank">
         <div grid-cols-s="3" class="highlight">
             <img src="assets/docs/introduction/welcome/theme.gif">
-            <h3>Theme Editor</h3>
+            <h2>Theme Editor</h2>
             <p>Browse Kor themes, edit and export them as a CSS snippet.</p>
         </div>
     </a>
     <a href="https://sandbox.kor-ui.com" target="_blank">
         <div grid-cols-s="3" class="highlight">
             <img src="assets/docs/introduction/welcome/sandbox.gif">
-            <h3>Drag & drop Sandbox</h3>
+            <h2>Drag & drop Sandbox</h2>
             <p>Prototype with Kor components by dragging them into a canvas.</p>
         </div>
     </a>
@@ -62,11 +63,6 @@ Compatible with all major frameworks, browsers, operational systems, form factor
 <style>
     kor-grid {
         margin: 48px 0;
-    }
-    kor-grid p {
-        margin: unset;
-        font: normal 16px/24px "Open Sans";
-        color: var(--text-2);
     }
     kor-grid h3 {
         color: var(--text-1);
