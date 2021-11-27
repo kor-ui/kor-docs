@@ -1,38 +1,52 @@
 markdown {
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  .p,
+  .h1,
+  .h2,
+  .h3,
+  .h4 {
+    color: var(--text-1);
+    margin: unset;
+  }
   gap: 40px;
   // text
-  > kor-text, 
+  > kor-text,
   > ul kor-text {
     > strong {
       color: var(--text-1);
     }
-  }  
-  h1, .h1 {
+  }
+  h1,
+  .h1 {
     position: absolute;
     top: 0;
     margin: 32px 0 !important;
     font-size: 32px;
     line-height: 40px;
   }
-  h2, .h2 {
+  h2,
+  .h2 {
     font-size: 20px;
     line-height: 32px;
   }
-  h3, .h3 {
+  h3,
+  .h3 {
     font-size: 16px;
   }
-  h4, .h4 {
+  h4,
+  .h4 {
     font-size: 14px !important;
   }
-  p, kor-text[size="body-1"] {
+  p,
+  kor-text[size="body-1"] {
     font: var(--body-1);
     color: var(--text-2);
     font-size: 16px;
     line-height: 24px;
-  }
-  p, h1, h2, h3, h4,
-  .p, .h1, .h2, .h3, .h4 {
-    margin: unset;
   }
   // links
   a {
@@ -58,15 +72,16 @@ markdown {
     width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
-    th, td {
+    th,
+    td {
       line-height: 32px !important;
       padding: 8px;
-      border-bottom: 1px solid rgba(var(--neutral-1), .15);
+      border-bottom: 1px solid rgba(var(--neutral-1), 0.15);
       color: var(--text-1);
     }
     th {
       font-weight: bold;
-      border-color: rgba(var(--neutral-1), .40)
+      border-color: rgba(var(--neutral-1), 0.4);
     }
   }
   // images
@@ -83,14 +98,14 @@ markdown {
     border: none;
     background-color: rgb(var(--base-2));
     border-radius: 4px;
-    border: 1px solid rgba(var(--neutral-1), .15);
+    border: 1px solid rgba(var(--neutral-1), 0.15);
     &:not([height]) {
       min-height: 400px;
     }
-  }  
+  }
   // code
   pre {
-    background: rgba(var(--neutral-1), .05) !important;
+    background: rgba(var(--neutral-1), 0.05) !important;
     max-height: 400px !important;
     box-sizing: border-box;
     padding: 16px !important;
@@ -105,7 +120,7 @@ markdown {
     }
   }
   code {
-    background: rgba(var(--neutral-1), .05);
+    background: rgba(var(--neutral-1), 0.05);
     color: var(--text-1);
     border-radius: 4px;
     padding: 2px 4px;
@@ -113,7 +128,7 @@ markdown {
   strong code {
     color: rgb(var(--accent-1));
     background: transparent;
-    border: 1px solid rgba(var(--neutral-1), .15);
+    border: 1px solid rgba(var(--neutral-1), 0.15);
   }
   code[class*="language-"],
   pre[class*="language-"] {
@@ -158,17 +173,62 @@ markdown {
   .language-scss > code {
     color: #fd9170;
   }
-  [class*="language-"] 
-  .token {
-    &.id, &.important { font-weight: bold; }
-    &.atrule &.boolean, &.constant, &.function, &.id, &.important, &.keyword, &.symbol { color: #c792ea; }
-    &.attr-name, &.builtin, &.class { color: #fd9170 ; }
-    &.attr-value, &.cdata, &.char, &.inserted, &.property, &.string { color: #53b6ac; }
-    &.class-name, &.hexcode, &.regex { color: #f2ff00; }
-    &.comment, &.doctype, &.prolog { color: var(--text-3); }
-    &.deleted, &.entity, &.selector, &.tag, &.url, &.variable { color: #ff6666; }
-    &.number, &.unit { color: #ffb62e; }
-    &.operator, &.punctuation { color: #1190c2; }
-    &.pseudo-class, &.pseudo-element { color: #a5e844; }
+  [class*="language-"] .token {
+    &.id,
+    &.important {
+      font-weight: bold;
+    }
+    &.atrule &.boolean,
+    &.constant,
+    &.function,
+    &.id,
+    &.important,
+    &.keyword,
+    &.symbol {
+      color: #c792ea;
+    }
+    &.attr-name,
+    &.builtin,
+    &.class {
+      color: #fd9170;
+    }
+    &.attr-value,
+    &.cdata,
+    &.char,
+    &.inserted,
+    &.property,
+    &.string {
+      color: #53b6ac;
+    }
+    &.class-name,
+    &.hexcode,
+    &.regex {
+      color: #f2ff00;
+    }
+    &.comment,
+    &.doctype,
+    &.prolog {
+      color: var(--text-3);
+    }
+    &.deleted,
+    &.entity,
+    &.selector,
+    &.tag,
+    &.url,
+    &.variable {
+      color: #ff6666;
+    }
+    &.number,
+    &.unit {
+      color: #ffb62e;
+    }
+    &.operator,
+    &.punctuation {
+      color: #1190c2;
+    }
+    &.pseudo-class,
+    &.pseudo-element {
+      color: #a5e844;
+    }
   }
 }
