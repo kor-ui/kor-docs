@@ -10,26 +10,33 @@ Compatible with all major frameworks, browsers, operational systems, form factor
     .highlight {
         display: flex; 
         flex-direction: column; 
-        gap: 16px;
+        gap: 8px;
     }
     .highlight kor-text[size="header-1"] {
         margin: 16px 0;
     }
+    .highlight kor-icon {
+        padding: 8px;
+        background-size: 48px;
+        background-color: rgba(var(--neutral-1), 0.05);
+        border-radius: 50%;
+        margin-bottom: 8px;
+    }
 </style>
 
-<kor-grid columns="3">
+<kor-grid columns="3" style="gap: 32px">
     <div grid-cols-s="3" class="highlight">
-        <kor-icon size="xl" icon="touch_app" color="rgb(var(--accent-1))"></kor-icon>
+        <kor-icon size="xl" icon="url(assets/docs/introduction/welcome/ease-of-use.png)"></kor-icon>
         <h2>Ease of use</h2>
         <p>Designed to provide an intuitive, coherent and pleasing experience to users.</p>
     </div>
     <div grid-cols-s="3" class="highlight">
-        <kor-icon size="xl" icon="device_hub" color="rgb(var(--accent-1))"></kor-icon>
+        <kor-icon size="xl" icon="url(assets/docs/introduction/welcome/compatibility.png)"></kor-icon>
         <h2>Compatibility</h2>
         <p>Support to all main frameworks, browsers, OS, form factors and input types.</p>
     </div>
     <div grid-cols-s="3" class="highlight">
-        <kor-icon size="xl" icon="fast_forward" color="rgb(var(--accent-1))"></kor-icon>
+        <kor-icon size="xl" icon="url(assets/docs/introduction/welcome/size-and-speed.png)"></kor-icon>
         <h2>Size and Speed</h2>
         <p>Lightweight package made to provide fast loading and usage in any context.</p>
     </div>
