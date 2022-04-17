@@ -92,10 +92,19 @@ Description
 
 ```html
 <kor-notifications>
-  <kor-notification-item id="functions-and-footer" visible label="Functions and Footer">
+  <kor-notification-item
+    id="functions-and-footer"
+    visible
+    label="Functions and Footer"
+  >
     <kor-icon slot="functions" button icon="more_vert"></kor-icon>
-      This is a notification with content in the functions and footer slots.
-    <kor-button slot="footer" color="secondary" label="Close" onclick="document.querySelector('#functions-and-footer').visible = false"></kor-button>
+    This is a notification with content in the functions and footer slots.
+    <kor-button
+      slot="footer"
+      color="secondary"
+      label="Close"
+      onclick="document.querySelector('#functions-and-footer').visible = false"
+    ></kor-button>
   </kor-notification-item>
   <kor-notification-item id="header">
     <kor-tabs slot="header">
@@ -146,3 +155,20 @@ Description
 | **`header`**    | If used, the header slot is shown on top of the component, below the label (if any is set). |
 | **`functions`** | Displayed on the right side of the label or header slot.                                    |
 | **`footer`**    | Displayed below the content area.                                                           |
+
+### CSS Properties
+
+`kor-notifications`
+
+| Name           | Description                                          |
+| :------------- | :--------------------------------------------------- |
+| **--body-gap** | Defines the gap between elements in the `body` slot. |
+
+`kor-notification-item`
+
+| Name                | Description                                            |
+| :------------------ | :----------------------------------------------------- |
+| **--body-gap**      | Defines the gap between elements in the `body` slot.   |
+| **--header-gap**    | Defines the gap between elements in the `header` slot. |
+| **--functions-gap** | Defines the gap between elements in the `body` slot.   |
+| **--footer-gap**    | Defines the gap between elements in the `footer` slot. |

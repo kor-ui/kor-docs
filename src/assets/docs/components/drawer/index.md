@@ -54,7 +54,12 @@ The **footer** slot can be used for hosting the main actions related to the cont
 ```html
 <kor-drawer id="functions-and-footer" visible label="Functions and Footer">
   <kor-icon slot="functions" button icon="more_vert"></kor-icon>
-  <kor-button slot="footer" color="secondary" label="Close" onclick="document.querySelector('#functions-and-footer').visible = false"></kor-button>
+  <kor-button
+    slot="footer"
+    color="secondary"
+    label="Close"
+    onclick="document.querySelector('#functions-and-footer').visible = false"
+  ></kor-button>
 </kor-drawer>
 <kor-drawer id="header">
   <kor-tabs slot="header">
@@ -119,3 +124,12 @@ Drawers can be displayed in top, bottom, left or right positions.
 | **`header`**    | If used, the header slot is shown on top of the component, below the label (if any is set). |
 | **`functions`** | Displayed on the right side of the label or header slot.                                    |
 | **`footer`**    | Displayed below the content area.                                                           |
+
+### CSS Properties
+
+| Name                | Description                                            |
+| :------------------ | :----------------------------------------------------- |
+| **--body-gap**      | Defines the gap between elements in the `body` slot.   |
+| **--header-gap**    | Defines the gap between elements in the `header` slot. |
+| **--functions-gap** | Defines the gap between elements in the `body` slot.   |
+| **--footer-gap**    | Defines the gap between elements in the `footer` slot. |

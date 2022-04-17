@@ -81,10 +81,20 @@ The **footer** slot can be used for hosting the main actions related to the cont
 <iframe src="./assets/docs/components/popover/slots.html" height="480px"></iframe>
 
 ```html
-<kor-popover target="#functions-and-footer" position="left" icon="directions_bike" label="Functions and Footer">
+<kor-popover
+  target="#functions-and-footer"
+  position="left"
+  icon="directions_bike"
+  label="Functions and Footer"
+>
   <kor-icon slot="functions" button icon="more_vert"></kor-icon>
   This is a popover with content in the functions and footer slots.
-  <kor-button slot="footer" color="secondary" label="Close" onclick="event.target.parentElement.visible = false"></kor-button>
+  <kor-button
+    slot="footer"
+    color="secondary"
+    label="Close"
+    onclick="event.target.parentElement.visible = false"
+  ></kor-button>
 </kor-popover>
 <kor-popover target="#header" position="right">
   <kor-tabs slot="header">
@@ -119,3 +129,12 @@ The **footer** slot can be used for hosting the main actions related to the cont
 | **`header`**    | If used, the header slot is shown on top of the component, below the label (if any is set). |
 | **`functions`** | Displayed on the right side of the label or header slot.                                    |
 | **`footer`**    | Displayed below the content area.                                                           |
+
+### CSS Properties
+
+| Name                | Description                                            |
+| :------------------ | :----------------------------------------------------- |
+| **--body-gap**      | Defines the gap between elements in the `body` slot.   |
+| **--header-gap**    | Defines the gap between elements in the `header` slot. |
+| **--functions-gap** | Defines the gap between elements in the `body` slot.   |
+| **--footer-gap**    | Defines the gap between elements in the `footer` slot. |

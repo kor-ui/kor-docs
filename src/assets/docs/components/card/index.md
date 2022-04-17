@@ -70,7 +70,7 @@ A flat card does not display shadows, background color or margins around it. It 
 ```html
 <kor-card flat icon="train" label="Flat Card">
   <kor-icon slot="functions" button icon="more_vert"></kor-icon>
-    This is the content of my card.
+  This is the content of my card.
   <kor-button slot="footer"></kor-button>
 </kor-card>
 ```
@@ -90,7 +90,7 @@ The **footer** slot can be used for hosting the main actions related to the cont
 ```html
 <kor-card flat icon="train" label="Flat Card">
   <kor-icon slot="functions" button icon="more_vert"></kor-icon>
-    This is the content of my card.
+  This is the content of my card.
   <kor-button slot="footer"></kor-button>
 </kor-card>
 ```
@@ -117,3 +117,12 @@ The **footer** slot can be used for hosting the main actions related to the cont
 | **`header`**    | Shown on top of the card, below the label (if any is set). |
 | **`functions`** | Shown on the right side of the label or header slot.       |
 | **`footer`**    | Shown below the content area.                              |
+
+### CSS Properties
+
+| Name                | Description                                            |
+| :------------------ | :----------------------------------------------------- |
+| **--body-gap**      | Defines the gap between elements in the `body` slot.   |
+| **--header-gap**    | Defines the gap between elements in the `header` slot. |
+| **--functions-gap** | Defines the gap between elements in the `body` slot.   |
+| **--footer-gap**    | Defines the gap between elements in the `footer` slot. |

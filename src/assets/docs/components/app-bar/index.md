@@ -113,3 +113,9 @@ The **functions** slot can be used for hosting global app functions, represented
 | Name               | Description                        |
 | :----------------- | :--------------------------------- |
 | **`logo-clicked`** | Emitted when clicking on the logo. |
+
+### CSS Properties
+
+| Name                | Description                                          |
+| :------------------ | :--------------------------------------------------- |
+| **--functions-gap** | Defines the gap between elements in the `body` slot. |

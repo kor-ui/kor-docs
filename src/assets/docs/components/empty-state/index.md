@@ -52,3 +52,9 @@ For example, if data is unavailable because the network is down, a 'Reconnect' o
 | Name         | Description                |
 | :----------- | :------------------------- |
 | **`footer`** | Displayed below the label. |
+
+### CSS Properties
+
+| Name             | Description                                            |
+| :--------------- | :----------------------------------------------------- |
+| **--footer-gap** | Defines the gap between elements in the `footer` slot. |

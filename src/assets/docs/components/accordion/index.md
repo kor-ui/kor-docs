@@ -43,3 +43,12 @@ The footer slot is located at a stable position at the bottom of the Accordion a
 | **`header`**    | If used, the header slot replaces the default text label and expand arrow with custom content. |
 | **`functions`** | Displayed close to the 'expand' arrow.                                                         |
 | **`footer`**    | Displayed below the content when it is expanded                                                |
+
+### CSS Properties
+
+| Name                | Description                                            |
+| :------------------ | :----------------------------------------------------- |
+| **--body-gap**      | Defines the gap between elements in the `body` slot.   |
+| **--header-gap**    | Defines the gap between elements in the `header` slot. |
+| **--functions-gap** | Defines the gap between elements in the `body` slot.   |
+| **--footer-gap**    | Defines the gap between elements in the `footer` slot. |
