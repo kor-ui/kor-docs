@@ -1,0 +1,40 @@
+<script src="/assets/kor/index.js"></script>
+<link rel="stylesheet" href="/assets/kor/kor-styles.css" />
+<link rel="stylesheet" href="/assets/docs/demo-styles.css" />
+
+<!-- import the theme font -->
+<link
+  href="https://fonts.googleapis.com/css2?family=IBM+Plex Mono&amp;display=swap"
+  rel="stylesheet"
+/>
+<!-- set the theme styles -->
+<style>
+  .demo {
+    --neutral-1: 200, 100, 200;
+    width: 320px;
+    margin: auto;
+    padding: unset;
+  }
+  .flex {
+    display: flex;
+    gap: var(--spacing-m);
+    justify-content: center;
+  }
+</style>
+
+<div class="demo">
+  <kor-switch slot="header" style="width: auto">
+    <kor-switch-item icon="directions_car" active></kor-switch-item>
+    <kor-switch-item icon="directions_bike"></kor-switch-item>
+    <kor-switch-item icon="directions_train"></kor-switch-item>
+  </kor-switch>
+  <kor-divider></kor-divider>
+  <kor-input label="Label"></kor-input>
+  <kor-toggle label="Label"></kor-toggle>
+  <kor-checkbox label="Label"></kor-checkbox>
+  <kor-divider></kor-divider>
+  <div class="flex">
+    <kor-button color="tertiary" label="Label"></kor-button>
+    <kor-button color="secondary" label="Label"></kor-button>
+  </div>
+</div>

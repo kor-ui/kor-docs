@@ -5,8 +5,14 @@
       "Welcome",
       "Installation",
       "Data Binding",
-      "Custom Themes",
       "Sample Apps"
+    ]
+  },
+  {
+    "name": "Theming",
+    "pages": [
+      "Overview",
+      "Colors"
     ]
   },
   {

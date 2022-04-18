@@ -19,11 +19,8 @@
 
 <ng-template #menuContent>
   <!-- chapters -->
-  <kor-accordion
-    *ngFor="let c of data.tree; index as i"
-    [label]="c.name"
-    expanded
-  >
+  <ng-container *ngFor="let c of data.tree; index as i">
+    <h3>{{ c.name }}</h3>
     <!-- pages -->
     <kor-menu-item
       *ngFor="let p of c.pages"
@@ -41,5 +38,6 @@
       "
     >
     </kor-menu-item>
-  </kor-accordion>
+    <kor-divider></kor-divider>
+  </ng-container>
 </ng-template>

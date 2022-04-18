@@ -1,0 +1,28 @@
+<script src="/assets/kor/index.js"></script>
+<link rel="stylesheet" href="/assets/kor/kor-styles.css" />
+<link rel="stylesheet" href="/assets/docs/demo-styles.css" />
+
+<!-- import the theme font -->
+<link
+  href="https://fonts.googleapis.com/css2?family=IBM+Plex Mono&amp;display=swap"
+  rel="stylesheet"
+/>
+<!-- set the theme styles -->
+<style>
+  .demo {
+    --neutral-1: 235, 255, 235;
+    --neutral-2: 0, 20, 0;
+  }
+</style>
+
+<div class="demo stretch page">
+  <kor-page flex-direction="column">
+    <kor-notifications position="bottom-right">
+      <kor-notification-item visible label="Base 4"></kor-notification-item>
+    </kor-notifications>
+    <kor-app-bar slot="top" label="Base 0"></kor-app-bar>
+    <kor-pane slot="left" label="Base 2"></kor-pane>
+    <kor-text size="header-1">Base 1</kor-text><br />
+    <kor-card label="Base 3"></kor-card>
+  </kor-page>
+</div>

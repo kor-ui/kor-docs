@@ -1,4 +1,4 @@
-# Custom Theme
+# Theming
 
 **Try out the [Kor Theme Editor](https://theme.kor-ui.com) for browsing, editing and exporting themes as CSS snippets.**
 
@@ -6,7 +6,7 @@ Kor comes with 2 standard themes: `light` and `dark`. If necessary for branding 
 
 Since Kor's color system is based on opacities, very few base and/or accent colors would have to be switched in order to define a new and coherent theme.
 
-<iframe src="./assets/docs/introduction/custom-themes/custom.html" height="640px"></iframe>
+<iframe src="./assets/docs/theming/overview/custom.html" height="640px"></iframe>
 
 ---
 
@@ -16,7 +16,7 @@ Theming affects the components by changing **colors** and/or **fonts**. To do it
 
 ```css
 /* use an asterisk to allow any element to use the theme attribute. give it any name you wish */
-*[theme='custom-name'] {
+*[theme="custom-name"] {
   /* the negative color (e.g. white for light theme) */
   --neutral-1: 255, 255, 255;
   /* the positive color (e.g. black for dark theme) */
@@ -54,10 +54,10 @@ Theming affects the components by changing **colors** and/or **fonts**. To do it
 html,
 body {
   /* it is not recommended modifying sizes or weight, but the font family can be replaced with any other */
-  --body-1: normal 14px/24px 'open-sans';
-  --body-2: normal 12px/16px 'open-sans';
-  --header-1: bold 16px/24px 'open-sans';
-  --header-2: bold 14px/24px 'open-sans';
+  --body-1: normal 14px/24px "open-sans";
+  --body-2: normal 12px/16px "open-sans";
+  --header-1: bold 16px/24px "open-sans";
+  --header-2: bold 14px/24px "open-sans";
 }
 ```
 

@@ -1,6 +1,10 @@
 :host {
   display: flex;
-  kor-menu-item {
-    margin-bottom: 0px;
+  kor-pane {
+    --body-gap: 0;
+    h3 {
+      margin: var(--spacing-m) 0;
+      color: var(--text-1);
+    }
   }
 }
