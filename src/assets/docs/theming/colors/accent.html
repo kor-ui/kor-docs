@@ -10,7 +10,8 @@
 <!-- set the theme styles -->
 <style>
   .demo {
-    --neutral-1: 200, 100, 200;
+    --accent-1: 200, 100, 200;
+    --accent-1b: 190, 90, 190;
   }
   .flex {
     display: flex;
@@ -20,18 +21,17 @@
 </style>
 
 <div class="demo">
-  <kor-switch style="width: auto">
-    <kor-switch-item icon="directions_car" active></kor-switch-item>
-    <kor-switch-item icon="directions_bike"></kor-switch-item>
-    <kor-switch-item icon="directions_train"></kor-switch-item>
-  </kor-switch>
+  <kor-tabs style="width: auto">
+    <kor-tab-item icon="directions_car" active></kor-tab-item>
+    <kor-tab-item icon="directions_bike"></kor-tab-item>
+    <kor-tab-item icon="directions_train"></kor-tab-item>
+  </kor-tabs>
   <kor-divider></kor-divider>
   <kor-input label="Label"></kor-input>
-  <kor-toggle label="Label"></kor-toggle>
-  <kor-checkbox label="Label"></kor-checkbox>
+  <kor-toggle active label="Label"></kor-toggle>
+  <kor-checkbox active label="Label"></kor-checkbox>
   <kor-divider></kor-divider>
   <div class="flex">
-    <kor-button color="tertiary" label="Label"></kor-button>
-    <kor-button color="secondary" label="Label"></kor-button>
+    <kor-button label="Label"></kor-button>
   </div>
 </div>

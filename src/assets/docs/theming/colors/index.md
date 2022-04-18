@@ -4,6 +4,8 @@
 
 ## Neutral colors
 
+<iframe src="./assets/docs/theming/colors/neutral.html" height="480px"></iframe>
+
 ```css
 body {
   /* the key color (e.g. white for dark theme, black for light theme) */
@@ -11,25 +13,26 @@ body {
 }
 ```
 
-<iframe src="./assets/docs/theming/colors/neutral.html" height="480px"></iframe>
-
 ---
 
 ## Accent colors
 
+<iframe src="./assets/docs/theming/colors/accent.html" height="480px"></iframe>
+
 ```css
 body {
-  --accent-1: 60, 100, 240;
-  /* the accent color in hover states */
-  --accent-1b: 70, 110, 250;
-  /* the accent color in press states */
-  --accent-1c: 50, 90, 230;
+  /* accent color for active highlights and calls-to-action */
+  --accent-1: 200, 100, 200;
+  /* hover state */
+  --accent-1b: 190, 90, 190;
 }
 ```
 
 ---
 
 ## Base colors
+
+<iframe src="./assets/docs/theming/colors/base.html" height="480px"></iframe>
 
 ```css
 body {
@@ -42,9 +45,8 @@ body {
   --base-3: 35, 35, 35;
   /* the notification, tooltip, popover background color */
   --base-4: 45, 45, 45;
+}
 ```
-
-<iframe src="./assets/docs/theming/colors/base.html" height="480px"></iframe>
 
 ---
 
@@ -57,6 +59,7 @@ body {
   --functional-red: 220, 40, 40;
   --functional-yellow: 220, 160, 40;
   --functional-green: 40, 160, 40;
+}
 ```
 
 ---
