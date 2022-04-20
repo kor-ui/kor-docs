@@ -1,0 +1,53 @@
+<script src="/assets/kor/index.js"></script>
+<link rel="stylesheet" href="/assets/kor/kor-styles.css" />
+<link rel="stylesheet" href="/assets/docs/demo-styles.css" />
+
+<!-- import the theme font -->
+<link
+  href="https://fonts.googleapis.com/css2?family=IBM+Plex Mono&amp;display=swap"
+  rel="stylesheet"
+/>
+<!-- set the theme styles -->
+<style>
+  .demo {
+    --functional-red: 150, 50, 50;
+    --functional-blue: 50, 50, 150;
+    --functional-yellow: 150, 150, 50;
+    --functional-green: 50, 150, 50;
+  }
+  .flex {
+    display: flex;
+    gap: var(--spacing-m);
+    justify-content: center;
+  }
+</style>
+
+<div class="demo">
+  <kor-progress-bar
+    value="50"
+    label="Label"
+    info="Info text"
+    color="rgb(var(--functional-blue))"
+  ></kor-progress-bar>
+  <kor-progress-bar
+    value="50"
+    label="Label"
+    info="Info text"
+    color="rgb(var(--functional-green))"
+    status="success"
+  ></kor-progress-bar>
+  <kor-progress-bar
+    value="50"
+    label="Label"
+    info="Info text"
+    color="rgb(var(--functional-yellow))"
+    status="warning"
+  ></kor-progress-bar>
+  <kor-progress-bar
+    value="50"
+    label="Label"
+    info="Info text"
+    color="rgb(var(--functional-red))"
+    status="error"
+  ></kor-progress-bar>
+</div>

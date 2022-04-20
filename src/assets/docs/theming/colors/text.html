@@ -1,0 +1,27 @@
+<script src="/assets/kor/index.js"></script>
+<link rel="stylesheet" href="/assets/kor/kor-styles.css" />
+<link rel="stylesheet" href="/assets/docs/demo-styles.css" />
+
+<!-- import the theme font -->
+<link
+  href="https://fonts.googleapis.com/css2?family=IBM+Plex Mono&amp;display=swap"
+  rel="stylesheet"
+/>
+<!-- set the theme styles -->
+<style>
+  .demo {
+    --text-1: rgba(140, 160, 180, 0.9);
+    --text-2: rgba(140, 160, 180, 0.6);
+    --text-3: rgba(140, 160, 180, 0.2);
+  }
+  .flex {
+    display: flex;
+    gap: var(--spacing-m);
+    justify-content: center;
+  }
+</style>
+
+<div class="demo">
+  <kor-input label="Text 2" value="Text 1"></kor-input>
+  <kor-input label="Text 3" disabled></kor-input>
+</div>
