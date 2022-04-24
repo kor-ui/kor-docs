@@ -1,0 +1,21 @@
+<script src="/assets/kor/index.js"></script>
+<link rel="stylesheet" href="/assets/kor/kor-styles.css" />
+<link rel="stylesheet" href="/assets/docs/demo-styles.css" />
+
+<!-- set the theme styles -->
+<style>
+  .demo {
+    --header-1: bold 18px/24px "open-sans";
+    --header-2: bold 16px/24px "open-sans";
+    --body-1: normal 16px/24px "open-sans";
+    --body-2: normal 14px/16px "open-sans";
+  }
+</style>
+
+<div class="demo">
+  <kor-card label="This is a header-1 text">
+    <kor-text>This is a body-1 text</kor-text>
+    <kor-text size="body-2">This is a body-2 text</kor-text>
+    <kor-button label="header-2" slot="footer"></kor-button>
+  </kor-card>
+</div>

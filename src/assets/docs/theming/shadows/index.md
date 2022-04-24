@@ -4,13 +4,7 @@ Shadows are used to create visual hierarchy in user interfaces. They are applied
 
 Using css properties, shadows can be modified or removed completely for theming purposes.
 
----
-
-## Changing shadow color and size
-
-Kor uses the css [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) property to style the components.
-
-The default value, as shown below, represents from left to right:
+Kor uses the css [`box-shadow`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) property to style the components. The default value shown below represents (from left to right):
 
 ```css
 * {
@@ -18,13 +12,17 @@ The default value, as shown below, represents from left to right:
 }
 ```
 
-- `1px` X offset
-- `-1px` Y offset
-- `1px` blur radius
-- `1px` spread radius
-- `rgba(0, 0, 0, 0.2)` color
+- `1px` X offset.
+- `-1px` Y offset.
+- `1px` blur radius.
+- `1px` spread radius.
+- `rgba(0, 0, 0, 0.2)` color.
 
-As shown in the following demo, any of the properties can be modified to change the angle, size, intensity and color of the shadows
+---
+
+## Changing shadow color and size
+
+Any of the properties can be modified to change the angle, size, intensity and color of the shadows
 
 <iframe src="./assets/docs/theming/shadows/color-size.html" height="480px"></iframe>
 

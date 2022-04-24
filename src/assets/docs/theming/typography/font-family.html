@@ -1,0 +1,44 @@
+<script src="/assets/kor/index.js"></script>
+<link rel="stylesheet" href="/assets/kor/kor-styles.css" />
+<link rel="stylesheet" href="/assets/docs/demo-styles.css" />
+
+<!-- import the theme font -->
+<link
+  href="https://fonts.googleapis.com/css2?family=Roboto+Mono&amp;display=swap"
+  rel="stylesheet"
+/>
+
+<!-- import the theme font -->
+<link
+  href="https://fonts.googleapis.com/css2?family=Archivo+Black&amp;display=swap"
+  rel="stylesheet"
+/>
+
+<!-- set the theme styles -->
+<style>
+  /* change both header and body font families */
+  .left {
+    --header-1: bold 16px/24px "Roboto Mono";
+    --header-2: bold 14px/24px "Roboto Mono";
+    --body-1: bold 14px/24px "Roboto Mono";
+    --body-2: bold 12px/16px "Roboto Mono";
+  }
+  .right {
+    /* change only header font families */
+    --header-1: bold 16px/24px "Archivo Black";
+    --header-2: bold 14px/24px "Archivo Black";
+  }
+</style>
+
+<div class="demo row">
+  <kor-card class="left" label="This is a header-1 text">
+    <kor-text>This is a body-1 text</kor-text>
+    <kor-text size="body-2">This is a body-2 text</kor-text>
+    <kor-button label="header-2" slot="footer"></kor-button>
+  </kor-card>
+  <kor-card class="right" label="This is a header-1 text">
+    <kor-text>This is a body-1 text</kor-text>
+    <kor-text size="body-2">This is a body-2 text</kor-text>
+    <kor-button label="header-2" slot="footer"></kor-button>
+  </kor-card>
+</div>
