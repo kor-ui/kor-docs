@@ -1,0 +1,21 @@
+<script src="/assets/kor/index.js"></script>
+<link rel="stylesheet" href="/assets/kor/kor-styles.css" />
+<link rel="stylesheet" href="/assets/docs/demo-styles.css" />
+
+<!-- set the theme styles -->
+<style>
+  .demo {
+    --shadow-1: 0px 0px 0px 2px #aaaaaa;
+  }
+</style>
+
+<div class="demo stretch" theme="light">
+  <kor-page flex-direction="column">
+    <kor-notifications position="bottom-right">
+      <kor-notification-item visible></kor-notification-item>
+    </kor-notifications>
+    <kor-app-bar slot="top"></kor-app-bar>
+    <kor-pane slot="left"></kor-pane>
+    <kor-card></kor-card>
+  </kor-page>
+</div>
