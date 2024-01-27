@@ -54,4 +54,4 @@ If a text area is not intended to be edited by the user, they can be set to be d
 | **`active`**     | `Boolean` | _undefined_ | If set to `true`, highlights the label and underline.                   |
 | **`disabled`**   | `Boolean` | _undefined_ | If set to `true`, disables mouse clicks and the style gets updated.     |
 | **`readonly`**   | `Boolean` | _undefined_ | If set to `true`, disables the input without reducing the opacity.      |
-| **`atofocus`**   | `Boolean` | _undefined_ | If set to `true`, the component gets focused as soon as the page loads. |
+| **`autofocus`**  | `Boolean` | _undefined_ | If set to `true`, the component gets focused as soon as the page loads. |
